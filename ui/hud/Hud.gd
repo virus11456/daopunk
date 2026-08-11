@@ -38,7 +38,7 @@ func _build_ui() -> void:
 	_status_label = _make_label(Control.PRESET_BOTTOM_LEFT, HORIZONTAL_ALIGNMENT_LEFT, 15)
 	_status_label.offset_left = 16.0
 	_status_label.offset_top = -52.0
-	_status_label.offset_right = 260.0
+	_status_label.offset_right = 360.0
 	_status_label.offset_bottom = -32.0
 
 	_stamina_bar = ProgressBar.new()
@@ -78,6 +78,7 @@ func _connect_player(player: Node) -> void:
 	p.stamina_changed.connect(_on_stamina_changed)
 	p.get_wallet().money_changed.connect(_on_money_changed)
 	p.get_equipment().equipment_changed.connect(_on_equipment_changed)
+	GameState.karma_changed.connect(_on_karma_changed)
 	_on_money_changed(p.get_wallet().get_money())
 	_on_equipment_changed()
 	_on_stamina_changed(p.get_stamina_ratio())
@@ -94,8 +95,20 @@ func _on_focus_changed(interactable: InteractableComponent) -> void:
 		_prompt_label.text = ""
 
 
+var _money: int = 0
+
+
 func _on_money_changed(amount: int) -> void:
-	_status_label.text = "Credits: %d" % amount
+	_money = amount
+	_update_status()
+
+
+func _on_karma_changed(_value: int) -> void:
+	_update_status()
+
+
+func _update_status() -> void:
+	_status_label.text = "功德 %d    Credits %d" % [GameState.karma, _money]
 
 
 func _on_stamina_changed(ratio: float) -> void:

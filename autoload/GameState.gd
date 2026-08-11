@@ -20,6 +20,10 @@ signal shop_requested(merchant: Node)
 ## Persistent boolean world state set by dialogue/quests (e.g. quest flags).
 signal world_flag_changed(flag: StringName, value: bool)
 
+## Kiro run resources.
+signal karma_changed(value: int)
+signal world_variance_changed(value: float)
+
 ## The active player node, registered by Player._ready(). May be null before
 ## the world finishes loading.
 var player: Node = null
@@ -38,6 +42,12 @@ var in_menu: bool = false
 ## Persistent world flags. Kept here so the (future) SaveManager has one place to
 ## serialise them from.
 var world_flags: Dictionary = {}
+
+## Kiro run resources. 功德 (karma) carries across 輪迴 (reincarnation); 世界變動率
+## (world variance, 0–100) rises when the player defies fate and draws the
+## Observers' attention.
+var karma: int = 0
+var world_variance: float = 0.0
 
 
 func register_player(node: Node) -> void:
@@ -70,6 +80,27 @@ func get_flag(flag: StringName) -> bool:
 ## True when neither dialogue nor a menu should let the world take input.
 func is_ui_blocking() -> bool:
 	return in_dialogue or in_menu
+
+
+func add_karma(amount: int) -> void:
+	if amount == 0:
+		return
+	karma = maxi(0, karma + amount)
+	karma_changed.emit(karma)
+
+
+func spend_karma(amount: int) -> bool:
+	if amount < 0 or karma < amount:
+		return false
+	karma -= amount
+	karma_changed.emit(karma)
+	return true
+
+
+## Raises 世界變動率, clamped to [0, 100]. Positive draws Observer attention.
+func add_world_variance(amount: float) -> void:
+	world_variance = clampf(world_variance + amount, 0.0, 100.0)
+	world_variance_changed.emit(world_variance)
 
 
 func get_player_position() -> Vector2:

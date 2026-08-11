@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://characters/components/InteractableComponent.gd" id="2_interact"]
 [ext_resource type="Script" path="res://characters/components/InventoryComponent.gd" id="3_inv"]
 [ext_resource type="Script" path="res://characters/components/WalletComponent.gd" id="4_wallet"]
-[ext_resource type="Script" path="res://characters/components/SkillComponent.gd" id="5_skill"]
+[ext_resource type="Script" path="res://characters/components/FiveArtsComponent.gd" id="5_arts"]
 [ext_resource type="Script" path="res://characters/components/EquipmentComponent.gd" id="6_equip"]
 
 [sub_resource type="CircleShape2D" id="body_shape"]
@@ -41,8 +41,8 @@ capacity = 40
 [node name="Wallet" type="Node" parent="."]
 script = ExtResource("4_wallet")
 
-[node name="Skills" type="Node" parent="."]
-script = ExtResource("5_skill")
+[node name="Arts" type="Node" parent="."]
+script = ExtResource("5_arts")
 
 [node name="Equipment" type="Node" parent="."]
 script = ExtResource("6_equip")

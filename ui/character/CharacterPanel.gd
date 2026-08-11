@@ -1,26 +1,21 @@
 class_name CharacterPanel
 extends MenuPanel
-## Shows the player's money, stamina, equipped weapon and use-based skills.
-
-const SKILL_LABELS := {
-	"shooting": "Shooting", "melee": "Melee", "medicine": "Medicine",
-	"survival": "Survival", "mechanics": "Mechanics", "cooking": "Cooking",
-	"trading": "Trading", "stealth": "Stealth", "persuasion": "Persuasion",
-}
+## Shows the player's 功德 (karma), stamina, equipped weapon and the Five Arts
+## (五術) with their proficiency and unlocked techniques.
 
 var _summary: RichTextLabel
-var _skill_list: VBoxContainer
-var _skills: SkillComponent
+var _arts_list: VBoxContainer
+var _arts: FiveArtsComponent
 
 
 func _build_content() -> void:
-	_make_header("Character  (Tab)")
+	_make_header("角色 · 五術  (Tab)")
 
 	_summary = RichTextLabel.new()
 	_summary.bbcode_enabled = true
 	_summary.fit_content = true
 	_summary.scroll_active = false
-	_summary.custom_minimum_size = Vector2(0, 96)
+	_summary.custom_minimum_size = Vector2(0, 84)
 	_content_parent.add_child(_summary)
 
 	_content_parent.add_child(HSeparator.new())
@@ -30,10 +25,10 @@ func _build_content() -> void:
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
 	_content_parent.add_child(scroll)
 
-	_skill_list = VBoxContainer.new()
-	_skill_list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	_skill_list.add_theme_constant_override("separation", 3)
-	scroll.add_child(_skill_list)
+	_arts_list = VBoxContainer.new()
+	_arts_list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	_arts_list.add_theme_constant_override("separation", 8)
+	scroll.add_child(_arts_list)
 
 
 func open() -> void:
@@ -42,15 +37,21 @@ func open() -> void:
 
 
 func _bind_player() -> void:
-	if _skills != null:
+	if _arts != null:
 		return
 	var player := GameState.player as Player
 	if player != null:
-		_skills = player.get_skills()
-		_skills.skill_changed.connect(_on_skill_changed)
+		_arts = player.get_arts()
+		_arts.proficiency_changed.connect(_on_arts_changed)
+	GameState.karma_changed.connect(_on_karma_changed)
 
 
-func _on_skill_changed(_skill: StringName, _level: int) -> void:
+func _on_arts_changed(_art: StringName, _value: int) -> void:
+	if is_open():
+		_refresh()
+
+
+func _on_karma_changed(_value: int) -> void:
 	if is_open():
 		_refresh()
 
@@ -62,42 +63,40 @@ func _refresh() -> void:
 		return
 
 	var weapon := player.get_equipment().get_weapon()
-	var weapon_name := weapon.display_name if weapon != null else "Unarmed"
-	_summary.text = "[b]Credits:[/b] %d\n[b]Stamina:[/b] %d%%\n[b]Weapon:[/b] %s" % [
-		player.get_wallet().get_money(),
+	var weapon_name := weapon.display_name if weapon != null else "空手"
+	_summary.text = "[b]功德:[/b] %d    [b]體力:[/b] %d%%\n[b]武器:[/b] %s    [b]世界變動率:[/b] %.0f%%" % [
+		GameState.karma,
 		int(round(player.get_stamina_ratio() * 100.0)),
 		weapon_name,
+		GameState.world_variance,
 	]
 
-	for child in _skill_list.get_children():
+	for child in _arts_list.get_children():
 		child.queue_free()
-	for skill in SkillComponent.SKILLS:
-		_skill_list.add_child(_make_skill_row(skill))
+	for art in FiveArtsComponent.ARTS:
+		_arts_list.add_child(_make_art_block(art))
 
 
-func _make_skill_row(skill: StringName) -> HBoxContainer:
-	var row := HBoxContainer.new()
-	row.add_theme_constant_override("separation", 8)
+func _make_art_block(art: StringName) -> VBoxContainer:
+	var box := VBoxContainer.new()
+	box.add_theme_constant_override("separation", 2)
 
-	var name_label := Label.new()
-	name_label.text = SKILL_LABELS.get(String(skill), String(skill))
-	name_label.custom_minimum_size = Vector2(110, 0)
-	row.add_child(name_label)
+	var unlocked := _arts.get_unlocked_count(art)
+	var total := _arts.get_techniques(art).size()
+	var header := Label.new()
+	header.text = "%s  ·  熟練度 %d  ·  已通 %d/%d" % [
+		_arts.get_art_name(art), _arts.get_proficiency(art), unlocked, total]
+	header.add_theme_color_override("font_color", Color(0.95, 0.85, 0.5))
+	box.add_child(header)
 
-	var level := _skills.get_level(skill)
-	var bar := Label.new()
-	bar.text = _bar_text(level)
-	bar.add_theme_color_override("font_color", Color(0.55, 0.8, 0.55))
-	row.add_child(bar)
+	for tech in _arts.get_techniques(art):
+		var open_tech := _arts.is_unlocked(art, tech)
+		var line := Label.new()
+		var mark := "◆" if open_tech else "◇"
+		line.text = "   %s Lv.%s %s — %s" % [mark, tech.get("level", "?"), tech.get("name", "?"), tech.get("effect", "")]
+		line.add_theme_font_size_override("font_size", 12)
+		line.add_theme_color_override("font_color",
+			Color(0.8, 0.85, 0.8) if open_tech else Color(0.45, 0.45, 0.45))
+		box.add_child(line)
 
-	var lvl := Label.new()
-	lvl.text = "%d/%d" % [level, SkillComponent.MAX_LEVEL]
-	row.add_child(lvl)
-
-	return row
-
-
-func _bar_text(level: int) -> String:
-	var filled := level
-	var empty := SkillComponent.MAX_LEVEL - level
-	return "█".repeat(filled) + "·".repeat(empty)
+	return box

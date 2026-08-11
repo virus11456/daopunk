@@ -83,10 +83,20 @@ func _run_phase2(main: Node, _npc: Npc) -> void:
 	_check("knife equipped", equipped and player.get_equipment().get_weapon() == knife)
 	_check("knife left inventory on equip", not inv.has_id(&"knife", 1))
 
-	# Skill XP + level-up.
-	var before_level := player.get_skills().get_level(&"melee")
-	player.get_skills().add_xp(&"melee", 500.0)
-	_check("melee skill leveled up", player.get_skills().get_level(&"melee") > before_level)
+	# Five Arts (五術) proficiency + technique unlock.
+	var arts := player.get_arts()
+	_check("five arts loaded", arts.get_art_name(&"mountain") == "山術")
+	_check("base technique unlocked", arts.get_unlocked_count(&"mountain") >= 1)
+	var before_prof := arts.get_proficiency(&"medical")
+	arts.add_proficiency(&"medical", 600)
+	_check("proficiency increased", arts.get_proficiency(&"medical") == before_prof + 600)
+	_check("technique unlocked at threshold", arts.get_unlocked_count(&"medical") >= 2)
+
+	# Kiro run resources: 功德 (karma) + 世界變動率 (world variance).
+	GameState.add_karma(1000)
+	_check("karma added", GameState.karma >= 1000)
+	GameState.add_world_variance(15.0)
+	_check("world variance tracked", GameState.world_variance >= 15.0)
 
 	# World flag round-trip.
 	GameState.set_flag(&"test_flag", true)

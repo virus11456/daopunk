@@ -1,11 +1,14 @@
 # 灰谷（Grey Valley）— 2D 半開放世界 RPG
 
-一款以 **Godot 4.3 + GDScript** 開發的 2D 高角度俯視、半開放世界 RPG。設計上僅
-把 RimWorld 當作**高層次**參考（俯視 tile 世界、簡潔小型的角色、系統化模擬）——
-本專案的美術、名稱、世界觀與程式碼全部為原創 placeholder。
+一款以 **Godot 4.3 + GDScript** 開發的 2D 高角度俯視、半開放世界 RPG。**美術風格**
+參考 RimWorld 的高層次理念（俯視 tile 世界、簡潔小型角色、系統化模擬，全部原創
+placeholder）；**玩法內容**採用《Kiro：觀測者之夢》世界觀（五術、十宇宙、功德、
+輪迴、世界變動率）。
 
-目前進度：**Milestone 1（探索原型）+ Phase 2（核心 RPG 層）**。戰鬥、健康／部位
-系統、Tactical Pause 屬於 **Phase 3**，尚未實作。
+進度：引擎層（探索、背包/裝備、對話/商店、導航）已完成；內容層正逐步換成 Kiro。
+- **K1（已完成）**：五術技能樹（山/醫/命/相/卜）+ 功德、世界變動率資源。
+- K2（下一步）：世界 reskin 為第一宇宙·歸墟，NPC 換成導師/紅/星塵等。
+- K3+：Kiro 物品/算命經濟、輪迴繼承、戰鬥（五行相剋）。
 
 ---
 
@@ -26,7 +29,7 @@ godot --path .
 | `Ctrl` | 潛行（減速） |
 | `E` | 互動 / 對話 / 拾取（也可關閉對話） |
 | `I` | 開關背包 |
-| `Tab` | 開關角色資訊（技能） |
+| `Tab` | 開關角色資訊（五術） |
 | 滑鼠滾輪 | 縮放鏡頭 |
 | 左鍵（開啟 debug 時） | 檢視游標下的 NPC |
 | `F1` | 切換 debug 疊層 |
@@ -48,17 +51,23 @@ godot --path .
 - 統一 `InteractableComponent`（E 互動）+ 資料驅動分支 `DialoguePanel`
 - `Hud`、`F1` `DebugOverlay`
 
-**Phase 2 — 核心 RPG 層**
+**核心 RPG 層**
 - **物品 Resource**：`ItemData` / `WeaponData` / `ConsumableData`，具體物品為 `.tres`
 - **背包** `InventoryComponent`：堆疊、容量、增減查詢（Player/NPC 共用）
 - **裝備** `EquipmentComponent`：武器槽，裝備／卸下與背包連動
-- **技能** `SkillComponent`：9 種技能、0–20、透過使用成長
 - **金錢** `WalletComponent`：Player 與 NPC 各自持有
-- **對話擴充**：節點／選項支援 `conditions`（旗標、物品、金錢、技能門檻）與
-  `effects`（give_item / remove_item / add_money / set_flag / add_skill_xp / open_shop）
-- **商店** `ShopPanel`：買賣，價格隨 Trading 技能浮動並回饋經驗
+- **對話擴充**：節點／選項支援 `conditions`（旗標、物品、金錢、五術熟練度、功德門檻）
+  與 `effects`（give_item / remove_item / add_money / set_flag / add_proficiency /
+  add_karma / add_world_variance / open_shop）
+- **商店** `ShopPanel`：買賣，價格隨命術熟練度浮動並回饋熟練度
 - **世界拾取** `ItemPickup`：地上物品，重用互動系統
 - UI：背包（I）、角色（Tab）、商店，皆走統一的 `MenuPanel` 基底
+
+**K1 — 五術 + 功德（Kiro 內容層）**
+- **五術** `FiveArtsComponent`：山/醫/命/相/卜，每術有熟練度（使用成長），技能依
+  熟練度門檻解鎖；技能資料來自 `data/skills/five_arts.json`（取自 Kiro 設定）
+- **功德 / 世界變動率**：`GameState` 上的 run 資源，功德可跨輪迴、變動率招來觀察者
+- 角色面板（Tab）顯示五術熟練度與已通技能；HUD 顯示功德
 
 ---
 
@@ -76,7 +85,7 @@ res://
 │   │   ├── InteractableComponent.gd
 │   │   ├── InventoryComponent.gd
 │   │   ├── EquipmentComponent.gd
-│   │   ├── SkillComponent.gd
+│   │   ├── FiveArtsComponent.gd   五術（山/醫/命/相/卜）
 │   │   └── WalletComponent.gd
 │   ├── player/Player.gd/.tscn
 │   └── npc/Npc.gd/.tscn      含商人（is_merchant / shop_stock）
@@ -97,8 +106,10 @@ res://
 │   ├── inventory/InventoryPanel.gd
 │   ├── character/CharacterPanel.gd
 │   └── shop/ShopPanel.gd
-├── data/dialogue/*.json     對話樹
-└── tests/Smoke.gd/.tscn     headless 整合測試（21 項檢查）
+├── data/
+│   ├── dialogue/*.json      對話樹
+│   └── skills/five_arts.json 五術技能資料（Kiro 設定）
+└── tests/Smoke.gd/.tscn     headless 整合測試（26 項檢查）
 ```
 
 已遵守的設計原則：
@@ -116,13 +127,14 @@ res://
 ```bash
 godot --headless --editor --quit                 # 匯入 + 解析檢查
 godot --headless --path . --quit-after 240       # headless 實跑（無錯誤）
-godot --headless --path . tests/Smoke.tscn        # 整合測試：21 項全 PASS
+godot --headless --path . tests/Smoke.tscn        # 整合測試：26 項全 PASS
 ```
 
 ---
 
-## 下一個 milestone
+## 下一步（Kiro 內容遷移）
 
-**Phase 3 — 戰鬥與健康**：`HealthComponent` + 部位系統（Head/Torso/Arms/Legs）、
-近戰與一種槍械、受傷／流血／昏迷／死亡、以及 **Tactical Pause**（Space 暫停下令）。
-NPC 死亡後世界狀態需保留（商店關閉、任務失效等），為 Phase 5/6 的任務與存檔鋪路。
+- **K2 — 世界 reskin**：場景改為第一宇宙·歸墟·蔓哈頓深坑星（破爛一條街、數據陵墓、
+  地心、方舟隱修院），NPC 換成導師、紅、星塵、零號等，改中文對話。
+- **K3 — Kiro 物品／算命經濟**、**K4 — 世界變動率與輪迴繼承**、**K5 — 戰鬥（五行相剋、
+  觀察者/荒獸敵人、Tactical Pause）**。
