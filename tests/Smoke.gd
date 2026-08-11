@@ -146,6 +146,7 @@ func _run_phase2(main: Node, first_npc: Npc) -> void:
 	GameState.close_dialogue(target)
 
 	_run_phase4(player)
+	await _run_phase5(player)
 
 
 func _run_phase4(player: Player) -> void:
@@ -171,6 +172,50 @@ func _run_phase4(player: Player) -> void:
 		int(Reincarnation.inherited_proficiency.get("mountain", 0)) == mtn_prof)
 	_check("soul wear rises each life", Reincarnation.soul_wear > soul_before)
 	_check("world variance reset on rebirth", GameState.world_variance == 0.0)
+
+
+func _run_phase5(player: Player) -> void:
+	# 五行相剋 table.
+	_check("五行: 火剋金 = 1.5",
+		absf(FiveElements.multiplier(FiveElements.Element.FIRE, FiveElements.Element.METAL) - 1.5) < 0.001)
+	_check("五行: 木剋土 = 1.5",
+		absf(FiveElements.multiplier(FiveElements.Element.WOOD, FiveElements.Element.EARTH) - 1.5) < 0.001)
+
+	# HealthComponent: body-part damage, injury consequence, lethal death.
+	var hc := HealthComponent.new()
+	add_child(hc)
+	await get_tree().process_frame
+	var hp0 := hc.get_total_hp_ratio()
+	hc.apply_damage(12.0, HealthComponent.DamageType.CUT, -1, &"left_leg")
+	_check("damage reduces hp", hc.get_total_hp_ratio() < hp0)
+	_check("leg injury slows movement", hc.get_move_multiplier() < 1.0)
+	hc.apply_damage(999.0, HealthComponent.DamageType.GUNSHOT, -1, &"torso")
+	_check("lethal torso wound kills", not hc.is_alive())
+	hc.queue_free()
+
+	# Combat vs a hostile enemy: damage, then loot on death.
+	var enemy: Npc = null
+	for n in get_tree().get_nodes_in_group(&"npc"):
+		if n is Npc and (n as Npc).is_hostile:
+			enemy = n
+			break
+	_check("hostile enemy exists", enemy != null)
+	if enemy != null:
+		var eh := enemy.get_node("Health") as HealthComponent
+		var enemy_hp0 := eh.get_total_hp_ratio()
+		player.global_position = enemy.global_position
+		var landed := false
+		for i in 150:
+			player.get_combat().attack(enemy)
+			if eh.get_total_hp_ratio() < enemy_hp0:
+				landed = true
+				break
+			await get_tree().physics_frame
+		_check("combat damages enemy", landed)
+		eh.apply_damage(9999.0, HealthComponent.DamageType.GUNSHOT, -1, &"torso")
+		await get_tree().process_frame
+		var corpse_inter := enemy.get_node("InteractableComponent") as InteractableComponent
+		_check("enemy death leaves lootable corpse", corpse_inter.get_interactions(player).has(&"搜刮"))
 
 
 func _check(label: String, condition: bool) -> void:
