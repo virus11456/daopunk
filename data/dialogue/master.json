@@ -1,0 +1,47 @@
+{
+	"start_id": "start",
+	"nodes": {
+		"start": {
+			"text": "（導師抬起頭，眼中帶著看透一切的悲傷）你來了。第兩百三十八個孩子……坐吧。你想問什麼？",
+			"choices": [
+				{
+					"text": "（第一次求教）弟子拜見師父。",
+					"conditions": { "forbid_flag": "master_greeted" },
+					"effects": [
+						{ "type": "set_flag", "flag": "master_greeted", "value": true },
+						{ "type": "add_karma", "amount": 100 }
+					],
+					"next": "first"
+				},
+				{ "text": "師父，這個世界是真的嗎？", "next": "dream" },
+				{ "text": "五術是什麼？", "next": "arts" },
+				{ "text": "弟子告退。", "next": "end" }
+			]
+		},
+		"first": {
+			"text": "不必多禮。為師教不了你太多，只能給你一點功德傍身。記住——在這夢裡，善惡都算數。（你獲得了 100 功德）",
+			"choices": [
+				{ "text": "謝師父。", "next": "start" }
+			]
+		},
+		"dream": {
+			"text": "好問題。（微笑）那我反問你——若你夢見自己救了一個人，醒來後那人消失了，你會後悔救他嗎？……別急著回答，慢慢想。",
+			"choices": [
+				{ "text": "就算是夢，痛苦也是真的。", "next": "answer" },
+				{ "text": "……我不知道。", "next": "start" }
+			]
+		},
+		"answer": {
+			"text": "（導師怔了怔，隨即露出這三百年來第一次真正的笑）……或許你能走到我走不到的地方。去吧，孩子。",
+			"choices": [
+				{ "text": "弟子記下了。", "next": "start" }
+			]
+		},
+		"arts": {
+			"text": "山、醫、命、相、卜。修身、療傷、知命、觀天、問卜。五術通天，可窺見造夢者的筆跡。但切記——改命者，天必忌之。用得越多，觀察者看你越清楚。",
+			"choices": [
+				{ "text": "弟子明白。", "next": "start" }
+			]
+		}
+	}
+}

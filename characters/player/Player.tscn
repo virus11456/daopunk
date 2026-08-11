@@ -45,4 +45,4 @@ script = ExtResource("4_arts")
 
 [node name="Wallet" type="Node" parent="."]
 script = ExtResource("5_wallet")
-starting_money = 50
+starting_money = 1000

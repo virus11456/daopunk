@@ -22,7 +22,7 @@ func _run(main: Node) -> void:
 		await get_tree().physics_frame
 
 	_check("player registered", is_instance_valid(GameState.player))
-	_check("region set", GameState.current_region == "Grey Valley Town")
+	_check("region set", GameState.current_region == "歸墟 · 蔓哈頓深坑星")
 
 	var npcs := get_tree().get_nodes_in_group(&"npc")
 	_check("npcs spawned", npcs.size() >= 5)

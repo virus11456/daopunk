@@ -12,7 +12,7 @@ enum State { IDLE, WANDER, TALK }
 
 @export var display_name: String = "Villager"
 @export var body_color: Color = Color(0.75, 0.62, 0.35)
-@export_file("*.json") var dialogue_file: String = "res://data/dialogue/villager.json"
+@export_file("*.json") var dialogue_file: String = "res://data/dialogue/scavenger.json"
 @export var wander_radius: float = 150.0
 @export var move_speed: float = 60.0
 

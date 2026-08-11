@@ -13,7 +13,7 @@
 
 [node name="GreyValley" type="Node2D"]
 script = ExtResource("1_region")
-region_name = "Grey Valley Town"
+region_name = "歸墟 · 蔓哈頓深坑星"
 
 [node name="Player" parent="." instance=ExtResource("2_player")]
 position = Vector2(640, 480)
@@ -34,18 +34,12 @@ starting_loadout = [{
 "id": &"canned_food"
 }]
 
-[node name="Mara" parent="." instance=ExtResource("3_npc")]
+[node name="Red" parent="." instance=ExtResource("3_npc")]
 position = Vector2(372, 210)
-display_name = "Mara"
-body_color = Color(0.82, 0.5, 0.42, 1)
-dialogue_file = "res://data/dialogue/tavern_keeper.json"
-
-[node name="Doran" parent="." instance=ExtResource("3_npc")]
-position = Vector2(880, 232)
-display_name = "Doran"
-body_color = Color(0.45, 0.55, 0.7, 1)
-dialogue_file = "res://data/dialogue/shopkeeper.json"
-wander_radius = 70.0
+display_name = "紅 · 二師姐"
+body_color = Color(0.85, 0.32, 0.32, 1)
+dialogue_file = "res://data/dialogue/red.json"
+wander_radius = 60.0
 is_merchant = true
 shop_stock = [{
 "count": 5,
@@ -63,44 +57,50 @@ shop_stock = [{
 "count": 2,
 "id": &"wooden_club"
 }]
-merchant_float = 600
+merchant_float = 800
 
-[node name="Sheriff Voss" parent="." instance=ExtResource("3_npc")]
-position = Vector2(864, 700)
-display_name = "Sheriff Voss"
-body_color = Color(0.7, 0.4, 0.4, 1)
-dialogue_file = "res://data/dialogue/sheriff.json"
-wander_radius = 90.0
+[node name="Master" parent="." instance=ExtResource("3_npc")]
+position = Vector2(858, 210)
+display_name = "導師"
+body_color = Color(0.85, 0.8, 0.6, 1)
+dialogue_file = "res://data/dialogue/master.json"
+wander_radius = 50.0
 
-[node name="Holt" parent="." instance=ExtResource("3_npc")]
-position = Vector2(700, 780)
-display_name = "Holt"
-body_color = Color(0.6, 0.55, 0.35, 1)
-dialogue_file = "res://data/dialogue/farmer.json"
-
-[node name="Wanda" parent="." instance=ExtResource("3_npc")]
+[node name="Stardust" parent="." instance=ExtResource("3_npc")]
 position = Vector2(470, 450)
-display_name = "Wanda"
-body_color = Color(0.6, 0.65, 0.5, 1)
-dialogue_file = "res://data/dialogue/villager.json"
+display_name = "星塵 · Lin"
+body_color = Color(0.9, 0.5, 0.7, 1)
+dialogue_file = "res://data/dialogue/stardust.json"
 
-[node name="Elias" parent="." instance=ExtResource("3_npc")]
+[node name="UnitZero" parent="." instance=ExtResource("3_npc")]
 position = Vector2(820, 500)
-display_name = "Elias"
-body_color = Color(0.55, 0.6, 0.6, 1)
-dialogue_file = "res://data/dialogue/villager.json"
+display_name = "零號"
+body_color = Color(0.55, 0.65, 0.7, 1)
+dialogue_file = "res://data/dialogue/unit_zero.json"
 
-[node name="Petra" parent="." instance=ExtResource("3_npc")]
-position = Vector2(640, 320)
-display_name = "Petra"
-body_color = Color(0.7, 0.6, 0.55, 1)
-dialogue_file = "res://data/dialogue/villager.json"
-
-[node name="Jonah" parent="." instance=ExtResource("3_npc")]
+[node name="Scavenger1" parent="." instance=ExtResource("3_npc")]
 position = Vector2(410, 620)
-display_name = "Jonah"
-body_color = Color(0.5, 0.6, 0.45, 1)
-dialogue_file = "res://data/dialogue/villager.json"
+display_name = "拾荒者 · 阿吉"
+body_color = Color(0.5, 0.46, 0.4, 1)
+dialogue_file = "res://data/dialogue/scavenger.json"
+
+[node name="Scavenger2" parent="." instance=ExtResource("3_npc")]
+position = Vector2(780, 780)
+display_name = "拾荒者 · 老陳"
+body_color = Color(0.46, 0.42, 0.36, 1)
+dialogue_file = "res://data/dialogue/scavenger.json"
+
+[node name="Scavenger3" parent="." instance=ExtResource("3_npc")]
+position = Vector2(640, 340)
+display_name = "拾荒者 · 小捲"
+body_color = Color(0.52, 0.48, 0.42, 1)
+dialogue_file = "res://data/dialogue/scavenger.json"
+
+[node name="Exile1" parent="." instance=ExtResource("3_npc")]
+position = Vector2(500, 250)
+display_name = "流亡者 · 賽格"
+body_color = Color(0.48, 0.5, 0.45, 1)
+dialogue_file = "res://data/dialogue/scavenger.json"
 
 [node name="BandagePickup" parent="." instance=ExtResource("7_pickup")]
 position = Vector2(300, 610)

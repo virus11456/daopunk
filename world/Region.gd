@@ -5,18 +5,18 @@ extends Node2D
 ## registers itself with GameState. Player and NPC instances are placed in the
 ## scene; everything environmental is generated here so the .tscn stays tiny.
 
-@export var region_name: String = "Grey Valley"
+@export var region_name: String = "歸墟 · 蔓哈頓深坑星"
 @export var size_tiles: Vector2i = Vector2i(40, 30)
 
 ## Building footprints in world pixels. Kept as data so nav carving and visuals
-## stay in sync from one source.
+## stay in sync from one source. Locations from 第一宇宙·歸墟.
 const BUILDINGS := [
-	{"name": "Tavern", "rect": Rect2(96, 96, 224, 160), "color": Color(0.45, 0.32, 0.22)},
-	{"name": "General Store", "rect": Rect2(928, 128, 224, 160), "color": Color(0.30, 0.34, 0.42)},
-	{"name": "Clinic", "rect": Rect2(128, 640, 208, 160), "color": Color(0.52, 0.52, 0.55)},
-	{"name": "Sheriff's Office", "rect": Rect2(912, 640, 224, 176), "color": Color(0.38, 0.30, 0.30)},
-	{"name": "House", "rect": Rect2(544, 96, 160, 128), "color": Color(0.40, 0.36, 0.30)},
-	{"name": "House", "rect": Rect2(560, 704, 160, 128), "color": Color(0.40, 0.36, 0.30)},
+	{"name": "破爛一條街 · 黑市", "rect": Rect2(96, 96, 224, 160), "color": Color(0.36, 0.24, 0.20)},
+	{"name": "方舟隱修院", "rect": Rect2(896, 112, 240, 176), "color": Color(0.30, 0.30, 0.36)},
+	{"name": "數據陵墓入口", "rect": Rect2(128, 640, 208, 160), "color": Color(0.22, 0.26, 0.30)},
+	{"name": "燭龍遺骸", "rect": Rect2(896, 632, 240, 184), "color": Color(0.34, 0.30, 0.24)},
+	{"name": "廢土公寓", "rect": Rect2(544, 96, 160, 128), "color": Color(0.32, 0.29, 0.25)},
+	{"name": "地心入口", "rect": Rect2(560, 704, 160, 128), "color": Color(0.40, 0.24, 0.12)},
 ]
 
 var _rng := RandomNumberGenerator.new()

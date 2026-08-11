@@ -49,10 +49,11 @@ static func _make_tile_set() -> TileSet:
 ## per-pixel jitter so the ground does not look flat.
 static func _make_tile_texture() -> ImageTexture:
 	var img := Image.create(TILE_PX * TILE_COUNT, TILE_PX, false, Image.FORMAT_RGBA8)
+	# Wasteland palette for 歸墟 (grey/brown dust, faint rust).
 	var bases := [
-		Color(0.24, 0.34, 0.20),
-		Color(0.20, 0.30, 0.17),
-		Color(0.42, 0.37, 0.28),
+		Color(0.26, 0.25, 0.23),
+		Color(0.30, 0.28, 0.24),
+		Color(0.34, 0.28, 0.20),
 	]
 	var jitter := RandomNumberGenerator.new()
 	jitter.seed = 12345
