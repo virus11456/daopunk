@@ -44,6 +44,7 @@ var _stamina: float = STAMINA_MAX
 func _ready() -> void:
 	add_to_group(&"player")
 	GameState.register_player(self)
+	Reincarnation.apply_to_player(self)
 	_apply_starting_loadout()
 
 
@@ -178,6 +179,8 @@ func consume(item: ConsumableData) -> bool:
 		_arts.add_proficiency(StringName(art_id), int(item.art_proficiency[art_id]))
 	if item.karma != 0:
 		GameState.add_karma(item.karma)
+	if item.soul_repair > 0.0:
+		Reincarnation.repair_soul(item.soul_repair)
 	return true
 
 

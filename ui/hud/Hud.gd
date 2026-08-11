@@ -5,6 +5,7 @@ extends Control
 ## equipped weapon bottom-right). Keeps >80% of the screen clear for the world.
 
 var _clock_label: Label
+var _variance_label: Label
 var _prompt_label: Label
 var _status_label: Label
 var _weapon_label: Label
@@ -26,6 +27,11 @@ func _build_ui() -> void:
 	_clock_label.offset_left = -200.0
 	_clock_label.offset_top = 12.0
 	_clock_label.offset_right = -16.0
+
+	_variance_label = _make_label(Control.PRESET_TOP_RIGHT, HORIZONTAL_ALIGNMENT_RIGHT, 14)
+	_variance_label.offset_left = -280.0
+	_variance_label.offset_top = 38.0
+	_variance_label.offset_right = -16.0
 
 	_prompt_label = _make_label(Control.PRESET_CENTER_BOTTOM, HORIZONTAL_ALIGNMENT_CENTER, 16)
 	_prompt_label.offset_left = -220.0
@@ -79,9 +85,11 @@ func _connect_player(player: Node) -> void:
 	p.get_wallet().money_changed.connect(_on_money_changed)
 	p.get_equipment().equipment_changed.connect(_on_equipment_changed)
 	GameState.karma_changed.connect(_on_karma_changed)
+	GameState.world_variance_changed.connect(_on_variance_changed)
 	_on_money_changed(p.get_wallet().get_money())
 	_on_equipment_changed()
 	_on_stamina_changed(p.get_stamina_ratio())
+	_on_variance_changed(GameState.world_variance)
 
 
 func _process(_delta: float) -> void:
@@ -105,6 +113,12 @@ func _on_money_changed(amount: int) -> void:
 
 func _on_karma_changed(_value: int) -> void:
 	_update_status()
+
+
+func _on_variance_changed(value: float) -> void:
+	var stage := ObserverSystem.stage_for(value)
+	_variance_label.text = "世界變動率 %.0f%% · %s" % [value, ObserverSystem.stage_name(stage)]
+	_variance_label.add_theme_color_override("font_color", ObserverSystem.stage_color(stage))
 
 
 func _update_status() -> void:

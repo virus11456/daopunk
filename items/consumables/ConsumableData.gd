@@ -14,6 +14,8 @@ extends ItemData
 @export var art_proficiency: Dictionary = {}
 ## 功德 (karma) granted on use — e.g. the 功德珠 grants 1000.
 @export var karma: int = 0
+## 靈魂磨損 (soul wear) repaired on use, as a fraction — 靈魂水晶 repairs 0.10.
+@export var soul_repair: float = 0.0
 
 
 func _init() -> void:
