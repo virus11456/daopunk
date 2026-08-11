@@ -145,6 +145,33 @@ func _run_phase2(main: Node, first_npc: Npc) -> void:
 	_check("fortune raised divination", player.get_arts().get_proficiency(&"divination") > div_before)
 	GameState.close_dialogue(target)
 
+	_run_phase4(player)
+
+
+func _run_phase4(player: Player) -> void:
+	# 世界變動率 staging.
+	_check("variance stage: safe", ObserverSystem.stage_for(10.0) == ObserverSystem.Stage.SAFE)
+	_check("variance stage: red alert", ObserverSystem.stage_for(75.0) == ObserverSystem.Stage.RED_ALERT)
+
+	# 靈魂磨損 repair (靈魂水晶).
+	Reincarnation.soul_wear = 0.20
+	Reincarnation.repair_soul(0.10)
+	_check("soul repair works", absf(Reincarnation.soul_wear - 0.10) < 0.001)
+
+	# 輪迴 inheritance (logic only, no scene reload).
+	player.get_arts().add_proficiency(&"mountain", 800)
+	GameState.karma = 2000
+	var run_before := Reincarnation.run_index
+	var soul_before := Reincarnation.soul_wear
+	var mtn_prof := player.get_arts().get_proficiency(&"mountain")
+	Reincarnation.capture_and_advance()
+	_check("reincarnation advances run", Reincarnation.run_index == run_before + 1)
+	_check("karma inherited 50%", GameState.karma == 1000)
+	_check("proficiency inherited 100%",
+		int(Reincarnation.inherited_proficiency.get("mountain", 0)) == mtn_prof)
+	_check("soul wear rises each life", Reincarnation.soul_wear > soul_before)
+	_check("world variance reset on rebirth", GameState.world_variance == 0.0)
+
 
 func _check(label: String, condition: bool) -> void:
 	if condition:

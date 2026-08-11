@@ -15,7 +15,7 @@ func _build_content() -> void:
 	_summary.bbcode_enabled = true
 	_summary.fit_content = true
 	_summary.scroll_active = false
-	_summary.custom_minimum_size = Vector2(0, 84)
+	_summary.custom_minimum_size = Vector2(0, 108)
 	_content_parent.add_child(_summary)
 
 	_content_parent.add_child(HSeparator.new())
@@ -43,7 +43,9 @@ func _bind_player() -> void:
 	if player != null:
 		_arts = player.get_arts()
 		_arts.proficiency_changed.connect(_on_arts_changed)
-	GameState.karma_changed.connect(_on_karma_changed)
+	GameState.karma_changed.connect(_on_any_changed)
+	GameState.world_variance_changed.connect(_on_any_changed)
+	Reincarnation.soul_wear_changed.connect(_on_any_changed)
 
 
 func _on_arts_changed(_art: StringName, _value: int) -> void:
@@ -51,7 +53,7 @@ func _on_arts_changed(_art: StringName, _value: int) -> void:
 		_refresh()
 
 
-func _on_karma_changed(_value: int) -> void:
+func _on_any_changed(_value: Variant = null) -> void:
 	if is_open():
 		_refresh()
 
@@ -64,11 +66,14 @@ func _refresh() -> void:
 
 	var weapon := player.get_equipment().get_weapon()
 	var weapon_name := weapon.display_name if weapon != null else "空手"
-	_summary.text = "[b]功德:[/b] %d    [b]體力:[/b] %d%%\n[b]武器:[/b] %s    [b]世界變動率:[/b] %.0f%%" % [
+	_summary.text = "[b]功德:[/b] %d    [b]體力:[/b] %d%%\n[b]武器:[/b] %s    [b]世界變動率:[/b] %.0f%%\n[b]第 %d 世輪迴[/b]    [b]靈魂磨損:[/b] %.0f%% (%s)" % [
 		GameState.karma,
 		int(round(player.get_stamina_ratio() * 100.0)),
 		weapon_name,
 		GameState.world_variance,
+		Reincarnation.run_index,
+		Reincarnation.soul_wear * 100.0,
+		Reincarnation.soul_wear_stage(),
 	]
 
 	for child in _arts_list.get_children():

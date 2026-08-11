@@ -187,6 +187,8 @@ func _apply_effect(effect: Dictionary) -> void:
 			GameState.add_karma(int(effect.get("amount", 0)))
 		"add_world_variance":
 			GameState.add_world_variance(float(effect.get("amount", 0)))
+		"reincarnate":
+			Reincarnation.reincarnate()
 		"open_shop":
 			if _source != null:
 				# Defer so the dialogue closes before the shop opens.
