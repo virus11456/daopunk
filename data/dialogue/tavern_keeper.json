@@ -1,0 +1,27 @@
+{
+	"start_id": "start",
+	"nodes": {
+		"start": {
+			"text": "You look road-worn, stranger. The Rusty Ladle's still serving if you've got coin. What do you need?",
+			"choices": [
+				{ "text": "What is this place?", "next": "about" },
+				{ "text": "Heard any news?", "next": "news" },
+				{ "text": "Nothing. Just passing.", "next": "end" }
+			]
+		},
+		"about": {
+			"text": "Grey Valley. A hundred souls, one road in, one road out. We keep to ourselves and hope the Black Dog Gang keeps to itself too.",
+			"choices": [
+				{ "text": "The Black Dog Gang?", "next": "news" },
+				{ "text": "Thanks.", "next": "start" }
+			]
+		},
+		"news": {
+			"text": "Farmer Holt's been losing livestock down south. Says it's thieves. If you're the helpful sort, he'd pay to know who.",
+			"choices": [
+				{ "text": "Maybe I'll look into it.", "next": "start" },
+				{ "text": "Not my problem.", "next": "end" }
+			]
+		}
+	}
+}

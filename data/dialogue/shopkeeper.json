@@ -1,0 +1,26 @@
+{
+	"start_id": "start",
+	"nodes": {
+		"start": {
+			"text": "Welcome to the General Store. Trade's slow with the roads the way they are. Buying or just looking?",
+			"choices": [
+				{ "text": "What do you sell?", "next": "stock" },
+				{ "text": "Who supplies you?", "next": "supply" },
+				{ "text": "Just looking.", "next": "end" }
+			]
+		},
+		"stock": {
+			"text": "Bandages, canned goods, a knife or two. Nothing fancy. Come back when I've got the counter open — trading's not wired up yet.",
+			"choices": [
+				{ "text": "Fair enough.", "next": "start" }
+			]
+		},
+		"supply": {
+			"text": "Meridian caravans, mostly. Corporate types. They pay well and ask too many questions. I don't trust them, but I take their crates.",
+			"choices": [
+				{ "text": "Interesting.", "next": "start" },
+				{ "text": "Goodbye.", "next": "end" }
+			]
+		}
+	}
+}

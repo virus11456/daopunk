@@ -1,0 +1,26 @@
+{
+	"start_id": "start",
+	"nodes": {
+		"start": {
+			"text": "I'm the law in Grey Valley, such as it is. Keep your nose clean and we won't have trouble. Something on your mind?",
+			"choices": [
+				{ "text": "Any work for a capable hand?", "next": "work" },
+				{ "text": "Trouble in town?", "next": "trouble" },
+				{ "text": "No, sheriff.", "next": "end" }
+			]
+		},
+		"work": {
+			"text": "Always. But I don't hand my badge to strangers. Earn some goodwill in town first, then we'll talk.",
+			"choices": [
+				{ "text": "Understood.", "next": "start" }
+			]
+		},
+		"trouble": {
+			"text": "Black Dog Gang's been bolder lately. I've six deputies and they've got sixty guns. You do the math. If they hit the farms, I can't be everywhere.",
+			"choices": [
+				{ "text": "I'll keep my eyes open.", "next": "start" },
+				{ "text": "Sounds like your problem.", "next": "end" }
+			]
+		}
+	}
+}

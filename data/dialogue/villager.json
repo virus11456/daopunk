@@ -1,0 +1,25 @@
+{
+	"start_id": "start",
+	"nodes": {
+		"start": {
+			"text": "Oh — hello. Don't see many new faces around here. You're not with the gang, are you?",
+			"choices": [
+				{ "text": "Just a traveller.", "next": "traveller" },
+				{ "text": "Would it matter?", "next": "matter" },
+				{ "text": "Take care.", "next": "end" }
+			]
+		},
+		"traveller": {
+			"text": "Then you're welcome, I suppose. Watch yourself after dark — the woods aren't safe, and the roads even less.",
+			"choices": [
+				{ "text": "Thanks for the warning.", "next": "end" }
+			]
+		},
+		"matter": {
+			"text": "...I'll pretend you didn't say that. Good day to you.",
+			"choices": [
+				{ "text": "Sorry. Good day.", "next": "end" }
+			]
+		}
+	}
+}

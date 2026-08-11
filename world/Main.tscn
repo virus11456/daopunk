@@ -1,0 +1,75 @@
+[gd_scene load_steps=7 format=3 uid="uid://c0main00grey0"]
+
+[ext_resource type="Script" path="res://world/Region.gd" id="1_region"]
+[ext_resource type="PackedScene" uid="uid://c0player0grey0" path="res://characters/player/Player.tscn" id="2_player"]
+[ext_resource type="PackedScene" uid="uid://c0npc00grey0" path="res://characters/npc/Npc.tscn" id="3_npc"]
+[ext_resource type="Script" path="res://ui/hud/Hud.gd" id="4_hud"]
+[ext_resource type="Script" path="res://ui/dialogue/DialoguePanel.gd" id="5_dialogue"]
+[ext_resource type="Script" path="res://ui/hud/DebugOverlay.gd" id="6_debug"]
+
+[node name="GreyValley" type="Node2D"]
+script = ExtResource("1_region")
+region_name = "Grey Valley Town"
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+position = Vector2(640, 480)
+
+[node name="Mara" parent="." instance=ExtResource("3_npc")]
+position = Vector2(372, 210)
+display_name = "Mara"
+body_color = Color(0.82, 0.5, 0.42, 1)
+dialogue_file = "res://data/dialogue/tavern_keeper.json"
+
+[node name="Doran" parent="." instance=ExtResource("3_npc")]
+position = Vector2(880, 232)
+display_name = "Doran"
+body_color = Color(0.45, 0.55, 0.7, 1)
+dialogue_file = "res://data/dialogue/shopkeeper.json"
+
+[node name="Sheriff Voss" parent="." instance=ExtResource("3_npc")]
+position = Vector2(864, 700)
+display_name = "Sheriff Voss"
+body_color = Color(0.7, 0.4, 0.4, 1)
+dialogue_file = "res://data/dialogue/sheriff.json"
+wander_radius = 90.0
+
+[node name="Holt" parent="." instance=ExtResource("3_npc")]
+position = Vector2(700, 780)
+display_name = "Holt"
+body_color = Color(0.6, 0.55, 0.35, 1)
+dialogue_file = "res://data/dialogue/farmer.json"
+
+[node name="Wanda" parent="." instance=ExtResource("3_npc")]
+position = Vector2(470, 450)
+display_name = "Wanda"
+body_color = Color(0.6, 0.65, 0.5, 1)
+dialogue_file = "res://data/dialogue/villager.json"
+
+[node name="Elias" parent="." instance=ExtResource("3_npc")]
+position = Vector2(820, 500)
+display_name = "Elias"
+body_color = Color(0.55, 0.6, 0.6, 1)
+dialogue_file = "res://data/dialogue/villager.json"
+
+[node name="Petra" parent="." instance=ExtResource("3_npc")]
+position = Vector2(640, 320)
+display_name = "Petra"
+body_color = Color(0.7, 0.6, 0.55, 1)
+dialogue_file = "res://data/dialogue/villager.json"
+
+[node name="Jonah" parent="." instance=ExtResource("3_npc")]
+position = Vector2(410, 620)
+display_name = "Jonah"
+body_color = Color(0.5, 0.6, 0.45, 1)
+dialogue_file = "res://data/dialogue/villager.json"
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Hud" type="Control" parent="UI"]
+script = ExtResource("4_hud")
+
+[node name="DialoguePanel" type="Control" parent="UI"]
+script = ExtResource("5_dialogue")
+
+[node name="DebugOverlay" type="Control" parent="UI"]
+script = ExtResource("6_debug")
