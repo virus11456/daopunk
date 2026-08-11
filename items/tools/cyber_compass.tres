@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://items/ItemData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"cyber_compass"
+display_name = "賽博羅盤"
+description = "融合了古羅盤與量子感測的裝置，顯示方位與五行。初始裝備。"
+kind = 3
+max_stack = 1
+base_value = 0
+icon_color = Color(0.7, 0.7, 0.75, 1)

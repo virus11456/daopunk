@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://items/ItemData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"quantum_dice"
+display_name = "量子骰子"
+description = "會在觀測前坍縮的骰子。高級算命工具，提升占卜精準度。"
+kind = 3
+max_stack = 1
+base_value = 500
+icon_color = Color(0.6, 0.85, 0.95, 1)

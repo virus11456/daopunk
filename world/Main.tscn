@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://c0main00grey0"]
+[gd_scene load_steps=12 format=3 uid="uid://c0main00grey0"]
 
 [ext_resource type="Script" path="res://world/Region.gd" id="1_region"]
 [ext_resource type="PackedScene" uid="uid://c0player0grey0" path="res://characters/player/Player.tscn" id="2_player"]
@@ -10,6 +10,7 @@
 [ext_resource type="Script" path="res://ui/inventory/InventoryPanel.gd" id="8_inv"]
 [ext_resource type="Script" path="res://ui/character/CharacterPanel.gd" id="9_char"]
 [ext_resource type="Script" path="res://ui/shop/ShopPanel.gd" id="10_shop"]
+[ext_resource type="Script" path="res://ui/InteractionMenu.gd" id="11_menu"]
 
 [node name="GreyValley" type="Node2D"]
 script = ExtResource("1_region")
@@ -19,10 +20,13 @@ region_name = "歸墟 · 蔓哈頓深坑星"
 position = Vector2(640, 480)
 starting_loadout = [{
 "count": 1,
-"id": &"worn_coat"
+"id": &"cyber_compass"
 }, {
 "count": 1,
-"id": &"work_pants"
+"id": &"tongqian"
+}, {
+"count": 1,
+"id": &"worn_coat"
 }, {
 "count": 1,
 "id": &"knife"
@@ -42,22 +46,28 @@ dialogue_file = "res://data/dialogue/red.json"
 wander_radius = 60.0
 is_merchant = true
 shop_stock = [{
+"count": 10,
+"id": &"tongqian"
+}, {
+"count": 2,
+"id": &"quantum_dice"
+}, {
+"count": 3,
+"id": &"merit_bead"
+}, {
+"count": 8,
+"id": &"stamina_potion_small"
+}, {
 "count": 5,
 "id": &"bandage"
 }, {
-"count": 5,
-"id": &"canned_food"
-}, {
-"count": 5,
-"id": &"water"
+"count": 1,
+"id": &"soul_crystal"
 }, {
 "count": 1,
 "id": &"revolver"
-}, {
-"count": 2,
-"id": &"wooden_club"
 }]
-merchant_float = 800
+merchant_float = 3000
 
 [node name="Master" parent="." instance=ExtResource("3_npc")]
 position = Vector2(858, 210)
@@ -130,6 +140,9 @@ toggle_action = &"toggle_character"
 
 [node name="ShopPanel" type="Control" parent="UI"]
 script = ExtResource("10_shop")
+
+[node name="InteractionMenu" type="Control" parent="UI"]
+script = ExtResource("11_menu")
 
 [node name="DebugOverlay" type="Control" parent="UI"]
 script = ExtResource("6_debug")
