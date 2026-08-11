@@ -1,6 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://c0player0grey0"]
+[gd_scene load_steps=8 format=3 uid="uid://c0player0grey0"]
 
 [ext_resource type="Script" path="res://characters/player/Player.gd" id="1_player"]
+[ext_resource type="Script" path="res://characters/components/InventoryComponent.gd" id="2_inv"]
+[ext_resource type="Script" path="res://characters/components/EquipmentComponent.gd" id="3_equip"]
+[ext_resource type="Script" path="res://characters/components/SkillComponent.gd" id="4_skill"]
+[ext_resource type="Script" path="res://characters/components/WalletComponent.gd" id="5_wallet"]
 
 [sub_resource type="CircleShape2D" id="body_shape"]
 radius = 9.0
@@ -27,3 +31,18 @@ shape = SubResource("detector_shape")
 zoom = Vector2(2, 2)
 position_smoothing_enabled = true
 position_smoothing_speed = 8.0
+
+[node name="Inventory" type="Node" parent="."]
+script = ExtResource("2_inv")
+capacity = 24
+
+[node name="Equipment" type="Node" parent="."]
+script = ExtResource("3_equip")
+inventory_path = NodePath("../Inventory")
+
+[node name="Skills" type="Node" parent="."]
+script = ExtResource("4_skill")
+
+[node name="Wallet" type="Node" parent="."]
+script = ExtResource("5_wallet")
+starting_money = 50

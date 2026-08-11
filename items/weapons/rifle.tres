@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://items/weapons/WeaponData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"rifle"
+display_name = "Rifle"
+description = "A long gun with reach. Rewards a steady hand and good cover."
+max_stack = 1
+base_value = 300
+icon_color = Color(0.4, 0.45, 0.4, 1)
+damage = 20.0
+attack_range = 360.0
+accuracy = 0.85
+attack_speed = 0.8
+reload_time = 2.5
+noise = 0.8
+weapon_class = 3
+ammo_type = &"rifle"

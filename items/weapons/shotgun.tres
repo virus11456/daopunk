@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://items/weapons/WeaponData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"shotgun"
+display_name = "Shotgun"
+description = "Short range, short temper. Devastating up close."
+max_stack = 1
+base_value = 220
+icon_color = Color(0.45, 0.4, 0.35, 1)
+damage = 26.0
+attack_range = 140.0
+accuracy = 0.6
+attack_speed = 0.6
+reload_time = 3.0
+noise = 0.9
+weapon_class = 2
+ammo_type = &"shell"

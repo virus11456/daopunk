@@ -95,32 +95,108 @@ func _show_node(node_id: String) -> void:
 		return
 
 	var node: Dictionary = nodes[node_id]
+	# Node-level effects run on entry. Authors guard one-shots with flags.
+	_apply_effects(node.get("effects", []))
 	_text_label.text = String(node.get("text", "..."))
 	_clear_choices()
 
-	var choices: Array = node.get("choices", [])
-	if choices.is_empty():
-		_add_choice_button("(Continue)", END_NODE, 0)
-		return
-
-	var index := 0
-	for choice in choices:
+	var visible_index := 0
+	for choice in node.get("choices", []):
 		if typeof(choice) != TYPE_DICTIONARY:
 			continue
+		if not _passes_conditions(choice.get("conditions", {})):
+			continue
 		var label := String(choice.get("text", "..."))
-		var next := String(choice.get("next", END_NODE))
-		_add_choice_button("%d. %s" % [index + 1, label], next, index)
-		index += 1
+		_add_choice_button("%d. %s" % [visible_index + 1, label], choice, visible_index)
+		visible_index += 1
+
+	if visible_index == 0:
+		_add_choice_button("(Continue)", {"next": END_NODE}, 0)
 
 
-func _add_choice_button(label: String, next_id: String, index: int) -> void:
+func _add_choice_button(label: String, choice: Dictionary, index: int) -> void:
 	var button := Button.new()
 	button.text = label
 	button.alignment = HORIZONTAL_ALIGNMENT_LEFT
-	button.pressed.connect(_show_node.bind(next_id))
+	button.pressed.connect(_choose.bind(choice))
 	_choice_box.add_child(button)
 	if index == 0:
 		button.grab_focus()
+
+
+func _choose(choice: Dictionary) -> void:
+	_apply_effects(choice.get("effects", []))
+	# An effect (e.g. open_shop) may have already closed the panel.
+	if not _active:
+		return
+	_show_node(String(choice.get("next", END_NODE)))
+
+
+func _passes_conditions(cond: Dictionary) -> bool:
+	if cond.is_empty():
+		return true
+	if cond.has("require_flag") and not GameState.get_flag(StringName(cond["require_flag"])):
+		return false
+	if cond.has("forbid_flag") and GameState.get_flag(StringName(cond["forbid_flag"])):
+		return false
+	var player := _get_player()
+	if cond.has("min_money"):
+		if player == null or player.get_wallet().get_money() < int(cond["min_money"]):
+			return false
+	if cond.has("require_item"):
+		var req: Dictionary = cond["require_item"]
+		var need := int(req.get("count", 1))
+		if player == null or player.get_inventory().count_of_id(StringName(req.get("id", ""))) < need:
+			return false
+	if cond.has("min_skill"):
+		var ms: Dictionary = cond["min_skill"]
+		if player == null or player.get_skills().get_level(StringName(ms.get("skill", ""))) < int(ms.get("level", 0)):
+			return false
+	return true
+
+
+func _apply_effects(effects: Array) -> void:
+	for effect in effects:
+		if typeof(effect) == TYPE_DICTIONARY:
+			_apply_effect(effect)
+
+
+func _apply_effect(effect: Dictionary) -> void:
+	var type := String(effect.get("type", ""))
+	var player := _get_player()
+	match type:
+		"set_flag":
+			GameState.set_flag(StringName(effect.get("flag", "")), bool(effect.get("value", true)))
+		"give_item":
+			if player != null:
+				var item := ItemDatabase.get_item(StringName(effect.get("id", "")))
+				if item != null:
+					player.get_inventory().add(item, int(effect.get("count", 1)))
+		"remove_item":
+			if player != null:
+				player.get_inventory().remove_by_id(StringName(effect.get("id", "")), int(effect.get("count", 1)))
+		"add_money":
+			if player != null:
+				player.get_wallet().add(int(effect.get("amount", 0)))
+		"add_skill_xp":
+			if player != null:
+				player.get_skills().add_xp(StringName(effect.get("skill", "")), float(effect.get("amount", 0)))
+		"open_shop":
+			if _source != null:
+				# Defer so the dialogue closes before the shop opens.
+				GameState.close_dialogue(_source)
+				_active = false
+				hide()
+				mouse_filter = Control.MOUSE_FILTER_IGNORE
+				GameState.request_shop(_source)
+		_:
+			push_warning("DialoguePanel: unknown effect type '%s'" % type)
+
+
+func _get_player() -> Player:
+	if GameState.player is Player:
+		return GameState.player as Player
+	return null
 
 
 func _clear_choices() -> void:

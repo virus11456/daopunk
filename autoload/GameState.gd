@@ -14,6 +14,12 @@ signal player_registered(player: Node)
 signal dialogue_requested(speaker: String, dialogue: Dictionary, start_id: String, source: Node)
 signal dialogue_closed(source: Node)
 
+## Emitted when a dialogue/interaction opens a shop. The ShopPanel listens.
+signal shop_requested(merchant: Node)
+
+## Persistent boolean world state set by dialogue/quests (e.g. quest flags).
+signal world_flag_changed(flag: StringName, value: bool)
+
 ## The active player node, registered by Player._ready(). May be null before
 ## the world finishes loading.
 var player: Node = null
@@ -24,6 +30,14 @@ var current_region: String = "Unknown"
 ## True while a modal UI (e.g. dialogue) owns input and world control should
 ## pause its non-essential updates.
 var in_dialogue: bool = false
+
+## True while any full-screen menu (inventory, character, shop) is open, so the
+## player controller can suppress world movement.
+var in_menu: bool = false
+
+## Persistent world flags. Kept here so the (future) SaveManager has one place to
+## serialise them from.
+var world_flags: Dictionary = {}
 
 
 func register_player(node: Node) -> void:
@@ -38,6 +52,24 @@ func request_dialogue(speaker: String, dialogue: Dictionary, start_id: String, s
 func close_dialogue(source: Node) -> void:
 	in_dialogue = false
 	dialogue_closed.emit(source)
+
+
+func request_shop(merchant: Node) -> void:
+	shop_requested.emit(merchant)
+
+
+func set_flag(flag: StringName, value: bool = true) -> void:
+	world_flags[flag] = value
+	world_flag_changed.emit(flag, value)
+
+
+func get_flag(flag: StringName) -> bool:
+	return bool(world_flags.get(flag, false))
+
+
+## True when neither dialogue nor a menu should let the world take input.
+func is_ui_blocking() -> bool:
+	return in_dialogue or in_menu
 
 
 func get_player_position() -> Vector2:

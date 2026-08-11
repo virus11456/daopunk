@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ConsumableData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://items/consumables/ConsumableData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"bandage"
+display_name = "Bandage"
+description = "Clean cloth and tape. Stops bleeding and closes wounds."
+max_stack = 10
+base_value = 15
+icon_color = Color(0.9, 0.9, 0.85, 1)
+heal = 0.25
+skill_xp = {
+"medicine": 4.0
+}

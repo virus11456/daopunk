@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ConsumableData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://items/consumables/ConsumableData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"canned_food"
+display_name = "Canned Food"
+description = "Dented but sealed. A dependable meal on the road."
+max_stack = 10
+base_value = 8
+icon_color = Color(0.8, 0.6, 0.3, 1)
+restore_stamina = 0.5
+skill_xp = {
+"cooking": 2.0
+}

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://items/weapons/WeaponData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"revolver"
+display_name = "Revolver"
+description = "A six-shot sidearm. Reliable when the roads turn mean."
+max_stack = 1
+base_value = 120
+icon_color = Color(0.55, 0.55, 0.6, 1)
+damage = 14.0
+attack_range = 220.0
+accuracy = 0.75
+attack_speed = 0.9
+reload_time = 2.0
+noise = 0.7
+weapon_class = 1
+ammo_type = &"pistol"
