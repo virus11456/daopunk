@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://items/ItemData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"tongqian"
+display_name = "銅錢"
+description = "三枚古樸的銅錢，卜卦問卦的基礎工具。"
+kind = 3
+max_stack = 1
+base_value = 10
+icon_color = Color(0.72, 0.58, 0.28, 1)

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ConsumableData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://items/consumables/ConsumableData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"stamina_potion_large"
+display_name = "體力藥水(大)"
+description = "軍用級能量劑，完全恢復體力。"
+kind = 1
+max_stack = 10
+base_value = 2000
+icon_color = Color(0.35, 0.9, 0.55, 1)
+restore_stamina = 1.0

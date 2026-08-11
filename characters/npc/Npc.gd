@@ -39,6 +39,7 @@ var _wait_timer: float = 0.0
 var _facing: Vector2 = Vector2.DOWN
 var _dialogue: Dictionary = {}
 var _nav_ready: bool = false
+var _fortune_cd_until: int = 0
 var _rng := RandomNumberGenerator.new()
 
 
@@ -49,7 +50,8 @@ func _ready() -> void:
 	_wait_timer = _rng.randf_range(0.2, think_interval_max)
 
 	_interactable.display_name = display_name
-	_interactable.prompt_verb = "Talk to"
+	_interactable.prompt_verb = "接觸"
+	_interactable.actions = [&"Talk", &"算命"]
 	_interactable.interaction_requested.connect(_on_interaction_requested)
 
 	_agent.path_desired_distance = 8.0
@@ -151,15 +153,56 @@ func _set_facing(dir: Vector2) -> void:
 
 
 func _on_interaction_requested(actor: Node, action: StringName) -> void:
-	if action != &"Talk":
+	match action:
+		&"Talk":
+			_start_talk(actor)
+		&"算命":
+			_do_fortune(actor)
+
+
+func _start_talk(actor: Node) -> void:
+	_face_and_halt(actor)
+	GameState.in_dialogue = true
+	var start_id: String = _dialogue.get("start_id", "start")
+	GameState.request_dialogue(display_name, _dialogue, start_id, self)
+
+
+func _do_fortune(actor: Node) -> void:
+	if not (actor is Player):
 		return
+	_face_and_halt(actor)
+	var now := Time.get_ticks_msec()
+	if now < _fortune_cd_until:
+		_open_reading("卦象", "（此人不久前才算過。）天機不可盡洩，改日再來吧。")
+		return
+
+	var player := actor as Player
+	var r := FortuneService.divine(player)
+	player.get_wallet().add(int(r["credits"]))
+	player.get_arts().add_proficiency(&"divination", int(r["divination_gain"]))
+	player.get_arts().add_proficiency(&"fate", int(r["fate_gain"]))
+	GameState.add_karma(int(r["karma"]))
+	_fortune_cd_until = now + 60000
+
+	var text := "%s\n\n（為 %s 卜算完畢：獲得 %d Credits，卜術與命術皆有精進，功德 +%d。）" % [
+		r["reading"], display_name, int(r["credits"]), int(r["karma"])]
+	_open_reading("卦象 · 銅錢卜卦", text)
+
+
+func _face_and_halt(actor: Node) -> void:
 	_state = State.TALK
 	velocity = Vector2.ZERO
 	if is_instance_valid(actor) and actor is Node2D:
 		_set_facing((actor as Node2D).global_position - global_position)
+
+
+func _open_reading(speaker: String, text: String) -> void:
 	GameState.in_dialogue = true
-	var start_id: String = _dialogue.get("start_id", "start")
-	GameState.request_dialogue(display_name, _dialogue, start_id, self)
+	var d := {
+		"start_id": "start",
+		"nodes": {"start": {"text": text, "choices": [{"text": "（收起銅錢）", "next": "end"}]}},
+	}
+	GameState.request_dialogue(speaker, d, "start", self)
 
 
 func _on_dialogue_closed(source: Node) -> void:

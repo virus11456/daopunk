@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ConsumableData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://items/consumables/ConsumableData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"stamina_potion_small"
+display_name = "體力藥水(小)"
+description = "刺鼻的合成營養劑，恢復部分體力。"
+kind = 1
+max_stack = 10
+base_value = 100
+icon_color = Color(0.4, 0.8, 0.5, 1)
+restore_stamina = 0.3

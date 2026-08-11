@@ -19,6 +19,14 @@ func _ready() -> void:
 	_register(preload("res://items/consumables/water.tres"))
 	_register(preload("res://items/equipment/worn_coat.tres"))
 	_register(preload("res://items/equipment/work_pants.tres"))
+	# Kiro items.
+	_register(preload("res://items/tools/tongqian.tres"))
+	_register(preload("res://items/tools/quantum_dice.tres"))
+	_register(preload("res://items/tools/cyber_compass.tres"))
+	_register(preload("res://items/consumables/merit_bead.tres"))
+	_register(preload("res://items/consumables/stamina_potion_small.tres"))
+	_register(preload("res://items/consumables/stamina_potion_large.tres"))
+	_register(preload("res://items/consumables/soul_crystal.tres"))
 
 
 func _register(item: ItemData) -> void:

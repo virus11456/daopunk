@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://items/ItemData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"soul_crystal"
+display_name = "靈魂水晶"
+description = "能修復靈魂磨損的稀有結晶。輪迴者的必需品。（效果於輪迴系統啟用）"
+kind = 0
+max_stack = 10
+base_value = 50000
+icon_color = Color(0.8, 0.6, 0.95, 1)

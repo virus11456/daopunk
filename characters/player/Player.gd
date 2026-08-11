@@ -132,13 +132,34 @@ func _unhandled_input(event: InputEvent) -> void:
 			_adjust_zoom(-ZOOM_STEP)
 		elif event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
 			_adjust_zoom(ZOOM_STEP)
+		elif event.button_index == MOUSE_BUTTON_RIGHT:
+			_open_context_menu()
 
 
 func _try_interact() -> void:
 	if GameState.is_ui_blocking():
 		return
-	if is_instance_valid(_current_focus):
-		_current_focus.interact(self)
+	if not is_instance_valid(_current_focus):
+		return
+	var actions := _current_focus.get_interactions(self)
+	if actions.size() > 1 and _open_menu(actions):
+		return
+	_current_focus.interact(self)
+
+
+## Right-click always opens the action menu for the focused interactable.
+func _open_context_menu() -> void:
+	if GameState.is_ui_blocking() or not is_instance_valid(_current_focus):
+		return
+	_open_menu(_current_focus.get_interactions(self))
+
+
+func _open_menu(actions: Array) -> bool:
+	var menu := get_tree().get_first_node_in_group(&"interaction_menu")
+	if menu == null or actions.is_empty():
+		return false
+	(menu as InteractionMenu).open_for(self, _current_focus, actions)
+	return true
 
 
 func _adjust_zoom(amount: float) -> void:
@@ -155,6 +176,8 @@ func consume(item: ConsumableData) -> bool:
 		stamina_changed.emit(get_stamina_ratio())
 	for art_id in item.art_proficiency:
 		_arts.add_proficiency(StringName(art_id), int(item.art_proficiency[art_id]))
+	if item.karma != 0:
+		GameState.add_karma(item.karma)
 	return true
 
 

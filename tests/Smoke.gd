@@ -68,7 +68,7 @@ func _run(main: Node) -> void:
 	get_tree().quit(_failures)
 
 
-func _run_phase2(main: Node, _npc: Npc) -> void:
+func _run_phase2(main: Node, first_npc: Npc) -> void:
 	var player := GameState.player as Player
 	var inv := player.get_inventory()
 
@@ -122,15 +122,28 @@ func _run_phase2(main: Node, _npc: Npc) -> void:
 		await get_tree().process_frame
 		_check("shop opened", shop.is_open())
 
-		var water := ItemDatabase.get_item(&"water")
+		var bandage := ItemDatabase.get_item(&"bandage")
 		var money_before := player.get_wallet().get_money()
-		var water_before := inv.count_of_id(&"water")
-		var price := shop.buy_price(water)
-		shop._buy(water, player)
-		_check("shop buy added item", inv.count_of_id(&"water") == water_before + 1)
+		var bandage_before := inv.count_of_id(&"bandage")
+		var price := shop.buy_price(bandage)
+		shop._buy(bandage, player)
+		_check("shop buy added item", inv.count_of_id(&"bandage") == bandage_before + 1)
 		_check("shop buy spent money", player.get_wallet().get_money() == money_before - price)
 		shop.close()
 		_check("menu flag cleared on close", GameState.in_menu == false)
+
+	# Kiro items + 算命 (fortune-telling) economy.
+	_check("kiro item registered", ItemDatabase.get_item(&"tongqian") != null)
+	var target: Npc = first_npc
+	var t_inter: InteractableComponent = target.get_node("InteractableComponent")
+	_check("npc offers 算命", t_inter.get_interactions(player).has(&"算命"))
+	var credits_before := player.get_wallet().get_money()
+	var div_before := player.get_arts().get_proficiency(&"divination")
+	t_inter.interact(player, &"算命")
+	await get_tree().process_frame
+	_check("fortune earned credits", player.get_wallet().get_money() > credits_before)
+	_check("fortune raised divination", player.get_arts().get_proficiency(&"divination") > div_before)
+	GameState.close_dialogue(target)
 
 
 func _check(label: String, condition: bool) -> void:
