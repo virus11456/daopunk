@@ -1,0 +1,26 @@
+{
+  "source_file": "KIRO_BALANCE_SHEET_v4.csv",
+  "version": "4.0",
+  "created": "2026-01-05",
+  "updated": "2026-01-05",
+  "encoding": "UTF-8",
+  "delimiter": ",",
+  "sheets": [
+    {"id": 1, "name": "五術技能數值表", "file": "01_five_arts_skills.csv"},
+    {"id": 2, "name": "道具價格表", "file": "02_item_prices.csv"},
+    {"id": 3, "name": "NPC好感度系統", "file": "03_npc_affinity.json"},
+    {"id": 4, "name": "世界變動率觸發表", "file": "04_world_deviation.json"},
+    {"id": 5, "name": "房產系統價格表", "file": "05_property_prices.csv"},
+    {"id": 6, "name": "輪迴繼承機制", "file": "06_reincarnation.json"},
+    {"id": 7, "name": "組織系統表", "file": "07_organizations.json"},
+    {"id": 8, "name": "戰鬥數值平衡表", "file": "08_combat_balance.json"},
+    {"id": 9, "name": "經濟系統表", "file": "09_economy.json"},
+    {"id": 10, "name": "成就系統表", "file": "10_achievements.csv"},
+    {"id": 11, "name": "難度設定表", "file": "11_difficulty.json"}
+  ],
+  "notes": [
+    "The supplied message repeated all eleven sheets; this dataset stores one copy.",
+    "Display strings such as 單輪迴1次, 被動, 永久 and 不可購買 remain strings intentionally.",
+    "No runtime balance behavior is implied by inclusion in this source dataset."
+  ]
+}
