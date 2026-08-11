@@ -4,15 +4,17 @@
 		"start": {
 			"text": "Welcome to the General Store. Trade's slow with the roads the way they are. Buying or just looking?",
 			"choices": [
+				{ "text": "Show me your wares. [Trade]", "effects": [{ "type": "open_shop" }] },
 				{ "text": "What do you sell?", "next": "stock" },
 				{ "text": "Who supplies you?", "next": "supply" },
 				{ "text": "Just looking.", "next": "end" }
 			]
 		},
 		"stock": {
-			"text": "Bandages, canned goods, a knife or two. Nothing fancy. Come back when I've got the counter open — trading's not wired up yet.",
+			"text": "Bandages, canned goods, water, and a weapon or two if the price is right. Say the word and I'll open the counter.",
 			"choices": [
-				{ "text": "Fair enough.", "next": "start" }
+				{ "text": "Let's trade. [Trade]", "effects": [{ "type": "open_shop" }] },
+				{ "text": "Maybe later.", "next": "start" }
 			]
 		},
 		"supply": {

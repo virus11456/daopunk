@@ -1,0 +1,18 @@
+class_name ConsumableData
+extends ItemData
+## A consumable definition. Effects are declared as data so the same "use" flow
+## works for food, drink and medicine. Whether a given effect does anything yet
+## depends on the systems that exist: `heal` is honoured once the HealthComponent
+## lands in Phase 3, while `restore_stamina` applies to the player's stamina now.
+
+@export_group("Effects")
+## Fraction of max HP restored on use (0–1). Wired to health in Phase 3.
+@export var heal: float = 0.0
+## Fraction of max stamina restored on use (0–1).
+@export var restore_stamina: float = 0.0
+## Skill XP granted on use, e.g. {"cooking": 5}.
+@export var skill_xp: Dictionary = {}
+
+
+func _init() -> void:
+	kind = Kind.CONSUMABLE

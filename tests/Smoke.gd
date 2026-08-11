@@ -46,6 +46,8 @@ func _run(main: Node) -> void:
 	await get_tree().process_frame
 	_check("debug overlay visible", overlay.visible == true)
 
+	await _run_phase2(main, npc)
+
 	# Let NPCs run their AI a while and confirm at least one has moved.
 	var start_positions := {}
 	for n in npcs:
@@ -64,6 +66,61 @@ func _run(main: Node) -> void:
 	else:
 		print("SMOKE: %d FAILURE(S)" % _failures)
 	get_tree().quit(_failures)
+
+
+func _run_phase2(main: Node, _npc: Npc) -> void:
+	var player := GameState.player as Player
+	var inv := player.get_inventory()
+
+	# Starting loadout.
+	_check("item database loaded", ItemDatabase.get_item(&"knife") != null)
+	_check("starting knife present", inv.has_id(&"knife", 1))
+	_check("starting canned food x2", inv.count_of_id(&"canned_food") == 2)
+
+	# Equip the knife.
+	var knife := ItemDatabase.get_item(&"knife") as WeaponData
+	var equipped := player.get_equipment().equip_weapon(knife)
+	_check("knife equipped", equipped and player.get_equipment().get_weapon() == knife)
+	_check("knife left inventory on equip", not inv.has_id(&"knife", 1))
+
+	# Skill XP + level-up.
+	var before_level := player.get_skills().get_level(&"melee")
+	player.get_skills().add_xp(&"melee", 500.0)
+	_check("melee skill leveled up", player.get_skills().get_level(&"melee") > before_level)
+
+	# World flag round-trip.
+	GameState.set_flag(&"test_flag", true)
+	_check("world flag persists", GameState.get_flag(&"test_flag") == true)
+
+	# Dialogue effect: give_item.
+	var dlg: DialoguePanel = main.get_node("UI/DialoguePanel")
+	var bandages_before := inv.count_of_id(&"bandage")
+	dlg._apply_effect({"type": "give_item", "id": "bandage", "count": 2})
+	_check("dialogue give_item works", inv.count_of_id(&"bandage") == bandages_before + 2)
+
+	# Shop: open on the merchant and buy an item.
+	var merchant: Npc = null
+	for n in get_tree().get_nodes_in_group(&"npc"):
+		if (n as Npc).is_merchant:
+			merchant = n
+			break
+	_check("merchant exists", merchant != null)
+
+	if merchant != null:
+		var shop: ShopPanel = main.get_node("UI/ShopPanel")
+		GameState.request_shop(merchant)
+		await get_tree().process_frame
+		_check("shop opened", shop.is_open())
+
+		var water := ItemDatabase.get_item(&"water")
+		var money_before := player.get_wallet().get_money()
+		var water_before := inv.count_of_id(&"water")
+		var price := shop.buy_price(water)
+		shop._buy(water, player)
+		_check("shop buy added item", inv.count_of_id(&"water") == water_before + 1)
+		_check("shop buy spent money", player.get_wallet().get_money() == money_before - price)
+		shop.close()
+		_check("menu flag cleared on close", GameState.in_menu == false)
 
 
 func _check(label: String, condition: bool) -> void:

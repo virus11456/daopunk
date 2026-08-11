@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://items/weapons/WeaponData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"knife"
+display_name = "Knife"
+description = "A worn utility knife. Quick, quiet, and always within reach."
+max_stack = 1
+base_value = 20
+icon_color = Color(0.75, 0.75, 0.8, 1)
+damage = 6.0
+attack_range = 24.0
+accuracy = 0.9
+attack_speed = 1.4
+noise = 0.1
+weapon_class = 0

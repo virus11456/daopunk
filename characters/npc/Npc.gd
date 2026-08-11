@@ -21,8 +21,17 @@ enum State { IDLE, WANDER, TALK }
 @export var think_interval_min: float = 1.5
 @export var think_interval_max: float = 4.0
 
+@export_group("Merchant")
+@export var is_merchant: bool = false
+## Wares to stock on spawn as [{"id": StringName, "count": int}].
+@export var shop_stock: Array[Dictionary] = []
+## Cash a merchant carries to buy goods from the player.
+@export var merchant_float: int = 500
+
 @onready var _agent: NavigationAgent2D = $NavigationAgent2D
 @onready var _interactable: InteractableComponent = $InteractableComponent
+@onready var _inventory: InventoryComponent = $Inventory
+@onready var _wallet: WalletComponent = $Wallet
 
 var _state: State = State.IDLE
 var _home: Vector2 = Vector2.ZERO
@@ -47,6 +56,7 @@ func _ready() -> void:
 	_agent.target_desired_distance = 10.0
 
 	_dialogue = _load_dialogue(dialogue_file)
+	_stock_shop()
 
 	GameState.dialogue_closed.connect(_on_dialogue_closed)
 
@@ -58,6 +68,24 @@ func _ready() -> void:
 func _enable_navigation() -> void:
 	await get_tree().physics_frame
 	_nav_ready = true
+
+
+func _stock_shop() -> void:
+	if not is_merchant:
+		return
+	_wallet.add(merchant_float)
+	for entry in shop_stock:
+		var item := ItemDatabase.get_item(entry.get("id", &""))
+		if item != null:
+			_inventory.add(item, int(entry.get("count", 1)))
+
+
+func get_inventory() -> InventoryComponent:
+	return _inventory
+
+
+func get_wallet() -> WalletComponent:
+	return _wallet
 
 
 func _physics_process(delta: float) -> void:

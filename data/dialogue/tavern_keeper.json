@@ -4,9 +4,24 @@
 		"start": {
 			"text": "You look road-worn, stranger. The Rusty Ladle's still serving if you've got coin. What do you need?",
 			"choices": [
+				{
+					"text": "(You look like you could use this.) Any chance of a meal on the house?",
+					"conditions": { "forbid_flag": "mara_gift" },
+					"effects": [
+						{ "type": "give_item", "id": "canned_food", "count": 1 },
+						{ "type": "set_flag", "flag": "mara_gift", "value": true }
+					],
+					"next": "gift"
+				},
 				{ "text": "What is this place?", "next": "about" },
 				{ "text": "Heard any news?", "next": "news" },
 				{ "text": "Nothing. Just passing.", "next": "end" }
+			]
+		},
+		"gift": {
+			"text": "...First one's free, since you asked nice. Don't make a habit of it. (She slides a can across the bar.)",
+			"choices": [
+				{ "text": "Much appreciated.", "next": "start" }
 			]
 		},
 		"about": {
