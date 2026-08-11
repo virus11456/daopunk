@@ -79,18 +79,20 @@ func _on_shop_requested(merchant: Node) -> void:
 	open()
 
 
-func _trading() -> int:
+## Bargaining power (0–20) derived from 命術 proficiency (fate reading lets you
+## price fortunes and people).
+func _bargain() -> int:
 	var player := GameState.player as Player
-	return player.get_skills().get_level(&"trading") if player != null else 0
+	return clampi(player.get_arts().get_proficiency(&"fate") / 300, 0, 20) if player != null else 0
 
 
 func buy_price(item: ItemData) -> int:
-	var mult: float = clampf(1.30 - float(_trading()) * 0.02, 0.90, 1.30)
+	var mult: float = clampf(1.30 - float(_bargain()) * 0.02, 0.90, 1.30)
 	return maxi(1, int(ceil(float(item.base_value) * mult)))
 
 
 func sell_price(item: ItemData) -> int:
-	var mult: float = clampf(0.40 + float(_trading()) * 0.015, 0.40, 0.70)
+	var mult: float = clampf(0.40 + float(_bargain()) * 0.015, 0.40, 0.70)
 	return maxi(1, int(floor(float(item.base_value) * mult)))
 
 
@@ -98,8 +100,8 @@ func _refresh() -> void:
 	var player := GameState.player as Player
 	if player == null or _merchant_inv == null:
 		return
-	_money_label.text = "You: %dcr    Merchant: %dcr    (Trading Lv.%d)" % [
-		player.get_wallet().get_money(), _merchant_wallet.get_money(), _trading()]
+	_money_label.text = "你: %dcr    商人: %dcr    (命術 Lv.%d)" % [
+		player.get_wallet().get_money(), _merchant_wallet.get_money(), _bargain()]
 
 	_fill_list(_buy_list, _merchant_inv, true, player)
 	_fill_list(_sell_list, player.get_inventory(), false, player)
@@ -150,7 +152,7 @@ func _buy(item: ItemData, player: Player) -> void:
 	_merchant_wallet.add(price)
 	_merchant_inv.remove(item, 1)
 	player.get_inventory().add(item, 1)
-	player.get_skills().add_xp(&"trading", 3.0)
+	player.get_arts().add_proficiency(&"fate", 3)
 	_refresh()
 
 
@@ -164,5 +166,5 @@ func _sell(item: ItemData, player: Player) -> void:
 	player.get_wallet().add(price)
 	player.get_inventory().remove(item, 1)
 	_merchant_inv.add(item, 1)
-	player.get_skills().add_xp(&"trading", 2.0)
+	player.get_arts().add_proficiency(&"fate", 2)
 	_refresh()

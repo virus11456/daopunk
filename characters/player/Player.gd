@@ -31,7 +31,7 @@ const STAMINA_REGEN: float = 12.0
 @onready var _camera: Camera2D = $Camera2D
 @onready var _inventory: InventoryComponent = $Inventory
 @onready var _equipment: EquipmentComponent = $Equipment
-@onready var _skills: SkillComponent = $Skills
+@onready var _arts: FiveArtsComponent = $Arts
 @onready var _wallet: WalletComponent = $Wallet
 
 var _facing: Vector2 = Vector2.DOWN
@@ -153,8 +153,8 @@ func consume(item: ConsumableData) -> bool:
 	if item.restore_stamina > 0.0:
 		_stamina = minf(STAMINA_MAX, _stamina + STAMINA_MAX * item.restore_stamina)
 		stamina_changed.emit(get_stamina_ratio())
-	for skill_id in item.skill_xp:
-		_skills.add_xp(StringName(skill_id), float(item.skill_xp[skill_id]))
+	for art_id in item.art_proficiency:
+		_arts.add_proficiency(StringName(art_id), int(item.art_proficiency[art_id]))
 	return true
 
 
@@ -166,8 +166,8 @@ func get_equipment() -> EquipmentComponent:
 	return _equipment
 
 
-func get_skills() -> SkillComponent:
-	return _skills
+func get_arts() -> FiveArtsComponent:
+	return _arts
 
 
 func get_wallet() -> WalletComponent:

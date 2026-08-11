@@ -148,10 +148,12 @@ func _passes_conditions(cond: Dictionary) -> bool:
 		var need := int(req.get("count", 1))
 		if player == null or player.get_inventory().count_of_id(StringName(req.get("id", ""))) < need:
 			return false
-	if cond.has("min_skill"):
-		var ms: Dictionary = cond["min_skill"]
-		if player == null or player.get_skills().get_level(StringName(ms.get("skill", ""))) < int(ms.get("level", 0)):
+	if cond.has("min_art"):
+		var ma: Dictionary = cond["min_art"]
+		if player == null or player.get_arts().get_proficiency(StringName(ma.get("art", ""))) < int(ma.get("proficiency", 0)):
 			return false
+	if cond.has("min_karma") and GameState.karma < int(cond["min_karma"]):
+		return false
 	return true
 
 
@@ -178,9 +180,13 @@ func _apply_effect(effect: Dictionary) -> void:
 		"add_money":
 			if player != null:
 				player.get_wallet().add(int(effect.get("amount", 0)))
-		"add_skill_xp":
+		"add_proficiency":
 			if player != null:
-				player.get_skills().add_xp(StringName(effect.get("skill", "")), float(effect.get("amount", 0)))
+				player.get_arts().add_proficiency(StringName(effect.get("art", "")), int(effect.get("amount", 0)))
+		"add_karma":
+			GameState.add_karma(int(effect.get("amount", 0)))
+		"add_world_variance":
+			GameState.add_world_variance(float(effect.get("amount", 0)))
 		"open_shop":
 			if _source != null:
 				# Defer so the dialogue closes before the shop opens.

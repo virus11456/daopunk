@@ -1,0 +1,79 @@
+{
+	"arts": [
+		{
+			"id": "mountain",
+			"name": "山術",
+			"name_en": "Mountain Arts",
+			"description": "修煉自身，與天地共鳴",
+			"branches": ["修命", "修性"],
+			"skills": [
+				{ "id": "basic_breathing", "name": "基礎吐納", "level": "1", "proficiency_required": 0, "cooldown": 0, "karma_cost": 0, "effect": "壽命+10年，體力恢復+20%" },
+				{ "id": "five_elements_breathing", "name": "五行吐納", "level": "2", "proficiency_required": 500, "cooldown": 3600, "karma_cost": 0, "effect": "吸收環境五行之氣，攻防+30%" },
+				{ "id": "hibernation", "name": "胎息法", "level": "3", "proficiency_required": 2000, "cooldown": 600, "karma_cost": 0, "effect": "假死狀態，隱身+生命恢復" },
+				{ "id": "diamond_body", "name": "金剛不壞", "level": "4", "proficiency_required": 5000, "cooldown": 300, "karma_cost": 0, "effect": "10秒無敵" },
+				{ "id": "vacuum_crush", "name": "真空粉碎", "level": "5", "proficiency_required": 10000, "cooldown": -1, "karma_cost": 1000, "effect": "傷害=功德×10，需命運之風" },
+				{ "id": "nirvana_rebirth", "name": "涅槃重生", "level": "MAX", "proficiency_required": 100000, "cooldown": -1, "karma_cost": 10000, "effect": "死亡時復活，恢復50%HP" }
+			]
+		},
+		{
+			"id": "medical",
+			"name": "醫術",
+			"name_en": "Medical Arts",
+			"description": "治療與驅鬼",
+			"branches": ["治療", "驅鬼"],
+			"skills": [
+				{ "id": "basic_acupuncture", "name": "基礎針灸", "level": "1", "proficiency_required": 0, "cooldown": 600, "karma_cost": 0, "effect": "恢復50%HP，可對NPC使用" },
+				{ "id": "organ_healing", "name": "五臟調理", "level": "2", "proficiency_required": 500, "cooldown": 300, "karma_cost": 100, "effect": "清除所有異常狀態" },
+				{ "id": "life_extending_needle", "name": "續命金針", "level": "3", "proficiency_required": 2000, "cooldown": 86400, "karma_cost": 1000, "effect": "救活瀕死NPC" },
+				{ "id": "resurrection", "name": "起死回生", "level": "4", "proficiency_required": 5000, "cooldown": -1, "karma_cost": 5000, "effect": "救活已死NPC，需靈魂碎片" },
+				{ "id": "life_transfer", "name": "奪天改命", "level": "5", "proficiency_required": 10000, "cooldown": 0, "karma_cost": 0, "effect": "轉移壽命，需意識之火" },
+				{ "id": "longevity", "name": "長生術", "level": "MAX", "proficiency_required": 100000, "cooldown": 0, "karma_cost": 0, "effect": "不再自然衰老" }
+			]
+		},
+		{
+			"id": "fate",
+			"name": "命術",
+			"name_en": "Fate Arts",
+			"description": "知命改命",
+			"branches": ["知命", "改命", "遮天"],
+			"skills": [
+				{ "id": "observe_fate", "name": "觀命", "level": "1", "proficiency_required": 0, "cooldown": 0, "karma_cost": 0, "effect": "顯示基本信息" },
+				{ "id": "fortune_reading", "name": "測運", "level": "2", "proficiency_required": 500, "cooldown": 3600, "karma_cost": 100, "effect": "顯示7天運勢，可算命賺錢" },
+				{ "id": "destiny_change", "name": "改命", "level": "3", "proficiency_required": 3000, "cooldown": 604800, "karma_cost": 10000, "effect": "改變人生軌跡，世界變動率+15%" },
+				{ "id": "heaven_defying", "name": "逆天改命", "level": "4", "proficiency_required": 6000, "cooldown": 2592000, "karma_cost": 50000, "effect": "徹底改寫命運，世界變動率+30%" },
+				{ "id": "steal_destiny", "name": "奪舍天命", "level": "5", "proficiency_required": 10000, "cooldown": -1, "karma_cost": 100000, "effect": "轉移氣運，禁術" },
+				{ "id": "rewrite_worldline", "name": "改寫世界線", "level": "MAX", "proficiency_required": 100000, "cooldown": -1, "karma_cost": 50000, "effect": "回溯本輪迴，讀檔功能" }
+			]
+		},
+		{
+			"id": "feng_shui",
+			"name": "相術",
+			"name_en": "Feng Shui Arts",
+			"description": "觀天察地",
+			"branches": ["風水", "面相"],
+			"skills": [
+				{ "id": "dragon_seeking", "name": "尋龍點穴", "level": "1", "proficiency_required": 0, "cooldown": 0, "karma_cost": 0, "effect": "顯示環境五行屬性" },
+				{ "id": "feng_shui_setup", "name": "風水佈局", "level": "2", "proficiency_required": 500, "cooldown": 3600, "karma_cost": 500, "effect": "調整環境風水" },
+				{ "id": "dragon_vein_sense", "name": "龍脈感知", "level": "3", "proficiency_required": 2000, "cooldown": 21600, "karma_cost": 1000, "effect": "看到星球龍脈" },
+				{ "id": "heaven_earth_reversal", "name": "改天換地", "level": "4", "proficiency_required": 5000, "cooldown": 604800, "karma_cost": 20000, "effect": "大範圍改變風水" },
+				{ "id": "cosmos_inversion", "name": "逆轉乾坤", "level": "5", "proficiency_required": 10000, "cooldown": -1, "karma_cost": 100000, "effect": "改變星球法則，需太虛星圖" },
+				{ "id": "truth_seeing_eye", "name": "破妄之眼", "level": "MAX", "proficiency_required": 100000, "cooldown": 0, "karma_cost": 0, "effect": "看穿夢境本質，精神崩潰風險" }
+			]
+		},
+		{
+			"id": "divination",
+			"name": "卜術",
+			"name_en": "Divination Arts",
+			"description": "預測未來",
+			"branches": ["卜卦", "趨吉避凶", "改變走向"],
+			"skills": [
+				{ "id": "coin_divination", "name": "銅錢卜卦", "level": "1", "proficiency_required": 0, "cooldown": 600, "karma_cost": 0, "effect": "基礎算命，準確率60%" },
+				{ "id": "plum_blossom", "name": "梅花易數", "level": "2", "proficiency_required": 500, "cooldown": 3600, "karma_cost": 100, "effect": "環境起卦，準確率70%" },
+				{ "id": "qimen_dunjia", "name": "奇門遁甲", "level": "3", "proficiency_required": 2000, "cooldown": 21600, "karma_cost": 1000, "effect": "3×3解謎預測，準確率85%" },
+				{ "id": "six_lines_divination", "name": "六爻神斷", "level": "4", "proficiency_required": 5000, "cooldown": 86400, "karma_cost": 3000, "effect": "預測24小時，準確率90%" },
+				{ "id": "tuibei_prophecy", "name": "推背圖", "level": "5", "proficiency_required": 10000, "cooldown": 2592000, "karma_cost": 5000, "effect": "預測重大事件，需時間長河" },
+				{ "id": "time_rewind", "name": "時間回溯", "level": "MAX", "proficiency_required": 100000, "cooldown": -1, "karma_cost": 100000, "effect": "重置本輪迴，真正讀檔" }
+			]
+		}
+	]
+}

@@ -11,6 +11,6 @@ max_stack = 10
 base_value = 8
 icon_color = Color(0.8, 0.6, 0.3, 1)
 restore_stamina = 0.5
-skill_xp = {
-"cooking": 2.0
+art_proficiency = {
+"mountain": 2
 }

@@ -6,12 +6,12 @@ extends ItemData
 ## lands in Phase 3, while `restore_stamina` applies to the player's stamina now.
 
 @export_group("Effects")
-## Fraction of max HP restored on use (0–1). Wired to health in Phase 3.
+## Fraction of max HP restored on use (0–1). Wired to health in the combat phase.
 @export var heal: float = 0.0
 ## Fraction of max stamina restored on use (0–1).
 @export var restore_stamina: float = 0.0
-## Skill XP granted on use, e.g. {"cooking": 5}.
-@export var skill_xp: Dictionary = {}
+## Five Arts proficiency granted on use, e.g. {"medical": 5}.
+@export var art_proficiency: Dictionary = {}
 
 
 func _init() -> void:
