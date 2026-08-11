@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://c0main00grey0"]
+[gd_scene load_steps=13 format=3 uid="uid://c0main00grey0"]
 
 [ext_resource type="Script" path="res://world/Region.gd" id="1_region"]
 [ext_resource type="PackedScene" uid="uid://c0player0grey0" path="res://characters/player/Player.tscn" id="2_player"]
@@ -11,6 +11,7 @@
 [ext_resource type="Script" path="res://ui/character/CharacterPanel.gd" id="9_char"]
 [ext_resource type="Script" path="res://ui/shop/ShopPanel.gd" id="10_shop"]
 [ext_resource type="Script" path="res://ui/InteractionMenu.gd" id="11_menu"]
+[ext_resource type="Script" path="res://ui/TacticalPause.gd" id="12_tactical"]
 
 [node name="GreyValley" type="Node2D"]
 script = ExtResource("1_region")
@@ -112,6 +113,23 @@ display_name = "流亡者 · 賽格"
 body_color = Color(0.48, 0.5, 0.45, 1)
 dialogue_file = "res://data/dialogue/scavenger.json"
 
+[node name="Raider1" parent="." instance=ExtResource("3_npc")]
+position = Vector2(330, 470)
+display_name = "掠奪者 · 刃"
+body_color = Color(0.7, 0.25, 0.22, 1)
+is_hostile = true
+element = 3
+starting_weapon = &"wooden_club"
+
+[node name="Raider2" parent="." instance=ExtResource("3_npc")]
+position = Vector2(956, 560)
+display_name = "觀察者殘影"
+body_color = Color(0.75, 0.78, 0.82, 1)
+is_hostile = true
+element = 0
+starting_weapon = &"knife"
+aggro_range = 260.0
+
 [node name="BandagePickup" parent="." instance=ExtResource("7_pickup")]
 position = Vector2(300, 610)
 item_id = &"bandage"
@@ -143,6 +161,9 @@ script = ExtResource("10_shop")
 
 [node name="InteractionMenu" type="Control" parent="UI"]
 script = ExtResource("11_menu")
+
+[node name="TacticalPause" type="Control" parent="UI"]
+script = ExtResource("12_tactical")
 
 [node name="DebugOverlay" type="Control" parent="UI"]
 script = ExtResource("6_debug")

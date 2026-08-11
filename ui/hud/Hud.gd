@@ -10,6 +10,8 @@ var _prompt_label: Label
 var _status_label: Label
 var _weapon_label: Label
 var _stamina_bar: ProgressBar
+var _hp_bar: ProgressBar
+var _blood_bar: ProgressBar
 
 
 func _ready() -> void:
@@ -43,27 +45,37 @@ func _build_ui() -> void:
 
 	_status_label = _make_label(Control.PRESET_BOTTOM_LEFT, HORIZONTAL_ALIGNMENT_LEFT, 15)
 	_status_label.offset_left = 16.0
-	_status_label.offset_top = -52.0
+	_status_label.offset_top = -100.0
 	_status_label.offset_right = 360.0
-	_status_label.offset_bottom = -32.0
+	_status_label.offset_bottom = -80.0
 
-	_stamina_bar = ProgressBar.new()
-	_stamina_bar.set_anchors_preset(Control.PRESET_BOTTOM_LEFT)
-	_stamina_bar.offset_left = 16.0
-	_stamina_bar.offset_top = -28.0
-	_stamina_bar.offset_right = 160.0
-	_stamina_bar.offset_bottom = -16.0
-	_stamina_bar.min_value = 0.0
-	_stamina_bar.max_value = 100.0
-	_stamina_bar.value = 100.0
-	_stamina_bar.show_percentage = false
-	add_child(_stamina_bar)
+	_hp_bar = _make_bar(-76.0, Color(0.85, 0.3, 0.3))
+	_blood_bar = _make_bar(-52.0, Color(0.6, 0.1, 0.15))
+	_stamina_bar = _make_bar(-28.0, Color(0.4, 0.7, 0.9))
 
 	_weapon_label = _make_label(Control.PRESET_BOTTOM_RIGHT, HORIZONTAL_ALIGNMENT_RIGHT, 15)
 	_weapon_label.offset_left = -280.0
 	_weapon_label.offset_top = -40.0
 	_weapon_label.offset_right = -16.0
 	_weapon_label.offset_bottom = -16.0
+
+
+func _make_bar(top: float, color: Color) -> ProgressBar:
+	var bar := ProgressBar.new()
+	bar.set_anchors_preset(Control.PRESET_BOTTOM_LEFT)
+	bar.offset_left = 16.0
+	bar.offset_top = top
+	bar.offset_right = 168.0
+	bar.offset_bottom = top + 14.0
+	bar.min_value = 0.0
+	bar.max_value = 100.0
+	bar.value = 100.0
+	bar.show_percentage = false
+	var fill := StyleBoxFlat.new()
+	fill.bg_color = color
+	bar.add_theme_stylebox_override("fill", fill)
+	add_child(bar)
+	return bar
 
 
 func _make_label(preset: int, align: int, font_size: int) -> Label:
@@ -86,10 +98,12 @@ func _connect_player(player: Node) -> void:
 	p.get_equipment().equipment_changed.connect(_on_equipment_changed)
 	GameState.karma_changed.connect(_on_karma_changed)
 	GameState.world_variance_changed.connect(_on_variance_changed)
+	p.get_health().health_changed.connect(_on_health_changed.bind(p))
 	_on_money_changed(p.get_wallet().get_money())
 	_on_equipment_changed()
 	_on_stamina_changed(p.get_stamina_ratio())
 	_on_variance_changed(GameState.world_variance)
+	_on_health_changed(p)
 
 
 func _process(_delta: float) -> void:
@@ -127,6 +141,14 @@ func _update_status() -> void:
 
 func _on_stamina_changed(ratio: float) -> void:
 	_stamina_bar.value = ratio * 100.0
+
+
+func _on_health_changed(player: Player) -> void:
+	if not is_instance_valid(player):
+		return
+	var health := player.get_health()
+	_hp_bar.value = health.get_total_hp_ratio() * 100.0
+	_blood_bar.value = health.get_blood_ratio() * 100.0
 
 
 func _on_equipment_changed() -> void:

@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://c0npc00grey0"]
+[gd_scene load_steps=11 format=3 uid="uid://c0npc00grey0"]
 
 [ext_resource type="Script" path="res://characters/npc/Npc.gd" id="1_npc"]
 [ext_resource type="Script" path="res://characters/components/InteractableComponent.gd" id="2_interact"]
@@ -6,6 +6,8 @@
 [ext_resource type="Script" path="res://characters/components/WalletComponent.gd" id="4_wallet"]
 [ext_resource type="Script" path="res://characters/components/FiveArtsComponent.gd" id="5_arts"]
 [ext_resource type="Script" path="res://characters/components/EquipmentComponent.gd" id="6_equip"]
+[ext_resource type="Script" path="res://characters/components/HealthComponent.gd" id="7_health"]
+[ext_resource type="Script" path="res://characters/components/CombatComponent.gd" id="8_combat"]
 
 [sub_resource type="CircleShape2D" id="body_shape"]
 radius = 9.0
@@ -47,3 +49,9 @@ script = ExtResource("5_arts")
 [node name="Equipment" type="Node" parent="."]
 script = ExtResource("6_equip")
 inventory_path = NodePath("../Inventory")
+
+[node name="Health" type="Node" parent="."]
+script = ExtResource("7_health")
+
+[node name="Combat" type="Node" parent="."]
+script = ExtResource("8_combat")

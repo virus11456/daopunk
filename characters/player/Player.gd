@@ -33,12 +33,17 @@ const STAMINA_REGEN: float = 12.0
 @onready var _equipment: EquipmentComponent = $Equipment
 @onready var _arts: FiveArtsComponent = $Arts
 @onready var _wallet: WalletComponent = $Wallet
+@onready var _health: HealthComponent = $Health
+@onready var _combat: CombatComponent = $Combat
+
+const TARGET_ACQUIRE_RANGE: float = 400.0
 
 var _facing: Vector2 = Vector2.DOWN
 var _current_focus: InteractableComponent = null
 var _is_running: bool = false
 var _is_sneaking: bool = false
 var _stamina: float = STAMINA_MAX
+var _combat_target: Node = null
 
 
 func _ready() -> void:
@@ -46,6 +51,7 @@ func _ready() -> void:
 	GameState.register_player(self)
 	Reincarnation.apply_to_player(self)
 	_apply_starting_loadout()
+	_health.died.connect(_on_died)
 
 
 func _apply_starting_loadout() -> void:
@@ -56,13 +62,16 @@ func _apply_starting_loadout() -> void:
 
 
 func _physics_process(delta: float) -> void:
+	_prune_combat_target()
 	_update_movement(delta)
 	_update_stamina(delta)
 	_update_focus()
+	if _combat_target != null and _combat.in_range(_combat_target as Node2D):
+		_combat.attack(_combat_target)
 
 
 func _update_movement(delta: float) -> void:
-	if GameState.is_ui_blocking():
+	if GameState.is_ui_blocking() or not _health.is_alive() or _health.is_downed():
 		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
 		move_and_slide()
 		return
@@ -71,19 +80,45 @@ func _update_movement(delta: float) -> void:
 	_is_sneaking = Input.is_action_pressed(&"sneak")
 	_is_running = Input.is_action_pressed(&"run") and not _is_sneaking and _stamina > 1.0
 
-	var speed := WALK_SPEED
+	var speed := WALK_SPEED * _health.get_move_multiplier()
 	if _is_sneaking:
 		speed *= SNEAK_MULTIPLIER
 	elif _is_running:
 		speed *= RUN_MULTIPLIER
 
 	if input_dir != Vector2.ZERO:
+		_combat_target = null
 		velocity = velocity.move_toward(input_dir * speed, ACCELERATION * delta)
 		_set_facing(input_dir)
+	elif _combat_target != null:
+		_move_toward_target(delta, speed)
 	else:
 		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
 
 	move_and_slide()
+
+
+## Auto-approaches a combat target until in weapon range, then holds and lets
+## _physics_process fire. WASD overrides this (clears the target).
+func _move_toward_target(delta: float, speed: float) -> void:
+	var target := _combat_target as Node2D
+	var to_target := target.global_position - global_position
+	_set_facing(to_target)
+	if to_target.length() > _combat.get_range() * 0.9:
+		velocity = velocity.move_toward(to_target.normalized() * speed, ACCELERATION * delta)
+	else:
+		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
+
+
+func _prune_combat_target() -> void:
+	if _combat_target == null:
+		return
+	if not is_instance_valid(_combat_target):
+		_combat_target = null
+		return
+	var th := _combat_target.get_node_or_null("Health") as HealthComponent
+	if th == null or not th.is_alive():
+		_combat_target = null
 
 
 func _update_stamina(delta: float) -> void:
@@ -128,6 +163,8 @@ func _update_focus() -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed(&"interact"):
 		_try_interact()
+	elif event.is_action_pressed(&"attack"):
+		_attack_nearest()
 	elif event is InputEventMouseButton and event.pressed:
 		if event.button_index == MOUSE_BUTTON_WHEEL_UP:
 			_adjust_zoom(-ZOOM_STEP)
@@ -182,6 +219,51 @@ func consume(item: ConsumableData) -> bool:
 	if item.soul_repair > 0.0:
 		Reincarnation.repair_soul(item.soul_repair)
 	return true
+
+
+func _attack_nearest() -> void:
+	if GameState.is_ui_blocking() or not _health.is_alive() or _health.is_downed():
+		return
+	if _combat_target == null:
+		_combat_target = _find_nearest_hostile()
+	if _combat_target != null and _combat.in_range(_combat_target as Node2D):
+		_combat.attack(_combat_target)
+
+
+func _find_nearest_hostile() -> Node:
+	var best: Node = null
+	var best_dist := TARGET_ACQUIRE_RANGE
+	for npc in get_tree().get_nodes_in_group(&"npc"):
+		if npc is Npc and (npc as Npc).is_hostile:
+			var h := npc.get_node_or_null("Health") as HealthComponent
+			if h != null and h.is_alive():
+				var d := global_position.distance_to((npc as Node2D).global_position)
+				if d < best_dist:
+					best_dist = d
+					best = npc
+	return best
+
+
+## Called by the tactical-pause overlay to order an attack on a specific target.
+func set_combat_target(node: Node) -> void:
+	_combat_target = node
+
+
+func _on_died() -> void:
+	# Player death is a 輪迴 — reincarnate into a fresh life next frame.
+	call_deferred("_reincarnate_on_death")
+
+
+func _reincarnate_on_death() -> void:
+	Reincarnation.reincarnate()
+
+
+func get_health() -> HealthComponent:
+	return _health
+
+
+func get_combat() -> CombatComponent:
+	return _combat
 
 
 func get_inventory() -> InventoryComponent:
