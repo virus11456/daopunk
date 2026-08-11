@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource path="res://ui/dialogue/dialogue_panel.gd" type="Script" id="1"]
+[node name="DialoguePanel" type="PanelContainer"]
+offset_left = 250.0
+offset_top = 545.0
+offset_right = 1030.0
+offset_bottom = 690.0
+script = ExtResource("1")
+[node name="Margin" type="MarginContainer" parent="."]
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 14
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 14
+[node name="VBox" type="VBoxContainer" parent="Margin"]
+[node name="SpeakerLabel" type="Label" parent="Margin/VBox"]
+unique_name_in_owner = true
+theme_override_colors/font_color = Color(0.95, 0.74, 0.3, 1)
+theme_override_font_sizes/font_size = 22
+text = "Speaker"
+[node name="DialogueLabel" type="Label" parent="Margin/VBox"]
+unique_name_in_owner = true
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 18
+text = "Dialogue"
+autowrap_mode = 2
+[node name="Hint" type="Label" parent="Margin/VBox"]
+text = "E / Esc — close"
+horizontal_alignment = 2
