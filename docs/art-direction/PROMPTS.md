@@ -1,0 +1,11 @@
+# 生成紀錄
+
+工具：內建 imagegen；未使用 CLI/API fallback。
+產物：assets/gba-scrap-street-v1.png
+用途：風格示意，不是可直接匯入的圖集。
+
+## 完整提示詞
+
+Use case: stylized-concept
+Asset type: STRICT LOW RESOLUTION PIXEL ART GAME SCREENSHOT STYLE STUDY for original DAOPUNK game.
+Create a landscape image 1536x1024 that looks EXACTLY like a tiny 240x160 pixel handheld console game screen enlarged approximately 6x using NEAREST NEIGHBOR. Every visible pixel cluster must be BIG and blocky. Early 2000s GBA top-down monster-collecting RPG visual grammar: friendly 2-head-tall chibi people, 16x16 ground tiles, approximately 16x24 pixel character sprites, orthographic straight grid with horizontal and vertical paths, front facades and visible roofs. ORIGINAL characters and buildings, no existing Pokemon creatures or recognizable copyrighted locations. This is a Taoist cyberpunk small town, not a monster game. Show a compact cozy square in Scrap Street: small teal-robed Taoist apprentice with ivory scarf at center, red-coated woman merchant at a small repair stall at left, tiny ivory cyborg monk near a small Chinese-style shrine with a bronze circular device at right. Three squat buildings only, weathered mint-green and teal metal roofs, cream walls, terracotta awnings, a couple pipes, two paper talismans represented by yellow rectangles with 2 red pixels, little potted plants, bronze lanterns, simple stone paving. Upper edge has a small closed entrance to an underground data archive indicated by a jade square light. Warm parchment ground, dusty jade vegetation, desaturated dark blue outlines, brick-red accents. Bright enough to feel inviting yet gently mysterious. Limit visual complexity aggressively. Each material ONLY 2 or 3 flat shades. Large contiguous flat color regions. Visible tile repetition. No outlines thinner than one logical pixel, no details smaller than the enlarged pixel unit. No tiny texture, no film grain, no gradients, no bloom, no cinematic lighting, no painterly shading, no realistic proportions, no perspective vanishing point, no isometric diamonds, no high resolution illustrations. Do not render concept painting. Render a convincing truly chunky pixel game mockup with legible small sprites at native gameplay scale. No text, no HUD, no watermark, no border.
