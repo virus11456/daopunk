@@ -1,0 +1,1336 @@
+{
+  "schema_version": 1,
+  "status": "design_proposal_not_runtime",
+  "universes": [
+    {
+      "id": "U-001",
+      "name": "歸墟",
+      "dao_ruler": "—（原表空缺）",
+      "capital_planet_id": "U-001-P1",
+      "planets": [
+        {
+          "id": "U-001-P1",
+          "name": "蔓哈頓深坑星",
+          "name_status": "existing",
+          "is_capital": true,
+          "title_id": "U-001-P1-TITLE",
+          "title": "鎮淵星主",
+          "exports": "遺物修復、封存資料",
+          "imports": "糧食與淨水",
+          "environment": "深坑岩層與埋藏都市",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-001-P2",
+          "name": "銅鹽星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-001-P2-TITLE",
+          "title": "拾燼星主",
+          "exports": "再生金屬、耐候零件",
+          "imports": "淨水與技術",
+          "environment": "乾燥廢料台地與銅色鹽地",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-001-P3",
+          "name": "青穗星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-001-P3-TITLE",
+          "title": "養穗星主",
+          "exports": "穀物、藥草與種子",
+          "imports": "機具與防護",
+          "environment": "穀物、藥草與種子主題環境（新提案）",
+          "city_status": "not_designed"
+        },
+        {
+          "id": "U-001-P4",
+          "name": "澄泉星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-001-P4-TITLE",
+          "title": "澄流星主",
+          "exports": "淨水、濾芯與水道工程",
+          "imports": "金屬與糧食",
+          "environment": "淨水、濾芯與水道工程主題環境（新提案）",
+          "city_status": "not_designed"
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-001-P2",
+          "target": "U-001-P1",
+          "goods": "再生金屬、耐候零件",
+          "return_goods": "遺物修復、封存資料",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-001-P1",
+          "target": "U-001-P3",
+          "goods": "遺物修復、封存資料",
+          "return_goods": "穀物、藥草與種子",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-001-P3",
+          "target": "U-001-P4",
+          "goods": "穀物、藥草與種子",
+          "return_goods": "淨水、濾芯與水道工程",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-001-P4",
+          "target": "U-001-P2",
+          "goods": "淨水、濾芯與水道工程",
+          "return_goods": "再生金屬、耐候零件",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-001-P3",
+          "target": "U-001-P1",
+          "goods": "穀物、藥草與種子",
+          "return_goods": "遺物修復、封存資料",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-001-P4",
+          "target": "U-001-P1",
+          "goods": "淨水、濾芯與水道工程",
+          "return_goods": "遺物修復、封存資料",
+          "status": "normal",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-001-P1",
+            "U-001-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "銅鹽要求減少主星的回收抽成"
+        },
+        {
+          "parties": [
+            "U-001-P3",
+            "U-001-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "青穗與澄泉以糧水互保抵制徵用"
+        },
+        {
+          "parties": [
+            "U-001-P1",
+            "U-001-P3",
+            "U-001-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "遺物稅權爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-002",
+      "name": "武神界",
+      "dao_ruler": "奎托斯",
+      "capital_planet_id": "U-002-P1",
+      "planets": [
+        {
+          "id": "U-002-P1",
+          "name": "赤岳星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title_id": "U-002-P1-TITLE",
+          "title": "赤岳星主",
+          "exports": "武備、石材與軍事教習",
+          "imports": "糧食與運輸",
+          "environment": "赤岩高地",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-002-P2",
+          "name": "鐵關星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-002-P2-TITLE",
+          "title": "鐵關星主",
+          "exports": "邊境護航、寒鐵",
+          "imports": "糧食與醫藥",
+          "environment": "冷灰山脊",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-002-P3",
+          "name": "禾盾星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-002-P3-TITLE",
+          "title": "豐盾星主",
+          "exports": "軍糧、布匹與皮革",
+          "imports": "農具與護航",
+          "environment": "軍糧、布匹與皮革主題環境（新提案）",
+          "city_status": "not_designed"
+        },
+        {
+          "id": "U-002-P4",
+          "name": "奔雷星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-002-P4-TITLE",
+          "title": "馭雷星主",
+          "exports": "運輸機具、動力核心",
+          "imports": "礦石與糧食",
+          "environment": "運輸機具、動力核心主題環境（新提案）",
+          "city_status": "not_designed"
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-002-P2",
+          "target": "U-002-P1",
+          "goods": "邊境護航、寒鐵",
+          "return_goods": "武備、石材與軍事教習",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-002-P1",
+          "target": "U-002-P3",
+          "goods": "武備、石材與軍事教習",
+          "return_goods": "軍糧、布匹與皮革",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-002-P3",
+          "target": "U-002-P4",
+          "goods": "軍糧、布匹與皮革",
+          "return_goods": "運輸機具、動力核心",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-002-P4",
+          "target": "U-002-P2",
+          "goods": "運輸機具、動力核心",
+          "return_goods": "邊境護航、寒鐵",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-002-P3",
+          "target": "U-002-P1",
+          "goods": "軍糧、布匹與皮革",
+          "return_goods": "武備、石材與軍事教習",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-002-P4",
+          "target": "U-002-P1",
+          "goods": "運輸機具、動力核心",
+          "return_goods": "武備、石材與軍事教習",
+          "status": "normal",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-002-P1",
+            "U-002-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "鐵關要求戰時自主調兵"
+        },
+        {
+          "parties": [
+            "U-002-P3",
+            "U-002-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "禾盾與奔雷要求軍需按約付款"
+        },
+        {
+          "parties": [
+            "U-002-P1",
+            "U-002-P3",
+            "U-002-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "軍令權爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-003",
+      "name": "神經網",
+      "dao_ruler": "蓋亞",
+      "capital_planet_id": "U-003-P1",
+      "planets": [
+        {
+          "id": "U-003-P1",
+          "name": "織憶星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title_id": "U-003-P1-TITLE",
+          "title": "織憶星主",
+          "exports": "記憶儲存、學術檔案",
+          "imports": "運算與散熱",
+          "environment": "灰紫節點台地",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-003-P2",
+          "name": "續訊星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-003-P2-TITLE",
+          "title": "續訊星主",
+          "exports": "通訊中繼、離線備份",
+          "imports": "能源與硬體",
+          "environment": "淡藍訊號平原",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-003-P3",
+          "name": "算海星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-003-P3-TITLE",
+          "title": "演算星主",
+          "exports": "運算服務、模擬模型",
+          "imports": "冷卻與資料",
+          "environment": "運算服務、模擬模型主題環境（新提案）",
+          "city_status": "not_designed"
+        },
+        {
+          "id": "U-003-P4",
+          "name": "寒鏡星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-003-P4-TITLE",
+          "title": "冷映星主",
+          "exports": "冷卻介質、光學晶片",
+          "imports": "能源與技術",
+          "environment": "冷卻介質、光學晶片主題環境（新提案）",
+          "city_status": "not_designed"
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-003-P2",
+          "target": "U-003-P1",
+          "goods": "通訊中繼、離線備份",
+          "return_goods": "記憶儲存、學術檔案",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-003-P1",
+          "target": "U-003-P3",
+          "goods": "記憶儲存、學術檔案",
+          "return_goods": "運算服務、模擬模型",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-003-P3",
+          "target": "U-003-P4",
+          "goods": "運算服務、模擬模型",
+          "return_goods": "冷卻介質、光學晶片",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-003-P4",
+          "target": "U-003-P2",
+          "goods": "冷卻介質、光學晶片",
+          "return_goods": "通訊中繼、離線備份",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-003-P3",
+          "target": "U-003-P1",
+          "goods": "運算服務、模擬模型",
+          "return_goods": "記憶儲存、學術檔案",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-003-P4",
+          "target": "U-003-P1",
+          "goods": "冷卻介質、光學晶片",
+          "return_goods": "記憶儲存、學術檔案",
+          "status": "normal",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-003-P1",
+            "U-003-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "續訊要求保留離線權"
+        },
+        {
+          "parties": [
+            "U-003-P3",
+            "U-003-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "算海與寒鏡共同限制未授權模型訓練"
+        },
+        {
+          "parties": [
+            "U-003-P1",
+            "U-003-P3",
+            "U-003-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "資料自治爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-004",
+      "name": "智械天庭",
+      "dao_ruler": "玉皇 Prime",
+      "capital_planet_id": "U-004-P1",
+      "planets": [
+        {
+          "id": "U-004-P1",
+          "name": "玉衡星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title_id": "U-004-P1-TITLE",
+          "title": "司籍星主",
+          "exports": "行政認證、精密機體",
+          "imports": "能源與原料",
+          "environment": "人工玉白平台",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-004-P2",
+          "name": "寒序星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-004-P2-TITLE",
+          "title": "衛序星主",
+          "exports": "邊防服務、退役零件",
+          "imports": "能源與維修",
+          "environment": "寒冷金屬平原",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-004-P3",
+          "name": "曜核星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-004-P3-TITLE",
+          "title": "奉能星主",
+          "exports": "能源核心、電力配額",
+          "imports": "散熱與機體",
+          "environment": "能源核心、電力配額主題環境（新提案）",
+          "city_status": "not_designed"
+        },
+        {
+          "id": "U-004-P4",
+          "name": "鑄律星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-004-P4-TITLE",
+          "title": "鑄律星主",
+          "exports": "標準零件、維修工坊",
+          "imports": "能源與認證",
+          "environment": "標準零件、維修工坊主題環境（新提案）",
+          "city_status": "not_designed"
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-004-P2",
+          "target": "U-004-P1",
+          "goods": "邊防服務、退役零件",
+          "return_goods": "行政認證、精密機體",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-004-P1",
+          "target": "U-004-P3",
+          "goods": "行政認證、精密機體",
+          "return_goods": "能源核心、電力配額",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-004-P3",
+          "target": "U-004-P4",
+          "goods": "能源核心、電力配額",
+          "return_goods": "標準零件、維修工坊",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-004-P4",
+          "target": "U-004-P2",
+          "goods": "標準零件、維修工坊",
+          "return_goods": "邊防服務、退役零件",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-004-P3",
+          "target": "U-004-P1",
+          "goods": "能源核心、電力配額",
+          "return_goods": "行政認證、精密機體",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-004-P4",
+          "target": "U-004-P1",
+          "goods": "標準零件、維修工坊",
+          "return_goods": "行政認證、精密機體",
+          "status": "normal",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-004-P1",
+            "U-004-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "寒序要求承認退役機體公民權"
+        },
+        {
+          "parties": [
+            "U-004-P3",
+            "U-004-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "曜核與鑄律爭奪能源配額決定權"
+        },
+        {
+          "parties": [
+            "U-004-P1",
+            "U-004-P3",
+            "U-004-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "生命資格爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-005",
+      "name": "星際商盟",
+      "dao_ruler": "沃倫",
+      "capital_planet_id": "U-005-P1",
+      "planets": [
+        {
+          "id": "U-005-P1",
+          "name": "衡金星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title_id": "U-005-P1-TITLE",
+          "title": "衡金星主",
+          "exports": "結算服務、交易信用",
+          "imports": "貨品與護航",
+          "environment": "乾暖港灣",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-005-P2",
+          "name": "通衢星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-005-P2-TITLE",
+          "title": "通衢星主",
+          "exports": "保稅倉儲、邊境物流",
+          "imports": "通行協議與燃料",
+          "environment": "冷色軌道貨運地表",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-005-P3",
+          "name": "萬舶星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-005-P3-TITLE",
+          "title": "領舶星主",
+          "exports": "船舶修造、遠洋護航",
+          "imports": "零件與糧食",
+          "environment": "船舶修造、遠洋護航主題環境（新提案）",
+          "city_status": "not_designed"
+        },
+        {
+          "id": "U-005-P4",
+          "name": "百穀星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-005-P4-TITLE",
+          "title": "司廩星主",
+          "exports": "糧食、日用消費品",
+          "imports": "運力與信用",
+          "environment": "糧食、日用消費品主題環境（新提案）",
+          "city_status": "not_designed"
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-005-P2",
+          "target": "U-005-P1",
+          "goods": "保稅倉儲、邊境物流",
+          "return_goods": "結算服務、交易信用",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-005-P1",
+          "target": "U-005-P3",
+          "goods": "結算服務、交易信用",
+          "return_goods": "船舶修造、遠洋護航",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-005-P3",
+          "target": "U-005-P4",
+          "goods": "船舶修造、遠洋護航",
+          "return_goods": "糧食、日用消費品",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-005-P4",
+          "target": "U-005-P2",
+          "goods": "糧食、日用消費品",
+          "return_goods": "保稅倉儲、邊境物流",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-005-P3",
+          "target": "U-005-P1",
+          "goods": "船舶修造、遠洋護航",
+          "return_goods": "結算服務、交易信用",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-005-P4",
+          "target": "U-005-P1",
+          "goods": "糧食、日用消費品",
+          "return_goods": "結算服務、交易信用",
+          "status": "normal",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-005-P1",
+            "U-005-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "通衢要求自由港地位"
+        },
+        {
+          "parties": [
+            "U-005-P3",
+            "U-005-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "萬舶與百穀反對主星單方面提高結算費"
+        },
+        {
+          "parties": [
+            "U-005-P1",
+            "U-005-P3",
+            "U-005-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "關稅與信用爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-006",
+      "name": "元素洪爐",
+      "dao_ruler": "聚變",
+      "capital_planet_id": "U-006-P1",
+      "planets": [
+        {
+          "id": "U-006-P1",
+          "name": "熾衡星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title_id": "U-006-P1-TITLE",
+          "title": "司爐星主",
+          "exports": "冶煉、合金與鍛件",
+          "imports": "冷卻介質與礦晶",
+          "environment": "冷熱交界火山台地",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-006-P2",
+          "name": "碎晶星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-006-P2-TITLE",
+          "title": "定界星主",
+          "exports": "礦晶、模組橋",
+          "imports": "工具與穩定劑",
+          "environment": "碎裂礦晶台地",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-006-P3",
+          "name": "霜汀星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-006-P3-TITLE",
+          "title": "調溫星主",
+          "exports": "冷卻液、耐熱陶材",
+          "imports": "能源與零件",
+          "environment": "冷卻液、耐熱陶材主題環境（新提案）",
+          "city_status": "not_designed"
+        },
+        {
+          "id": "U-006-P4",
+          "name": "遷陸星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-006-P4-TITLE",
+          "title": "遷陸星主",
+          "exports": "重構平台、空間定位器",
+          "imports": "礦晶與合金",
+          "environment": "重構平台、空間定位器主題環境（新提案）",
+          "city_status": "not_designed"
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-006-P2",
+          "target": "U-006-P1",
+          "goods": "礦晶、模組橋",
+          "return_goods": "冶煉、合金與鍛件",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-006-P1",
+          "target": "U-006-P3",
+          "goods": "冶煉、合金與鍛件",
+          "return_goods": "冷卻液、耐熱陶材",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-006-P3",
+          "target": "U-006-P4",
+          "goods": "冷卻液、耐熱陶材",
+          "return_goods": "重構平台、空間定位器",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-006-P4",
+          "target": "U-006-P2",
+          "goods": "重構平台、空間定位器",
+          "return_goods": "礦晶、模組橋",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-006-P3",
+          "target": "U-006-P1",
+          "goods": "冷卻液、耐熱陶材",
+          "return_goods": "冶煉、合金與鍛件",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-006-P4",
+          "target": "U-006-P1",
+          "goods": "重構平台、空間定位器",
+          "return_goods": "冶煉、合金與鍛件",
+          "status": "normal",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-006-P1",
+            "U-006-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "碎晶要求保留居住區不得徵拆"
+        },
+        {
+          "parties": [
+            "U-006-P3",
+            "U-006-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "霜汀與遷陸因冷卻配額互相牽制"
+        },
+        {
+          "parties": [
+            "U-006-P1",
+            "U-006-P3",
+            "U-006-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "重構許可爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-007",
+      "name": "生化樂園",
+      "dao_ruler": "涂山氏",
+      "capital_planet_id": "U-007-P1",
+      "planets": [
+        {
+          "id": "U-007-P1",
+          "name": "華種星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title_id": "U-007-P1-TITLE",
+          "title": "育華星主",
+          "exports": "種苗、醫藥與培育技術",
+          "imports": "生物材料與樣本",
+          "environment": "培育林與花田",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-007-P2",
+          "name": "菌澤星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-007-P2-TITLE",
+          "title": "共棲星主",
+          "exports": "菌絲材料、污染分解",
+          "imports": "醫藥與通行",
+          "environment": "菌絲濕地",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-007-P3",
+          "name": "蜜潮星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-007-P3-TITLE",
+          "title": "授芳星主",
+          "exports": "授粉服務、營養液",
+          "imports": "種苗與淨水",
+          "environment": "授粉服務、營養液主題環境（新提案）",
+          "city_status": "not_designed"
+        },
+        {
+          "id": "U-007-P4",
+          "name": "鏡葉星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-007-P4-TITLE",
+          "title": "辨生星主",
+          "exports": "生物檢驗、環境監測",
+          "imports": "樣本與儀器",
+          "environment": "生物檢驗、環境監測主題環境（新提案）",
+          "city_status": "not_designed"
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-007-P2",
+          "target": "U-007-P1",
+          "goods": "菌絲材料、污染分解",
+          "return_goods": "種苗、醫藥與培育技術",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-007-P1",
+          "target": "U-007-P3",
+          "goods": "種苗、醫藥與培育技術",
+          "return_goods": "授粉服務、營養液",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-007-P3",
+          "target": "U-007-P4",
+          "goods": "授粉服務、營養液",
+          "return_goods": "生物檢驗、環境監測",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-007-P4",
+          "target": "U-007-P2",
+          "goods": "生物檢驗、環境監測",
+          "return_goods": "菌絲材料、污染分解",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-007-P3",
+          "target": "U-007-P1",
+          "goods": "授粉服務、營養液",
+          "return_goods": "種苗、醫藥與培育技術",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-007-P4",
+          "target": "U-007-P1",
+          "goods": "生物檢驗、環境監測",
+          "return_goods": "種苗、醫藥與培育技術",
+          "status": "normal",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-007-P1",
+            "U-007-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "菌澤要求共生群落自治"
+        },
+        {
+          "parties": [
+            "U-007-P3",
+            "U-007-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "蜜潮與鏡葉對檢疫封鎖尺度意見相左"
+        },
+        {
+          "parties": [
+            "U-007-P1",
+            "U-007-P3",
+            "U-007-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "培育授權爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-008",
+      "name": "幽冥數據流",
+      "dao_ruler": "閻羅 X",
+      "capital_planet_id": "U-008-P1",
+      "planets": [
+        {
+          "id": "U-008-P1",
+          "name": "冥渡星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title_id": "U-008-P1-TITLE",
+          "title": "掌渡星主",
+          "exports": "資料轉運、交接服務",
+          "imports": "儲存器與紙燈",
+          "environment": "幽暗資料河岸",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-008-P2",
+          "name": "靜白星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-008-P2-TITLE",
+          "title": "守諱星主",
+          "exports": "匿名庇護、隱私封存",
+          "imports": "補給與運輸",
+          "environment": "灰白靜默平原",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-008-P3",
+          "name": "封碑星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-008-P3-TITLE",
+          "title": "守碑星主",
+          "exports": "長期檔案、修復磁片",
+          "imports": "能源與授權",
+          "environment": "長期檔案、修復磁片主題環境（新提案）",
+          "city_status": "not_designed"
+        },
+        {
+          "id": "U-008-P4",
+          "name": "燈津星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-008-P4-TITLE",
+          "title": "引燈星主",
+          "exports": "引路燈、渡船修造",
+          "imports": "金屬與航路記錄",
+          "environment": "引路燈、渡船修造主題環境（新提案）",
+          "city_status": "not_designed"
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-008-P2",
+          "target": "U-008-P1",
+          "goods": "匿名庇護、隱私封存",
+          "return_goods": "資料轉運、交接服務",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-008-P1",
+          "target": "U-008-P3",
+          "goods": "資料轉運、交接服務",
+          "return_goods": "長期檔案、修復磁片",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-008-P3",
+          "target": "U-008-P4",
+          "goods": "長期檔案、修復磁片",
+          "return_goods": "引路燈、渡船修造",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-008-P4",
+          "target": "U-008-P2",
+          "goods": "引路燈、渡船修造",
+          "return_goods": "匿名庇護、隱私封存",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-008-P3",
+          "target": "U-008-P1",
+          "goods": "長期檔案、修復磁片",
+          "return_goods": "資料轉運、交接服務",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-008-P4",
+          "target": "U-008-P1",
+          "goods": "引路燈、渡船修造",
+          "return_goods": "資料轉運、交接服務",
+          "status": "normal",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-008-P1",
+            "U-008-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "靜白拒交受庇護者的真名"
+        },
+        {
+          "parties": [
+            "U-008-P3",
+            "U-008-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "封碑與燈津爭論誰能授權開封亡者記錄"
+        },
+        {
+          "parties": [
+            "U-008-P1",
+            "U-008-P3",
+            "U-008-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "封存管轄爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-009",
+      "name": "深淵",
+      "dao_ruler": "亞茲",
+      "capital_planet_id": "U-009-P1",
+      "planets": [
+        {
+          "id": "U-009-P1",
+          "name": "繫燈星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title_id": "U-009-P1-TITLE",
+          "title": "繫魂星主",
+          "exports": "橋路維護、避難中繼",
+          "imports": "燃料與建材",
+          "environment": "斷裂陸塊",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-009-P2",
+          "name": "回聲星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-009-P2-TITLE",
+          "title": "留聲星主",
+          "exports": "失落記錄、姓名修復",
+          "imports": "庇護與介質",
+          "environment": "失色空寂荒原",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-009-P3",
+          "name": "沉錨星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-009-P3-TITLE",
+          "title": "固岸星主",
+          "exports": "錨石、結構支撐",
+          "imports": "運力與魂燈",
+          "environment": "錨石、結構支撐主題環境（新提案）",
+          "city_status": "not_designed"
+        },
+        {
+          "id": "U-009-P4",
+          "name": "微焰星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-009-P4-TITLE",
+          "title": "續火星主",
+          "exports": "魂燈燃料、保暖織物",
+          "imports": "錨石與糧食",
+          "environment": "魂燈燃料、保暖織物主題環境（新提案）",
+          "city_status": "not_designed"
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-009-P2",
+          "target": "U-009-P1",
+          "goods": "失落記錄、姓名修復",
+          "return_goods": "橋路維護、避難中繼",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-009-P1",
+          "target": "U-009-P3",
+          "goods": "橋路維護、避難中繼",
+          "return_goods": "錨石、結構支撐",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-009-P3",
+          "target": "U-009-P4",
+          "goods": "錨石、結構支撐",
+          "return_goods": "魂燈燃料、保暖織物",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-009-P4",
+          "target": "U-009-P2",
+          "goods": "魂燈燃料、保暖織物",
+          "return_goods": "失落記錄、姓名修復",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-009-P3",
+          "target": "U-009-P1",
+          "goods": "錨石、結構支撐",
+          "return_goods": "橋路維護、避難中繼",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-009-P4",
+          "target": "U-009-P1",
+          "goods": "魂燈燃料、保暖織物",
+          "return_goods": "橋路維護、避難中繼",
+          "status": "normal",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-009-P1",
+            "U-009-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "回聲要求救援優先於主星橋稅"
+        },
+        {
+          "parties": [
+            "U-009-P3",
+            "U-009-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "沉錨與微焰交換配額以防主星獨占生命線"
+        },
+        {
+          "parties": [
+            "U-009-P1",
+            "U-009-P3",
+            "U-009-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "避難資源爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-010",
+      "name": "永恆聖堂",
+      "dao_ruler": "陸吾",
+      "capital_planet_id": "U-010-P1",
+      "planets": [
+        {
+          "id": "U-010-P1",
+          "name": "晝庭星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title_id": "U-010-P1-TITLE",
+          "title": "司晝星主",
+          "exports": "光井技術、教育與圖紙",
+          "imports": "材料與糧食",
+          "environment": "明亮白石階地",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-010-P2",
+          "name": "啟曦星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-010-P2-TITLE",
+          "title": "啟曦星主",
+          "exports": "新城建設、公共設施",
+          "imports": "技術與建材",
+          "environment": "暖金晨曦平原",
+          "city_status": "existing_two_templates"
+        },
+        {
+          "id": "U-010-P3",
+          "name": "白垣星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-010-P3-TITLE",
+          "title": "築垣星主",
+          "exports": "白石、陶材與施工",
+          "imports": "能源與糧食",
+          "environment": "白石、陶材與施工主題環境（新提案）",
+          "city_status": "not_designed"
+        },
+        {
+          "id": "U-010-P4",
+          "name": "晨穗星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title_id": "U-010-P4-TITLE",
+          "title": "沐光星主",
+          "exports": "糧食、庭園與生態維護",
+          "imports": "水利與建材",
+          "environment": "糧食、庭園與生態維護主題環境（新提案）",
+          "city_status": "not_designed"
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-010-P2",
+          "target": "U-010-P1",
+          "goods": "新城建設、公共設施",
+          "return_goods": "光井技術、教育與圖紙",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-010-P1",
+          "target": "U-010-P3",
+          "goods": "光井技術、教育與圖紙",
+          "return_goods": "白石、陶材與施工",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-010-P3",
+          "target": "U-010-P4",
+          "goods": "白石、陶材與施工",
+          "return_goods": "糧食、庭園與生態維護",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-010-P4",
+          "target": "U-010-P2",
+          "goods": "糧食、庭園與生態維護",
+          "return_goods": "新城建設、公共設施",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-010-P3",
+          "target": "U-010-P1",
+          "goods": "白石、陶材與施工",
+          "return_goods": "光井技術、教育與圖紙",
+          "status": "normal",
+          "proposal": true
+        },
+        {
+          "source": "U-010-P4",
+          "target": "U-010-P1",
+          "goods": "糧食、庭園與生態維護",
+          "return_goods": "光井技術、教育與圖紙",
+          "status": "normal",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-010-P1",
+            "U-010-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "啟曦要求居民自行修改標準圖紙"
+        },
+        {
+          "parties": [
+            "U-010-P3",
+            "U-010-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "白垣與晨穗反對為建設指標過度開採"
+        },
+        {
+          "parties": [
+            "U-010-P1",
+            "U-010-P3",
+            "U-010-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "創建規範爭議"
+        }
+      ]
+    }
+  ]
+}
