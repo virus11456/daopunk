@@ -2,7 +2,7 @@
 
 狀態：GBA 像素美術主方向已由使用者確認；各素材為概念設計，尚非已完成的遊戲換皮。2026-09-26。
 
-後續完整設定：[十大宇宙主視覺](universes/README.md) · [世界觀來源與修正](universes/SOURCES.md) · [五術職業與修行樹](cards-items/FIVE_ARTS.md) · [40 種卡牌與 17 種道具](cards-items/README.md) · [離線圖鑑](universes/gallery.html)。
+後續完整設定：[十大宇宙主視覺](universes/README.md) · [世界觀來源與修正](universes/SOURCES.md) · [五術職業與修行樹](cards-items/FIVE_ARTS.md) · [40 種卡牌與 17 種道具](cards-items/README.md) · [房產與跨輪迴舊居](../design/HOUSING_AND_REINCARNATION.md) · [離線圖鑑](universes/gallery.html)。
 
 ![破爛街風格示意](assets/gba-scrap-street-v1.png)
 
