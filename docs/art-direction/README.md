@@ -1,6 +1,8 @@
 # DAOPUNK 美術方向提案：GBA 時代的道術像素 RPG
 
-狀態：風格提案，等待視覺方向確認；不是已完成的遊戲換皮。2026-09-26。
+狀態：GBA 像素美術主方向已由使用者確認；各素材為概念設計，尚非已完成的遊戲換皮。2026-09-26。
+
+後續完整設定：[十大宇宙主視覺](universes/README.md) · [世界觀來源與修正](universes/SOURCES.md) · [五術職業與修行樹](cards-items/FIVE_ARTS.md) · [40 種卡牌與 17 種道具](cards-items/README.md) · [離線圖鑑](universes/gallery.html)。
 
 ![破爛街風格示意](assets/gba-scrap-street-v1.png)
 
@@ -54,4 +56,3 @@
 ## 交付與驗證
 
 本次僅新增風格規範、概念 PNG 與生成提示詞。沒有新增 .blend、Godot 場景或可玩卡牌系統；沒有將先前較精細的概念畫列為製作標準。圖片已目視檢查；引擎執行結果另見 PR 說明。
-

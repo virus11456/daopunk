@@ -1,5 +1,7 @@
 # 灰谷（Grey Valley）— 2D 半開放世界 RPG
 
+> 新美術與玩法設計：[十大宇宙 GBA 像素主視覺](docs/art-direction/universes/README.md)、[五術職業與修行樹](docs/art-direction/cards-items/FIVE_ARTS.md)、[卡牌／道具圖鑑](docs/art-direction/cards-items/README.md)。以下為現有可玩原型狀態；新設計尚未接入遊戲。
+
 一款以 **Godot 4.3 + GDScript** 開發的 2D 高角度俯視、半開放世界 RPG。**美術風格**
 參考 RimWorld 的高層次理念（俯視 tile 世界、簡潔小型角色、系統化模擬，全部原創
 placeholder）；**玩法內容**採用《Kiro：觀測者之夢》世界觀（五術、十宇宙、功德、
