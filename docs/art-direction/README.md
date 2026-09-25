@@ -2,7 +2,7 @@
 
 狀態：GBA 像素美術主方向已由使用者確認；各素材為概念設計，尚非已完成的遊戲換皮。2026-09-26。
 
-後續完整設定：[角色概念圖](characters/README.md) · [十大宇宙主視覺](universes/README.md) · [世界觀來源與修正](universes/SOURCES.md) · [五術職業與修行樹](cards-items/FIVE_ARTS.md) · [40 種卡牌與 17 種道具](cards-items/README.md) · [房產與跨輪迴舊居](../design/HOUSING_AND_REINCARNATION.md) · [離線圖鑑](universes/gallery.html)。
+後續完整設定：[完整城市配置](cities/README.md) · [角色概念圖](characters/README.md) · [十大宇宙主視覺](universes/README.md) · [世界觀來源與修正](universes/SOURCES.md) · [五術職業與修行樹](cards-items/FIVE_ARTS.md) · [40 種卡牌與 17 種道具](cards-items/README.md) · [房產與跨輪迴舊居](../design/HOUSING_AND_REINCARNATION.md) · [離線圖鑑](universes/gallery.html)。
 
 ![破爛街風格示意](assets/gba-scrap-street-v1.png)
 
@@ -51,7 +51,7 @@
 
 使用者已確認肉鴿定位：每輪探索、構築流派、挑戰終點，勝敗結算後輪迴重開。跨輪迴以解鎖策略選項與故事為主。詳見[肉鴿核心循環](../design/ROGUELITE_LOOP.md)。
 
-優先原型方案為「可走動像素城市＋分岔路線＋五術牌組回合戰鬥」；具體戰鬥規則仍需驗證。城市、房屋與 NPC 事件均服務本輪選擇與跨世記憶。現有即時戰鬥尚未轉版。
+戰鬥設計方向為「可走動像素城市＋分岔路線＋五術牌組回合戰鬥」；具體戰鬥規則仍需驗證。城市、房屋與 NPC 事件均服務本輪選擇與跨世記憶。現有即時戰鬥尚未轉版。
 
 ## 交付與驗證
 

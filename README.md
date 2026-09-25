@@ -1,5 +1,7 @@
 # 灰谷（Grey Valley）— 2D 半開放世界 RPG
 
+> 美術補充：[完整城市配置](docs/art-direction/cities/README.md)、[全部角色與道主](docs/art-direction/characters/README.md)。
+
 > 新版本定位：**GBA 像素肉鴿**，以每輪構築與輪迴推進。詳見[肉鴿核心循環](docs/design/ROGUELITE_LOOP.md)與[設計完成狀態](docs/design/README.md)。
 
 > 新美術與玩法設計：[十大宇宙 GBA 像素主視覺](docs/art-direction/universes/README.md)、[五術職業與修行樹](docs/art-direction/cards-items/FIVE_ARTS.md)、[卡牌／道具圖鑑](docs/art-direction/cards-items/README.md)、[房產與跨輪迴舊居](docs/design/HOUSING_AND_REINCARNATION.md)。以下為現有可玩原型狀態；新設計尚未接入遊戲。
