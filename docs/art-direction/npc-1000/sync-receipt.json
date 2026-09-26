@@ -1,33 +1,19 @@
 {
-  "asset_commit": "956d906744caa6a1ec67dcd6db274a0b23a9dfc4",
-  "verified_method": "GitHub committed recursive tree exact blob SHA matches all local manifest files",
-  "verified_files": 46,
-  "characters_with_images": 84,
-  "accepted_static_front_designs": 82,
-  "remaining_without_images": 916,
-  "pending_cleanup_ids": [
+  "batch": "NPC-0073-0082",
+  "verified_asset_commit": "c30ff41ce408e94b23d441a6bfc3026f9868e84b",
+  "verified_ids": [
     "NPC-0073",
-    "NPC-0074"
+    "NPC-0074",
+    "NPC-0075",
+    "NPC-0076",
+    "NPC-0077",
+    "NPC-0078",
+    "NPC-0079",
+    "NPC-0080",
+    "NPC-0081",
+    "NPC-0082"
   ],
-  "next_id": "NPC-0073",
-  "phase_completed": 40,
-  "phase_target": 100,
-  "phase_end": "NPC-0132",
-  "extra_completed_ids": [
-    "NPC-0133",
-    "NPC-0134",
-    "NPC-0135",
-    "NPC-0136",
-    "NPC-0137",
-    "NPC-0138",
-    "NPC-0139",
-    "NPC-0140",
-    "NPC-0141",
-    "NPC-0142"
-  ],
-  "not_completed": [
-    "animation",
-    "four-direction sprites",
-    "Godot integration"
-  ]
+  "synced_characters": 92,
+  "phase_synced": 50,
+  "verification": "All 39 explicit files matched remote Git tree blob SHAs."
 }
