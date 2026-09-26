@@ -328,3 +328,8 @@
 ### 百位 NPC 階段完成：0033–0132
 
 100／100 位已完成原稿、40×48 像素清理、逐張目視檢查、本機交付及遠端圖片雜湊驗證。全庫累計 142 位，長期 1,000 位目標尚餘 858 位。[本階段交付索引](docs/art-direction/npc-1000/PHASE-100-DELIVERY.md) · [可搜尋圖庫](docs/art-direction/npc-1000/phase-100-gallery.html) · [百位總覽](docs/art-direction/npc-1000/phase-100-contact.png)。本機下載包：outputs/npc-1000/DAOPUNK-NPC-0033-0132.zip。依授權於本階段完成後暫停既有排程；動畫、四方向及 Godot 整合尚未製作。
+
+
+### K01 奎托斯篇 v1《承擔》收稿與審閱
+
+新增 [K01 收稿包](docs/story-drafts/kratos-k01-v1/README.md)：對話稿結構摘要（非逐字原稿）、16 項一致性審閱及 Claude 修訂 prompt。重點為沉睡代價動機、承擔與親授資格、觀命資訊邊界、兵契期限與執行、知識來源及法則領取。新角色與代價設定保持提案，不恢復自動時限結局；未實作戰鬥或 Godot。NPC 百位階段維持完成及排程暫停。
