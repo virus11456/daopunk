@@ -120,3 +120,7 @@ NPC-0011～0020完成正面靜態設計與像素清理，累計20位，980位待
 ## NPC進度：沉環京批次
 
 NPC-0021～0030已完成正面靜態設計、40×48像素清理及逐張檢查；累計30位，970位待生成。[圖庫](docs/art-direction/npc-1000/gallery.html)。動畫及Godot整合未完成。
+
+## 最新交付：NPC-0031 與 Y01 v1.1
+
+[角色圖庫](docs/art-direction/npc-1000/gallery.html)累計31位，969位待生成；回收聚落修理工完成40×48清理與檢查。[Y01 v1.1收稿](docs/story-drafts/yanluo-y01-v1.1/README.md)保留原稿並列修訂事項，未接入Godot。

@@ -1485,10 +1485,44 @@
       "universe_id": "U-001",
       "role_proposal": "修理工",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: nonhuman vat-grown leaf-skinned biped, repair worker of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear side-creased soft cap and cross-collar short jacket, carry single large wrench. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0031 for bookkeeping only, do not write it in image.",
-      "status": "planned_not_generated",
-      "asset": null,
-      "review": null
+      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: nonhuman vat-grown leaf-skinned biped, repair worker of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear side-creased soft cap and cross-collar short jacket, carry single large wrench. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0031 for bookkeeping only, do not write it in image. Keep construction extremely simple, approximately40x48 logical pixels. Add one magnetic clamp buckle and copper-salt weathering mark; no extra props or scenery.",
+      "status": "reviewed_static_design",
+      "asset": "assets/NPC-0031-front-clean-v1.png",
+      "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done.",
+      "planned_prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: nonhuman vat-grown leaf-skinned biped, repair worker of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear side-creased soft cap and cross-collar short jacket, carry single large wrench. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0031 for bookkeeping only, do not write it in image.",
+      "versions": [
+        {
+          "asset": "assets/NPC-0031-front-v1.png",
+          "width": 1145,
+          "height": 1374,
+          "sha256": "8bf04db08854b36f58d7b2458fb7648511954173cfbf006490795f1117f9f2f8",
+          "git_blob_sha": "ac7a991f664c8085e272377621fe2847c4380399",
+          "alpha_partial_pixels": 744698,
+          "synced": false,
+          "version": 1,
+          "qa": "visually_reviewed_source_needs_cleanup",
+          "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: nonhuman vat-grown leaf-skinned biped, repair worker of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear side-creased soft cap and cross-collar short jacket, carry single large wrench. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0031 for bookkeeping only, do not write it in image. Keep construction extremely simple, approximately40x48 logical pixels. Add one magnetic clamp buckle and copper-salt weathering mark; no extra props or scenery.",
+          "prompt_fidelity": "exact_tool_input",
+          "source": "built-in imagegen",
+          "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-b961e346-fb19-407d-8ddd-97299b36a233.png",
+          "review": "Single frontal full body; nonhuman identity, occupation tool and local copper-salt workwear reviewed. Fine gradients require cleanup."
+        },
+        {
+          "asset": "assets/NPC-0031-front-clean-v1.png",
+          "width": 40,
+          "height": 48,
+          "sha256": "57365f2bd04626f94fbf306ad8542d4c515f626a813385348739ace5d02810a7",
+          "git_blob_sha": "ea385ad6b167d1c85e3c77bf919649c6915a4f05",
+          "alpha_partial_pixels": 0,
+          "synced": false,
+          "version": "clean-v1",
+          "qa": "accepted_static_front_design",
+          "source": "user-authorized deterministic cleanup of imagegen source",
+          "source_asset": "assets/NPC-0031-front-v1.png",
+          "cleanup_recipe": "batch-0031-cleanup.py: threshold128; aspect preserving nearest scaling within36x44; shared32-color palette no dithering; 40x48 canvas; 8x preview",
+          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done."
+        }
+      ]
     },
     {
       "id": "NPC-0032",
