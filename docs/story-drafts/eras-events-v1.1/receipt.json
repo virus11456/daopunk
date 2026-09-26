@@ -1,0 +1,16 @@
+{
+  "source": "user chat message: DAOPUNK 時代與隨機事件池規格 v1.1",
+  "date": "2026-09-26",
+  "source_copy": "SOURCE.md is a normalized transcription; original chat is authoritative",
+  "source_copy_sha256": "1194d27ec865880c90d2f217422208579b14f3b55d08d933b788feff93c812bb",
+  "status": "received_reviewed_working_revision_prepared",
+  "new_proposals_not_blanket_approved": true,
+  "checks": {
+    "candidate_count": 30,
+    "all_city_ids_resolve": true,
+    "unique_city_ids": true,
+    "category_sum": 300,
+    "region_sum": 300
+  },
+  "engine_implemented": false
+}
