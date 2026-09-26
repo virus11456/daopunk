@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "status": "planning_only_not_runtime",
+  "chapter_order_is": "draft_sequence_not_mandatory_gameplay",
+  "chapters": [
+    {
+      "id": "S01",
+      "source": "docs/story-drafts/claude-batch-01/ORIGINAL.md",
+      "review": "docs/story-drafts/claude-batch-01/REVIEW.md",
+      "scene_count": 8,
+      "review_item_count": 12,
+      "status": "received_not_revised"
+    },
+    {
+      "id": "R01",
+      "source": "docs/story-drafts/red-r01/ORIGINAL.md",
+      "review": "docs/story-drafts/red-r01/REVIEW.md",
+      "scene_count": 7,
+      "review_item_count": 9,
+      "status": "received_not_revised"
+    },
+    {
+      "id": "Z01",
+      "source": "docs/story-drafts/zero-z01/ORIGINAL.md",
+      "review": "docs/story-drafts/zero-z01/REVIEW.md",
+      "scene_count": 7,
+      "review_item_count": 12,
+      "status": "received_not_revised"
+    },
+    {
+      "id": "X01",
+      "source": "docs/story-drafts/stardust-x01/ORIGINAL.md",
+      "review": "docs/story-drafts/stardust-x01/REVIEW.md",
+      "scene_count": 7,
+      "review_item_count": 12,
+      "status": "received_not_revised"
+    },
+    {
+      "id": "D01",
+      "source": "docs/story-drafts/death-d01/ORIGINAL.md",
+      "review": "docs/story-drafts/death-d01/REVIEW.md",
+      "scene_count": 8,
+      "review_item_count": 14,
+      "status": "received_not_revised"
+    },
+    {
+      "id": "S02",
+      "source": "docs/story-drafts/red-reunion-s02-v2/ORIGINAL.md",
+      "review": "docs/story-drafts/red-reunion-s02-v2/REVIEW.md",
+      "scene_count": 7,
+      "review_item_count": 12,
+      "status": "received_not_revised"
+    },
+    {
+      "id": "M01",
+      "source": "docs/story-drafts/elder-m01/ORIGINAL.md",
+      "review": "docs/story-drafts/elder-m01/REVIEW.md",
+      "scene_count": 7,
+      "review_item_count": 14,
+      "status": "received_not_revised"
+    },
+    {
+      "id": "F01",
+      "source": "docs/story-drafts/fourth-sister-f01/ORIGINAL.md",
+      "review": "docs/story-drafts/fourth-sister-f01/REVIEW.md",
+      "scene_count": 7,
+      "review_item_count": 14,
+      "status": "received_not_revised"
+    },
+    {
+      "id": "Y01",
+      "source": "docs/story-drafts/yanluo-y01/ORIGINAL.md",
+      "review": "docs/story-drafts/yanluo-y01/REVIEW.md",
+      "scene_count": 7,
+      "review_item_count": 14,
+      "status": "received_not_revised"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "P01",
+      "title": "兩張紙的持有鏈",
+      "category": "content_fix",
+      "chapters": [
+        "S01",
+        "D01",
+        "S02",
+        "M01"
+      ],
+      "depends_on": [],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P02",
+      "title": "疏散與重逢台詞依賴",
+      "category": "content_fix",
+      "chapters": [
+        "D01",
+        "S02"
+      ],
+      "depends_on": [],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P03",
+      "title": "條件機率與組合結果",
+      "category": "content_fix",
+      "chapters": [
+        "Z01",
+        "X01",
+        "F01"
+      ],
+      "depends_on": [],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P04",
+      "title": "記憶解鎖與查檔分離",
+      "category": "content_fix",
+      "chapters": [
+        "F01"
+      ],
+      "depends_on": [],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P05",
+      "title": "小芽一年承諾追蹤",
+      "category": "content_fix",
+      "chapters": [
+        "F01",
+        "Y01"
+      ],
+      "depends_on": [
+        "P04"
+      ],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P06",
+      "title": "跨星權限與通信時鐘",
+      "category": "proposal_design",
+      "chapters": [
+        "M01",
+        "F01",
+        "Y01"
+      ],
+      "depends_on": [],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P07",
+      "title": "身體來源與傳承苑人口方案",
+      "category": "author_decision",
+      "chapters": [
+        "D01",
+        "S02",
+        "F01"
+      ],
+      "depends_on": [],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P08",
+      "title": "首死流程與第二世年齡",
+      "category": "author_decision",
+      "chapters": [
+        "D01",
+        "S02"
+      ],
+      "depends_on": [
+        "P07"
+      ],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P09",
+      "title": "封存副本與研究同意",
+      "category": "proposal_design",
+      "chapters": [
+        "M01",
+        "Y01"
+      ],
+      "depends_on": [],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P10",
+      "title": "街區共用場景構圖規格",
+      "category": "asset_spec",
+      "chapters": [
+        "S01",
+        "R01",
+        "D01",
+        "S02"
+      ],
+      "depends_on": [
+        "P02"
+      ],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P11",
+      "title": "跨篇道具視覺規格",
+      "category": "asset_spec",
+      "chapters": [
+        "S01",
+        "S02",
+        "M01",
+        "Y01"
+      ],
+      "depends_on": [
+        "P01"
+      ],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P12",
+      "title": "記憶狀態演出規格",
+      "category": "asset_spec",
+      "chapters": [
+        "F01"
+      ],
+      "depends_on": [
+        "P04"
+      ],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P13",
+      "title": "對話與世界時鐘資料讀取器",
+      "category": "engine_later",
+      "chapters": [
+        "S01"
+      ],
+      "depends_on": [
+        "P01",
+        "P03"
+      ],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P14",
+      "title": "永久與當世存檔遷移",
+      "category": "engine_later",
+      "chapters": [
+        "D01"
+      ],
+      "depends_on": [
+        "P07",
+        "P08"
+      ],
+      "status": "awaiting_design_or_revision"
+    },
+    {
+      "id": "P15",
+      "title": "缺席／重訪與事件重播驗收",
+      "category": "engine_later",
+      "chapters": [
+        "S01",
+        "F01",
+        "Y01"
+      ],
+      "depends_on": [
+        "P05",
+        "P09",
+        "P13",
+        "P14"
+      ],
+      "status": "awaiting_design_or_revision"
+    }
+  ]
+}

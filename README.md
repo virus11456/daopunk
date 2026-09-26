@@ -82,3 +82,5 @@
 本次續收[X01星塵篇](docs/story-drafts/stardust-x01/README.md)、[D01首次死亡](docs/story-drafts/death-d01/README.md)、[S02紅重逢v2](docs/story-drafts/red-reunion-s02-v2/README.md)、[M01大師兄篇](docs/story-drafts/elder-m01/README.md)及[F01四師姐篇](docs/story-drafts/fourth-sister-f01/README.md)：共36場原稿與66項文本檢查，附逐篇Claude修訂提示；尚未定稿或接入Godot。
 
 續收[Y01閻羅X篇《未交接》](docs/story-drafts/yanluo-y01/README.md)：七場原稿、14項檢查及修訂提示。交接印、封存權限及棋局仍是提案；未授予新法則或接入Godot。
+
+統整交接：[給Claude的九篇全稿整理指令](docs/story-drafts/CLAUDE_CONSOLIDATION_PROMPT.md) · [跨篇故事資料契約](docs/contracts/STORY_EVENT_DATA.md) · [製作工作清單](docs/production/STORY_PRODUCTION_PLAN.md)。本批完成文件與依賴盤點，尚未接入引擎。

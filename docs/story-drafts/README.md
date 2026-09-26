@@ -37,3 +37,7 @@
 可先貼[五篇聯合修訂提示](BATCH_REVISION_PROMPT.md)，再按各篇提示交付。
 
 Y01另新增七場原稿及14項檢查，見該篇修訂提示。先前五篇聯合修訂提示仍可使用；續稿先核對最新決定，不把未修前提當正史。
+
+## 全稿統整交接
+
+[Claude九篇統整指令](CLAUDE_CONSOLIDATION_PROMPT.md)要求年表、人物、伏筆、問題對照及選項交接七份成果。已備妥供使用者轉交，尚未收到Claude整理結果。[製作工作清單](../production/STORY_PRODUCTION_PLAN.md)與[資料契約](../contracts/STORY_EVENT_DATA.md)同步維護。
