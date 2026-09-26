@@ -53,7 +53,7 @@
 
 ## 舊資料與工程
 
-[退役範圍](docs/worldbuilding/RESET_SCOPE.md)包含舊即時／卡牌戰鬥、225卡數量、兩術兼修、技能樹、肉鴿流程、購屋、城市隨機生成及NPC排程等規格。歷史檔案留作追溯；不得自動恢復為現行設計。
+[退役範圍](docs/worldbuilding/RESET_SCOPE.md)包含舊即時／卡牌戰鬥、225卡數量、兩術兼修、技能樹、歷史肉鴿流程、購屋、城市隨機生成及NPC排程等規格。歷史檔案留作追溯；不得自動恢復為現行設計。
 
 如需查看舊工程，可用 Godot 4.3 開啟根目錄的 `project.godot`；操作資料見[歷史原型說明](docs/archive/LEGACY_PROTOTYPE_README.md)。這不是新世界觀版本的可玩驗收。
 
@@ -100,3 +100,7 @@ NPC美術進度：[1000位居民圖庫](docs/art-direction/npc-1000/README.md)�
 NPC第二批修訂：修理工v3已保存；共2位、5個版本，正式驗收仍為0位，均勻像素格與漸層修整尚未達標。
 
 NPC第三批：修理工v4為描述重繪試驗，2位共6版本、正式驗收0；像素後製方式待使用者回覆。
+
+## 最新主線v2：肉鴿階段结构
+
+[現行主線v2](docs/story-drafts/main-v2/README.md)確認肉鴿定位、取消固定三世與必死事件；世界持續惡化但終局由玩家觸發，人類不歸零，第一輪15歲下山、後續14～15歲覺醒開局，正式輪迴不回溯。戰鬥仍未定，旧數值不恢復。[給Claude的修訂提示](docs/story-drafts/main-v2/FOLLOWUP_PROMPT.md)。

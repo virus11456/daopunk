@@ -50,3 +50,7 @@
 最新[山海經v1.1決定與整合](../story-drafts/shanhai-v1.1/README.md)：探索時代／族屬、涂山氏形貌範圍、師門知情已定。另有[NPC生活離線模型](../contracts/NPC_LIFE_DATA.md)，14項檢查通過，非引擎功能。
 
 最新[山海圖鑑設計v1.1](../story-drafts/shanhai-codex-v1.1/README.md)已納入開局經文與批註三項決定；收錄神與道主的編輯邊界另列提案。
+
+## 主線v2最新生效範圍
+
+肉鴿定位與跨輪條件主線已重新確認；本頁前段「肉鴿流程退出」僅指歷史實作表。以[主線v2](../story-drafts/main-v2/README.md)與RESET_SCOPE最新段為準。固定三世／必死事件／人類全滅期限撤回；戰鬥尚未選定。

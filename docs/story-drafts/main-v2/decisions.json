@@ -1,0 +1,27 @@
+{
+  "source": "user main-v2 submission and same-turn three explicit answers",
+  "confirmed": [
+    "roguelite_condition_based_main_story_not_fixed_life_count",
+    "humans_and_lamp_registry_never_reach_zero",
+    "first_run_descent_at_age_15_after_divination_awakening",
+    "later_run_play_begins_at_age_14_to_15",
+    "gate_and_pursuit_events_not_mandatory_player_death",
+    "world_deteriorates_without_automatic_save_ending_deadline",
+    "final_choice_triggered_by_player",
+    "formal_reincarnation_never_rewinds_world_time"
+  ],
+  "still_proposed": [
+    "birth_wait_duration",
+    "absolute_event_dates",
+    "knowledge_flags_and_stage_gates",
+    "100_hours_and_5_to_8_runs",
+    "ordinary_money_item_inheritance",
+    "save_reload_rules"
+  ],
+  "supersedes": [
+    "fixed_three_lives",
+    "fixed_gate_and_pursuit_deaths",
+    "human_extinction_rebirth_deadline",
+    "roguelite_identity_pending"
+  ]
+}

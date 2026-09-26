@@ -1,12 +1,13 @@
 {
-  "version": "2026-09-26-lore-living-world",
+  "version": "2026-09-26-main-v2-roguelite",
   "active_scope": [
     "story",
     "current_GBA_art",
     "seasons_weather_design",
-    "five_arts_and_cross_life_abilities_concept"
+    "five_arts_and_cross_life_abilities_concept",
+    "roguelite_condition_based_story_structure"
   ],
-  "gameplay_status": "100_cross_life_immortal_arts_with_karma_costs_confirmed_combat_pending",
+  "gameplay_status": "roguelite_confirmed_combat_and_numeric_balance_pending",
   "retired_document_paths": [
     "docs/design/DAO_RULERS.md",
     "docs/design/MASTER_REVEAL.md",
@@ -116,12 +117,21 @@
     "assassin_organizations_added_to_neutral_factions",
     "opening_first_life_first_descent",
     "unspent_karma_fully_persists_across_reincarnation",
-    "hidden_dispersed_human_descendants_proposal_rejected_last_humans_definition_retained"
+    "hidden_dispersed_human_descendants_proposal_rejected_last_humans_definition_retained",
+    "roguelite_condition_based_main_story_not_fixed_life_count",
+    "humans_and_lamp_registry_never_reach_zero",
+    "first_run_descent_at_age_15_after_divination_awakening",
+    "later_run_play_begins_at_age_14_to_15",
+    "gate_and_pursuit_events_not_mandatory_player_death",
+    "world_deteriorates_without_automatic_save_ending_deadline",
+    "final_choice_triggered_by_player",
+    "formal_reincarnation_never_rewinds_world_time"
   ],
   "development_workflow": "故事、人物與世界設定分篇完成，最後整合主線並接入Godot；GitHub持續記錄更新",
   "proposal_modules": [
     "story-modules/S01_ROBOT_DIVINATION.md",
     "story-modules/W01_HUMAN_DIVINATION.md",
     "story-modules/S02_RED_REUNION.md"
-  ]
+  ],
+  "latest_main_story": "docs/story-drafts/main-v2/README.md"
 }
