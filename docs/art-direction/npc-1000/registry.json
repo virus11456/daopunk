@@ -27,9 +27,10 @@
           "asset": "assets/NPC-0001-front-v1.png",
           "version": 1,
           "qa": "visually_reviewed_needs_pixel_cleanup",
-          "synced": false,
+          "synced": true,
           "prompt": "Use case: stylized-concept. One DAOPUNK cream ceramic box-head nonhuman robot repair worker, indigo patched apron, amber offset lens, copper tool arm, jade electrical talisman, squat GBA map proportions, front full body, transparent background, pixel art, no scenery or labels. Initial high-detail proportion study.",
-          "prompt_fidelity": "historical_summary_not_exact_tool_input"
+          "prompt_fidelity": "historical_summary_not_exact_tool_input",
+          "verified_asset_commit": "8eed6ed0aa498646ca6c1a1e67cc7bd24b950f92"
         },
         {
           "width": 1122,
@@ -42,11 +43,12 @@
           "asset": "assets/NPC-0001-front-v2.png",
           "version": 2,
           "qa": "visually_reviewed_needs_pixel_cleanup",
-          "synced": false,
+          "synced": true,
           "prompt": "Use case: style-transfer. Edit the reference DAOPUNK NPC-0001 into a compact front-facing GBA overworld pixel character. Preserve identity: cream ceramic BOX head, one offset amber lens, indigo repair apron, copper tool arm, small jade talisman. Single full-body nonhuman repair robot, neutral standing front view. Reduce complexity to roughly 32x40 logical pixels enlarged with crisp square nearest-neighbor blocks, two-heads-tall proportions, short legs. Limited 16-color palette, no gradients or anti-aliasing, clear dark silhouette, only a few readable wear marks. Remove tiny decoration and lettering. Actual transparent alpha background, no ground, no shadow, no text, no sheet, one character centered with padding. This is a map design not a detailed character illustration.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
-          "source_file": "exec-e162b1af-dbf8-44d9-b6de-e3054ffdb5e9.png"
+          "source_file": "exec-e162b1af-dbf8-44d9-b6de-e3054ffdb5e9.png",
+          "verified_asset_commit": "8eed6ed0aa498646ca6c1a1e67cc7bd24b950f92"
         }
       ]
     },
@@ -73,9 +75,10 @@
           "asset": "assets/NPC-0002-front-v1.png",
           "version": 1,
           "qa": "visually_reviewed_needs_pixel_cleanup",
-          "synced": false,
+          "synced": true,
           "prompt": "Use case: stylized-concept. One DAOPUNK retired cargo automaton porter with round dark copper head, rectangular teal eyes, conical antenna hat, russet work coat, jade parcel, short black feet. Front small GBA pixel map-character concept, coarse color blocks, transparent background, no scenery or text.",
-          "prompt_fidelity": "historical_summary_not_exact_tool_input"
+          "prompt_fidelity": "historical_summary_not_exact_tool_input",
+          "verified_asset_commit": "8eed6ed0aa498646ca6c1a1e67cc7bd24b950f92"
         },
         {
           "width": 1122,
@@ -88,11 +91,12 @@
           "asset": "assets/NPC-0002-front-v2.png",
           "version": 2,
           "qa": "visually_reviewed_needs_pixel_cleanup",
-          "synced": false,
+          "synced": true,
           "prompt": "Use case: style-transfer. Edit reference DAOPUNK NPC-0002 into a crisp compact GBA overworld pixel character. Preserve round copper robot face, two teal rectangular eyes, conical straw antenna hat, russet work coat, jade parcel behind shoulder, very short black feet. Front-facing single nonhuman cargo porter full body. Squat two-heads-tall proportions. Strict coarse logical pixel clusters approximately 32x40 pixels enlarged nearest neighbor; flat 16-color shading without gradients, minimal clear hat weave marks, readable dark silhouette. True transparent alpha background, generous empty margin, no scene, text, shadow or extra character. Keep visibly distinct from the square-head repairer.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
-          "source_file": "exec-1b6e0098-f982-4d55-a2b7-29a9f9ef5d4a.png"
+          "source_file": "exec-1b6e0098-f982-4d55-a2b7-29a9f9ef5d4a.png",
+          "verified_asset_commit": "8eed6ed0aa498646ca6c1a1e67cc7bd24b950f92"
         }
       ]
     },

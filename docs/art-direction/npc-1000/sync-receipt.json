@@ -1,0 +1,12 @@
+{
+  "verified_commit": "8eed6ed0aa498646ca6c1a1e67cc7bd24b950f92",
+  "verification": "Remote committed Git tree blob SHA equals SHA-1 of local PNG Git blob bytes; 4 PNGs verified.",
+  "assets": {
+    "docs/art-direction/npc-1000/assets/NPC-0001-front-v1.png": "37834f4d0e638c4020971504c127f902a8c66339",
+    "docs/art-direction/npc-1000/assets/NPC-0001-front-v2.png": "cd21d4484e79cf5d4430aa1c7a778332029c6e3c",
+    "docs/art-direction/npc-1000/assets/NPC-0002-front-v1.png": "e0302b93bc80bd96f70ecf3ddd9f23a161be6efe",
+    "docs/art-direction/npc-1000/assets/NPC-0002-front-v2.png": "a5ee7451650defd9e58548da40defca674f91756"
+  },
+  "synced_characters": 2,
+  "accepted_final": 0
+}
