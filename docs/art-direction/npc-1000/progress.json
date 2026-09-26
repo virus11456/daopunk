@@ -1,20 +1,17 @@
 {
   "target": 1000,
-  "characters_with_images": 84,
-  "image_versions": 170,
-  "visually_reviewed_characters": 82,
-  "accepted_final": 82,
-  "remaining_without_image": 916,
+  "characters_with_images": 92,
+  "image_versions": 188,
+  "visually_reviewed_characters": 92,
+  "accepted_final": 92,
+  "remaining_without_image": 908,
   "synced_characters": 82,
-  "next_action": "Existing phase: clean/review NPC-0073–0074 from saved raw sources, then generate NPC-0075–0132. Extra NPC-0133–0142 are outside phase; do not regenerate.",
-  "batch": "extra-NPC-0133-0142",
+  "next_action": "Verify and sync NPC-0073–0082, then immediately continue NPC-0083. Extra0133–0142 excluded from phase.",
+  "batch": "NPC-0073-0082",
   "verified_asset_commit": "956d906744caa6a1ec67dcd6db274a0b23a9dfc4",
-  "latest_batch_synced": true,
+  "latest_batch_synced": false,
   "quality_blocker": null,
   "cleanup_authorized": true,
-  "pending_cleanup_ids": [
-    "NPC-0073",
-    "NPC-0074"
-  ],
+  "pending_cleanup_ids": [],
   "synced_generated_characters": 84
 }
