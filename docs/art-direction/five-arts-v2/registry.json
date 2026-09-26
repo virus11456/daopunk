@@ -1,0 +1,868 @@
+{
+  "schema_version": 2,
+  "status": "design_proposal_not_runtime",
+  "classification": "正式五術：山、醫、命、相、卜",
+  "card_count": 45,
+  "arts": [
+    {
+      "id": "shan",
+      "name": "山",
+      "role": "護體、蓄勢、御器",
+      "palette": "jade green, bronze, stone gray",
+      "color": "#628A70",
+      "branches": [
+        {
+          "id": "shan-1",
+          "name": "修命",
+          "goal": "承受壓力，蓄勢反擊",
+          "cards": [
+            {
+              "id": "fa2-shan-1-1",
+              "name": "基礎吐納",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "獲得 6 護體、1 蓄勢。",
+              "upgrade": "護體 9。",
+              "prerequisite": null,
+              "art_subject": "chibi cultivator meditating beside a small mountain, square qi circuit entering chest",
+              "sheet": "assets/shan-cards-v2.png",
+              "row": 1,
+              "column": 1
+            },
+            {
+              "id": "fa2-shan-1-2",
+              "name": "金剛不壞",
+              "tier": 2,
+              "cost": 2,
+              "type": "技能",
+              "effect": "獲得 16 護體、2 蓄勢。",
+              "upgrade": "護體 20。",
+              "prerequisite": "fa2-shan-1-1",
+              "art_subject": "bronze cybernetic armor and square jade barrier",
+              "sheet": "assets/shan-cards-v2.png",
+              "row": 2,
+              "column": 1
+            },
+            {
+              "id": "fa2-shan-1-3",
+              "name": "真空粉碎",
+              "tier": 3,
+              "cost": 2,
+              "type": "攻擊",
+              "effect": "消耗全部蓄勢；造成 10＋每層 3 傷害。",
+              "upgrade": "基礎傷害 14。",
+              "prerequisite": "fa2-shan-1-2",
+              "art_subject": "bronze powered fist splitting a dark floating stone",
+              "sheet": "assets/shan-cards-v2.png",
+              "row": 3,
+              "column": 1
+            }
+          ]
+        },
+        {
+          "id": "shan-2",
+          "name": "修性",
+          "goal": "以靜制動，保留防備",
+          "cards": [
+            {
+              "id": "fa2-shan-2-1",
+              "name": "胎息法",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "獲得 5 護體；至下回合開始保留最多 8 護體。",
+              "upgrade": "保留上限 12。",
+              "prerequisite": null,
+              "art_subject": "cultivator enclosed in a stone egg with a quiet cyan breathing circuit",
+              "sheet": "assets/shan-cards-v2.png",
+              "row": 1,
+              "column": 2
+            },
+            {
+              "id": "fa2-shan-2-2",
+              "name": "澄心訣",
+              "tier": 2,
+              "cost": 1,
+              "type": "技能",
+              "effect": "移除自己 1 層虛弱；抽 1 張牌，獲得 4 護體。",
+              "upgrade": "護體 7。",
+              "prerequisite": "fa2-shan-2-1",
+              "art_subject": "jade mind mirror clearing a red noisy waveform",
+              "sheet": "assets/shan-cards-v2.png",
+              "row": 2,
+              "column": 2
+            },
+            {
+              "id": "fa2-shan-2-3",
+              "name": "不動明心",
+              "tier": 3,
+              "cost": 2,
+              "type": "能力",
+              "effect": "本戰每回合第一次打出山術技能牌後，獲得 3 護體。唯一。",
+              "upgrade": "每次 4 護體。",
+              "prerequisite": "fa2-shan-2-2",
+              "art_subject": "seated cultivator inside a square bronze mandala, immovable silhouette",
+              "sheet": "assets/shan-cards-v2.png",
+              "row": 3,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "id": "shan-3",
+          "name": "御器",
+          "goal": "部署法器，攻守配合",
+          "cards": [
+            {
+              "id": "fa2-shan-3-1",
+              "name": "御劍符",
+              "tier": 1,
+              "cost": 1,
+              "type": "攻擊",
+              "effect": "造成 6 傷害；獲得 1 劍印。",
+              "upgrade": "傷害 9。",
+              "prerequisite": null,
+              "art_subject": "single jade flying sword controlled by an electronic paper talisman",
+              "sheet": "assets/shan-cards-v2.png",
+              "row": 1,
+              "column": 3
+            },
+            {
+              "id": "fa2-shan-3-2",
+              "name": "護身器陣",
+              "tier": 2,
+              "cost": 1,
+              "type": "技能",
+              "effect": "消耗全部劍印；獲得 4＋每印 4 護體。",
+              "upgrade": "基礎護體 7。",
+              "prerequisite": "fa2-shan-3-1",
+              "art_subject": "three small bronze shield drones around a talisman",
+              "sheet": "assets/shan-cards-v2.png",
+              "row": 2,
+              "column": 3
+            },
+            {
+              "id": "fa2-shan-3-3",
+              "name": "萬劍歸宗",
+              "tier": 3,
+              "cost": 2,
+              "type": "攻擊",
+              "effect": "消耗全部劍印；對所有敵人造成 6＋每印 3 傷害。移除。",
+              "upgrade": "基礎傷害 9。",
+              "prerequisite": "fa2-shan-3-2",
+              "art_subject": "three circuit swords converging on a bright small target",
+              "sheet": "assets/shan-cards-v2.png",
+              "row": 3,
+              "column": 3
+            }
+          ]
+        }
+      ],
+      "immortals": [
+        {
+          "name": "鎮岳",
+          "type": "主動",
+          "effect": "每場一次：獲得 8 護體；不耗氣。",
+          "status": "提案；功德學會後永久保留，重生選配"
+        },
+        {
+          "name": "定息",
+          "type": "被動",
+          "effect": "每場首回合獲得 4 護體。",
+          "status": "提案；功德學會後永久保留，重生選配"
+        }
+      ],
+      "image": "assets/shan-cards-v2.png",
+      "prompt": "Use case: stylized-concept. Original DAOPUNK GBA pixel art CARD CONTACT SHEET, landscape 1536x1024, EXACTLY NINE complete cards in a precisely aligned THREE columns by THREE rows grid, equal size cards with ample navy gutters and outer margins. Image 1 is style reference only; do not repeat its six-card layout. Each card has a thin bronze pixel frame, blank small parchment header and footer, one large distinct simple icon on a flat dark background. No letters, numbers, writing, or watermark. 山 school palette: jade green, bronze, stone gray. Eastern cultivation integrated with cyberpunk electronics. Low resolution chunky pixel clusters, hard stepped edges, 2-3 shades, no smooth gradients, glow, realism or painterly brushwork. Very simple readable silhouettes; icons fill their panels without touching frames. Render these exact nine subjects, in row-major order: row 1 column 1: chibi cultivator meditating beside a small mountain, square qi circuit entering chest; row 1 column 2: cultivator enclosed in a stone egg with a quiet cyan breathing circuit; row 1 column 3: single jade flying sword controlled by an electronic paper talisman; row 2 column 1: bronze cybernetic armor and square jade barrier; row 2 column 2: jade mind mirror clearing a red noisy waveform; row 2 column 3: three small bronze shield drones around a talisman; row 3 column 1: bronze powered fist splitting a dark floating stone; row 3 column 2: seated cultivator inside a square bronze mandala, immovable silhouette; row 3 column 3: three circuit swords converging on a bright small target. All nine borders fully inside image. Keep uniform straight-on card face, no perspective."
+    },
+    {
+      "id": "yi",
+      "name": "醫",
+      "role": "治療、祛邪、丹毒",
+      "palette": "mint green, ivory, muted coral",
+      "color": "#8BBEAC",
+      "branches": [
+        {
+          "id": "yi-1",
+          "name": "針藥",
+          "goal": "有限治療與淨化",
+          "cards": [
+            {
+              "id": "fa2-yi-1-1",
+              "name": "基礎針灸",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "恢復 3 生命，獲得 3 護體。移除。",
+              "upgrade": "恢復 4 生命。",
+              "prerequisite": null,
+              "art_subject": "three gold acupuncture needles above a cybernetic meridian palm",
+              "sheet": "assets/yi-cards-v2.png",
+              "row": 1,
+              "column": 1
+            },
+            {
+              "id": "fa2-yi-1-2",
+              "name": "五臟調理",
+              "tier": 2,
+              "cost": 1,
+              "type": "技能",
+              "effect": "移除自己 1 層虛弱與 1 層中毒；獲得 1 藥引。",
+              "upgrade": "再獲得 4 護體。",
+              "prerequisite": "fa2-yi-1-1",
+              "art_subject": "five small organ glyph modules linked by mint qi traces",
+              "sheet": "assets/yi-cards-v2.png",
+              "row": 2,
+              "column": 1
+            },
+            {
+              "id": "fa2-yi-1-3",
+              "name": "續命金針",
+              "tier": 3,
+              "cost": 2,
+              "type": "技能",
+              "effect": "恢復 6 生命，獲得 8 護體。移除；不增加年齡上限、不復活。",
+              "upgrade": "護體 12。",
+              "prerequisite": "fa2-yi-1-2",
+              "art_subject": "gold needle sealing a cracked mechanical heart",
+              "sheet": "assets/yi-cards-v2.png",
+              "row": 3,
+              "column": 1
+            }
+          ]
+        },
+        {
+          "id": "yi-2",
+          "name": "祛邪",
+          "goal": "清除異常，轉守為攻",
+          "cards": [
+            {
+              "id": "fa2-yi-2-1",
+              "name": "淨穢符",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "移除自己最多 2 層中毒；獲得 5 護體。",
+              "upgrade": "護體 8。",
+              "prerequisite": null,
+              "art_subject": "white electronic talisman dissolving purple smoke",
+              "sheet": "assets/yi-cards-v2.png",
+              "row": 1,
+              "column": 2
+            },
+            {
+              "id": "fa2-yi-2-2",
+              "name": "安魂鈴",
+              "tier": 2,
+              "cost": 1,
+              "type": "技能",
+              "effect": "敵方單體獲得 2 層虛弱；獲得 1 藥引。",
+              "upgrade": "虛弱 3 層。",
+              "prerequisite": "fa2-yi-2-1",
+              "art_subject": "bronze bell calming a pale digital spirit",
+              "sheet": "assets/yi-cards-v2.png",
+              "row": 2,
+              "column": 2
+            },
+            {
+              "id": "fa2-yi-2-3",
+              "name": "驅邪還元",
+              "tier": 3,
+              "cost": 2,
+              "type": "攻擊",
+              "effect": "造成 12 傷害；若本回合已淨化，另恢復 4 生命。移除。",
+              "upgrade": "傷害 16。",
+              "prerequisite": "fa2-yi-2-2",
+              "art_subject": "mint exorcism seal expelling a purple wraith from a circuit shrine",
+              "sheet": "assets/yi-cards-v2.png",
+              "row": 3,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "id": "yi-3",
+          "name": "丹毒",
+          "goal": "藥引轉化與持續傷害",
+          "cards": [
+            {
+              "id": "fa2-yi-3-1",
+              "name": "辨藥",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "獲得 2 藥引；抽 1 張牌。",
+              "upgrade": "再獲得 3 護體。",
+              "prerequisite": null,
+              "art_subject": "herb leaf beside a square chemical scanner",
+              "sheet": "assets/yi-cards-v2.png",
+              "row": 1,
+              "column": 3
+            },
+            {
+              "id": "fa2-yi-3-2",
+              "name": "蝕脈散",
+              "tier": 2,
+              "cost": 1,
+              "type": "技能",
+              "effect": "消耗最多 2 藥引；敵方單體獲得 2＋每份 2 層中毒。",
+              "upgrade": "基礎中毒 3 層。",
+              "prerequisite": "fa2-yi-3-1",
+              "art_subject": "violet powder vial with a green meridian circuit",
+              "sheet": "assets/yi-cards-v2.png",
+              "row": 2,
+              "column": 3
+            },
+            {
+              "id": "fa2-yi-3-3",
+              "name": "百草化生",
+              "tier": 3,
+              "cost": 2,
+              "type": "技能",
+              "effect": "消耗全部藥引；每份恢復 2 生命、獲得 3 護體。移除。",
+              "upgrade": "每份護體 4。",
+              "prerequisite": "fa2-yi-3-2",
+              "art_subject": "small bronze alchemy incubator sprouting three medicinal leaves",
+              "sheet": "assets/yi-cards-v2.png",
+              "row": 3,
+              "column": 3
+            }
+          ]
+        }
+      ],
+      "immortals": [
+        {
+          "name": "回春",
+          "type": "主動",
+          "effect": "每場一次：恢復 4 生命；計入共同治療額度。",
+          "status": "提案；功德學會後永久保留，重生選配"
+        },
+        {
+          "name": "藥識",
+          "type": "被動",
+          "effect": "每場開始獲得 1 藥引。",
+          "status": "提案；功德學會後永久保留，重生選配"
+        }
+      ],
+      "image": "assets/yi-cards-v2.png",
+      "prompt": "Use case: stylized-concept. Original DAOPUNK GBA pixel art CARD CONTACT SHEET, landscape 1536x1024, EXACTLY NINE complete cards in a precisely aligned THREE columns by THREE rows grid, equal size cards with ample navy gutters and outer margins. Image 1 is style reference only; do not repeat its six-card layout. Each card has a thin bronze pixel frame, blank small parchment header and footer, one large distinct simple icon on a flat dark background. No letters, numbers, writing, or watermark. 醫 school palette: mint green, ivory, muted coral. Eastern cultivation integrated with cyberpunk electronics. Low resolution chunky pixel clusters, hard stepped edges, 2-3 shades, no smooth gradients, glow, realism or painterly brushwork. Very simple readable silhouettes; icons fill their panels without touching frames. Render these exact nine subjects, in row-major order: row 1 column 1: three gold acupuncture needles above a cybernetic meridian palm; row 1 column 2: white electronic talisman dissolving purple smoke; row 1 column 3: herb leaf beside a square chemical scanner; row 2 column 1: five small organ glyph modules linked by mint qi traces; row 2 column 2: bronze bell calming a pale digital spirit; row 2 column 3: violet powder vial with a green meridian circuit; row 3 column 1: gold needle sealing a cracked mechanical heart; row 3 column 2: mint exorcism seal expelling a purple wraith from a circuit shrine; row 3 column 3: small bronze alchemy incubator sprouting three medicinal leaves. All nine borders fully inside image. Keep uniform straight-on card face, no perspective."
+    },
+    {
+      "id": "ming",
+      "name": "命",
+      "role": "命印、轉移、因果代價",
+      "palette": "violet, muted red, silver",
+      "color": "#A284BE",
+      "branches": [
+        {
+          "id": "ming-1",
+          "name": "知命",
+          "goal": "標記目標，準備干涉",
+          "cards": [
+            {
+              "id": "fa2-ming-1-1",
+              "name": "觀命",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "敵方單體獲得 2 命印；抽 1 張牌。",
+              "upgrade": "命印 3。",
+              "prerequisite": null,
+              "art_subject": "eye reading two violet knots on a red life thread",
+              "sheet": "assets/ming-cards-v2.png",
+              "row": 1,
+              "column": 1
+            },
+            {
+              "id": "fa2-ming-1-2",
+              "name": "測運",
+              "tier": 2,
+              "cost": 1,
+              "type": "技能",
+              "effect": "敵方單體獲得 1 命印；每層命印使自己獲得 3 護體。",
+              "upgrade": "每層護體 4。",
+              "prerequisite": "fa2-ming-1-1",
+              "art_subject": "three fate nodes on a small holographic birth chart",
+              "sheet": "assets/ming-cards-v2.png",
+              "row": 2,
+              "column": 1
+            },
+            {
+              "id": "fa2-ming-1-3",
+              "name": "命數鎖定",
+              "tier": 3,
+              "cost": 2,
+              "type": "攻擊",
+              "effect": "造成 10 傷害；目標有至少 3 命印時另造成 8 傷害。",
+              "upgrade": "基礎傷害 14。",
+              "prerequisite": "fa2-ming-1-2",
+              "art_subject": "silver lock closing around a glowing red destiny knot",
+              "sheet": "assets/ming-cards-v2.png",
+              "row": 3,
+              "column": 1
+            }
+          ]
+        },
+        {
+          "id": "ming-2",
+          "name": "改命",
+          "goal": "消耗命印換取強力結果",
+          "cards": [
+            {
+              "id": "fa2-ming-2-1",
+              "name": "改命",
+              "tier": 1,
+              "cost": 1,
+              "type": "攻擊",
+              "effect": "消耗目標全部命印；造成 4＋每印 4 傷害。",
+              "upgrade": "基礎傷害 7。",
+              "prerequisite": null,
+              "art_subject": "needle rerouting a single red thread across a circuit board",
+              "sheet": "assets/ming-cards-v2.png",
+              "row": 1,
+              "column": 2
+            },
+            {
+              "id": "fa2-ming-2-2",
+              "name": "奪舍天命",
+              "tier": 2,
+              "cost": 2,
+              "type": "技能",
+              "effect": "移除目標最多 12 護體；自己獲得同量護體；目標獲得 1 命印。",
+              "upgrade": "護體上限 16。",
+              "prerequisite": "fa2-ming-2-1",
+              "art_subject": "two bronze vessels exchanging a violet shield fragment",
+              "sheet": "assets/ming-cards-v2.png",
+              "row": 2,
+              "column": 2
+            },
+            {
+              "id": "fa2-ming-2-3",
+              "name": "逆天改命",
+              "tier": 3,
+              "cost": 3,
+              "type": "技能",
+              "effect": "消耗目標 3 命印；取消該目標本回合一個已預告普通攻擊動作。移除；重大命運干涉事件＋1。精英以上僅減半該動作傷害。",
+              "upgrade": "費用 2。",
+              "prerequisite": "fa2-ming-2-2",
+              "art_subject": "red life thread diverted around a falling black blade by a broken celestial circuit",
+              "sheet": "assets/ming-cards-v2.png",
+              "row": 3,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "id": "ming-3",
+          "name": "遮天",
+          "goal": "隱藏痕跡，調整戰鬥風險",
+          "cards": [
+            {
+              "id": "fa2-ming-3-1",
+              "name": "匿命符",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "獲得 7 護體；若任一敵人有命印，再獲得 3 護體。",
+              "upgrade": "基礎護體 10。",
+              "prerequisite": null,
+              "art_subject": "black paper talisman hiding a red thread from a scanning eye",
+              "sheet": "assets/ming-cards-v2.png",
+              "row": 1,
+              "column": 3
+            },
+            {
+              "id": "fa2-ming-3-2",
+              "name": "移星換影",
+              "tier": 2,
+              "cost": 1,
+              "type": "技能",
+              "effect": "將敵方單體最多 3 命印移給另一敵人；僅一名敵人時改為該敵獲得 1 命印。抽 1 張。",
+              "upgrade": "獲得 3 護體。",
+              "prerequisite": "fa2-ming-3-1",
+              "art_subject": "two mirrored silhouettes exchanging violet stars",
+              "sheet": "assets/ming-cards-v2.png",
+              "row": 2,
+              "column": 3
+            },
+            {
+              "id": "fa2-ming-3-3",
+              "name": "天機封緘",
+              "tier": 3,
+              "cost": 2,
+              "type": "技能",
+              "effect": "獲得 14 護體；保留手中至多 2 張牌到下回合。移除；不降低世界擾動。",
+              "upgrade": "護體 18。",
+              "prerequisite": "fa2-ming-3-2",
+              "art_subject": "sealed bronze envelope beneath an opaque star canopy",
+              "sheet": "assets/ming-cards-v2.png",
+              "row": 3,
+              "column": 3
+            }
+          ]
+        }
+      ],
+      "immortals": [
+        {
+          "name": "繫命",
+          "type": "主動",
+          "effect": "每場一次：給一名敵人 1 命印。",
+          "status": "提案；功德學會後永久保留，重生選配"
+        },
+        {
+          "name": "照命",
+          "type": "被動",
+          "effect": "每場首次攻擊有命印的目標時，額外造成 3 傷害。",
+          "status": "提案；功德學會後永久保留，重生選配"
+        }
+      ],
+      "image": "assets/ming-cards-v2.png",
+      "prompt": "Use case: stylized-concept. Original DAOPUNK GBA pixel art CARD CONTACT SHEET, landscape 1536x1024, EXACTLY NINE complete cards in a precisely aligned THREE columns by THREE rows grid, equal size cards with ample navy gutters and outer margins. Image 1 is style reference only; do not repeat its six-card layout. Each card has a thin bronze pixel frame, blank small parchment header and footer, one large distinct simple icon on a flat dark background. No letters, numbers, writing, or watermark. 命 school palette: violet, muted red, silver. Eastern cultivation integrated with cyberpunk electronics. Low resolution chunky pixel clusters, hard stepped edges, 2-3 shades, no smooth gradients, glow, realism or painterly brushwork. Very simple readable silhouettes; icons fill their panels without touching frames. Render these exact nine subjects, in row-major order: row 1 column 1: eye reading two violet knots on a red life thread; row 1 column 2: needle rerouting a single red thread across a circuit board; row 1 column 3: black paper talisman hiding a red thread from a scanning eye; row 2 column 1: three fate nodes on a small holographic birth chart; row 2 column 2: two bronze vessels exchanging a violet shield fragment; row 2 column 3: two mirrored silhouettes exchanging violet stars; row 3 column 1: silver lock closing around a glowing red destiny knot; row 3 column 2: red life thread diverted around a falling black blade by a broken celestial circuit; row 3 column 3: sealed bronze envelope beneath an opaque star canopy. All nine borders fully inside image. Keep uniform straight-on card face, no perspective."
+    },
+    {
+      "id": "xiang",
+      "name": "相",
+      "role": "陣位、識破、器物共鳴",
+      "palette": "ochre gold, teal, dark blue",
+      "color": "#C1A064",
+      "branches": [
+        {
+          "id": "xiang-1",
+          "name": "風水",
+          "goal": "布陣後觸發連鎖",
+          "cards": [
+            {
+              "id": "fa2-xiang-1-1",
+              "name": "尋龍點穴",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "在空陣位放置「山」：立即獲得 4 護體。",
+              "upgrade": "護體 7。",
+              "prerequisite": null,
+              "art_subject": "bronze luopan locating a jade circuit vein under rocks",
+              "sheet": "assets/xiang-cards-v2.png",
+              "row": 1,
+              "column": 1
+            },
+            {
+              "id": "fa2-xiang-1-2",
+              "name": "風水佈局",
+              "tier": 2,
+              "cost": 1,
+              "type": "技能",
+              "effect": "在空陣位放置「水」並抽 1 張牌；無空位仍抽牌。",
+              "upgrade": "另獲得 3 護體。",
+              "prerequisite": "fa2-xiang-1-1",
+              "art_subject": "two square feng shui panels beside a small canal",
+              "sheet": "assets/xiang-cards-v2.png",
+              "row": 2,
+              "column": 1
+            },
+            {
+              "id": "fa2-xiang-1-3",
+              "name": "逆轉乾坤",
+              "tier": 3,
+              "cost": 2,
+              "type": "攻擊",
+              "effect": "消耗全部陣位；每個陣位對所有敵人造成 4 傷害；山、水、火齊備再獲得 8 護體。",
+              "upgrade": "每位傷害 5。",
+              "prerequisite": "fa2-xiang-1-2",
+              "art_subject": "three elemental tiles rotating around a bronze luopan",
+              "sheet": "assets/xiang-cards-v2.png",
+              "row": 3,
+              "column": 1
+            }
+          ]
+        },
+        {
+          "id": "xiang-2",
+          "name": "面相",
+          "goal": "識破破綻，集中打擊",
+          "cards": [
+            {
+              "id": "fa2-xiang-2-1",
+              "name": "察色",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "敵方單體獲得 2 破綻；獲得 4 護體。",
+              "upgrade": "護體 7。",
+              "prerequisite": null,
+              "art_subject": "chibi face with three small amber diagnostic marks",
+              "sheet": "assets/xiang-cards-v2.png",
+              "row": 1,
+              "column": 2
+            },
+            {
+              "id": "fa2-xiang-2-2",
+              "name": "識骨",
+              "tier": 2,
+              "cost": 1,
+              "type": "攻擊",
+              "effect": "造成 7 傷害；目標有破綻時抽 1 張牌。",
+              "upgrade": "傷害 10。",
+              "prerequisite": "fa2-xiang-2-1",
+              "art_subject": "gold scan revealing a cybernetic skeletal weak point",
+              "sheet": "assets/xiang-cards-v2.png",
+              "row": 2,
+              "column": 2
+            },
+            {
+              "id": "fa2-xiang-2-3",
+              "name": "破妄之眼",
+              "tier": 3,
+              "cost": 2,
+              "type": "攻擊",
+              "effect": "移除目標最多 8 護體，再造成 12 傷害。",
+              "upgrade": "移除上限 12。",
+              "prerequisite": "fa2-xiang-2-2",
+              "art_subject": "open jade eye breaking a false metal mask",
+              "sheet": "assets/xiang-cards-v2.png",
+              "row": 3,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "id": "xiang-3",
+          "name": "器相",
+          "goal": "器物鑑識，補足陣法",
+          "cards": [
+            {
+              "id": "fa2-xiang-3-1",
+              "name": "鑑器",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "在空陣位放置「火」；獲得 3 護體。",
+              "upgrade": "護體 6。",
+              "prerequisite": null,
+              "art_subject": "magnifying bronze lens over a cracked spirit capacitor",
+              "sheet": "assets/xiang-cards-v2.png",
+              "row": 1,
+              "column": 3
+            },
+            {
+              "id": "fa2-xiang-3-2",
+              "name": "銘紋共振",
+              "tier": 2,
+              "cost": 1,
+              "type": "技能",
+              "effect": "選一個已有陣位：山獲得 7 護體；水抽 2 張；火對單體造成 8 傷害。每回合限一次；不消耗陣位。",
+              "upgrade": "山 10／水不變／火 11。",
+              "prerequisite": "fa2-xiang-3-1",
+              "art_subject": "three matching circuit engravings resonating on bronze relics",
+              "sheet": "assets/xiang-cards-v2.png",
+              "row": 2,
+              "column": 3
+            },
+            {
+              "id": "fa2-xiang-3-3",
+              "name": "器脈重鑄",
+              "tier": 3,
+              "cost": 2,
+              "type": "技能",
+              "effect": "將至多 2 個已有陣位轉為任選不同元素，不觸發放置效果；獲得 10 護體。",
+              "upgrade": "護體 14。",
+              "prerequisite": "fa2-xiang-3-2",
+              "art_subject": "robotic forge arm re-engraving a jade talisman board",
+              "sheet": "assets/xiang-cards-v2.png",
+              "row": 3,
+              "column": 3
+            }
+          ]
+        }
+      ],
+      "immortals": [
+        {
+          "name": "定盤",
+          "type": "主動",
+          "effect": "每場一次：在空陣位放置山；不觸發入場效果。",
+          "status": "提案；功德學會後永久保留，重生選配"
+        },
+        {
+          "name": "觀微",
+          "type": "被動",
+          "effect": "每場第一張施加破綻的卡額外施加 1 破綻。",
+          "status": "提案；功德學會後永久保留，重生選配"
+        }
+      ],
+      "image": "assets/xiang-cards-v2.png",
+      "prompt": "Use case: stylized-concept. Original DAOPUNK GBA pixel art CARD CONTACT SHEET, landscape 1536x1024, EXACTLY NINE complete cards in a precisely aligned THREE columns by THREE rows grid, equal size cards with ample navy gutters and outer margins. Image 1 is style reference only; do not repeat its six-card layout. Each card has a thin bronze pixel frame, blank small parchment header and footer, one large distinct simple icon on a flat dark background. No letters, numbers, writing, or watermark. 相 school palette: ochre gold, teal, dark blue. Eastern cultivation integrated with cyberpunk electronics. Low resolution chunky pixel clusters, hard stepped edges, 2-3 shades, no smooth gradients, glow, realism or painterly brushwork. Very simple readable silhouettes; icons fill their panels without touching frames. Render these exact nine subjects, in row-major order: row 1 column 1: bronze luopan locating a jade circuit vein under rocks; row 1 column 2: chibi face with three small amber diagnostic marks; row 1 column 3: magnifying bronze lens over a cracked spirit capacitor; row 2 column 1: two square feng shui panels beside a small canal; row 2 column 2: gold scan revealing a cybernetic skeletal weak point; row 2 column 3: three matching circuit engravings resonating on bronze relics; row 3 column 1: three elemental tiles rotating around a bronze luopan; row 3 column 2: open jade eye breaking a false metal mask; row 3 column 3: robotic forge arm re-engraving a jade talisman board. All nine borders fully inside image. Keep uniform straight-on card face, no perspective."
+    },
+    {
+      "id": "bu",
+      "name": "卜",
+      "role": "預見、排序、預備應對",
+      "palette": "indigo, pale cyan, bronze",
+      "color": "#7D9AC0",
+      "branches": [
+        {
+          "id": "bu-1",
+          "name": "卜卦",
+          "goal": "牌頂排序，提高可預測性",
+          "cards": [
+            {
+              "id": "fa2-bu-1-1",
+              "name": "銅錢卜卦",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "查看抽牌堆頂 3 張並排序；抽 1 張。",
+              "upgrade": "查看 4 張。",
+              "prerequisite": null,
+              "art_subject": "three bronze coins above a small blue hexagram terminal",
+              "sheet": "assets/bu-cards-v2.png",
+              "row": 1,
+              "column": 1
+            },
+            {
+              "id": "fa2-bu-1-2",
+              "name": "梅花易數",
+              "tier": 2,
+              "cost": 1,
+              "type": "技能",
+              "effect": "查看牌頂 1 張：攻擊則對單體造成 7 傷害，否則獲得 7 護體；牌留在頂端。",
+              "upgrade": "傷害或護體 10。",
+              "prerequisite": "fa2-bu-1-1",
+              "art_subject": "plum blossom beside two holographic card silhouettes",
+              "sheet": "assets/bu-cards-v2.png",
+              "row": 2,
+              "column": 1
+            },
+            {
+              "id": "fa2-bu-1-3",
+              "name": "六爻神斷",
+              "tier": 3,
+              "cost": 2,
+              "type": "技能",
+              "effect": "查看並排序牌頂 5 張；抽 2 張。移除。",
+              "upgrade": "另獲得 4 護體。",
+              "prerequisite": "fa2-bu-1-2",
+              "art_subject": "six luminous horizontal bars above five tiny face-down cards",
+              "sheet": "assets/bu-cards-v2.png",
+              "row": 3,
+              "column": 1
+            }
+          ]
+        },
+        {
+          "id": "bu-2",
+          "name": "趨吉避凶",
+          "goal": "根據預告設置防備",
+          "cards": [
+            {
+              "id": "fa2-bu-2-1",
+              "name": "問凶",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "若任一敵人本回合預告攻擊，獲得 9 護體；否則抽 2 張。",
+              "upgrade": "護體 12。",
+              "prerequisite": null,
+              "art_subject": "bronze warning compass detecting an approaching red arrow",
+              "sheet": "assets/bu-cards-v2.png",
+              "row": 1,
+              "column": 2
+            },
+            {
+              "id": "fa2-bu-2-2",
+              "name": "奇門遁甲",
+              "tier": 2,
+              "cost": 1,
+              "type": "技能",
+              "effect": "設一個預備：下一次受攻擊前獲得 8 護體，或下次出攻擊牌前使目標獲得 2 破綻。下個自己回合結束前有效。",
+              "upgrade": "護體 11；破綻不變。",
+              "prerequisite": "fa2-bu-2-1",
+              "art_subject": "square folding gate offering blue shield and amber target paths",
+              "sheet": "assets/bu-cards-v2.png",
+              "row": 2,
+              "column": 2
+            },
+            {
+              "id": "fa2-bu-2-3",
+              "name": "逢凶化吉",
+              "tier": 3,
+              "cost": 2,
+              "type": "技能",
+              "effect": "獲得 12 護體；若本回合曾觸發預備，抽 2 張。",
+              "upgrade": "護體 16。",
+              "prerequisite": "fa2-bu-2-2",
+              "art_subject": "red danger glyph transforming into a blue protective coin",
+              "sheet": "assets/bu-cards-v2.png",
+              "row": 3,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "id": "bu-3",
+          "name": "推演",
+          "goal": "有限取回與預測獎勵",
+          "cards": [
+            {
+              "id": "fa2-bu-3-1",
+              "name": "留一手",
+              "tier": 1,
+              "cost": 1,
+              "type": "技能",
+              "effect": "保留手中 1 張其他牌到下回合；獲得 5 護體。",
+              "upgrade": "護體 8。",
+              "prerequisite": null,
+              "art_subject": "small mechanical hand holding one blue talisman card",
+              "sheet": "assets/bu-cards-v2.png",
+              "row": 1,
+              "column": 3
+            },
+            {
+              "id": "fa2-bu-3-2",
+              "name": "推背圖",
+              "tier": 2,
+              "cost": 1,
+              "type": "技能",
+              "effect": "預測本回合下一張打出的其他牌類型；命中獲得 6 護體並抽 1 張。每回合限一次。",
+              "upgrade": "護體 9。",
+              "prerequisite": "fa2-bu-3-1",
+              "art_subject": "ancient scroll displaying two pixel future silhouettes",
+              "sheet": "assets/bu-cards-v2.png",
+              "row": 2,
+              "column": 3
+            },
+            {
+              "id": "fa2-bu-3-3",
+              "name": "時間回溯",
+              "tier": 3,
+              "cost": 2,
+              "type": "技能",
+              "effect": "從棄牌堆取回 1 張本回合打出的費用不超過 1 的攻擊牌；費用不變。移除。",
+              "upgrade": "另獲得 4 護體；取回限制不變。",
+              "prerequisite": "fa2-bu-3-2",
+              "art_subject": "bronze hourglass circling one small sword card with a backward arrow",
+              "sheet": "assets/bu-cards-v2.png",
+              "row": 3,
+              "column": 3
+            }
+          ]
+        }
+      ],
+      "immortals": [
+        {
+          "name": "先兆",
+          "type": "主動",
+          "effect": "每場一次：查看並排序牌頂 2 張；不抽牌。",
+          "status": "提案；功德學會後永久保留，重生選配"
+        },
+        {
+          "name": "備卦",
+          "type": "被動",
+          "effect": "每場第一個預備觸發時獲得 3 護體。",
+          "status": "提案；功德學會後永久保留，重生選配"
+        }
+      ],
+      "image": "assets/bu-cards-v2.png",
+      "prompt": "Use case: stylized-concept. Original DAOPUNK GBA pixel art CARD CONTACT SHEET, landscape 1536x1024, EXACTLY NINE complete cards in a precisely aligned THREE columns by THREE rows grid, equal size cards with ample navy gutters and outer margins. Image 1 is style reference only; do not repeat its six-card layout. Each card has a thin bronze pixel frame, blank small parchment header and footer, one large distinct simple icon on a flat dark background. No letters, numbers, writing, or watermark. 卜 school palette: indigo, pale cyan, bronze. Eastern cultivation integrated with cyberpunk electronics. Low resolution chunky pixel clusters, hard stepped edges, 2-3 shades, no smooth gradients, glow, realism or painterly brushwork. Very simple readable silhouettes; icons fill their panels without touching frames. Render these exact nine subjects, in row-major order: row 1 column 1: three bronze coins above a small blue hexagram terminal; row 1 column 2: bronze warning compass detecting an approaching red arrow; row 1 column 3: small mechanical hand holding one blue talisman card; row 2 column 1: plum blossom beside two holographic card silhouettes; row 2 column 2: square folding gate offering blue shield and amber target paths; row 2 column 3: ancient scroll displaying two pixel future silhouettes; row 3 column 1: six luminous horizontal bars above five tiny face-down cards; row 3 column 2: red danger glyph transforming into a blue protective coin; row 3 column 3: bronze hourglass circling one small sword card with a backward arrow. All nine borders fully inside image. Keep uniform straight-on card face, no perspective."
+    }
+  ]
+}

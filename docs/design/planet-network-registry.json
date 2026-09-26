@@ -18,7 +18,13 @@
           "exports": "遺物修復、封存資料",
           "imports": "糧食與淨水",
           "environment": "深坑岩層與埋藏都市",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-001-P1-C1",
+            "U-001-P1-C2",
+            "U-001-P1-C3"
+          ],
+          "dao_residence": true
         },
         {
           "id": "U-001-P2",
@@ -30,7 +36,12 @@
           "exports": "再生金屬、耐候零件",
           "imports": "淨水與技術",
           "environment": "乾燥廢料台地與銅色鹽地",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-001-P2-C1",
+            "U-001-P2-C2"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-001-P3",
@@ -42,7 +53,13 @@
           "exports": "穀物、藥草與種子",
           "imports": "機具與防護",
           "environment": "穀物、藥草與種子主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-001-P3-C1",
+            "U-001-P3-C2",
+            "U-001-P3-C3"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-001-P4",
@@ -54,7 +71,12 @@
           "exports": "淨水、濾芯與水道工程",
           "imports": "金屬與糧食",
           "environment": "淨水、濾芯與水道工程主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-001-P4-C1",
+            "U-001-P4-C2"
+          ],
+          "dao_residence": false
         }
       ],
       "trade_routes": [
@@ -133,7 +155,9 @@
           "type": "quota_negotiation",
           "issue": "遺物稅權爭議"
         }
-      ]
+      ],
+      "dao_residence_planet_id": "U-001-P1",
+      "capital_city_id": "U-001-P1-C3"
     },
     {
       "id": "U-002",
@@ -151,7 +175,13 @@
           "exports": "武備、石材與軍事教習",
           "imports": "糧食與運輸",
           "environment": "赤岩高地",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-002-P1-C1",
+            "U-002-P1-C2",
+            "U-002-P1-C3"
+          ],
+          "dao_residence": true
         },
         {
           "id": "U-002-P2",
@@ -163,7 +193,12 @@
           "exports": "邊境護航、寒鐵",
           "imports": "糧食與醫藥",
           "environment": "冷灰山脊",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-002-P2-C1",
+            "U-002-P2-C2"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-002-P3",
@@ -175,7 +210,13 @@
           "exports": "軍糧、布匹與皮革",
           "imports": "農具與護航",
           "environment": "軍糧、布匹與皮革主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-002-P3-C1",
+            "U-002-P3-C2",
+            "U-002-P3-C3"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-002-P4",
@@ -187,7 +228,12 @@
           "exports": "運輸機具、動力核心",
           "imports": "礦石與糧食",
           "environment": "運輸機具、動力核心主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-002-P4-C1",
+            "U-002-P4-C2"
+          ],
+          "dao_residence": false
         }
       ],
       "trade_routes": [
@@ -266,7 +312,9 @@
           "type": "quota_negotiation",
           "issue": "軍令權爭議"
         }
-      ]
+      ],
+      "dao_residence_planet_id": "U-002-P1",
+      "capital_city_id": "U-002-P1-C3"
     },
     {
       "id": "U-003",
@@ -284,7 +332,13 @@
           "exports": "記憶儲存、學術檔案",
           "imports": "運算與散熱",
           "environment": "灰紫節點台地",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-003-P1-C1",
+            "U-003-P1-C2",
+            "U-003-P1-C3"
+          ],
+          "dao_residence": true
         },
         {
           "id": "U-003-P2",
@@ -296,7 +350,12 @@
           "exports": "通訊中繼、離線備份",
           "imports": "能源與硬體",
           "environment": "淡藍訊號平原",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-003-P2-C1",
+            "U-003-P2-C2"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-003-P3",
@@ -308,7 +367,13 @@
           "exports": "運算服務、模擬模型",
           "imports": "冷卻與資料",
           "environment": "運算服務、模擬模型主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-003-P3-C1",
+            "U-003-P3-C2",
+            "U-003-P3-C3"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-003-P4",
@@ -320,7 +385,12 @@
           "exports": "冷卻介質、光學晶片",
           "imports": "能源與技術",
           "environment": "冷卻介質、光學晶片主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-003-P4-C1",
+            "U-003-P4-C2"
+          ],
+          "dao_residence": false
         }
       ],
       "trade_routes": [
@@ -399,7 +469,9 @@
           "type": "quota_negotiation",
           "issue": "資料自治爭議"
         }
-      ]
+      ],
+      "dao_residence_planet_id": "U-003-P1",
+      "capital_city_id": "U-003-P1-C3"
     },
     {
       "id": "U-004",
@@ -417,7 +489,13 @@
           "exports": "行政認證、精密機體",
           "imports": "能源與原料",
           "environment": "人工玉白平台",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-004-P1-C1",
+            "U-004-P1-C2",
+            "U-004-P1-C3"
+          ],
+          "dao_residence": true
         },
         {
           "id": "U-004-P2",
@@ -429,7 +507,12 @@
           "exports": "邊防服務、退役零件",
           "imports": "能源與維修",
           "environment": "寒冷金屬平原",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-004-P2-C1",
+            "U-004-P2-C2"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-004-P3",
@@ -441,7 +524,13 @@
           "exports": "能源核心、電力配額",
           "imports": "散熱與機體",
           "environment": "能源核心、電力配額主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-004-P3-C1",
+            "U-004-P3-C2",
+            "U-004-P3-C3"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-004-P4",
@@ -453,7 +542,12 @@
           "exports": "標準零件、維修工坊",
           "imports": "能源與認證",
           "environment": "標準零件、維修工坊主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-004-P4-C1",
+            "U-004-P4-C2"
+          ],
+          "dao_residence": false
         }
       ],
       "trade_routes": [
@@ -532,7 +626,9 @@
           "type": "quota_negotiation",
           "issue": "生命資格爭議"
         }
-      ]
+      ],
+      "dao_residence_planet_id": "U-004-P1",
+      "capital_city_id": "U-004-P1-C3"
     },
     {
       "id": "U-005",
@@ -550,7 +646,13 @@
           "exports": "結算服務、交易信用",
           "imports": "貨品與護航",
           "environment": "乾暖港灣",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-005-P1-C1",
+            "U-005-P1-C2",
+            "U-005-P1-C3"
+          ],
+          "dao_residence": true
         },
         {
           "id": "U-005-P2",
@@ -562,7 +664,12 @@
           "exports": "保稅倉儲、邊境物流",
           "imports": "通行協議與燃料",
           "environment": "冷色軌道貨運地表",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-005-P2-C1",
+            "U-005-P2-C2"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-005-P3",
@@ -574,7 +681,13 @@
           "exports": "船舶修造、遠洋護航",
           "imports": "零件與糧食",
           "environment": "船舶修造、遠洋護航主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-005-P3-C1",
+            "U-005-P3-C2",
+            "U-005-P3-C3"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-005-P4",
@@ -586,7 +699,12 @@
           "exports": "糧食、日用消費品",
           "imports": "運力與信用",
           "environment": "糧食、日用消費品主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-005-P4-C1",
+            "U-005-P4-C2"
+          ],
+          "dao_residence": false
         }
       ],
       "trade_routes": [
@@ -665,7 +783,9 @@
           "type": "quota_negotiation",
           "issue": "關稅與信用爭議"
         }
-      ]
+      ],
+      "dao_residence_planet_id": "U-005-P1",
+      "capital_city_id": "U-005-P1-C3"
     },
     {
       "id": "U-006",
@@ -683,7 +803,13 @@
           "exports": "冶煉、合金與鍛件",
           "imports": "冷卻介質與礦晶",
           "environment": "冷熱交界火山台地",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-006-P1-C1",
+            "U-006-P1-C2",
+            "U-006-P1-C3"
+          ],
+          "dao_residence": true
         },
         {
           "id": "U-006-P2",
@@ -695,7 +821,12 @@
           "exports": "礦晶、模組橋",
           "imports": "工具與穩定劑",
           "environment": "碎裂礦晶台地",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-006-P2-C1",
+            "U-006-P2-C2"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-006-P3",
@@ -707,7 +838,13 @@
           "exports": "冷卻液、耐熱陶材",
           "imports": "能源與零件",
           "environment": "冷卻液、耐熱陶材主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-006-P3-C1",
+            "U-006-P3-C2",
+            "U-006-P3-C3"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-006-P4",
@@ -719,7 +856,12 @@
           "exports": "重構平台、空間定位器",
           "imports": "礦晶與合金",
           "environment": "重構平台、空間定位器主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-006-P4-C1",
+            "U-006-P4-C2"
+          ],
+          "dao_residence": false
         }
       ],
       "trade_routes": [
@@ -798,7 +940,9 @@
           "type": "quota_negotiation",
           "issue": "重構許可爭議"
         }
-      ]
+      ],
+      "dao_residence_planet_id": "U-006-P1",
+      "capital_city_id": "U-006-P1-C3"
     },
     {
       "id": "U-007",
@@ -816,7 +960,13 @@
           "exports": "種苗、醫藥與培育技術",
           "imports": "生物材料與樣本",
           "environment": "培育林與花田",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-007-P1-C1",
+            "U-007-P1-C2",
+            "U-007-P1-C3"
+          ],
+          "dao_residence": true
         },
         {
           "id": "U-007-P2",
@@ -828,7 +978,12 @@
           "exports": "菌絲材料、污染分解",
           "imports": "醫藥與通行",
           "environment": "菌絲濕地",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-007-P2-C1",
+            "U-007-P2-C2"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-007-P3",
@@ -840,7 +995,13 @@
           "exports": "授粉服務、營養液",
           "imports": "種苗與淨水",
           "environment": "授粉服務、營養液主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-007-P3-C1",
+            "U-007-P3-C2",
+            "U-007-P3-C3"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-007-P4",
@@ -852,7 +1013,12 @@
           "exports": "生物檢驗、環境監測",
           "imports": "樣本與儀器",
           "environment": "生物檢驗、環境監測主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-007-P4-C1",
+            "U-007-P4-C2"
+          ],
+          "dao_residence": false
         }
       ],
       "trade_routes": [
@@ -931,7 +1097,9 @@
           "type": "quota_negotiation",
           "issue": "培育授權爭議"
         }
-      ]
+      ],
+      "dao_residence_planet_id": "U-007-P1",
+      "capital_city_id": "U-007-P1-C3"
     },
     {
       "id": "U-008",
@@ -949,7 +1117,13 @@
           "exports": "資料轉運、交接服務",
           "imports": "儲存器與紙燈",
           "environment": "幽暗資料河岸",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-008-P1-C1",
+            "U-008-P1-C2",
+            "U-008-P1-C3"
+          ],
+          "dao_residence": true
         },
         {
           "id": "U-008-P2",
@@ -961,7 +1135,12 @@
           "exports": "匿名庇護、隱私封存",
           "imports": "補給與運輸",
           "environment": "灰白靜默平原",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-008-P2-C1",
+            "U-008-P2-C2"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-008-P3",
@@ -973,7 +1152,13 @@
           "exports": "長期檔案、修復磁片",
           "imports": "能源與授權",
           "environment": "長期檔案、修復磁片主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-008-P3-C1",
+            "U-008-P3-C2",
+            "U-008-P3-C3"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-008-P4",
@@ -985,7 +1170,12 @@
           "exports": "引路燈、渡船修造",
           "imports": "金屬與航路記錄",
           "environment": "引路燈、渡船修造主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-008-P4-C1",
+            "U-008-P4-C2"
+          ],
+          "dao_residence": false
         }
       ],
       "trade_routes": [
@@ -1064,7 +1254,9 @@
           "type": "quota_negotiation",
           "issue": "封存管轄爭議"
         }
-      ]
+      ],
+      "dao_residence_planet_id": "U-008-P1",
+      "capital_city_id": "U-008-P1-C3"
     },
     {
       "id": "U-009",
@@ -1082,7 +1274,13 @@
           "exports": "橋路維護、避難中繼",
           "imports": "燃料與建材",
           "environment": "斷裂陸塊",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-009-P1-C1",
+            "U-009-P1-C2",
+            "U-009-P1-C3"
+          ],
+          "dao_residence": true
         },
         {
           "id": "U-009-P2",
@@ -1094,7 +1292,12 @@
           "exports": "失落記錄、姓名修復",
           "imports": "庇護與介質",
           "environment": "失色空寂荒原",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-009-P2-C1",
+            "U-009-P2-C2"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-009-P3",
@@ -1106,7 +1309,13 @@
           "exports": "錨石、結構支撐",
           "imports": "運力與魂燈",
           "environment": "錨石、結構支撐主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-009-P3-C1",
+            "U-009-P3-C2",
+            "U-009-P3-C3"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-009-P4",
@@ -1118,7 +1327,12 @@
           "exports": "魂燈燃料、保暖織物",
           "imports": "錨石與糧食",
           "environment": "魂燈燃料、保暖織物主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-009-P4-C1",
+            "U-009-P4-C2"
+          ],
+          "dao_residence": false
         }
       ],
       "trade_routes": [
@@ -1197,7 +1411,9 @@
           "type": "quota_negotiation",
           "issue": "避難資源爭議"
         }
-      ]
+      ],
+      "dao_residence_planet_id": "U-009-P1",
+      "capital_city_id": "U-009-P1-C3"
     },
     {
       "id": "U-010",
@@ -1215,7 +1431,13 @@
           "exports": "光井技術、教育與圖紙",
           "imports": "材料與糧食",
           "environment": "明亮白石階地",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-010-P1-C1",
+            "U-010-P1-C2",
+            "U-010-P1-C3"
+          ],
+          "dao_residence": true
         },
         {
           "id": "U-010-P2",
@@ -1227,7 +1449,12 @@
           "exports": "新城建設、公共設施",
           "imports": "技術與建材",
           "environment": "暖金晨曦平原",
-          "city_status": "existing_two_templates"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-010-P2-C1",
+            "U-010-P2-C2"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-010-P3",
@@ -1239,7 +1466,13 @@
           "exports": "白石、陶材與施工",
           "imports": "能源與糧食",
           "environment": "白石、陶材與施工主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-010-P3-C1",
+            "U-010-P3-C2",
+            "U-010-P3-C3"
+          ],
+          "dao_residence": false
         },
         {
           "id": "U-010-P4",
@@ -1251,7 +1484,12 @@
           "exports": "糧食、庭園與生態維護",
           "imports": "水利與建材",
           "environment": "糧食、庭園與生態維護主題環境（新提案）",
-          "city_status": "not_designed"
+          "city_status": "designed_in_world_100",
+          "city_ids": [
+            "U-010-P4-C1",
+            "U-010-P4-C2"
+          ],
+          "dao_residence": false
         }
       ],
       "trade_routes": [
@@ -1330,7 +1568,9 @@
           "type": "quota_negotiation",
           "issue": "創建規範爭議"
         }
-      ]
+      ],
+      "dao_residence_planet_id": "U-010-P1",
+      "capital_city_id": "U-010-P1-C3"
     }
   ]
 }

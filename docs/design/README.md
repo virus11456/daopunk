@@ -1,5 +1,7 @@
 # 新版本設計與完成狀態
 
+> 最新擴充：[五術 15 分支、45 卡](../art-direction/five-arts-v2/README.md)、[隨機與升級平衡](CARD_PROGRESSION_BALANCE.md)、[40 星球與 100 城鎮](world-100/README.md)、[99 歲／抹殺／永久仙術邊界](REINCARNATION_CANON_V2.md)。下表早期卡圖數量以新文件為準。
+
 目標：GBA 像素肉鴿，Godot + Blender。設計文件與現行可玩原型分開標示。
 
 | 項目 | 已完成 | 尚缺 |

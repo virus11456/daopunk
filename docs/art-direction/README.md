@@ -1,5 +1,7 @@
 # DAOPUNK 美術方向提案：GBA 時代的道術像素 RPG
 
+> 最新擴充：[五術正式路徑與 45 卡](five-arts-v2/README.md) · [40 星球／100 城鎮地點](../design/world-100/README.md)。
+
 狀態：GBA 像素美術主方向已由使用者確認；各素材為概念設計，尚非已完成的遊戲換皮。2026-09-26。
 
 後續完整設定：[完整城市配置](cities/README.md) · [角色概念圖](characters/README.md) · [十大宇宙主視覺](universes/README.md) · [世界觀來源與修正](universes/SOURCES.md) · [五術職業與修行樹](cards-items/FIVE_ARTS.md) · [40 種卡牌與 17 種道具](cards-items/README.md) · [房產與跨輪迴舊居](../design/HOUSING_AND_REINCARNATION.md) · [離線圖鑑](universes/gallery.html)。
