@@ -107,7 +107,10 @@
     "medical_life_extension_requires_recultivation_next_life",
     "lifespan_health_and_qi_immortal_art_effects_stack",
     "guixu_is_our_universe_with_earth_connection",
-    "guixu_unstable_and_fragmented_cause_unknown"
+    "guixu_unstable_and_fragmented_cause_unknown",
+    "ten_dao_rulers_know_one_another",
+    "guixu_first_ruler_widely_believed_dead_few_suspect_alive",
+    "guixu_ruler_sees_past_present_future_and_changes_fate"
   ],
   "development_workflow": "故事、人物與世界設定分篇完成，最後整合主線並接入Godot；GitHub持續記錄更新",
   "proposal_modules": [

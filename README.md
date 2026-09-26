@@ -39,7 +39,7 @@
 | [道家思想與敘事原則](docs/worldbuilding/DAOIST_NARRATIVE.md) | 齊物、夢、無為等思想如何進入具體故事 |
 | [人物與十大道主](docs/worldbuilding/CHARACTERS.md) | 身分、性格與人物分歧 |
 | [星球與地點名錄](docs/worldbuilding/ATLAS.md) | 地理、地標、產業、政治與貿易 |
-| [矛盾檢查](docs/worldbuilding/CONTINUITY_AUDIT.md) | 38項衝突、缺口與寫作邊界及其處理狀態 |
+| [矛盾檢查](docs/worldbuilding/CONTINUITY_AUDIT.md) | 39項衝突、缺口與寫作邊界及其處理狀態 |
 | [現行美術基準](docs/worldbuilding/ART_BIBLE.md) | 最新風格、角色辨識及素材製作限制 |
 | [更新紀錄](CHANGELOG.md) | 本次變更、退役範圍、驗證與未決事項 |
 
@@ -66,3 +66,5 @@
 最新能力基準：[100種跨世仙術](docs/worldbuilding/IMMORTAL_ARTS_FRAMEWORK.md)。一般99年為基礎；醫術與換身延壽只限本世，延壽仙術跨世保留。
 
 歸墟最新背景：與我們所在宇宙及地球相連，如今不穩且破碎，原因未知；地球與蔓哈頓深坑星的關係仍待確認。
+
+本批：[十大道主能力詳案](docs/worldbuilding/DAO_RULER_POWERS.md) · [交給Claude的故事提示詞](docs/worldbuilding/CLAUDE_STORY_PROMPT.md)。

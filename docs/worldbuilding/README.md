@@ -25,3 +25,6 @@
 - [百種跨世仙術基準](IMMORTAL_ARTS_FRAMEWORK.md)：100種、功德各別定價、延壽例外與待設計限制。
 
 - [十大道主法則／傳奇仙術](LEGENDARY_LAWS.md)：力量來源、特殊取得途徑與未決問題。
+
+- [十大道主法則與能力詳案](DAO_RULER_POWERS.md)：30項權能、10項傳奇候選及歸墟亡故傳聞檢查。
+- [Claude故事創作提示詞](CLAUDE_STORY_PROMPT.md)：可直接貼上，含正史、提案邊界與第一批分場劇本交付要求。
