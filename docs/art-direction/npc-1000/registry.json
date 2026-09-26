@@ -11,10 +11,10 @@
       "universe_id": "U-001",
       "role_proposal": "修理工",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: style-transfer. Clean up the attached DAOPUNK robot repairer as one front-facing compact GBA map pixel sprite, version 3. Keep cream square head, offset amber lens, indigo apron, copper wrench arm, jade tag and short boots. Crucial change: FLAT SOLID pixel clusters, exactly uniform pixel grid, no gradients within a block, no soft antialiasing, no glow, no texture noise. Build on a 32 by 40 logical pixel grid and show enlarged crisp square pixels. Simplify head to a square silhouette and plain flat cream planes. Two-heads-tall full body. Transparent background with hard binary alpha edges, no shadow. One centered character only, no lettering or labels. Preserve the character identity while reducing detail to readable coarse shapes.",
+      "prompt": "Use case: stylized-concept. Draw a fresh alternative design for DAOPUNK NPC-0001, a tiny squat nonhuman repair robot for a GBA-era top-down town. Single front-facing full-body character on a truly transparent background. Huge simple cream square head, single offset amber eye, little indigo work apron, one copper wrench claw, jade hanging tag and two tiny boots. Big head short body, classic overhead map sprite proportions. Hand-placed pixel art with a very small number of large solid square pixels and dark outlines; flat palette of cream, tan, charcoal, indigo, copper, amber, jade. Minimal details, no painterly lighting, no gradients or anti-aliasing, no soft edges. Character fits a compact 32x40 logical pixel silhouette shown at integer enlargement. Render only one character, no text, no floor or cast shadow, no grid background. This is a new redraw from the identity description, not a high-resolution illustration.",
       "status": "generated_concept_needs_pixel_cleanup",
-      "asset": "assets/NPC-0001-front-v3.png",
-      "review": "Front full body and one subject; identity preserved; coarse silhouette improved. Smooth internal gradients and partial alpha persist, strict uniform pixel-grid request not met. Final acceptance withheld.",
+      "asset": "assets/NPC-0001-front-v4.png",
+      "review": "Single frontal full body, distinct robot identity and compact silhouette preserved. Palette gradients and partial alpha persist. Alternative redesign, not accepted final.",
       "versions": [
         {
           "width": 1230,
@@ -68,6 +68,24 @@
           "source_file": "exec-4597ab17-8027-4534-9f91-36dec51a5b6d.png",
           "review": "Front full body and one subject; identity preserved; coarse silhouette improved. Smooth internal gradients and partial alpha persist, strict uniform pixel-grid request not met. Final acceptance withheld.",
           "verified_asset_commit": "a1deb0f0ddeb4f9aa144e05772583ac6aeeda3e7"
+        },
+        {
+          "width": 1122,
+          "height": 1402,
+          "alpha_zero_pixels": 984299,
+          "alpha_partial_pixels": 585383,
+          "alpha_opaque_pixels": 3362,
+          "sha256": "ec0fc7fadbfb18758ce4f59f8a0359478c3e27ebfa5384423cb7a36774cf87bb",
+          "git_blob_sha": "999776d295524b9ac23b5502a767eebd978ecbfc",
+          "asset": "assets/NPC-0001-front-v4.png",
+          "version": 4,
+          "qa": "visually_reviewed_needs_pixel_cleanup",
+          "synced": false,
+          "prompt": "Use case: stylized-concept. Draw a fresh alternative design for DAOPUNK NPC-0001, a tiny squat nonhuman repair robot for a GBA-era top-down town. Single front-facing full-body character on a truly transparent background. Huge simple cream square head, single offset amber eye, little indigo work apron, one copper wrench claw, jade hanging tag and two tiny boots. Big head short body, classic overhead map sprite proportions. Hand-placed pixel art with a very small number of large solid square pixels and dark outlines; flat palette of cream, tan, charcoal, indigo, copper, amber, jade. Minimal details, no painterly lighting, no gradients or anti-aliasing, no soft edges. Character fits a compact 32x40 logical pixel silhouette shown at integer enlargement. Render only one character, no text, no floor or cast shadow, no grid background. This is a new redraw from the identity description, not a high-resolution illustration.",
+          "prompt_fidelity": "exact_tool_input",
+          "source": "built-in imagegen fresh redraw without image input",
+          "source_file": "exec-e8c65379-dbb3-487a-b1fd-5971773159b4.png",
+          "review": "Single frontal full body, distinct robot identity and compact silhouette preserved. Palette gradients and partial alpha persist. Alternative redesign, not accepted final."
         }
       ]
     },
