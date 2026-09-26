@@ -5,13 +5,13 @@
   "visually_reviewed_characters": 132,
   "accepted_final": 132,
   "remaining_without_image": 868,
-  "synced_characters": 122,
-  "next_action": "Verify and sync NPC-0113–0122, then immediately continue NPC-0123. Extra0133–0142 excluded from phase.",
+  "synced_characters": 132,
+  "next_action": "Continue NPC-0123; phase90/100 verified.",
   "batch": "NPC-0113-0122",
-  "verified_asset_commit": "e2efe94516097660e44001775079372c6c5905ff",
-  "latest_batch_synced": false,
+  "verified_asset_commit": "3b7aaae59f28c439bf5e9046e88514df5a81863e",
+  "latest_batch_synced": true,
   "quality_blocker": null,
   "cleanup_authorized": true,
   "pending_cleanup_ids": [],
-  "synced_generated_characters": 122
+  "synced_generated_characters": 132
 }
