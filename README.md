@@ -94,3 +94,5 @@
 最新：[山海經v1.1](docs/story-drafts/shanhai-v1.1/README.md)已更新三項決定；[NPC生活離線模型](docs/contracts/NPC_LIFE_DATA.md)通過14項檢查，尚未接入Godot。
 
 [山海圖鑑設計v1.1](docs/story-drafts/shanhai-codex-v1.1/README.md)：開局上百條未見經文、不收一般人物、師父批註提供另一線索路徑已定；內容與圖像尚待逐條製作。
+
+NPC美術進度：[1000位居民圖庫](docs/art-direction/npc-1000/README.md)。目前2位有圖、4個版本，正式驗收0位；v2仍待像素修整，尚有998位未生成。
