@@ -8,7 +8,7 @@ def initial():
     return {
         'world': {'tick': 100, 'history': ['caravan_route_opened'],
                   'npc': {'life_id': 'npc-7', 'recognizes_player': True}},
-        'permanent': {'memories': ['met_red'], 'arts': {
+        'permanent': {'karma_unspent': 73, 'memories': ['met_red'], 'arts': {
             'fixture_life_a': {'years': 10, 'health': 5, 'qi': 0},
             'fixture_life_b': {'years': 20, 'health': 3, 'qi': 4}},
             'laws': ['fate']},
@@ -79,6 +79,7 @@ def run_checks():
     npc = copy.deepcopy(state['world']['npc'])
     rebirth(state, 'rebirth-1', 150, {'id': 'new-human', 'health': 3, 'qi': 1})
     check('permanent_memories_arts_laws_preserved', state['permanent'] == permanent)
+    check('unspent_karma_preserved_in_full', state['permanent']['karma_unspent'] == 73)
     check('world_and_npc_history_preserved', state['world']['history'] == history and state['world']['npc'] == npc)
     check('medical_bonus_reset_not_permanent', limits(state)['years'] == 129)
     check('recultivation_required', not apply_medical(state))

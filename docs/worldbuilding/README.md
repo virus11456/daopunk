@@ -32,3 +32,7 @@
 - [中立組織近況與間接敘事](NEUTRAL_ORGANIZATION_NEWS.md)：含殺手組織，未接觸也可從新聞或口述得知其變化。
 
 - [輪迴資料保存契約](../contracts/REINCARNATION_DATA.md)：仙術、法則、當世醫術與世界歷史的資料分工及離線檢查。
+
+- [Claude第一批故事交稿](../story-drafts/claude-batch-01/README.md)：原文、12項一致性檢查與修訂提示；提案未自動定案。
+
+- [R01紅篇《一盞燈的高度》收稿](../story-drafts/red-r01/README.md)：第一世共同經歷、9項檢查與修訂提示。

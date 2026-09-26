@@ -113,7 +113,10 @@
     "guixu_ruler_sees_past_present_future_and_changes_fate",
     "neutral_organizations_persist_without_player_contact",
     "neutral_organization_updates_via_news_and_word_of_mouth",
-    "assassin_organizations_added_to_neutral_factions"
+    "assassin_organizations_added_to_neutral_factions",
+    "opening_first_life_first_descent",
+    "unspent_karma_fully_persists_across_reincarnation",
+    "hidden_dispersed_human_descendants_proposal_rejected_last_humans_definition_retained"
   ],
   "development_workflow": "故事、人物與世界設定分篇完成，最後整合主線並接入Godot；GitHub持續記錄更新",
   "proposal_modules": [

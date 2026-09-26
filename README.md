@@ -71,4 +71,8 @@
 
 中立組織（含殺手組織）可透過新聞與口述持續出現，不要求每世直接接觸：[近況敘事規格](docs/worldbuilding/NEUTRAL_ORGANIZATION_NEWS.md)。
 
-實作準備：[輪迴保存契約](docs/contracts/REINCARNATION_DATA.md)。離線檢查命令：`python3 tools/check_reincarnation_contract.py`，目前16項通過；不是新版Godot遊戲驗收。
+實作準備：[輪迴保存契約](docs/contracts/REINCARNATION_DATA.md)。離線檢查命令：`python3 tools/check_reincarnation_contract.py`，目前17項通過；不是新版Godot遊戲驗收。
+
+已收[Claude第一批A～D故事草稿](docs/story-drafts/claude-batch-01/README.md)，保留原文並附一致性檢查；尚未將新增真相全部定案或接入Godot。
+
+已續收[R01紅篇《一盞燈的高度》](docs/story-drafts/red-r01/README.md)，與第一批S01及未來S02分開管理。
