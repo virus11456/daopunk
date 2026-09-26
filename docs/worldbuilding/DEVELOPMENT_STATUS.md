@@ -139,3 +139,7 @@
 已收到[R01紅篇七場原稿](../story-drafts/red-r01/README.md)，保留低燈與收信接口；散居後裔舊假設、夜間證詞及分支知識需修，尚未定稿。
 
 已收[Z01零號篇《半邊夢》](../story-drafts/zero-z01/README.md)七場與接口，附12項文本檢查。機率觀測、三個月／一年期限、採收季節及過期人類伏筆需修；新篇不是已驗證的Godot內容。
+
+故事續收五篇：[X01](../story-drafts/stardust-x01/README.md)、[D01](../story-drafts/death-d01/README.md)、[S02 v2](../story-drafts/red-reunion-s02-v2/README.md)、[M01](../story-drafts/elder-m01/README.md)、[F01](../story-drafts/fourth-sister-f01/README.md)，共36場、66項文本檢查及修訂提示。仍需修訂身體來源、共同年表、概率條件、可選事件回憶、紙張持有鏈與跨星稽核權限；不自動採用固定首死、15歲開局、九子來源解答或觀察者觸發機制。故事定稿及Godot整合均未完成。
+
+F01另需重構傳承苑人口前提，區分未觸發／局部／足以相認的記憶分支，補鏡葉與華種的管轄及三日時間線；角色提出源頭說法不等於宇宙真相已確認。
