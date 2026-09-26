@@ -5,9 +5,21 @@
   "batch_size": 10,
   "phase_reviewed": 40,
   "phase_synced": 40,
-  "cumulative_target": 132,
+  "cumulative_target": 142,
   "next_id": "NPC-0073",
   "stop_after_phase": true,
-  "status": "batch_4_complete",
-  "verified_asset_commit": "2962511955cea17d16d4aed6f0142b84ac9051e9"
+  "status": "batch_5_sources_partial",
+  "verified_asset_commit": "2962511955cea17d16d4aed6f0142b84ac9051e9",
+  "pending_cleanup_ids": [
+    "NPC-0073",
+    "NPC-0074"
+  ],
+  "additional_outside_phase": {
+    "start": "NPC-0133",
+    "end": "NPC-0142",
+    "target": 10,
+    "reviewed": 10,
+    "synced": 0
+  },
+  "completion_rule": "Count only accepted and remotely verified IDs NPC-0033–0132; extra IDs do not advance phase."
 }
