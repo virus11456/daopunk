@@ -348,3 +348,8 @@
 ## B01 與中立組織入會收稿
 
 收錄 [B01 聚變篇審閱](docs/story-drafts/fusion-b01-v1/README.md)、[入會 v1 歷史審閱](docs/story-drafts/organization-membership-v1/README.md)及[入會 v1.1 原稿與修訂 prompt](docs/story-drafts/organization-membership-v1.1/README.md)。B01 採最新 B-1～B-6 編號；檢查居民受害判準與薄牆定位。入會 v1.1 記錄殺手可加入、三種跨世承認、兼任無上限，其他提案不升格。世界惡化不自動觸發結局，未接 Godot。
+
+
+## W01 v1.1 與組織入會 v1.2 收稿
+
+保存 [W01 v1.1 原稿、工作更正與逐項審閱](docs/story-drafts/warren-w01-v1.1/README.md)及[加入中立組織 v1.2 原稿與後續修訂](docs/story-drafts/organization-membership-v1.2/README.md)。保留舊版；W01 工作稿依使用者既定裁決修正 N19，無逾時自動終局。核對契約、債權授權、資料證據與組織退出權限；其餘候選保持提案，未接 Godot。
