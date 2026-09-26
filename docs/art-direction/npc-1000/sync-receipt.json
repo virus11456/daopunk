@@ -1,19 +1,19 @@
 {
-  "batch": "NPC-0093-0102",
-  "verified_asset_commit": "3d13727c028907f7537929e9a39e7b20fcbf50f5",
+  "batch": "NPC-0103-0112",
+  "verified_asset_commit": "e2efe94516097660e44001775079372c6c5905ff",
   "verified_ids": [
-    "NPC-0093",
-    "NPC-0094",
-    "NPC-0095",
-    "NPC-0096",
-    "NPC-0097",
-    "NPC-0098",
-    "NPC-0099",
-    "NPC-0100",
-    "NPC-0101",
-    "NPC-0102"
+    "NPC-0103",
+    "NPC-0104",
+    "NPC-0105",
+    "NPC-0106",
+    "NPC-0107",
+    "NPC-0108",
+    "NPC-0109",
+    "NPC-0110",
+    "NPC-0111",
+    "NPC-0112"
   ],
-  "synced_characters": 112,
-  "phase_synced": 70,
+  "synced_characters": 122,
+  "phase_synced": 80,
   "verification": "Explicit assets matched remote Git tree blob SHAs."
 }
