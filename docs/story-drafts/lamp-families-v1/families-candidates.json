@@ -1,0 +1,105 @@
+{
+  "status": "proposal_not_canon",
+  "families": [
+    {
+      "family_name": "沈家",
+      "status": "proposal",
+      "city_id": "U-001-P4-C2",
+      "city_name": "濾心鎮",
+      "planet_id": "U-001-P4",
+      "population": null,
+      "bloodline_verified": false,
+      "playable": false
+    },
+    {
+      "family_name": "魏家",
+      "status": "proposal",
+      "city_id": "U-001-P1-C1",
+      "city_name": "破爛一條街",
+      "planet_id": "U-001-P1",
+      "population": null,
+      "bloodline_verified": false,
+      "playable": false
+    },
+    {
+      "family_name": "葛家",
+      "status": "proposal",
+      "city_id": "U-001-P3-C2",
+      "city_name": "藥畦鎮",
+      "planet_id": "U-001-P3",
+      "population": null,
+      "bloodline_verified": false,
+      "playable": false
+    },
+    {
+      "family_name": "卜家",
+      "status": "proposal",
+      "city_id": "U-001-P2-C2",
+      "city_name": "轉運聚落",
+      "planet_id": "U-001-P2",
+      "population": null,
+      "bloodline_verified": false,
+      "playable": false
+    },
+    {
+      "family_name": "溫家",
+      "status": "proposal",
+      "city_id": "U-007-P4-C1",
+      "city_name": "葉鏡城",
+      "planet_id": "U-007-P4",
+      "population": null,
+      "bloodline_verified": false,
+      "playable": false
+    },
+    {
+      "family_name": "白家",
+      "status": "proposal",
+      "city_id": null,
+      "city_name": null,
+      "planet_id": "U-008-P2",
+      "population": null,
+      "bloodline_verified": false,
+      "playable": false
+    },
+    {
+      "family_name": "錨家",
+      "status": "proposal",
+      "city_id": "U-009-P3-C2",
+      "city_name": "墜索鎮",
+      "planet_id": "U-009-P3",
+      "population": null,
+      "bloodline_verified": false,
+      "playable": false
+    },
+    {
+      "family_name": "林家",
+      "status": "proposal",
+      "city_id": "U-010-P4-C1",
+      "city_name": "晨耕城",
+      "planet_id": "U-010-P4",
+      "population": null,
+      "bloodline_verified": false,
+      "playable": false
+    },
+    {
+      "family_name": "夏家",
+      "status": "proposal",
+      "city_id": "U-005-P3-C3",
+      "city_name": "引潮埠",
+      "planet_id": "U-005-P3",
+      "population": null,
+      "bloodline_verified": false,
+      "playable": false
+    },
+    {
+      "family_name": "程家",
+      "status": "proposal",
+      "city_id": null,
+      "city_name": null,
+      "planet_id": null,
+      "population": null,
+      "bloodline_verified": false,
+      "playable": false
+    }
+  ]
+}

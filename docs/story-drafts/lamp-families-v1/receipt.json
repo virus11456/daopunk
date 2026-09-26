@@ -1,0 +1,13 @@
+{
+  "source": "user chat: DAOPUNK 燈籍家庭v1 每一輪的起點",
+  "source_copy": "normalized transcription, not verbatim; original chat authoritative",
+  "source_sha256": "1b3729d679747f6ea8d2b2098d39325c52e70bd306648920d596ebac8a2af7ad",
+  "status": "received_reviewed_decisions_pending",
+  "checks": {
+    "family_candidates": 10,
+    "matched_explicit_city_ids": 8,
+    "planet_only": 1,
+    "unlocated": 1
+  },
+  "engine_implemented": false
+}

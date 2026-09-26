@@ -1,0 +1,29 @@
+{
+  "questions": [
+    {
+      "id": "LF-D1",
+      "topic": "新生兒落點規則",
+      "status": "pending_user_reply",
+      "decision": null
+    },
+    {
+      "id": "LF-D2",
+      "topic": "人口規模",
+      "status": "pending_user_reply",
+      "decision": null
+    },
+    {
+      "id": "LF-D3",
+      "topic": "林家是否採用",
+      "status": "pending_user_reply",
+      "decision": null
+    },
+    {
+      "id": "LF-D4",
+      "topic": "沈家是否納入",
+      "status": "pending_user_reply",
+      "decision": null
+    }
+  ],
+  "recommendations_are_not_approval": true
+}
