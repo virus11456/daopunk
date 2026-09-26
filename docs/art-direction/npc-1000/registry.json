@@ -11,10 +11,10 @@
       "universe_id": "U-001",
       "role_proposal": "修理工",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: style-transfer. Edit the reference DAOPUNK NPC-0001 into a compact front-facing GBA overworld pixel character. Preserve identity: cream ceramic BOX head, one offset amber lens, indigo repair apron, copper tool arm, small jade talisman. Single full-body nonhuman repair robot, neutral standing front view. Reduce complexity to roughly 32x40 logical pixels enlarged with crisp square nearest-neighbor blocks, two-heads-tall proportions, short legs. Limited 16-color palette, no gradients or anti-aliasing, clear dark silhouette, only a few readable wear marks. Remove tiny decoration and lettering. Actual transparent alpha background, no ground, no shadow, no text, no sheet, one character centered with padding. This is a map design not a detailed character illustration.",
+      "prompt": "Use case: style-transfer. Clean up the attached DAOPUNK robot repairer as one front-facing compact GBA map pixel sprite, version 3. Keep cream square head, offset amber lens, indigo apron, copper wrench arm, jade tag and short boots. Crucial change: FLAT SOLID pixel clusters, exactly uniform pixel grid, no gradients within a block, no soft antialiasing, no glow, no texture noise. Build on a 32 by 40 logical pixel grid and show enlarged crisp square pixels. Simplify head to a square silhouette and plain flat cream planes. Two-heads-tall full body. Transparent background with hard binary alpha edges, no shadow. One centered character only, no lettering or labels. Preserve the character identity while reducing detail to readable coarse shapes.",
       "status": "generated_concept_needs_pixel_cleanup",
-      "asset": "assets/NPC-0001-front-v2.png",
-      "review": "v2: single front full-body subject and distinct silhouette verified; real alpha present, partial-alpha edges and gradients remain. Needs flat palette/grid cleanup; not accepted final.",
+      "asset": "assets/NPC-0001-front-v3.png",
+      "review": "Front full body and one subject; identity preserved; coarse silhouette improved. Smooth internal gradients and partial alpha persist, strict uniform pixel-grid request not met. Final acceptance withheld.",
       "versions": [
         {
           "width": 1230,
@@ -49,6 +49,24 @@
           "source": "built-in imagegen",
           "source_file": "exec-e162b1af-dbf8-44d9-b6de-e3054ffdb5e9.png",
           "verified_asset_commit": "8eed6ed0aa498646ca6c1a1e67cc7bd24b950f92"
+        },
+        {
+          "width": 1122,
+          "height": 1402,
+          "alpha_zero_pixels": 761931,
+          "alpha_partial_pixels": 806876,
+          "alpha_opaque_pixels": 4237,
+          "sha256": "895e32b4fb80c8fd8c17b9aa8a9e995f7873050c4d3aa4cb5d73fa15b3ac5f06",
+          "git_blob_sha": "9d0d8ce139593270c94f4f55223812eb57c278b4",
+          "asset": "assets/NPC-0001-front-v3.png",
+          "version": 3,
+          "qa": "visually_reviewed_needs_pixel_cleanup",
+          "synced": false,
+          "prompt": "Use case: style-transfer. Clean up the attached DAOPUNK robot repairer as one front-facing compact GBA map pixel sprite, version 3. Keep cream square head, offset amber lens, indigo apron, copper wrench arm, jade tag and short boots. Crucial change: FLAT SOLID pixel clusters, exactly uniform pixel grid, no gradients within a block, no soft antialiasing, no glow, no texture noise. Build on a 32 by 40 logical pixel grid and show enlarged crisp square pixels. Simplify head to a square silhouette and plain flat cream planes. Two-heads-tall full body. Transparent background with hard binary alpha edges, no shadow. One centered character only, no lettering or labels. Preserve the character identity while reducing detail to readable coarse shapes.",
+          "prompt_fidelity": "exact_tool_input",
+          "source": "built-in imagegen",
+          "source_file": "exec-4597ab17-8027-4534-9f91-36dec51a5b6d.png",
+          "review": "Front full body and one subject; identity preserved; coarse silhouette improved. Smooth internal gradients and partial alpha persist, strict uniform pixel-grid request not met. Final acceptance withheld."
         }
       ]
     },

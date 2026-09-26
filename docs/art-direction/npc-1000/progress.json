@@ -1,12 +1,13 @@
 {
   "target": 1000,
   "characters_with_images": 2,
-  "image_versions": 4,
+  "image_versions": 5,
   "visually_reviewed_characters": 2,
   "accepted_final": 0,
   "remaining_without_image": 998,
   "synced_characters": 2,
-  "next_action": "Clean v2 gradients/edge alpha; do not add new IDs before pending QA/sync.",
-  "batch": "2026-09-26T06:03:08.464Z",
-  "verified_asset_commit": "8eed6ed0aa498646ca6c1a1e67cc7bd24b950f92"
+  "next_action": "Review pixel-grid production approach before repeating identical edits. NPC-0001 v3 remains unaccepted; NPC-0002 v2 unchanged.",
+  "batch": "2026-09-26T07:05:08.632Z",
+  "verified_asset_commit": "8eed6ed0aa498646ca6c1a1e67cc7bd24b950f92",
+  "latest_batch_synced": false
 }
