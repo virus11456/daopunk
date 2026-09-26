@@ -3,5 +3,7 @@
   "sha256": "0dc49c8cf321bea40468f90b805636a9041ebad8220e99b10d73c36f6d5394f9",
   "bytes": 20612,
   "status": "received_reviewed_requires_revision",
-  "synced": false
+  "synced": true,
+  "verified_asset_commit": "199486698c1deb89b18403ac15900daff3510e50",
+  "verification": "Original and review exact git blob SHA matched committed tree"
 }
