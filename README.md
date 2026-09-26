@@ -116,3 +116,7 @@ NPC已有10位正面靜態設計通過檢查（990位待生成），原稿與固
 ## 最新進度：數據陵墓居民與第四批下篇
 
 NPC-0011～0020完成正面靜態設計與像素清理，累計20位，980位待生成。[角色圖庫](docs/art-direction/npc-1000/gallery.html)。[第四批下篇台詞](docs/story-drafts/main-missing-dialogue-v1.1/README.md)與[背景v1.4](docs/story-drafts/background-v1.4/README.md)已收稿；Q11已再次確認維持玩家觸發結局，兩份稿件附定向修訂全文，原件保留。
+
+## NPC進度：沉環京批次
+
+NPC-0021～0030已完成正面靜態設計、40×48像素清理及逐張檢查；累計30位，970位待生成。[圖庫](docs/art-direction/npc-1000/gallery.html)。動畫及Godot整合未完成。
