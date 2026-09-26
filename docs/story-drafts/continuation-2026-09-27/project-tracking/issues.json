@@ -1,0 +1,346 @@
+[
+  {
+    "id": "D01",
+    "title": "Q2 弒神取代機制",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已收作者裁決方案書v1，完成AO01～14覆核，待修訂及作者裁決；非已採建議",
+    "decision": null
+  },
+  {
+    "id": "D02",
+    "title": "Q5 人類衰亡作者答案",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已收作者裁決方案書v1，完成AO01～14覆核，待修訂及作者裁決；非已採建議",
+    "decision": null
+  },
+  {
+    "id": "D03",
+    "title": "Q6 歸墟／夢外／地球",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已收作者裁決方案書v1，完成AO01～14覆核，待修訂及作者裁決；非已採建議",
+    "decision": null
+  },
+  {
+    "id": "D04",
+    "title": "共治穩定條件",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已收作者裁決方案書v1，完成AO01～14覆核，待修訂及作者裁決；非已採建議",
+    "decision": null
+  },
+  {
+    "id": "D05",
+    "title": "閻羅拒絕時的兩方約定",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已收作者裁決方案書v1，完成AO01～14覆核，待修訂及作者裁決；非已採建議",
+    "decision": null
+  },
+  {
+    "id": "D06",
+    "title": "追殺事件的世界時點",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "與輪數分開定",
+    "decision": null
+  },
+  {
+    "id": "D07",
+    "title": "法則不可歸還",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已取得者跨世保留不得任意撤銷；「無法歸還」仍為提案",
+    "decision": null
+  },
+  {
+    "id": "D08",
+    "title": "非人類命錨如何判定",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "需可觀測的試驗與證據流程",
+    "decision": null
+  },
+  {
+    "id": "D09",
+    "title": "觀命範圍",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "不可默認遠距定位",
+    "decision": null
+  },
+  {
+    "id": "D10",
+    "title": "被觀命者能否察覺",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "—",
+    "decision": null
+  },
+  {
+    "id": "D11",
+    "title": "下山日替代生辰",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "—",
+    "decision": null
+  },
+  {
+    "id": "D12",
+    "title": "觀命能否看夢",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "不以 Z01 單案定規則",
+    "decision": null
+  },
+  {
+    "id": "D13",
+    "title": "無名交接程序",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "名字不是自然輪迴的必要條件",
+    "decision": null
+  },
+  {
+    "id": "D14",
+    "title": "A01 真實拘束變體",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "機制未定",
+    "decision": null
+  },
+  {
+    "id": "D15",
+    "title": "逐出夢外後的傳授流程",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "資格保存與實際領取接口",
+    "decision": null
+  },
+  {
+    "id": "D16",
+    "title": "紅對大師兄行蹤",
+    "status": "已定",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "只有代收號",
+    "decision": "已定；不重問"
+  },
+  {
+    "id": "D17",
+    "title": "沈家入燈籍",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "—",
+    "decision": null
+  },
+  {
+    "id": "D18",
+    "title": "燈籍等待上限約十年",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "區分軟目標與硬保證（見 3.2 第 4 項）",
+    "decision": null
+  },
+  {
+    "id": "D19",
+    "title": "旁系後代是否排除",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "—",
+    "decision": null
+  },
+  {
+    "id": "D20",
+    "title": "師父留下選擇空隙",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "需區分玩家介面與主角經驗（見 3.2 第 3 項）",
+    "decision": null
+  },
+  {
+    "id": "D21",
+    "title": "大師兄晚年去向",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "小修理鋪為提案，需提名既有地點",
+    "decision": null
+  },
+  {
+    "id": "D22",
+    "title": "海盜是否可加入",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "不因殺手已開放而推定",
+    "decision": null
+  },
+  {
+    "id": "D23",
+    "title": "無聲會規矩",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已有候選",
+    "decision": null
+  },
+  {
+    "id": "D24",
+    "title": "秤退出代價",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已有候選；丙案可能實際無法退出",
+    "decision": null
+  },
+  {
+    "id": "D25",
+    "title": "沃倫每世來訪期限",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已有候選",
+    "decision": null
+  },
+  {
+    "id": "D26",
+    "title": "商事庭跨世同一人標準",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "證據邊界已有",
+    "decision": null
+  },
+  {
+    "id": "D27",
+    "title": "公證所〈我記得〉主線定位",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "入會不作主線必需",
+    "decision": null
+  },
+  {
+    "id": "D28",
+    "title": "岑行、潮簿",
+    "status": "已定",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "—",
+    "decision": "已定；不重問"
+  },
+  {
+    "id": "D29",
+    "title": "里程",
+    "status": "已定",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "—",
+    "decision": "已定；不重問"
+  },
+  {
+    "id": "D30",
+    "title": "建木篇章",
+    "status": "查證完成",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "—",
+    "decision": null
+  },
+  {
+    "id": "D31",
+    "title": "圖鑑逐條落點",
+    "status": "進行中",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "001～020已審待修；021～040交接已備；全部180仍為工作清單",
+    "decision": null
+  },
+  {
+    "id": "M01",
+    "title": "燈籍人口規模（第一時代數十人、十餘戶）",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "固定七戶是寫作配置，不等於全人類只剩七戶",
+    "decision": null
+  },
+  {
+    "id": "M02",
+    "title": "林家「不知自己是燈籍人」的例外",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "lamp-families-v1.1 DECISIONS 仍 pending",
+    "decision": null
+  },
+  {
+    "id": "M03",
+    "title": "半選擇的機制：玩家介面操作，還是主角死後的有限意識選擇",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "須與「等待期無經驗」一致",
+    "decision": null
+  },
+  {
+    "id": "M04",
+    "title": "十年上限在直系排除後無合資格新生兒時如何成立",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "不得憑空新增人類家庭",
+    "decision": null
+  },
+  {
+    "id": "M05",
+    "title": "99 年基礎承載的起算點",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "不能同時以出生與覺醒推年表",
+    "decision": null
+  },
+  {
+    "id": "M06",
+    "title": "葉遲是否採人工生命；長期角色的壽命與維修記憶邊界",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "目前為提案",
+    "decision": null
+  },
+  {
+    "id": "M07",
+    "title": "道主立場表（守護五、動搖二、密謀二）",
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "三種法則取得方式已定，不重問",
+    "decision": null
+  },
+  {
+    "id": "M08",
+    "title": "延續時代長度、300 模板配額與類型比例",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "皆為估算，非玩法數值",
+    "decision": null
+  },
+  {
+    "id": "M09",
+    "title": "三十地點的夢動異象分級",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "輕微視覺、可維修故障、有傷害後果需分開",
+    "decision": null
+  },
+  {
+    "id": "M10",
+    "title": "法則傳授的共用流程（資格、接受、拒領、撤約、逐出）",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "需一份各篇可一致引用的流程",
+    "decision": null
+  },
+  {
+    "id": "M11",
+    "title": "遊戲時數兩套估算（5～8 輪／首輪 20 小時 vs 20 輪／每輪 3～6 小時）",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "未統一，不能宣稱已保證一百小時",
+    "decision": null
+  },
+  {
+    "id": "M12",
+    "title": "世界事件總表（15～20 項）",
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "目前散在各篇",
+    "decision": null
+  }
+]

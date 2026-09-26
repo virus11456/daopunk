@@ -1,0 +1,457 @@
+{
+  "source": "/Users/frank/Downloads/DAOPUNK_全文原稿包.zip",
+  "archive_sha256": "b9a299069a440523f4b066d749155cdedd9b3f4d72d19f41d77791d7584069c7",
+  "count": 45,
+  "files": [
+    {
+      "filename": "DAOPUNK_加入中立組織_設計提案_v1.3.md",
+      "sha256": "33e7e91fbb5b945800025c4a8276387b2f0f78d4ccb68d9f4a00f8fb5bfcdca5",
+      "bytes": 17484,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_σèáσàÑΣ╕¡τ½ïτ╡äτ╣ö_Φ¿¡Φ¿êµÅÉµíê_v1.3.md",
+      "slug": "organization-membership-v1.3",
+      "original": "outputs/source-intake-2026-09-27/organization-membership-v1.3/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_S02_v2.2_紅重逢_留燈的人.md",
+      "sha256": "cde72f52dcae9d6978ff9b1b0ff40f8fc84fbb3eae0a9ce30edb1b2f95b11cba",
+      "bytes": 12992,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_S02_v2.2_τ┤àΘçìΘÇó_τòÖτçêτÜäΣ║║.md",
+      "slug": "red-reunion-s02-v2.2",
+      "original": "outputs/source-intake-2026-09-27/red-reunion-s02-v2.2/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_第一批_v1.1_開場修訂.md",
+      "sha256": "ceabc9984e7ede2ff1212b561679c151f51ed35be46b332332e8a83996217225",
+      "bytes": 17978,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_τ¼¼Σ╕Çµë╣_v1.1_Θûïσá┤Σ┐«Φ¿é.md",
+      "slug": "opening-s01-v1.1",
+      "original": "outputs/source-intake-2026-09-27/opening-s01-v1.1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/opening-s01-v1.1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_D01_v1.2_第一次死亡與轉生_閘門.md",
+      "sha256": "cd8fa463f7bdbf7780adf8ce5d1a7672ff17fbec5d862d6f06d38047d8e07eda",
+      "bytes": 16344,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_D01_v1.2_τ¼¼Σ╕Çµ¼íµ¡╗Σ║íΦêçΦ╜ëτöƒ_ΘûÿΘûÇ.md",
+      "slug": "death-d01-v1.2",
+      "original": "outputs/source-intake-2026-09-27/death-d01-v1.2/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_第三批_兩段可互動支線_v1.md",
+      "sha256": "bd1751e101413ef6cb55fadf82823ace8961b81cabd5b7a9b8b8cd67beef6813",
+      "bytes": 20331,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_τ¼¼Σ╕ëµë╣_σà⌐µ«╡σÅ»Σ║Æσïòµö»τ╖Ü_v1.md",
+      "slug": "shanhai-sidequests-v1",
+      "original": "outputs/source-intake-2026-09-27/shanhai-sidequests-v1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/shanhai-sidequests-v1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_F01_v1.2_四師姐篇_出繭.md",
+      "sha256": "7d58808ab9e70c1147487e2312fe343b8db2b2da4dfa32bcc3123434f70b6ca1",
+      "bytes": 20496,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_F01_v1.2_σ¢¢σ╕½σºÉτ»ç_σç║τ╣¡.md",
+      "slug": "fourth-sister-f01-v1.2",
+      "original": "outputs/source-intake-2026-09-27/fourth-sister-f01-v1.2/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_山海圖鑑180_第1批_001-020.md",
+      "sha256": "792f58fac1183c56a46689d664e30d44d2e8a98b02eb29865c06db3b97e81520",
+      "bytes": 33062,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_σ▒▒µ╡╖σ£ûΘææ180_τ¼¼1µë╣_001-020.md",
+      "slug": "shanhai-180-batch-01",
+      "original": "outputs/source-intake-2026-09-27/shanhai-180-batch-01/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/outputs/story-drafts/shanhai-180-batch-01/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_山海圖鑑第二批_20條_v1.md",
+      "sha256": "7ea0a9006984ba8f49579276fc744e10368d72c45a06801367a9fc04c2992179",
+      "bytes": 11375,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_σ▒▒µ╡╖σ£ûΘææτ¼¼Σ║îµë╣_20µó¥_v1.md",
+      "slug": "shanhai-20-v1",
+      "original": "outputs/source-intake-2026-09-27/shanhai-20-v1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/shanhai-20-v1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_A01_v1.2_亞茲篇_空座.md",
+      "sha256": "32e08e56a47aec6b48bca2589fc357406c30c1ca2ce1f81e6f40f2a572d7f876",
+      "bytes": 24004,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_A01_v1.2_Σ║₧Φî▓τ»ç_τ⌐║σ║º.md",
+      "slug": "az-a01-v1.2",
+      "original": "outputs/source-intake-2026-09-27/az-a01-v1.2/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/az-a01-v1.2/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_主線_v2.1_肉鴿結構.md",
+      "sha256": "45f11dc2c7436572fcfa9e5a39c1b8a0b17f9664dfdd2bef49a50cdcdeb77376",
+      "bytes": 8775,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_Σ╕╗τ╖Ü_v2.1_ΦéëΘ┤┐τ╡Éµºï.md",
+      "slug": "main-v2.1",
+      "original": "outputs/source-intake-2026-09-27/main-v2.1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/main-v2.1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_Y01_v1.1_閻羅X篇_未交接.md",
+      "sha256": "11952bea842eb4d08a5c6de9fe1abe344ea2751e420e6ec078dc01bf0c995fd8",
+      "bytes": 20613,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_Y01_v1.1_Θû╗τ╛àXτ»ç_µ£¬Σ║ñµÄÑ.md",
+      "slug": "yanluo-y01-v1.1",
+      "original": "outputs/source-intake-2026-09-27/yanluo-y01-v1.1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/yanluo-y01-v1.1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_W01_v1.2_沃倫篇_下一世的帳.md",
+      "sha256": "fbc361d3772d82a680e78c67df46a639487694573529f13cede9b407d0565a6a",
+      "bytes": 21178,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_W01_v1.2_µ▓âσÇ½τ»ç_Σ╕ïΣ╕ÇΣ╕ûτÜäσ╕│.md",
+      "slug": "warren-w01-v1.2",
+      "original": "outputs/source-intake-2026-09-27/warren-w01-v1.2/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/warren-w01-v1.2/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_G01_蓋亞篇_記得太多的人_v1.md",
+      "sha256": "f5316af43d9839710a011c2038e57cf8fefb61eee2111b4652232336b0d9e2a2",
+      "bytes": 11656,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_G01_ΦôïΣ║₧τ»ç_Φ¿ÿσ╛ùσñ¬σñÜτÜäΣ║║_v1.md",
+      "slug": "gaia-g01-v1",
+      "original": "outputs/source-intake-2026-09-27/gaia-g01-v1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_X01_v1.1_星塵篇_不要告訴我.md",
+      "sha256": "bafb56a2991b3ff6bedb67eafadb2ed322c0cebf954729558a048eaafa3fa206",
+      "bytes": 19274,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_X01_v1.1_µÿƒσí╡τ»ç_Σ╕ìΦªüσæèΦ¿┤µêæ.md",
+      "slug": "stardust-x01-v1.1",
+      "original": "outputs/source-intake-2026-09-27/stardust-x01-v1.1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_P01_玉皇Prime篇_未分類_v1.md",
+      "sha256": "f9eff58b2e33d3d175a3b22b4f634b8571378ed545cad62f20d203705bd16621",
+      "bytes": 11200,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_P01_τÄëτÜçPrimeτ»ç_µ£¬σêåΘí₧_v1.md",
+      "slug": "prime-p01-v1",
+      "original": "outputs/source-intake-2026-09-27/prime-p01-v1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_K01_奎托斯篇_承擔_v1.md",
+      "sha256": "cbe1c4a4f80fd411e95565c376bbbe991f20d4b2ee665135f06befc0576e73aa",
+      "bytes": 10745,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_K01_σÑÄµëÿµû»τ»ç_µë┐µôö_v1.md",
+      "slug": "kratos-k01-v1",
+      "original": "outputs/source-intake-2026-09-27/kratos-k01-v1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_T01_涂山氏篇_九尾的影子_v1.md",
+      "sha256": "ccb6e9943928832a016f121ca538d09da28d027ab0445a35c3fef9a5cc7deb7e",
+      "bytes": 11175,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_T01_µ╢éσ▒▒µ░Åτ»ç_Σ╣¥σ░╛τÜäσ╜▒σ¡É_v1.md",
+      "slug": "tushan-t01-v1",
+      "original": "outputs/source-intake-2026-09-27/tushan-t01-v1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_第四批上_主線綱要與依賴_v1.md",
+      "sha256": "e0b32260907b3dfca3feadfacf2e46a469fcdb51257ee8303dd02a92c684cf1a",
+      "bytes": 13994,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_τ¼¼σ¢¢µë╣Σ╕è_Σ╕╗τ╖Üτ╢▒ΦªüΦêçΣ╛¥Φ│┤_v1.md",
+      "slug": "main-missing-scenes-v1",
+      "original": "outputs/source-intake-2026-09-27/main-missing-scenes-v1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/main-missing-scenes-v1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_組織委託_設計提案_v1.md",
+      "sha256": "36b93dbe370762d0d2a16aadb04bb663c57bca27fc74a5c3135f71fea061704f",
+      "bytes": 7276,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_τ╡äτ╣öσºöΦ¿ù_Φ¿¡Φ¿êµÅÉµíê_v1.md",
+      "slug": "organization-commissions-v1",
+      "original": "outputs/source-intake-2026-09-27/organization-commissions-v1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_中立組織篇_v1.md",
+      "sha256": "4055340a6f3180923a8ab6d7decfdd7699c77fdaa37b530c9f06487ebc7d4fa8",
+      "bytes": 25108,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_Σ╕¡τ½ïτ╡äτ╣öτ»ç_v1.md",
+      "slug": "neutral-organizations-v1",
+      "original": "outputs/source-intake-2026-09-27/neutral-organizations-v1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_R01_v1.1_紅篇_一盞燈的高度.md",
+      "sha256": "faa660d5b91ff12aa0e2cda62b8083da6b8003401fe13e49454c90c51fcb90b9",
+      "bytes": 16141,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_R01_v1.1_τ┤àτ»ç_Σ╕Çτ¢₧τçêτÜäΘ½ÿσ║ª.md",
+      "slug": "red-r01-v1.1",
+      "original": "outputs/source-intake-2026-09-27/red-r01-v1.1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/red-r01-v1.1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_文件總索引與待決事項_v1.md",
+      "sha256": "db3afde5999213a0d9d72106dac7d1d80fbb0dac3c2bc292ed506d632f22f967",
+      "bytes": 8627,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_µûçΣ╗╢τ╕╜τ┤óσ╝òΦêçσ╛àµ▒║Σ║ïΘáà_v1.md",
+      "slug": "document-index-v1",
+      "original": "outputs/source-intake-2026-09-27/document-index-v1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_文件總索引與問題狀態追蹤_v1.1.md",
+      "sha256": "5f188341936ef951aa1c73492fd5adb702b332494b2817b02b85145716671b45",
+      "bytes": 8253,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_µûçΣ╗╢τ╕╜τ┤óσ╝òΦêçσòÅΘíîτïÇµàïΦ┐╜Φ╣ñ_v1.1.md",
+      "slug": "document-index-v1.1",
+      "original": "outputs/source-intake-2026-09-27/document-index-v1.1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_示範事件第三批_EV061-090_v1.md",
+      "sha256": "5747b2b939f737215162597b1f43db5e18d6e762699d5f1f3f5f5f69aeecfd47",
+      "bytes": 12555,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_τñ║τ»äΣ║ïΣ╗╢τ¼¼Σ╕ëµë╣_EV061-090_v1.md",
+      "slug": "events-061-090-v1",
+      "original": "outputs/source-intake-2026-09-27/events-061-090-v1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/events-061-090-v1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_第四批下_主線台詞_v1.2.md",
+      "sha256": "811f2cf90c9bb22c527232894c5d4c21ce4fbd725eafb2c0709cd0f1fae42866",
+      "bytes": 22052,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_τ¼¼σ¢¢µë╣Σ╕ï_Σ╕╗τ╖ÜσÅ░Φ⌐₧_v1.2.md",
+      "slug": "main-missing-dialogue-v1.2",
+      "original": "outputs/source-intake-2026-09-27/main-missing-dialogue-v1.2/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/main-missing-dialogue-v1.2/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_L01_v1.1_陸吾篇_帝之下都.md",
+      "sha256": "3480bac0283a75f0e2a14fadb7bd8676877825e14f4705d7326f3aca5c24d071",
+      "bytes": 24452,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_L01_v1.1_ΘÖ╕σÉ╛τ»ç_σ╕¥Σ╣ïΣ╕ïΘâ╜.md",
+      "slug": "luwu-l01-v1.1",
+      "original": "outputs/source-intake-2026-09-27/luwu-l01-v1.1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/luwu-l01-v1.1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_00_共同年表與人口前提依賴表_v1.1.md",
+      "sha256": "716bb985b2d4c79beaedae62dac5c88e15574393f1572585f90eff47bd1a7d72",
+      "bytes": 7305,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_00_σà▒σÉîσ╣┤Φí¿ΦêçΣ║║σÅúσëìµÅÉΣ╛¥Φ│┤Φí¿_v1.1.md",
+      "slug": "common-timeline-v1.1",
+      "original": "outputs/source-intake-2026-09-27/common-timeline-v1.1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_主線_v2_肉鴿結構.md",
+      "sha256": "7df7e1978971e83aa53daebb2643f430e0d460a2b1b60ee070ff21e708d63cf4",
+      "bytes": 8189,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_Σ╕╗τ╖Ü_v2_ΦéëΘ┤┐τ╡Éµºï.md",
+      "slug": "main-v2",
+      "original": "outputs/source-intake-2026-09-27/main-v2/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_Z01_v1.1_零號篇_半邊夢.md",
+      "sha256": "7d8064789da36079f7ca63a7af84d9e43053f9ea523877eaef7a7e57c70318c6",
+      "bytes": 15828,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_Z01_v1.1_Θ¢╢ΦÖƒτ»ç_σìèΘéèσñó.md",
+      "slug": "zero-z01-v1.1",
+      "original": "outputs/source-intake-2026-09-27/zero-z01-v1.1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/zero-z01-v1.1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_遊戲量規劃_v2_肉鴿.md",
+      "sha256": "10ed6d6573ca214f748b0546eeeb6722f9582d8cf007a0df60ab892b5d7ee82d",
+      "bytes": 4832,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_Θüèµê▓ΘçÅΦªÅσèâ_v2_ΦéëΘ┤┐.md",
+      "slug": "game-volume-v2",
+      "original": "outputs/source-intake-2026-09-27/game-volume-v2/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_人物晚年篇_v1.md",
+      "sha256": "6b5a2a0632e7e13735e993149ea2f5a302ff543e35faab0a22b812e7745e8bd7",
+      "bytes": 10317,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_Σ║║τë⌐µÖÜσ╣┤τ»ç_v1.md",
+      "slug": "late-life-v1",
+      "original": "outputs/source-intake-2026-09-27/late-life-v1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/late-life-v1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_後期同伴篇_v1.md",
+      "sha256": "4892f8571328437539ca31ba0c0ded66a1b10ca69f989f5f175e9f5a1f61a077",
+      "bytes": 8298,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_σ╛îµ£ƒσÉîΣ╝┤τ»ç_v1.md",
+      "slug": "late-companions-v1",
+      "original": "outputs/source-intake-2026-09-27/late-companions-v1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/late-companions-v1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_山海經融入設定_v1.1.md",
+      "sha256": "db477e522610ee93560dbadeb67a9ce132c399385f00ec7fa94337030a06d83b",
+      "bytes": 8466,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_σ▒▒µ╡╖τ╢ôΦ₧ìσàÑΦ¿¡σ«Ü_v1.1.md",
+      "slug": "shanhai-v1.1",
+      "original": "outputs/source-intake-2026-09-27/shanhai-v1.1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_燈籍家庭_v1.1.md",
+      "sha256": "0f9a7c592e62a223dc45395a6e95196ef6788abdb1b332c2ff1f8631fb97435b",
+      "bytes": 7011,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_τçêτ▒ìσ«╢σ║¡_v1.1.md",
+      "slug": "lamp-families-v1.1",
+      "original": "outputs/source-intake-2026-09-27/lamp-families-v1.1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_時代與事件池規格_v1.2.md",
+      "sha256": "e81de52e09e85406f500915ea10f75b0fab1258eb94c0fbb19efe0e5d647ff68",
+      "bytes": 13981,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_µÖéΣ╗úΦêçΣ║ïΣ╗╢µ▒áΦªÅµá╝_v1.2.md",
+      "slug": "eras-events-v1.2",
+      "original": "outputs/source-intake-2026-09-27/eras-events-v1.2/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/eras-events-v1.2/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_示範事件30則_v1.1.md",
+      "sha256": "c73de695a1f75c47346c677a4bbdcf9a70e9f0591a8969034a2af9eec5da3bff",
+      "bytes": 20039,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_τñ║τ»äΣ║ïΣ╗╢30σëç_v1.1.md",
+      "slug": "events-001-030-v1.1",
+      "original": "outputs/source-intake-2026-09-27/events-001-030-v1.1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_完整背景_v1.5_燈還掛著.md",
+      "sha256": "372ed1216f29de4df210a68b8772d5f748e68d81a6f890fe08e68c33349cc938",
+      "bytes": 40253,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_σ«îµò┤ΦâîµÖ»_v1.5_τçêΘéäµÄ¢Φæù.md",
+      "slug": "background-v1.5",
+      "original": "outputs/source-intake-2026-09-27/background-v1.5/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/background-v1.5/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_M01_v1.2_大師兄篇_九子的圍裙.md",
+      "sha256": "128f21951b9c8d3d50665d01ecb722848e79ab000fd4cbcbefd31b2a25af67e5",
+      "bytes": 16964,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_M01_v1.2_σñºσ╕½σàäτ»ç_Σ╣¥σ¡ÉτÜäσ£ìΦúÖ.md",
+      "slug": "elder-m01-v1.2",
+      "original": "outputs/source-intake-2026-09-27/elder-m01-v1.2/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_示範事件第二批_EV031-060_v1.md",
+      "sha256": "51eed0f9801b3c8d5bcea251f00fb885f68cba5b7339958e1c09ff4cb9f3c15c",
+      "bytes": 13093,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_τñ║τ»äΣ║ïΣ╗╢τ¼¼Σ║îµë╣_EV031-060_v1.md",
+      "slug": "events-031-060-v1",
+      "original": "outputs/source-intake-2026-09-27/events-031-060-v1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/events-031-060-v1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_山海圖鑑_設計提案_v1.1.md",
+      "sha256": "6387ee0b0053381b17aabfef84e0df2e0dc9613d59ba0bc67af2aa2fc137a2c4",
+      "bytes": 8907,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_σ▒▒µ╡╖σ£ûΘææ_Φ¿¡Φ¿êµÅÉµíê_v1.1.md",
+      "slug": "shanhai-codex-v1.1",
+      "original": "outputs/source-intake-2026-09-27/shanhai-codex-v1.1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_B01_聚變篇_試的人_v1.md",
+      "sha256": "d81756f8111d011c850318f2ef51d8ae32a21d8af38d078bb4356263b1ce5a72",
+      "bytes": 9334,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_B01_ΦüÜΦ«èτ»ç_Φ⌐ªτÜäΣ║║_v1.md",
+      "slug": "fusion-b01-v1",
+      "original": "outputs/source-intake-2026-09-27/fusion-b01-v1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_第二批_山海古籍與探索者_v1.md",
+      "sha256": "6fc45c020b79f3a7e3fb25116b844a796c1efedc9992ecf5ee20e5f2c0b4b7a2",
+      "bytes": 22156,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_τ¼¼Σ║îµë╣_σ▒▒µ╡╖σÅñτ▒ìΦêçµÄóτ┤óΦÇà_v1.md",
+      "slug": "shanhai-explorers-v1",
+      "original": "outputs/source-intake-2026-09-27/shanhai-explorers-v1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/shanhai-explorers-v1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_三十地點時代版本_v1.md",
+      "sha256": "35d26317e811f6f026c90bf52e47e1dc47686cfeaf2b58cebc6fa35c80881875",
+      "bytes": 8677,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_Σ╕ëσìüσ£░Θ╗₧µÖéΣ╗úτëêµ£¼_v1.md",
+      "slug": "locations-30-eras-v1",
+      "original": "outputs/source-intake-2026-09-27/locations-30-eras-v1/ORIGINAL.md",
+      "comparison": "同版本異檔，並列保存",
+      "previous_path": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/story-drafts/locations-30-eras-v1/ORIGINAL.md"
+    },
+    {
+      "filename": "DAOPUNK_道主篇總綱_v1.md",
+      "sha256": "eab68222b6b0ff6bdef7dcc169f09308bb72c6de38267f27b30ea9e2e9fbccd6",
+      "bytes": 14515,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_ΘüôΣ╕╗τ»çτ╕╜τ╢▒_v1.md",
+      "slug": "dao-rulers-v1",
+      "original": "outputs/source-intake-2026-09-27/dao-rulers-v1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    },
+    {
+      "filename": "DAOPUNK_W01_沃倫篇_下一世的帳_v1.md",
+      "sha256": "ee30398805331c70baa16160be5c8d7ba0a9cc91a5ad05f51a70b9e151324a53",
+      "bytes": 10545,
+      "archive_name": "DAOPUNK_σà¿µûçσÄƒτ¿┐σîà/DAOPUNK_W01_µ▓âσÇ½τ»ç_Σ╕ïΣ╕ÇΣ╕ûτÜäσ╕│_v1.md",
+      "slug": "warren-w01-v1",
+      "original": "outputs/source-intake-2026-09-27/warren-w01-v1/ORIGINAL.md",
+      "comparison": "版本資料夾補收全文",
+      "previous_path": null
+    }
+  ]
+}

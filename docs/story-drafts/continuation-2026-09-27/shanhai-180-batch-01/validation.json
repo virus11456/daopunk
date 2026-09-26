@@ -1,0 +1,169 @@
+{
+  "review_date": "2026-09-27",
+  "count": 20,
+  "new_entries": 0,
+  "accepted_final": 0,
+  "length_rule": "去空白與Markdown星號；保留標點，故為寬鬆上限檢查",
+  "entries": [
+    {
+      "seq": 1,
+      "id": "SH-LIFE-101",
+      "modern_chars_including_punctuation": 84,
+      "length_pass": true,
+      "review": "長堤不可每時代必長；改依鳥群、潮流、破壞與修復。親見鳥不等於證實女娃轉生。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 2,
+      "id": "SH-LIFE-102",
+      "modern_chars_including_punctuation": 90,
+      "length_pass": true,
+      "review": "本底本同段先稱玄龜、後名旋龜，不能僅憑這兩字宣稱版本歧異；殼粉用途為本作提案。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 3,
+      "id": "SH-LIFE-103",
+      "modern_chars_including_punctuation": 73,
+      "length_pass": false,
+      "review": "黃囊、丹赤、六足四翼無面已核；黃體赤光屬注文詮釋。古圖的取得需獨立於開局已背經文，勿鑿批註不得變創世身分證據。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 4,
+      "id": "SH-LIFE-104",
+      "modern_chars_including_punctuation": 50,
+      "length_pass": false,
+      "review": "兩篇耳蛇皆青，差異是足下青／赤；讀過兩篇經文不足以當作取得失落古圖。主底本待選。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 5,
+      "id": "SH-LAND-101",
+      "modern_chars_including_punctuation": 67,
+      "length_pass": false,
+      "review": "二樹木是另一處敘述，不宜擴寫成整片林只有兩棵；取樣、夢動與正常植物皆為本作提案。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 6,
+      "id": "SH-LAND-102",
+      "modern_chars_including_punctuation": 80,
+      "length_pass": true,
+      "review": "錯過季節仍可取得有來源的既有紀錄，不能一律只剩傳聞；青穗高地需地形與水文提案。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 7,
+      "id": "SH-NATION-101",
+      "modern_chars_including_punctuation": 68,
+      "length_pass": false,
+      "review": "居民拒絕、盜掘未發生與已受保護的狀態要分開；不因到下一時代自動盜掘。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 8,
+      "id": "SH-NATION-102",
+      "modern_chars_including_punctuation": 58,
+      "length_pass": false,
+      "review": "本輪所讀海外西經網頁只有正文，不能據它核准飛車郭注或祖沖之書目；工匠族不得默認新增散居人類。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 9,
+      "id": "SH-CUSTOM-101",
+      "modern_chars_including_punctuation": 55,
+      "length_pass": false,
+      "review": "每一段末尾太廣，改各山系總結所記祭法；祭典拒絕公開不等於主角可自行補內情。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 10,
+      "id": "SH-CUSTOM-102",
+      "modern_chars_including_punctuation": 60,
+      "length_pass": false,
+      "review": "家庭觀察需主角記得且實際注意過；不公開家戶位置，不能用拒絕訪談抹除親歷。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 11,
+      "id": "SH-ROUTE-101",
+      "modern_chars_including_punctuation": 86,
+      "length_pass": true,
+      "review": "觀命不是航標GPS；缺正確命錨不可觀測，觀命不能生成第十一宇宙座標。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 12,
+      "id": "SH-TEXT-101",
+      "modern_chars_including_punctuation": 65,
+      "length_pass": false,
+      "review": "開局見到頁角不等於開局持有所有失落插圖；重讀要有可接近的原件或實存複本，記憶不複製物件。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 13,
+      "id": "SH-LIFE-201",
+      "modern_chars_including_punctuation": 55,
+      "length_pass": false,
+      "review": "必保留五彩，候選只列朱金青不足；可補白黑但仍是配色提案；華種落點待選。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 14,
+      "id": "SH-LIFE-202",
+      "modern_chars_including_punctuation": 43,
+      "length_pass": false,
+      "review": "原典形貌可沿用；高溫棲地與B01阻止試驗要依實際事件，不保證每輪重演。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 15,
+      "id": "SH-LIFE-203",
+      "modern_chars_including_punctuation": 29,
+      "length_pass": false,
+      "review": "牛角依正文；本版另注或作羊，若選異文須分版；豐年出現頻率為本作可調查假說。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 16,
+      "id": "SH-LIFE-204",
+      "modern_chars_including_punctuation": 29,
+      "length_pass": false,
+      "review": "與狌狌叫回別人的名字比對需另查來源；南山經招搖段不能支持這個叫名斷言。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 17,
+      "id": "SH-LIFE-205",
+      "modern_chars_including_punctuation": 45,
+      "length_pass": false,
+      "review": "短翼不能久飛是現代詮釋；沉錨水岸仍需水體／季候設定，不能用星名證明雨季。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 18,
+      "id": "SH-LIFE-206",
+      "modern_chars_including_punctuation": 50,
+      "length_pass": false,
+      "review": "未見短文的皮毛出自注文解釋，須標正文宜子孫與注解皮尾兩層；材料效果不得成獎勵。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 19,
+      "id": "SH-LIFE-207",
+      "modern_chars_including_punctuation": 31,
+      "length_pass": false,
+      "review": "有距不是普通爪，輪廓需可辨突出的足距；工地多寡與出現先後不能倒作必然因果。",
+      "status": "reviewed_revision_required"
+    },
+    {
+      "seq": 20,
+      "id": "SH-LIFE-208",
+      "modern_chars_including_punctuation": 31,
+      "length_pass": false,
+      "review": "網頁有蠱字且附一作纂，原稿說只作雕不符；原典只說有角，未限一角。",
+      "status": "reviewed_revision_required"
+    }
+  ]
+}
