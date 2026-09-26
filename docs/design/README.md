@@ -1,13 +1,13 @@
 # 新版本設計與完成狀態
 
-> 最新擴充：[五術 15 分支、45 卡](../art-direction/five-arts-v2/README.md)、[隨機與升級平衡](CARD_PROGRESSION_BALANCE.md)、[40 星球與 100 城鎮](world-100/README.md)、[99 歲／抹殺／永久仙術邊界](REINCARNATION_CANON_V2.md)。下表早期卡圖數量以新文件為準。
+> 最新：[五術 v3 每術 45 卡](../art-direction/five-arts-v3/README.md) · [兩術獎勵規則](CARD_PROGRESSION_BALANCE.md) · [仙術永久天生](INNATE_IMMORTAL_ARTS.md) · [百城名錄](world-100/README.md)。舊三分支、主副修與仙術選配已取消。
 
 目標：GBA 像素肉鴿，Godot + Blender。設計文件與現行可玩原型分開標示。
 
 | 項目 | 已完成 | 尚缺 |
 |---|---|---|
 | [肉鴿核心](ROGUELITE_LOOP.md) | 循環、重置／繼承與城市路線原則 | 輪長、終點、生成權重、可玩整輪驗證 |
-| [五術](../art-direction/cards-items/FIVE_ARTS.md) | 五職業方向、修行分支、30 招轉譯與概念卡圖 | 完整卡池、戰鬥平衡、Godot 卡牌系統 |
+| [五術](../art-direction/cards-items/FIVE_ARTS.md) | 五術各 45 卡、225 卡設計、兩術兼修；126 卡概念圖 | 剩餘 99 卡圖、戰鬥平衡、Godot 卡牌系統 |
 | [十大宇宙](../art-direction/universes/README.md) | 10 張代表場景、[40 張完整配置概念圖](../art-direction/cities/README.md) | 區塊圖集、新增星球城市、可玩地圖 |
 | [十大道主席位](DAO_RULERS.md) | 10 位道主（含導師）概念圖＋1 張揭露前意象已入庫 | 動畫、正式素材、完整對話、實作與數值 |
 | [星主](PLANET_LORDS.md) | 固定稱號、隨機姓名規則；[首批 20 稱號](PLANET_LORD_CATALOG.md)、10 組姓名池及交接提案 | 星名提案確認、角色美術、事件腳本、平衡與實作 |

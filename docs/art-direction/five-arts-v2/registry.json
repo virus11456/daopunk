@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "status": "design_proposal_not_runtime",
+  "status": "archived_superseded_by_v3",
   "classification": "正式五術：山、醫、命、相、卜",
   "card_count": 45,
   "arts": [
@@ -864,5 +864,6 @@
       "image": "assets/bu-cards-v2.png",
       "prompt": "Use case: stylized-concept. Original DAOPUNK GBA pixel art CARD CONTACT SHEET, landscape 1536x1024, EXACTLY NINE complete cards in a precisely aligned THREE columns by THREE rows grid, equal size cards with ample navy gutters and outer margins. Image 1 is style reference only; do not repeat its six-card layout. Each card has a thin bronze pixel frame, blank small parchment header and footer, one large distinct simple icon on a flat dark background. No letters, numbers, writing, or watermark. 卜 school palette: indigo, pale cyan, bronze. Eastern cultivation integrated with cyberpunk electronics. Low resolution chunky pixel clusters, hard stepped edges, 2-3 shades, no smooth gradients, glow, realism or painterly brushwork. Very simple readable silhouettes; icons fill their panels without touching frames. Render these exact nine subjects, in row-major order: row 1 column 1: three bronze coins above a small blue hexagram terminal; row 1 column 2: bronze warning compass detecting an approaching red arrow; row 1 column 3: small mechanical hand holding one blue talisman card; row 2 column 1: plum blossom beside two holographic card silhouettes; row 2 column 2: square folding gate offering blue shield and amber target paths; row 2 column 3: ancient scroll displaying two pixel future silhouettes; row 3 column 1: six luminous horizontal bars above five tiny face-down cards; row 3 column 2: red danger glyph transforming into a blue protective coin; row 3 column 3: bronze hourglass circling one small sword card with a backward arrow. All nine borders fully inside image. Keep uniform straight-on card face, no perspective."
     }
-  ]
+  ],
+  "superseded_by": "../five-arts-v3/registry.json"
 }

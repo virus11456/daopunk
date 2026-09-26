@@ -1,6 +1,6 @@
 # DAOPUNK 美術方向提案：GBA 時代的道術像素 RPG
 
-> 最新擴充：[五術正式路徑與 45 卡](five-arts-v2/README.md) · [40 星球／100 城鎮地點](../design/world-100/README.md)。
+> 最新：[五術 v3：225 卡、兩術兼修](five-arts-v3/README.md) · [永久天生仙術](../design/INNATE_IMMORTAL_ARTS.md) · [40 星球／100 城鎮](../design/world-100/README.md)。
 
 狀態：GBA 像素美術主方向已由使用者確認；各素材為概念設計，尚非已完成的遊戲換皮。2026-09-26。
 
