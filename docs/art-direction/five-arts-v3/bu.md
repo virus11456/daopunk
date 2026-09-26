@@ -1,3 +1,5 @@
+> **已退役：卡牌／技能樹／舊玩法美術草稿，非現行設計。** 現行方向見[世界觀與美術](../../worldbuilding/README.md)。
+
 # 卜術：45 張卡牌
 
 [返回五術總覽](README.md) · [兩術搭配規則](../../design/CARD_PROGRESSION_BALANCE.md)

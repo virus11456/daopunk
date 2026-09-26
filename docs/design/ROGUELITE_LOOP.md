@@ -1,3 +1,5 @@
+> **已退役：舊玩法／混合設計資料。** 2026-09-26 起不再作為現行規格；故事背景已提取至[世界觀統整](../worldbuilding/README.md)，美術依新基準。以下僅存歷史。
+
 # 肉鴿核心循環與輪迴邊界
 
 > 最新卡牌規則：[每術 45 卡、每輪兩術平等兼修](../art-direction/five-arts-v3/README.md)；[仙術獲得後每世開局全部擁有](INNATE_IMMORTAL_ARTS.md)。99 歲／抹殺邊界仍以[輪迴確認](REINCARNATION_CANON_V2.md)為準。

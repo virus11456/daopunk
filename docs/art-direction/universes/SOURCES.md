@@ -1,3 +1,5 @@
+> **現行美術以[本次美術基準](../../worldbuilding/ART_BIBLE.md)為準。** 圖像保留為概念參考；本文涉及卡牌、獎勵、生成與遊戲流程的舊規格全部退役。人物與地理依世界觀統整。
+
 # 世界觀基準與來源判定
 
 使用者指定來源：[ChatGPT Roguelike 遊戲建議](https://chatgpt.com/share/6ab6ab87-a7c8-83ee-bb68-dc81c8837d4b)。讀取日期：2026-09-26（Asia/Taipei）。以瀏覽器實際可見對話核對，採用末段糾正後的 Universe Master Table。

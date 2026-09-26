@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "status": "art_direction_proposal_not_runtime_data",
+  "status": "visual_concepts_story_authority_docs_worldbuilding",
   "source": "https://chatgpt.com/share/6ab6ab87-a7c8-83ee-bb68-dc81c8837d4b",
   "universes": [
     {
       "id": "U-001",
       "slug": "guixu",
       "name": "歸墟",
-      "ruler": "—（原表空缺）",
+      "ruler": "導師（歸墟道主；作者資料）",
       "dao": "始",
       "law": "命運",
       "theme": "廢土裡重新開始的人間街坊",

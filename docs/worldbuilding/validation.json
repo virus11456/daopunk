@@ -1,0 +1,12 @@
+{
+  "scope": "documentation_and_catalog_validation_only",
+  "universes": 10,
+  "planets": 40,
+  "locations": 100,
+  "capitals": 10,
+  "unique_ids": true,
+  "valid_trade_endpoints": true,
+  "runtime_tests": "not_run_no_runtime_change",
+  "story_issues": 37,
+  "all_story_gaps_resolved": false
+}

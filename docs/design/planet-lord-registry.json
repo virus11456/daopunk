@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "design_only_not_runtime",
+  "status": "retired_mixed_design_reference_only",
   "source_rules": "PLANET_LORDS.md",
   "titles": [
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "proposal_not_runtime_data",
+  "status": "retired_gameplay_reference_only",
   "skill_cards": [
     {
       "id": "basic_breathing",

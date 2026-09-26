@@ -1,3 +1,5 @@
+> **現行美術以[本次美術基準](../../worldbuilding/ART_BIBLE.md)為準。** 圖像保留為概念參考；本文涉及卡牌、獎勵、生成與遊戲流程的舊規格全部退役。人物與地理依世界觀統整。
+
 # 十大宇宙生成提示詞
 
 工具：內建 imagegen。風格参考：../assets/gba-scrap-street-v1.png。U-001 沿用該已認可圖片，原提示詞在上層 PROMPTS.md。

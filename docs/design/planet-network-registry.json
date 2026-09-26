@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "design_proposal_not_runtime",
+  "status": "retired_mixed_design_reference_only",
   "universes": [
     {
       "id": "U-001",

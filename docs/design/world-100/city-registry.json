@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "design_proposal_not_runtime",
+  "status": "retired_mixed_design_reference_only",
   "scope": "40 planets / 100 explorable settlement locations, not 100 planets",
   "capital_rule": "每宇宙一顆道主所在首都星",
   "cities": [
