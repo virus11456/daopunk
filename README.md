@@ -86,3 +86,7 @@
 統整交接：[給Claude的九篇全稿整理指令](docs/story-drafts/CLAUDE_CONSOLIDATION_PROMPT.md) · [跨篇故事資料契約](docs/contracts/STORY_EVENT_DATA.md) · [製作工作清單](docs/production/STORY_PRODUCTION_PLAN.md)。本批完成文件與依賴盤點，尚未接入引擎。
 
 故事更新：[共同年表及五篇新版](docs/story-drafts/revisions-batch-01/README.md)已收錄，另附16項二次檢查與續修提示。這批以原稿修訂補丁交付，未經作者定案的人口／回歸方案仍保持待定。
+
+最新故事背景：[《燈還掛著》v1.2](docs/story-drafts/background-v1.2/README.md)，已收17項稿內決定與15項連貫性檢查；仍需補齊引用母稿，未視為完整可玩劇本。另新增[NPC知識與秘密分層](docs/contracts/NPC_KNOWLEDGE_BOUNDARIES.md)。
+
+新增[山海探索圖鑑](docs/worldbuilding/SHANHAI_EXPLORATION_CODEX.md)：古籍是遊戲內的宇宙探索紀錄，最早宇宙不只十個；圖鑑允許缺頁、過時與互相矛盾的見聞。[交給Claude的下一批](docs/story-drafts/background-v1.2/NEXT_WRITING_PROMPT.md)。

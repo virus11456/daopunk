@@ -1,0 +1,118 @@
+{
+  "version": "1.2",
+  "title": "燈還掛著",
+  "source_name": "貼上的文字.txt",
+  "sha256": "9be7fe72239d2001390ce632727d0728cd81bba390e1b2143cff0d7c63db1b56",
+  "bytes": 16210,
+  "original": "ORIGINAL.md",
+  "status": "received_with_review_not_integrated_script",
+  "missing_references": [
+    "完整背景v1",
+    "完整背景v1.1",
+    "小說版第一卷"
+  ],
+  "decisions": [
+    {
+      "id": 1,
+      "decision": "主角每世生在《燈籍》人家的新生兒",
+      "impact": "B1 定案",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 2,
+      "decision": "其他同門轉生後可能是任何生命",
+      "impact": "B3 定案",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 3,
+      "decision": "主角每世記得一切，是因為師父在他出生時剪了他的命途，沒有問過他",
+      "impact": "定案",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 4,
+      "decision": "另兩位創世生命是燭陰與渾沌",
+      "impact": "定案",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 5,
+      "decision": "傳承苑是記憶湧現者庇護苑",
+      "impact": "B2 定案",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 6,
+      "decision": "道主們來自夢外，比夢更早存在",
+      "impact": "新增，宇宙起源",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 7,
+      "decision": "道主們曾聯手讓造物主陷入沉睡",
+      "impact": "新增",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 8,
+      "decision": "導師當年反對讓造物主沉睡，沒能阻止",
+      "impact": "新增",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 9,
+      "decision": "陸吾與閻羅 X 想暗殺造物主並取代祂；計畫只有他們兩位",
+      "impact": "新增",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 10,
+      "decision": "閻羅 X 也想取代造物主",
+      "impact": "新增",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 11,
+      "decision": "導師知道「道主們讓造物主沉睡」的秘密，並反對暗殺，因此遭到暗中攻擊",
+      "impact": "新增",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 12,
+      "decision": "出手的是陸吾，閻羅 X 以遮天遮掩；世人不知道是誰",
+      "impact": "新增",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 13,
+      "decision": "導師知道是誰出手，但不說",
+      "impact": "新增",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 14,
+      "decision": "導師打碎歸墟自保；碎片打散了他的命途，無人能追",
+      "impact": "**取代** v1.1「煉假成真失敗」與「剪成死者形狀」",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 15,
+      "decision": "人類衰亡**不是**歸墟破碎造成；原因保留為謎",
+      "impact": "**取代** v1.1 的人類衰亡因果",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 16,
+      "decision": "閻羅 X 託主角問棋：既想確認導師是否還活著，也心懷愧疚，他自己在掙扎",
+      "impact": "重新詮釋 Y01",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    },
+    {
+      "id": 17,
+      "decision": "導師現在的立場是喚醒真實",
+      "impact": "新增",
+      "provenance": "source_declares_user_confirmed_in_external_conversation"
+    }
+  ]
+}
