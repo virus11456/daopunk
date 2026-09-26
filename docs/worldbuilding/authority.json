@@ -79,5 +79,11 @@
     "fellow_disciples_have_individual_missions",
     "fun_story_with_continuing_philosophical_inquiry",
     "eastern_philosophy_and_daoist_thought"
+  ],
+  "development_workflow": "故事、人物與世界設定分篇完成，最後整合主線並接入Godot；GitHub持續記錄更新",
+  "proposal_modules": [
+    "story-modules/S01_ROBOT_DIVINATION.md",
+    "story-modules/W01_HUMAN_DIVINATION.md",
+    "story-modules/S02_RED_REUNION.md"
   ]
 }
