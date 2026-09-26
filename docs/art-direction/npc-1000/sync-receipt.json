@@ -1,12 +1,12 @@
 {
-  "asset_commit": "28b224d2bb47bfd90ece27b179d14f6462ee0487",
+  "asset_commit": "2962511955cea17d16d4aed6f0142b84ac9051e9",
   "verified_method": "GitHub committed recursive tree exact blob SHA matches local files",
   "verified_files": 39,
-  "characters_with_images": 62,
-  "accepted_static_front_designs": 62,
-  "remaining_without_images": 938,
-  "next_id": "NPC-0063",
-  "phase_completed": 30,
+  "characters_with_images": 72,
+  "accepted_static_front_designs": 72,
+  "remaining_without_images": 928,
+  "next_id": "NPC-0073",
+  "phase_completed": 40,
   "phase_target": 100,
   "phase_end": "NPC-0132",
   "not_completed": [
