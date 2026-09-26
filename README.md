@@ -225,3 +225,8 @@ NPC-0063～0072已完成靜態設計與像素清理，累計72位。本階段40�
 ### 時代與事件池 v1 原始附件補收
 
 新增 [完整原件、版本比對與接續 prompt](docs/story-drafts/eras-events-v1/README.md)，原件已核對 SHA-256。此為 v1 來源補收，不覆蓋既有 v1.1／v1.2 工作修訂；不恢復自動時限結局或非人類觀命待定。300模板與時代配額仍為規劃，本次未新增已驗收事件或 Godot 實作。
+
+
+## B01 與中立組織入會收稿
+
+收錄 [B01 聚變篇審閱](docs/story-drafts/fusion-b01-v1/README.md)、[入會 v1 歷史審閱](docs/story-drafts/organization-membership-v1/README.md)及[入會 v1.1 原稿與修訂 prompt](docs/story-drafts/organization-membership-v1.1/README.md)。B01 採最新 B-1～B-6 編號；檢查居民受害判準與薄牆定位。入會 v1.1 記錄殺手可加入、三種跨世承認、兼任無上限，其他提案不升格。世界惡化不自動觸發結局，未接 Godot。
