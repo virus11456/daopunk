@@ -1594,14 +1594,15 @@
           "sha256": "24965095f0cc3d86d0ea909dfcd72db5069f4f05f0dbc289af2e336d21494f2e",
           "git_blob_sha": "267bab5392f68941438a8a3ccb0549d9dec72fea",
           "alpha_partial_pixels": 581640,
-          "synced": false,
+          "synced": true,
           "version": 1,
           "qa": "visually_reviewed_source_needs_cleanup",
           "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial amphibian biped with gill vents, street food vendor of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear ribbed ceramic headguard and cropped quilted coat, carry compact lidded food pot. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0033 for bookkeeping only, do not write it in image. Construction simple enough to remain legible on a 40x48 canvas. Hat not taller than half the head. Both feet visible. Use large flat pixel clusters, no gradients. One copper magnetic buckle as local motif.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
           "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-e8bd3a04-1cdf-4d7b-b4d5-92d61c31f98d.png",
-          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup."
+          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         },
         {
           "asset": "assets/NPC-0033-front-clean-v1.png",
@@ -1610,13 +1611,14 @@
           "sha256": "d54473ac33a4cc1b4b37d818f5415bcbc23e3f99cf1496a2dd774456c50a599f",
           "git_blob_sha": "d06dc715bf44c14d4830657817b5a2961b752ecd",
           "alpha_partial_pixels": 0,
-          "synced": false,
+          "synced": true,
           "version": "clean-v1",
           "qa": "accepted_static_front_design",
           "source": "user-authorized deterministic cleanup of imagegen source",
           "source_asset": "assets/NPC-0033-front-v1.png",
           "cleanup_recipe": "batch-0033-0042-cleanup.py: threshold128; aspect preserving nearest scaling within36x44; shared32-color palette no dithering; 40x48 canvas; 8x preview",
-          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done."
+          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         }
       ]
     },
@@ -1640,14 +1642,15 @@
           "sha256": "2b49363fb19fd1a6d1aca2a4b2d35b426281d7890c565f1b9a4622858235a3ef",
           "git_blob_sha": "4fb4210c30378f2f76ba329485f5b6af1c42ca2a",
           "alpha_partial_pixels": 556609,
-          "synced": false,
+          "synced": true,
           "version": 1,
           "qa": "visually_reviewed_source_needs_cleanup",
           "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: small horned stone-and-circuit construct, courier of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear bare sculpted head and one-shoulder wrap, carry sealed message tube. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0034 for bookkeeping only, do not write it in image. Construction simple enough to remain legible on a 40x48 canvas. Hat not taller than half the head. Both feet visible. Use large flat pixel clusters, no gradients. One copper magnetic buckle as local motif.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
           "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-abcec3fb-1007-4296-aa91-89a498ffcf1d.png",
-          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup."
+          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         },
         {
           "asset": "assets/NPC-0034-front-clean-v1.png",
@@ -1656,13 +1659,14 @@
           "sha256": "e17d9031493331d520217e7a6b43b8facbaa3ba01884749601faee0cfa941cb7",
           "git_blob_sha": "f129e8689ae6f70f3f599e41ca1dcb714fe4daca",
           "alpha_partial_pixels": 0,
-          "synced": false,
+          "synced": true,
           "version": "clean-v1",
           "qa": "accepted_static_front_design",
           "source": "user-authorized deterministic cleanup of imagegen source",
           "source_asset": "assets/NPC-0034-front-v1.png",
           "cleanup_recipe": "batch-0033-0042-cleanup.py: threshold128; aspect preserving nearest scaling within36x44; shared32-color palette no dithering; 40x48 canvas; 8x preview",
-          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done."
+          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         }
       ]
     },
@@ -1686,14 +1690,15 @@
           "sha256": "eb9b3ae7e2fd0e249359d960c2bd17bd596ce58f4738283b0f0ed2f130cfbf15",
           "git_blob_sha": "b5e67f4ef3f61597929afa1123d2dd1cb2331475",
           "alpha_partial_pixels": 613557,
-          "synced": false,
+          "synced": true,
           "version": 1,
           "qa": "visually_reviewed_source_needs_cleanup",
           "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial avian biped with short beak, night inspector of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear conical rain hat and short split rain cape, carry hooded inspection lantern. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0035 for bookkeeping only, do not write it in image. Construction simple enough to remain legible on a 40x48 canvas. Hat not taller than half the head. Both feet visible. Use large flat pixel clusters, no gradients. One copper magnetic buckle as local motif.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
           "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-319ad648-e4cd-40be-992c-1cae6cca9913.png",
-          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup."
+          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         },
         {
           "asset": "assets/NPC-0035-front-clean-v1.png",
@@ -1702,13 +1707,14 @@
           "sha256": "888fd08530965278da84457cd9869191fb8285b1e5362e6df146c7ff4cf24e18",
           "git_blob_sha": "323cab10ed0bd0cb78d26c87ab6f88a9fa7f798a",
           "alpha_partial_pixels": 0,
-          "synced": false,
+          "synced": true,
           "version": "clean-v1",
           "qa": "accepted_static_front_design",
           "source": "user-authorized deterministic cleanup of imagegen source",
           "source_asset": "assets/NPC-0035-front-v1.png",
           "cleanup_recipe": "batch-0033-0042-cleanup.py: threshold128; aspect preserving nearest scaling within36x44; shared32-color palette no dithering; 40x48 canvas; 8x preview",
-          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done."
+          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         }
       ]
     },
@@ -1732,14 +1738,15 @@
           "sha256": "b215de8ea4fa1f1406af6e7acf48b7165dea9d763181cd5a5070d8f4fefda7d2",
           "git_blob_sha": "dae3391bd663a13af7face364c3d0f5ba18f6d40",
           "alpha_partial_pixels": 712984,
-          "synced": false,
+          "synced": true,
           "version": 1,
           "qa": "visually_reviewed_source_needs_cleanup",
           "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: glass-domed nonhuman synthetic organism, medical assistant of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear side-creased soft cap and wide sleeve work tunic, carry small medical case. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0036 for bookkeeping only, do not write it in image. Construction simple enough to remain legible on a 40x48 canvas. Hat not taller than half the head. Both feet visible. Use large flat pixel clusters, no gradients. One copper magnetic buckle as local motif.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
           "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-cae7ccce-3d68-47c4-a5a0-0ebe3584dc36.png",
-          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup."
+          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         },
         {
           "asset": "assets/NPC-0036-front-clean-v1.png",
@@ -1748,13 +1755,14 @@
           "sha256": "711213c0276769241a6e068ea3b7fdd5904581f39bbe803e4dcaabd665dd2601",
           "git_blob_sha": "5463aa21967519e89a0d276637c248168a80a15c",
           "alpha_partial_pixels": 0,
-          "synced": false,
+          "synced": true,
           "version": "clean-v1",
           "qa": "accepted_static_front_design",
           "source": "user-authorized deterministic cleanup of imagegen source",
           "source_asset": "assets/NPC-0036-front-v1.png",
           "cleanup_recipe": "batch-0033-0042-cleanup.py: threshold128; aspect preserving nearest scaling within36x44; shared32-color palette no dithering; 40x48 canvas; 8x preview",
-          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done."
+          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         }
       ]
     },
@@ -1778,14 +1786,15 @@
           "sha256": "9589ad0ffabcc182faca860215c97b2a27144687c45c9c4f3fce14b408eb3ff8",
           "git_blob_sha": "abe6d5b389c5fd5ec26f453179944ce90868c128",
           "alpha_partial_pixels": 574845,
-          "synced": false,
+          "synced": true,
           "version": 1,
           "qa": "visually_reviewed_source_needs_cleanup",
           "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: trapezoid iron maintenance robot, plant caretaker of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear tall folded headwrap and belted layered tabard, carry one seedling pot. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0037 for bookkeeping only, do not write it in image. Construction simple enough to remain legible on a 40x48 canvas. Hat not taller than half the head. Both feet visible. Use large flat pixel clusters, no gradients. One copper magnetic buckle as local motif.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
           "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-c6bd4ff8-40ab-424b-be4d-c768ad6c0f48.png",
-          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup."
+          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         },
         {
           "asset": "assets/NPC-0037-front-clean-v1.png",
@@ -1794,13 +1803,14 @@
           "sha256": "05e35a89fa31ee7cbb81dce3b5c439ff604d98174ab5db08aa0a774763d4a8b4",
           "git_blob_sha": "97edf4e9c66f2c71885d47cc074afdb0e4d04dc3",
           "alpha_partial_pixels": 0,
-          "synced": false,
+          "synced": true,
           "version": "clean-v1",
           "qa": "accepted_static_front_design",
           "source": "user-authorized deterministic cleanup of imagegen source",
           "source_asset": "assets/NPC-0037-front-v1.png",
           "cleanup_recipe": "batch-0033-0042-cleanup.py: threshold128; aspect preserving nearest scaling within36x44; shared32-color palette no dithering; 40x48 canvas; 8x preview",
-          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done."
+          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         }
       ]
     },
@@ -1824,14 +1834,15 @@
           "sha256": "0b8458f9973160f9d1ded4fc8fb836ac20ad8aad689eee7ab0c0ddb8fd5c0018",
           "git_blob_sha": "a7695a94b7fe1f26a6b53d74d237b866cad78fb8",
           "alpha_partial_pixels": 531312,
-          "synced": false,
+          "synced": true,
           "version": 1,
           "qa": "visually_reviewed_source_needs_cleanup",
           "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: round ceramic automaton, material salvager of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear ribbed ceramic headguard and short padded vest, carry salvage clamp. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0038 for bookkeeping only, do not write it in image. Construction simple enough to remain legible on a 40x48 canvas. Hat not taller than half the head. Both feet visible. Use large flat pixel clusters, no gradients. One copper magnetic buckle as local motif.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
           "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-ebebaba5-60c5-4a22-83fd-4deccfa63de9.png",
-          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup."
+          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         },
         {
           "asset": "assets/NPC-0038-front-clean-v1.png",
@@ -1840,13 +1851,14 @@
           "sha256": "caa4b67a571706112a2de0992a405e8315ae1e7a53427b9c55d0b139e4fe83ff",
           "git_blob_sha": "df7df4dd413ff656216b6fe785445015e74b138e",
           "alpha_partial_pixels": 0,
-          "synced": false,
+          "synced": true,
           "version": "clean-v1",
           "qa": "accepted_static_front_design",
           "source": "user-authorized deterministic cleanup of imagegen source",
           "source_asset": "assets/NPC-0038-front-v1.png",
           "cleanup_recipe": "batch-0033-0042-cleanup.py: threshold128; aspect preserving nearest scaling within36x44; shared32-color palette no dithering; 40x48 canvas; 8x preview",
-          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done."
+          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         }
       ]
     },
@@ -1870,14 +1882,15 @@
           "sha256": "8205cdefd3334dc0d47f7baad9e0e93c03ed959f68c0b25d7722979b9905e9f2",
           "git_blob_sha": "ce4732d6f1daa4800d13f10cc2ee23538e9cc608",
           "alpha_partial_pixels": 442068,
-          "synced": false,
+          "synced": true,
           "version": 1,
           "qa": "visually_reviewed_source_needs_cleanup",
           "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: brass insectoid service construct, transit attendant of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear bare sculpted head and asymmetric collar coat, carry folded route board without writing. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0039 for bookkeeping only, do not write it in image. Construction simple enough to remain legible on a 40x48 canvas. Hat not taller than half the head. Both feet visible. Use large flat pixel clusters, no gradients. One copper magnetic buckle as local motif.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
           "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-1f39ffa7-af50-43bb-9096-34fdcee7f73b.png",
-          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup."
+          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         },
         {
           "asset": "assets/NPC-0039-front-clean-v1.png",
@@ -1886,13 +1899,14 @@
           "sha256": "d771880240d2408e0ce7d3e47598007170820ec06ee00e3977df3e5ec2414a90",
           "git_blob_sha": "9ccd4ec00d1b603cb540ca90c98dbbdb95d71e00",
           "alpha_partial_pixels": 0,
-          "synced": false,
+          "synced": true,
           "version": "clean-v1",
           "qa": "accepted_static_front_design",
           "source": "user-authorized deterministic cleanup of imagegen source",
           "source_asset": "assets/NPC-0039-front-v1.png",
           "cleanup_recipe": "batch-0033-0042-cleanup.py: threshold128; aspect preserving nearest scaling within36x44; shared32-color palette no dithering; 40x48 canvas; 8x preview",
-          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done."
+          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         }
       ]
     },
@@ -1916,14 +1930,15 @@
           "sha256": "87ea552312117fc01509b130dea1a5a6df327e90f8eb58cb20a9475c2eba1412",
           "git_blob_sha": "b910db712f594f10d472d8a960e6554c1fb92236",
           "alpha_partial_pixels": 562693,
-          "synced": false,
+          "synced": true,
           "version": 1,
           "qa": "visually_reviewed_source_needs_cleanup",
           "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial foxlike biped with visible synthetic joints, retired resident of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear conical rain hat and loose short robe, carry walking cane with small keepsake. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0040 for bookkeeping only, do not write it in image. Construction simple enough to remain legible on a 40x48 canvas. Hat not taller than half the head. Both feet visible. Use large flat pixel clusters, no gradients. One copper magnetic buckle as local motif.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
           "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-77acb9fe-1a08-4d9f-b83b-d95ea69f83e5.png",
-          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup."
+          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         },
         {
           "asset": "assets/NPC-0040-front-clean-v1.png",
@@ -1932,13 +1947,14 @@
           "sha256": "ae3659d21ee6dc785e54d0f60c0fcf0e70e2e6bb8bba5ec51937b63c52c93b49",
           "git_blob_sha": "ee368de3ae0fa2e65671b79972f7ec2708a66ab9",
           "alpha_partial_pixels": 0,
-          "synced": false,
+          "synced": true,
           "version": "clean-v1",
           "qa": "accepted_static_front_design",
           "source": "user-authorized deterministic cleanup of imagegen source",
           "source_asset": "assets/NPC-0040-front-v1.png",
           "cleanup_recipe": "batch-0033-0042-cleanup.py: threshold128; aspect preserving nearest scaling within36x44; shared32-color palette no dithering; 40x48 canvas; 8x preview",
-          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done."
+          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         }
       ]
     },
@@ -1962,14 +1978,15 @@
           "sha256": "20a7d1c1db77c8785208cc2154741aff6e6b5c57465641c4e9f894db178ca849",
           "git_blob_sha": "b8e128a2de8c5cfb04dc7ad57f54dda4a81214ca",
           "alpha_partial_pixels": 776694,
-          "synced": false,
+          "synced": true,
           "version": 1,
           "qa": "visually_reviewed_source_needs_cleanup",
           "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: octagonal screen-head robot, repair worker of 轉運聚落 on U-001-P2, universe U-001. Local visual context: 上下交錯的貨梯井. Wear broad round work helmet and cross-collar short jacket, carry single large wrench. Palette: jade indigo ivory copper. Distinctive silhouette: broad sleeve shape, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0041 for bookkeeping only, do not write it in image. Construction simple enough to remain legible on a 40x48 canvas. Hat not taller than half the head. Both feet visible. Use large flat pixel clusters, no gradients. One freight-elevator double chevron buckle as local motif; no lettering.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
           "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-5f0ac8ea-71fc-4a7b-acc6-ae96a1ae1d72.png",
-          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup."
+          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         },
         {
           "asset": "assets/NPC-0041-front-clean-v1.png",
@@ -1978,13 +1995,14 @@
           "sha256": "5724334ed93bdd5de43aae1e17310fcaceb1b51b8203d1b6b67dd6c6cdbb88b5",
           "git_blob_sha": "a47ea2e3a74f782f7a8dc7d5a6a587231a662351",
           "alpha_partial_pixels": 0,
-          "synced": false,
+          "synced": true,
           "version": "clean-v1",
           "qa": "accepted_static_front_design",
           "source": "user-authorized deterministic cleanup of imagegen source",
           "source_asset": "assets/NPC-0041-front-v1.png",
           "cleanup_recipe": "batch-0033-0042-cleanup.py: threshold128; aspect preserving nearest scaling within36x44; shared32-color palette no dithering; 40x48 canvas; 8x preview",
-          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done."
+          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         }
       ]
     },
@@ -2008,14 +2026,15 @@
           "sha256": "4f1995e5d3895638fd7ba4a9b182fb1d2d72c7a064486ca2fc18e3b9885214ee",
           "git_blob_sha": "c67b1d978ada4b4ac04d21fc4375542b3fcb0426",
           "alpha_partial_pixels": 669069,
-          "synced": false,
+          "synced": true,
           "version": 1,
           "qa": "visually_reviewed_source_needs_cleanup",
           "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial amphibian biped with gill vents, porter of 轉運聚落 on U-001-P2, universe U-001. Local visual context: 上下交錯的貨梯井. Wear leaf-shaped sun visor and patched sleeveless apron, carry one strapped parcel. Palette: jade indigo ivory copper. Distinctive silhouette: broad sleeve shape, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0042 for bookkeeping only, do not write it in image. Construction simple enough to remain legible on a 40x48 canvas. Hat not taller than half the head. Both feet visible. Use large flat pixel clusters, no gradients. One freight-elevator double chevron buckle as local motif; no lettering.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
           "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-30f1db35-da54-4a20-80d0-9d8da0182172.png",
-          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup."
+          "review": "Single frontal full body; nonhuman identity, occupation tool and copper magnetic / freight-elevator motifs reviewed. Fine gradients require cleanup.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         },
         {
           "asset": "assets/NPC-0042-front-clean-v1.png",
@@ -2024,13 +2043,14 @@
           "sha256": "37253e66e8837ada9fbef9afe88a9daa4d40681134aa0d5803958058f5921d24",
           "git_blob_sha": "6830dbd7d1f7ab066724324f0bb98c6e5d885eb2",
           "alpha_partial_pixels": 0,
-          "synced": false,
+          "synced": true,
           "version": "clean-v1",
           "qa": "accepted_static_front_design",
           "source": "user-authorized deterministic cleanup of imagegen source",
           "source_asset": "assets/NPC-0042-front-v1.png",
           "cleanup_recipe": "batch-0033-0042-cleanup.py: threshold128; aspect preserving nearest scaling within36x44; shared32-color palette no dithering; 40x48 canvas; 8x preview",
-          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done."
+          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done.",
+          "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
         }
       ]
     },

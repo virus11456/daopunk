@@ -1,14 +1,17 @@
 {
-  "asset_commit": "1f75b5f0e0ed55a4976054060a2245d8d8e49fce",
-  "verified_method": "GitHub recursive committed tree exact git blob SHA matches local bytes",
-  "verified_files": 12,
-  "characters_with_images": 32,
-  "accepted_static_front_designs": 32,
-  "remaining_without_images": 968,
+  "asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421",
+  "verified_method": "GitHub committed recursive tree exact blob SHA matches local files",
+  "verified_files": 52,
+  "characters_with_images": 42,
+  "accepted_static_front_designs": 42,
+  "remaining_without_images": 958,
+  "next_id": "NPC-0043",
+  "phase_completed": 10,
+  "phase_target": 100,
+  "phase_end": "NPC-0132",
   "not_completed": [
     "animation",
     "four-direction sprites",
     "Godot integration"
-  ],
-  "next_id": "NPC-0033"
+  ]
 }
