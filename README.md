@@ -260,3 +260,15 @@ NPC-0063～0072已完成靜態設計與像素清理，累計72位。本階段40�
 ## A01 亞茲篇 v1.2 收斂收稿
 
 保存 [A01 v1.2 原稿、工作整理與結案對照](docs/story-drafts/az-a01-v1.2/README.md)，保留舊版。前次七項核心修訂已回應；工作副本僅統一紀錄案名稱、觀測與案件查驗兩種辨認，以及無遷出名單的台詞。無名交接、真實拘束變體與逐出夢外後領取仍待設計，提案不升格；未接 Godot。
+
+
+## 最新故事收稿：背景 v1.5 與接口覆核
+
+本批保留原稿與舊版，新增來源雜湊、文本審閱及 Claude 精修交接包；未接 Godot，未將提案升格正史。
+
+- [luwu-l01-v1.1](docs/story-drafts/luwu-l01-v1.1/README.md)
+- [eras-events-v1.2](docs/story-drafts/eras-events-v1.2/README.md)
+- [main-missing-dialogue-v1.2](docs/story-drafts/main-missing-dialogue-v1.2/README.md)
+- [background-v1.5](docs/story-drafts/background-v1.5/README.md)
+
+無自動終局的修正已見於新稿；證據來源、世界時間與晚到補救、結局條件仍待局部對齊，詳各篇 REVIEW。
