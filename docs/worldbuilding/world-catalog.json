@@ -1,0 +1,2697 @@
+{
+  "status": "current_story_catalog_with_proposals_no_gameplay",
+  "universes": [
+    {
+      "id": "U-001",
+      "name": "歸墟",
+      "dao_ruler": "導師（歸墟道主；玩家揭露前保密）",
+      "capital_planet_id": "U-001-P1",
+      "capital_city_id": "U-001-P1-C3",
+      "status": "existing_universe_with_proposed_geography",
+      "planets": [
+        {
+          "id": "U-001-P1",
+          "name": "蔓哈頓深坑星",
+          "name_status": "existing",
+          "is_capital": true,
+          "title": "鎮淵星主",
+          "exports": "遺物修復、封存資料",
+          "imports": "糧食與淨水",
+          "environment": "深坑岩層與埋藏都市",
+          "city_ids": [
+            "U-001-P1-C1",
+            "U-001-P1-C2",
+            "U-001-P1-C3"
+          ]
+        },
+        {
+          "id": "U-001-P2",
+          "name": "銅鹽星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "拾燼星主",
+          "exports": "再生金屬、耐候零件",
+          "imports": "淨水與技術",
+          "environment": "乾燥廢料台地與銅色鹽地",
+          "city_ids": [
+            "U-001-P2-C1",
+            "U-001-P2-C2"
+          ]
+        },
+        {
+          "id": "U-001-P3",
+          "name": "青穗星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "養穗星主",
+          "exports": "穀物、藥草與種子",
+          "imports": "機具與防護",
+          "environment": "穀物、藥草與種子主題環境（新提案）",
+          "city_ids": [
+            "U-001-P3-C1",
+            "U-001-P3-C2",
+            "U-001-P3-C3"
+          ]
+        },
+        {
+          "id": "U-001-P4",
+          "name": "澄泉星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "澄流星主",
+          "exports": "淨水、濾芯與水道工程",
+          "imports": "金屬與糧食",
+          "environment": "淨水、濾芯與水道工程主題環境（新提案）",
+          "city_ids": [
+            "U-001-P4-C1",
+            "U-001-P4-C2"
+          ]
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-001-P2",
+          "target": "U-001-P1",
+          "goods": "再生金屬、耐候零件",
+          "return_goods": "遺物修復、封存資料",
+          "proposal": true
+        },
+        {
+          "source": "U-001-P1",
+          "target": "U-001-P3",
+          "goods": "遺物修復、封存資料",
+          "return_goods": "穀物、藥草與種子",
+          "proposal": true
+        },
+        {
+          "source": "U-001-P3",
+          "target": "U-001-P4",
+          "goods": "穀物、藥草與種子",
+          "return_goods": "淨水、濾芯與水道工程",
+          "proposal": true
+        },
+        {
+          "source": "U-001-P4",
+          "target": "U-001-P2",
+          "goods": "淨水、濾芯與水道工程",
+          "return_goods": "再生金屬、耐候零件",
+          "proposal": true
+        },
+        {
+          "source": "U-001-P3",
+          "target": "U-001-P1",
+          "goods": "穀物、藥草與種子",
+          "return_goods": "遺物修復、封存資料",
+          "proposal": true
+        },
+        {
+          "source": "U-001-P4",
+          "target": "U-001-P1",
+          "goods": "淨水、濾芯與水道工程",
+          "return_goods": "遺物修復、封存資料",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-001-P1",
+            "U-001-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "銅鹽要求減少主星的回收抽成"
+        },
+        {
+          "parties": [
+            "U-001-P3",
+            "U-001-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "青穗與澄泉以糧水互保抵制徵用"
+        },
+        {
+          "parties": [
+            "U-001-P1",
+            "U-001-P3",
+            "U-001-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "遺物稅權爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-002",
+      "name": "武神界",
+      "dao_ruler": "奎托斯",
+      "capital_planet_id": "U-002-P1",
+      "capital_city_id": "U-002-P1-C3",
+      "status": "existing_universe_with_proposed_geography",
+      "planets": [
+        {
+          "id": "U-002-P1",
+          "name": "赤岳星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title": "赤岳星主",
+          "exports": "武備、石材與軍事教習",
+          "imports": "糧食與運輸",
+          "environment": "赤岩高地",
+          "city_ids": [
+            "U-002-P1-C1",
+            "U-002-P1-C2",
+            "U-002-P1-C3"
+          ]
+        },
+        {
+          "id": "U-002-P2",
+          "name": "鐵關星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "鐵關星主",
+          "exports": "邊境護航、寒鐵",
+          "imports": "糧食與醫藥",
+          "environment": "冷灰山脊",
+          "city_ids": [
+            "U-002-P2-C1",
+            "U-002-P2-C2"
+          ]
+        },
+        {
+          "id": "U-002-P3",
+          "name": "禾盾星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "豐盾星主",
+          "exports": "軍糧、布匹與皮革",
+          "imports": "農具與護航",
+          "environment": "軍糧、布匹與皮革主題環境（新提案）",
+          "city_ids": [
+            "U-002-P3-C1",
+            "U-002-P3-C2",
+            "U-002-P3-C3"
+          ]
+        },
+        {
+          "id": "U-002-P4",
+          "name": "奔雷星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "馭雷星主",
+          "exports": "運輸機具、動力核心",
+          "imports": "礦石與糧食",
+          "environment": "運輸機具、動力核心主題環境（新提案）",
+          "city_ids": [
+            "U-002-P4-C1",
+            "U-002-P4-C2"
+          ]
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-002-P2",
+          "target": "U-002-P1",
+          "goods": "邊境護航、寒鐵",
+          "return_goods": "武備、石材與軍事教習",
+          "proposal": true
+        },
+        {
+          "source": "U-002-P1",
+          "target": "U-002-P3",
+          "goods": "武備、石材與軍事教習",
+          "return_goods": "軍糧、布匹與皮革",
+          "proposal": true
+        },
+        {
+          "source": "U-002-P3",
+          "target": "U-002-P4",
+          "goods": "軍糧、布匹與皮革",
+          "return_goods": "運輸機具、動力核心",
+          "proposal": true
+        },
+        {
+          "source": "U-002-P4",
+          "target": "U-002-P2",
+          "goods": "運輸機具、動力核心",
+          "return_goods": "邊境護航、寒鐵",
+          "proposal": true
+        },
+        {
+          "source": "U-002-P3",
+          "target": "U-002-P1",
+          "goods": "軍糧、布匹與皮革",
+          "return_goods": "武備、石材與軍事教習",
+          "proposal": true
+        },
+        {
+          "source": "U-002-P4",
+          "target": "U-002-P1",
+          "goods": "運輸機具、動力核心",
+          "return_goods": "武備、石材與軍事教習",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-002-P1",
+            "U-002-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "鐵關要求戰時自主調兵"
+        },
+        {
+          "parties": [
+            "U-002-P3",
+            "U-002-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "禾盾與奔雷要求軍需按約付款"
+        },
+        {
+          "parties": [
+            "U-002-P1",
+            "U-002-P3",
+            "U-002-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "軍令權爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-003",
+      "name": "神經網",
+      "dao_ruler": "蓋亞",
+      "capital_planet_id": "U-003-P1",
+      "capital_city_id": "U-003-P1-C3",
+      "status": "existing_universe_with_proposed_geography",
+      "planets": [
+        {
+          "id": "U-003-P1",
+          "name": "織憶星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title": "織憶星主",
+          "exports": "記憶儲存、學術檔案",
+          "imports": "運算與散熱",
+          "environment": "灰紫節點台地",
+          "city_ids": [
+            "U-003-P1-C1",
+            "U-003-P1-C2",
+            "U-003-P1-C3"
+          ]
+        },
+        {
+          "id": "U-003-P2",
+          "name": "續訊星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "續訊星主",
+          "exports": "通訊中繼、離線備份",
+          "imports": "能源與硬體",
+          "environment": "淡藍訊號平原",
+          "city_ids": [
+            "U-003-P2-C1",
+            "U-003-P2-C2"
+          ]
+        },
+        {
+          "id": "U-003-P3",
+          "name": "算海星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "演算星主",
+          "exports": "運算服務、模擬模型",
+          "imports": "冷卻與資料",
+          "environment": "運算服務、模擬模型主題環境（新提案）",
+          "city_ids": [
+            "U-003-P3-C1",
+            "U-003-P3-C2",
+            "U-003-P3-C3"
+          ]
+        },
+        {
+          "id": "U-003-P4",
+          "name": "寒鏡星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "冷映星主",
+          "exports": "冷卻介質、光學晶片",
+          "imports": "能源與技術",
+          "environment": "冷卻介質、光學晶片主題環境（新提案）",
+          "city_ids": [
+            "U-003-P4-C1",
+            "U-003-P4-C2"
+          ]
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-003-P2",
+          "target": "U-003-P1",
+          "goods": "通訊中繼、離線備份",
+          "return_goods": "記憶儲存、學術檔案",
+          "proposal": true
+        },
+        {
+          "source": "U-003-P1",
+          "target": "U-003-P3",
+          "goods": "記憶儲存、學術檔案",
+          "return_goods": "運算服務、模擬模型",
+          "proposal": true
+        },
+        {
+          "source": "U-003-P3",
+          "target": "U-003-P4",
+          "goods": "運算服務、模擬模型",
+          "return_goods": "冷卻介質、光學晶片",
+          "proposal": true
+        },
+        {
+          "source": "U-003-P4",
+          "target": "U-003-P2",
+          "goods": "冷卻介質、光學晶片",
+          "return_goods": "通訊中繼、離線備份",
+          "proposal": true
+        },
+        {
+          "source": "U-003-P3",
+          "target": "U-003-P1",
+          "goods": "運算服務、模擬模型",
+          "return_goods": "記憶儲存、學術檔案",
+          "proposal": true
+        },
+        {
+          "source": "U-003-P4",
+          "target": "U-003-P1",
+          "goods": "冷卻介質、光學晶片",
+          "return_goods": "記憶儲存、學術檔案",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-003-P1",
+            "U-003-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "續訊要求保留離線權"
+        },
+        {
+          "parties": [
+            "U-003-P3",
+            "U-003-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "算海與寒鏡共同限制未授權模型訓練"
+        },
+        {
+          "parties": [
+            "U-003-P1",
+            "U-003-P3",
+            "U-003-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "資料自治爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-004",
+      "name": "智械天庭",
+      "dao_ruler": "玉皇 Prime",
+      "capital_planet_id": "U-004-P1",
+      "capital_city_id": "U-004-P1-C3",
+      "status": "existing_universe_with_proposed_geography",
+      "planets": [
+        {
+          "id": "U-004-P1",
+          "name": "玉衡星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title": "司籍星主",
+          "exports": "行政認證、精密機體",
+          "imports": "能源與原料",
+          "environment": "人工玉白平台",
+          "city_ids": [
+            "U-004-P1-C1",
+            "U-004-P1-C2",
+            "U-004-P1-C3"
+          ]
+        },
+        {
+          "id": "U-004-P2",
+          "name": "寒序星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "衛序星主",
+          "exports": "邊防服務、退役零件",
+          "imports": "能源與維修",
+          "environment": "寒冷金屬平原",
+          "city_ids": [
+            "U-004-P2-C1",
+            "U-004-P2-C2"
+          ]
+        },
+        {
+          "id": "U-004-P3",
+          "name": "曜核星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "奉能星主",
+          "exports": "能源核心、電力配額",
+          "imports": "散熱與機體",
+          "environment": "能源核心、電力配額主題環境（新提案）",
+          "city_ids": [
+            "U-004-P3-C1",
+            "U-004-P3-C2",
+            "U-004-P3-C3"
+          ]
+        },
+        {
+          "id": "U-004-P4",
+          "name": "鑄律星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "鑄律星主",
+          "exports": "標準零件、維修工坊",
+          "imports": "能源與認證",
+          "environment": "標準零件、維修工坊主題環境（新提案）",
+          "city_ids": [
+            "U-004-P4-C1",
+            "U-004-P4-C2"
+          ]
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-004-P2",
+          "target": "U-004-P1",
+          "goods": "邊防服務、退役零件",
+          "return_goods": "行政認證、精密機體",
+          "proposal": true
+        },
+        {
+          "source": "U-004-P1",
+          "target": "U-004-P3",
+          "goods": "行政認證、精密機體",
+          "return_goods": "能源核心、電力配額",
+          "proposal": true
+        },
+        {
+          "source": "U-004-P3",
+          "target": "U-004-P4",
+          "goods": "能源核心、電力配額",
+          "return_goods": "標準零件、維修工坊",
+          "proposal": true
+        },
+        {
+          "source": "U-004-P4",
+          "target": "U-004-P2",
+          "goods": "標準零件、維修工坊",
+          "return_goods": "邊防服務、退役零件",
+          "proposal": true
+        },
+        {
+          "source": "U-004-P3",
+          "target": "U-004-P1",
+          "goods": "能源核心、電力配額",
+          "return_goods": "行政認證、精密機體",
+          "proposal": true
+        },
+        {
+          "source": "U-004-P4",
+          "target": "U-004-P1",
+          "goods": "標準零件、維修工坊",
+          "return_goods": "行政認證、精密機體",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-004-P1",
+            "U-004-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "寒序要求承認退役機體公民權"
+        },
+        {
+          "parties": [
+            "U-004-P3",
+            "U-004-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "曜核與鑄律爭奪能源配額決定權"
+        },
+        {
+          "parties": [
+            "U-004-P1",
+            "U-004-P3",
+            "U-004-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "生命資格爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-005",
+      "name": "星際商盟",
+      "dao_ruler": "沃倫",
+      "capital_planet_id": "U-005-P1",
+      "capital_city_id": "U-005-P1-C3",
+      "status": "existing_universe_with_proposed_geography",
+      "planets": [
+        {
+          "id": "U-005-P1",
+          "name": "衡金星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title": "衡金星主",
+          "exports": "結算服務、交易信用",
+          "imports": "貨品與護航",
+          "environment": "乾暖港灣",
+          "city_ids": [
+            "U-005-P1-C1",
+            "U-005-P1-C2",
+            "U-005-P1-C3"
+          ]
+        },
+        {
+          "id": "U-005-P2",
+          "name": "通衢星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "通衢星主",
+          "exports": "保稅倉儲、邊境物流",
+          "imports": "通行協議與燃料",
+          "environment": "冷色軌道貨運地表",
+          "city_ids": [
+            "U-005-P2-C1",
+            "U-005-P2-C2"
+          ]
+        },
+        {
+          "id": "U-005-P3",
+          "name": "萬舶星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "領舶星主",
+          "exports": "船舶修造、遠洋護航",
+          "imports": "零件與糧食",
+          "environment": "船舶修造、遠洋護航主題環境（新提案）",
+          "city_ids": [
+            "U-005-P3-C1",
+            "U-005-P3-C2",
+            "U-005-P3-C3"
+          ]
+        },
+        {
+          "id": "U-005-P4",
+          "name": "百穀星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "司廩星主",
+          "exports": "糧食、日用消費品",
+          "imports": "運力與信用",
+          "environment": "糧食、日用消費品主題環境（新提案）",
+          "city_ids": [
+            "U-005-P4-C1",
+            "U-005-P4-C2"
+          ]
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-005-P2",
+          "target": "U-005-P1",
+          "goods": "保稅倉儲、邊境物流",
+          "return_goods": "結算服務、交易信用",
+          "proposal": true
+        },
+        {
+          "source": "U-005-P1",
+          "target": "U-005-P3",
+          "goods": "結算服務、交易信用",
+          "return_goods": "船舶修造、遠洋護航",
+          "proposal": true
+        },
+        {
+          "source": "U-005-P3",
+          "target": "U-005-P4",
+          "goods": "船舶修造、遠洋護航",
+          "return_goods": "糧食、日用消費品",
+          "proposal": true
+        },
+        {
+          "source": "U-005-P4",
+          "target": "U-005-P2",
+          "goods": "糧食、日用消費品",
+          "return_goods": "保稅倉儲、邊境物流",
+          "proposal": true
+        },
+        {
+          "source": "U-005-P3",
+          "target": "U-005-P1",
+          "goods": "船舶修造、遠洋護航",
+          "return_goods": "結算服務、交易信用",
+          "proposal": true
+        },
+        {
+          "source": "U-005-P4",
+          "target": "U-005-P1",
+          "goods": "糧食、日用消費品",
+          "return_goods": "結算服務、交易信用",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-005-P1",
+            "U-005-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "通衢要求自由港地位"
+        },
+        {
+          "parties": [
+            "U-005-P3",
+            "U-005-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "萬舶與百穀反對主星單方面提高結算費"
+        },
+        {
+          "parties": [
+            "U-005-P1",
+            "U-005-P3",
+            "U-005-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "關稅與信用爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-006",
+      "name": "元素洪爐",
+      "dao_ruler": "聚變",
+      "capital_planet_id": "U-006-P1",
+      "capital_city_id": "U-006-P1-C3",
+      "status": "existing_universe_with_proposed_geography",
+      "planets": [
+        {
+          "id": "U-006-P1",
+          "name": "熾衡星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title": "司爐星主",
+          "exports": "冶煉、合金與鍛件",
+          "imports": "冷卻介質與礦晶",
+          "environment": "冷熱交界火山台地",
+          "city_ids": [
+            "U-006-P1-C1",
+            "U-006-P1-C2",
+            "U-006-P1-C3"
+          ]
+        },
+        {
+          "id": "U-006-P2",
+          "name": "碎晶星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "定界星主",
+          "exports": "礦晶、模組橋",
+          "imports": "工具與穩定劑",
+          "environment": "碎裂礦晶台地",
+          "city_ids": [
+            "U-006-P2-C1",
+            "U-006-P2-C2"
+          ]
+        },
+        {
+          "id": "U-006-P3",
+          "name": "霜汀星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "調溫星主",
+          "exports": "冷卻液、耐熱陶材",
+          "imports": "能源與零件",
+          "environment": "冷卻液、耐熱陶材主題環境（新提案）",
+          "city_ids": [
+            "U-006-P3-C1",
+            "U-006-P3-C2",
+            "U-006-P3-C3"
+          ]
+        },
+        {
+          "id": "U-006-P4",
+          "name": "遷陸星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "遷陸星主",
+          "exports": "重構平台、空間定位器",
+          "imports": "礦晶與合金",
+          "environment": "重構平台、空間定位器主題環境（新提案）",
+          "city_ids": [
+            "U-006-P4-C1",
+            "U-006-P4-C2"
+          ]
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-006-P2",
+          "target": "U-006-P1",
+          "goods": "礦晶、模組橋",
+          "return_goods": "冶煉、合金與鍛件",
+          "proposal": true
+        },
+        {
+          "source": "U-006-P1",
+          "target": "U-006-P3",
+          "goods": "冶煉、合金與鍛件",
+          "return_goods": "冷卻液、耐熱陶材",
+          "proposal": true
+        },
+        {
+          "source": "U-006-P3",
+          "target": "U-006-P4",
+          "goods": "冷卻液、耐熱陶材",
+          "return_goods": "重構平台、空間定位器",
+          "proposal": true
+        },
+        {
+          "source": "U-006-P4",
+          "target": "U-006-P2",
+          "goods": "重構平台、空間定位器",
+          "return_goods": "礦晶、模組橋",
+          "proposal": true
+        },
+        {
+          "source": "U-006-P3",
+          "target": "U-006-P1",
+          "goods": "冷卻液、耐熱陶材",
+          "return_goods": "冶煉、合金與鍛件",
+          "proposal": true
+        },
+        {
+          "source": "U-006-P4",
+          "target": "U-006-P1",
+          "goods": "重構平台、空間定位器",
+          "return_goods": "冶煉、合金與鍛件",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-006-P1",
+            "U-006-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "碎晶要求保留居住區不得徵拆"
+        },
+        {
+          "parties": [
+            "U-006-P3",
+            "U-006-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "霜汀與遷陸因冷卻配額互相牽制"
+        },
+        {
+          "parties": [
+            "U-006-P1",
+            "U-006-P3",
+            "U-006-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "重構許可爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-007",
+      "name": "生化樂園",
+      "dao_ruler": "涂山氏",
+      "capital_planet_id": "U-007-P1",
+      "capital_city_id": "U-007-P1-C3",
+      "status": "existing_universe_with_proposed_geography",
+      "planets": [
+        {
+          "id": "U-007-P1",
+          "name": "華種星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title": "育華星主",
+          "exports": "種苗、醫藥與培育技術",
+          "imports": "生物材料與樣本",
+          "environment": "培育林與花田",
+          "city_ids": [
+            "U-007-P1-C1",
+            "U-007-P1-C2",
+            "U-007-P1-C3"
+          ]
+        },
+        {
+          "id": "U-007-P2",
+          "name": "菌澤星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "共棲星主",
+          "exports": "菌絲材料、污染分解",
+          "imports": "醫藥與通行",
+          "environment": "菌絲濕地",
+          "city_ids": [
+            "U-007-P2-C1",
+            "U-007-P2-C2"
+          ]
+        },
+        {
+          "id": "U-007-P3",
+          "name": "蜜潮星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "授芳星主",
+          "exports": "授粉服務、營養液",
+          "imports": "種苗與淨水",
+          "environment": "授粉服務、營養液主題環境（新提案）",
+          "city_ids": [
+            "U-007-P3-C1",
+            "U-007-P3-C2",
+            "U-007-P3-C3"
+          ]
+        },
+        {
+          "id": "U-007-P4",
+          "name": "鏡葉星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "辨生星主",
+          "exports": "生物檢驗、環境監測",
+          "imports": "樣本與儀器",
+          "environment": "生物檢驗、環境監測主題環境（新提案）",
+          "city_ids": [
+            "U-007-P4-C1",
+            "U-007-P4-C2"
+          ]
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-007-P2",
+          "target": "U-007-P1",
+          "goods": "菌絲材料、污染分解",
+          "return_goods": "種苗、醫藥與培育技術",
+          "proposal": true
+        },
+        {
+          "source": "U-007-P1",
+          "target": "U-007-P3",
+          "goods": "種苗、醫藥與培育技術",
+          "return_goods": "授粉服務、營養液",
+          "proposal": true
+        },
+        {
+          "source": "U-007-P3",
+          "target": "U-007-P4",
+          "goods": "授粉服務、營養液",
+          "return_goods": "生物檢驗、環境監測",
+          "proposal": true
+        },
+        {
+          "source": "U-007-P4",
+          "target": "U-007-P2",
+          "goods": "生物檢驗、環境監測",
+          "return_goods": "菌絲材料、污染分解",
+          "proposal": true
+        },
+        {
+          "source": "U-007-P3",
+          "target": "U-007-P1",
+          "goods": "授粉服務、營養液",
+          "return_goods": "種苗、醫藥與培育技術",
+          "proposal": true
+        },
+        {
+          "source": "U-007-P4",
+          "target": "U-007-P1",
+          "goods": "生物檢驗、環境監測",
+          "return_goods": "種苗、醫藥與培育技術",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-007-P1",
+            "U-007-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "菌澤要求共生群落自治"
+        },
+        {
+          "parties": [
+            "U-007-P3",
+            "U-007-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "蜜潮與鏡葉對檢疫封鎖尺度意見相左"
+        },
+        {
+          "parties": [
+            "U-007-P1",
+            "U-007-P3",
+            "U-007-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "培育授權爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-008",
+      "name": "幽冥數據流",
+      "dao_ruler": "閻羅 X",
+      "capital_planet_id": "U-008-P1",
+      "capital_city_id": "U-008-P1-C3",
+      "status": "existing_universe_with_proposed_geography",
+      "planets": [
+        {
+          "id": "U-008-P1",
+          "name": "冥渡星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title": "掌渡星主",
+          "exports": "資料轉運、交接服務",
+          "imports": "儲存器與紙燈",
+          "environment": "幽暗資料河岸",
+          "city_ids": [
+            "U-008-P1-C1",
+            "U-008-P1-C2",
+            "U-008-P1-C3"
+          ]
+        },
+        {
+          "id": "U-008-P2",
+          "name": "靜白星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "守諱星主",
+          "exports": "匿名庇護、隱私封存",
+          "imports": "補給與運輸",
+          "environment": "灰白靜默平原",
+          "city_ids": [
+            "U-008-P2-C1",
+            "U-008-P2-C2"
+          ]
+        },
+        {
+          "id": "U-008-P3",
+          "name": "封碑星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "守碑星主",
+          "exports": "長期檔案、修復磁片",
+          "imports": "能源與授權",
+          "environment": "長期檔案、修復磁片主題環境（新提案）",
+          "city_ids": [
+            "U-008-P3-C1",
+            "U-008-P3-C2",
+            "U-008-P3-C3"
+          ]
+        },
+        {
+          "id": "U-008-P4",
+          "name": "燈津星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "引燈星主",
+          "exports": "引路燈、渡船修造",
+          "imports": "金屬與航路記錄",
+          "environment": "引路燈、渡船修造主題環境（新提案）",
+          "city_ids": [
+            "U-008-P4-C1",
+            "U-008-P4-C2"
+          ]
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-008-P2",
+          "target": "U-008-P1",
+          "goods": "匿名庇護、隱私封存",
+          "return_goods": "資料轉運、交接服務",
+          "proposal": true
+        },
+        {
+          "source": "U-008-P1",
+          "target": "U-008-P3",
+          "goods": "資料轉運、交接服務",
+          "return_goods": "長期檔案、修復磁片",
+          "proposal": true
+        },
+        {
+          "source": "U-008-P3",
+          "target": "U-008-P4",
+          "goods": "長期檔案、修復磁片",
+          "return_goods": "引路燈、渡船修造",
+          "proposal": true
+        },
+        {
+          "source": "U-008-P4",
+          "target": "U-008-P2",
+          "goods": "引路燈、渡船修造",
+          "return_goods": "匿名庇護、隱私封存",
+          "proposal": true
+        },
+        {
+          "source": "U-008-P3",
+          "target": "U-008-P1",
+          "goods": "長期檔案、修復磁片",
+          "return_goods": "資料轉運、交接服務",
+          "proposal": true
+        },
+        {
+          "source": "U-008-P4",
+          "target": "U-008-P1",
+          "goods": "引路燈、渡船修造",
+          "return_goods": "資料轉運、交接服務",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-008-P1",
+            "U-008-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "靜白拒交受庇護者的真名"
+        },
+        {
+          "parties": [
+            "U-008-P3",
+            "U-008-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "封碑與燈津爭論誰能授權開封亡者記錄"
+        },
+        {
+          "parties": [
+            "U-008-P1",
+            "U-008-P3",
+            "U-008-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "封存管轄爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-009",
+      "name": "深淵",
+      "dao_ruler": "亞茲",
+      "capital_planet_id": "U-009-P1",
+      "capital_city_id": "U-009-P1-C3",
+      "status": "existing_universe_with_proposed_geography",
+      "planets": [
+        {
+          "id": "U-009-P1",
+          "name": "繫燈星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title": "繫魂星主",
+          "exports": "橋路維護、避難中繼",
+          "imports": "燃料與建材",
+          "environment": "斷裂陸塊",
+          "city_ids": [
+            "U-009-P1-C1",
+            "U-009-P1-C2",
+            "U-009-P1-C3"
+          ]
+        },
+        {
+          "id": "U-009-P2",
+          "name": "回聲星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "留聲星主",
+          "exports": "失落記錄、姓名修復",
+          "imports": "庇護與介質",
+          "environment": "失色空寂荒原",
+          "city_ids": [
+            "U-009-P2-C1",
+            "U-009-P2-C2"
+          ]
+        },
+        {
+          "id": "U-009-P3",
+          "name": "沉錨星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "固岸星主",
+          "exports": "錨石、結構支撐",
+          "imports": "運力與魂燈",
+          "environment": "錨石、結構支撐主題環境（新提案）",
+          "city_ids": [
+            "U-009-P3-C1",
+            "U-009-P3-C2",
+            "U-009-P3-C3"
+          ]
+        },
+        {
+          "id": "U-009-P4",
+          "name": "微焰星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "續火星主",
+          "exports": "魂燈燃料、保暖織物",
+          "imports": "錨石與糧食",
+          "environment": "魂燈燃料、保暖織物主題環境（新提案）",
+          "city_ids": [
+            "U-009-P4-C1",
+            "U-009-P4-C2"
+          ]
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-009-P2",
+          "target": "U-009-P1",
+          "goods": "失落記錄、姓名修復",
+          "return_goods": "橋路維護、避難中繼",
+          "proposal": true
+        },
+        {
+          "source": "U-009-P1",
+          "target": "U-009-P3",
+          "goods": "橋路維護、避難中繼",
+          "return_goods": "錨石、結構支撐",
+          "proposal": true
+        },
+        {
+          "source": "U-009-P3",
+          "target": "U-009-P4",
+          "goods": "錨石、結構支撐",
+          "return_goods": "魂燈燃料、保暖織物",
+          "proposal": true
+        },
+        {
+          "source": "U-009-P4",
+          "target": "U-009-P2",
+          "goods": "魂燈燃料、保暖織物",
+          "return_goods": "失落記錄、姓名修復",
+          "proposal": true
+        },
+        {
+          "source": "U-009-P3",
+          "target": "U-009-P1",
+          "goods": "錨石、結構支撐",
+          "return_goods": "橋路維護、避難中繼",
+          "proposal": true
+        },
+        {
+          "source": "U-009-P4",
+          "target": "U-009-P1",
+          "goods": "魂燈燃料、保暖織物",
+          "return_goods": "橋路維護、避難中繼",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-009-P1",
+            "U-009-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "回聲要求救援優先於主星橋稅"
+        },
+        {
+          "parties": [
+            "U-009-P3",
+            "U-009-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "沉錨與微焰交換配額以防主星獨占生命線"
+        },
+        {
+          "parties": [
+            "U-009-P1",
+            "U-009-P3",
+            "U-009-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "避難資源爭議"
+        }
+      ]
+    },
+    {
+      "id": "U-010",
+      "name": "永恆聖堂",
+      "dao_ruler": "陸吾",
+      "capital_planet_id": "U-010-P1",
+      "capital_city_id": "U-010-P1-C3",
+      "status": "existing_universe_with_proposed_geography",
+      "planets": [
+        {
+          "id": "U-010-P1",
+          "name": "晝庭星",
+          "name_status": "proposal",
+          "is_capital": true,
+          "title": "司晝星主",
+          "exports": "光井技術、教育與圖紙",
+          "imports": "材料與糧食",
+          "environment": "明亮白石階地",
+          "city_ids": [
+            "U-010-P1-C1",
+            "U-010-P1-C2",
+            "U-010-P1-C3"
+          ]
+        },
+        {
+          "id": "U-010-P2",
+          "name": "啟曦星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "啟曦星主",
+          "exports": "新城建設、公共設施",
+          "imports": "技術與建材",
+          "environment": "暖金晨曦平原",
+          "city_ids": [
+            "U-010-P2-C1",
+            "U-010-P2-C2"
+          ]
+        },
+        {
+          "id": "U-010-P3",
+          "name": "白垣星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "築垣星主",
+          "exports": "白石、陶材與施工",
+          "imports": "能源與糧食",
+          "environment": "白石、陶材與施工主題環境（新提案）",
+          "city_ids": [
+            "U-010-P3-C1",
+            "U-010-P3-C2",
+            "U-010-P3-C3"
+          ]
+        },
+        {
+          "id": "U-010-P4",
+          "name": "晨穗星",
+          "name_status": "proposal",
+          "is_capital": false,
+          "title": "沐光星主",
+          "exports": "糧食、庭園與生態維護",
+          "imports": "水利與建材",
+          "environment": "糧食、庭園與生態維護主題環境（新提案）",
+          "city_ids": [
+            "U-010-P4-C1",
+            "U-010-P4-C2"
+          ]
+        }
+      ],
+      "trade_routes": [
+        {
+          "source": "U-010-P2",
+          "target": "U-010-P1",
+          "goods": "新城建設、公共設施",
+          "return_goods": "光井技術、教育與圖紙",
+          "proposal": true
+        },
+        {
+          "source": "U-010-P1",
+          "target": "U-010-P3",
+          "goods": "光井技術、教育與圖紙",
+          "return_goods": "白石、陶材與施工",
+          "proposal": true
+        },
+        {
+          "source": "U-010-P3",
+          "target": "U-010-P4",
+          "goods": "白石、陶材與施工",
+          "return_goods": "糧食、庭園與生態維護",
+          "proposal": true
+        },
+        {
+          "source": "U-010-P4",
+          "target": "U-010-P2",
+          "goods": "糧食、庭園與生態維護",
+          "return_goods": "新城建設、公共設施",
+          "proposal": true
+        },
+        {
+          "source": "U-010-P3",
+          "target": "U-010-P1",
+          "goods": "白石、陶材與施工",
+          "return_goods": "光井技術、教育與圖紙",
+          "proposal": true
+        },
+        {
+          "source": "U-010-P4",
+          "target": "U-010-P1",
+          "goods": "糧食、庭園與生態維護",
+          "return_goods": "光井技術、教育與圖紙",
+          "proposal": true
+        }
+      ],
+      "political_relations": [
+        {
+          "parties": [
+            "U-010-P1",
+            "U-010-P2"
+          ],
+          "type": "negotiated_dependency",
+          "issue": "啟曦要求居民自行修改標準圖紙"
+        },
+        {
+          "parties": [
+            "U-010-P3",
+            "U-010-P4"
+          ],
+          "type": "conditional_cooperation",
+          "issue": "白垣與晨穗反對為建設指標過度開採"
+        },
+        {
+          "parties": [
+            "U-010-P1",
+            "U-010-P3",
+            "U-010-P4"
+          ],
+          "type": "quota_negotiation",
+          "issue": "創建規範爭議"
+        }
+      ]
+    }
+  ],
+  "cities": [
+    {
+      "id": "U-001-P1-C1",
+      "name": "破爛一條街",
+      "universe_id": "U-001",
+      "planet_id": "U-001-P1",
+      "is_capital_seat": false,
+      "landmark": "坑壁懸掛的廢飛舟攤棚",
+      "conflict": "拾荒商要求保護匿名來源",
+      "name_status": "地名既有；全域配置新提案",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "追溯無主遺物的原始持有人，決定歸還或出售",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-001-P1-C2",
+      "name": "數據陵墓",
+      "universe_id": "U-001",
+      "planet_id": "U-001-P1",
+      "is_capital_seat": false,
+      "landmark": "層疊墓碑伺服器與青銅祭台",
+      "conflict": "檔案真相與死者隱私相衝突",
+      "name_status": "地名既有；全域配置新提案",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "比對斷代墓誌，還原被刪除的城市史",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-001-P1-C3",
+      "name": "沉環京",
+      "universe_id": "U-001",
+      "planet_id": "U-001-P1",
+      "is_capital_seat": true,
+      "landmark": "深坑底部不閉合的環形殿門",
+      "conflict": "地方官封鎖通往環殿的證據",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "向歸墟隱席遞交世界異常證據，逐步開啟道主身分劇情",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-001-P2-C1",
+      "name": "回收聚落",
+      "universe_id": "U-001",
+      "planet_id": "U-001-P2",
+      "is_capital_seat": false,
+      "landmark": "磁吸吊臂橫跨銅鹽台地",
+      "conflict": "修理工與軍需承包商爭料",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "拆解報廢義體並決定零件流向",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-001-P2-C2",
+      "name": "轉運聚落",
+      "universe_id": "U-001",
+      "planet_id": "U-001-P2",
+      "is_capital_seat": false,
+      "landmark": "上下交錯的貨梯井",
+      "conflict": "居民糧箱被高價貨物擠走",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "分配深坑升降貨梯的有限載重",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-001-P3-C1",
+      "name": "穗契城",
+      "universe_id": "U-001",
+      "planet_id": "U-001-P3",
+      "is_capital_seat": false,
+      "landmark": "穀倉式契約神龕",
+      "conflict": "種子公司主張專利徵收",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "協商農戶共同持有種子的契約",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-001-P3-C2",
+      "name": "藥畦鎮",
+      "universe_id": "U-001",
+      "planet_id": "U-001-P3",
+      "is_capital_seat": false,
+      "landmark": "分時亮燈的梯田藥圃",
+      "conflict": "急需藥材與休耕衝突",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "排定藥草採收期以避免靈性流失",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-001-P3-C3",
+      "name": "風磨埠",
+      "universe_id": "U-001",
+      "planet_id": "U-001-P3",
+      "is_capital_seat": false,
+      "landmark": "風帆與電動磨輪共軸的糧塔",
+      "conflict": "港主優先出口精糧",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "調整星際糧運的碾磨配給",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-001-P4-C1",
+      "name": "泉衡城",
+      "universe_id": "U-001",
+      "planet_id": "U-001-P4",
+      "is_capital_seat": false,
+      "landmark": "可見水位的階梯分水壇",
+      "conflict": "上游豪宅私接水道",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "裁定上游與下游居民的淨水份額",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-001-P4-C2",
+      "name": "濾心鎮",
+      "universe_id": "U-001",
+      "planet_id": "U-001-P4",
+      "is_capital_seat": false,
+      "landmark": "層層透明濾膜街牆",
+      "conflict": "廉價濾芯供應商掩蓋缺陷",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "找出污染濾芯批次並追責",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-002-P1-C1",
+      "name": "演武城區",
+      "universe_id": "U-002",
+      "planet_id": "U-002-P1",
+      "is_capital_seat": false,
+      "landmark": "分層觀戰擂台與機械戰鼓",
+      "conflict": "裁判受軍閥施壓",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "參加公開武評以取得挑戰強者的資格",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-002-P1-C2",
+      "name": "採石城區",
+      "universe_id": "U-002",
+      "planet_id": "U-002-P1",
+      "is_capital_seat": false,
+      "landmark": "鑿開赤岳的試石碑",
+      "conflict": "礦額要求超過安全極限",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "辨別承壓靈石並保障採工安全",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-002-P1-C3",
+      "name": "赤旌京",
+      "universe_id": "U-002",
+      "planet_id": "U-002-P1",
+      "is_capital_seat": true,
+      "landmark": "戰旗環繞的斷劍議殿",
+      "conflict": "主戰派要求全民徵召",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "在道主武議中提交戰爭立場與證據",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-002-P2-C1",
+      "name": "山關城區",
+      "universe_id": "U-002",
+      "planet_id": "U-002-P2",
+      "is_capital_seat": false,
+      "landmark": "跨山的折疊甲門",
+      "conflict": "守城命令與平民撤離衝突",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "配置關口防線並選擇守護的撤離通道",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-002-P2-C2",
+      "name": "戰後聚落",
+      "universe_id": "U-002",
+      "planet_id": "U-002-P2",
+      "is_capital_seat": false,
+      "landmark": "用裝甲片搭建的義肢工棚",
+      "conflict": "退伍者被兵契束縛",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "協助退伍者重新取得平民職業",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-002-P3-C1",
+      "name": "盾穗城",
+      "universe_id": "U-002",
+      "planet_id": "U-002-P3",
+      "is_capital_seat": false,
+      "landmark": "盾形糧倉與配給銅鐘",
+      "conflict": "前線與後方互相指責",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "決定軍糧儲備與平民配糧比例",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-002-P3-C2",
+      "name": "牧甲鎮",
+      "universe_id": "U-002",
+      "planet_id": "U-002-P3",
+      "is_capital_seat": false,
+      "landmark": "外骨骼牧場與低矮獸棚",
+      "conflict": "軍方要求帶傷戰獸再服役",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "培育搬運戰獸並選擇退役安置",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-002-P3-C3",
+      "name": "犁鋒埠",
+      "universe_id": "U-002",
+      "planet_id": "U-002-P3",
+      "is_capital_seat": false,
+      "landmark": "劍刃犁頭排列的鍛棚",
+      "conflict": "軍械署拒絕交出報廢武器",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "把退役兵器改造成農具",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-002-P4-C1",
+      "name": "雷驛城",
+      "universe_id": "U-002",
+      "planet_id": "U-002-P4",
+      "is_capital_seat": false,
+      "landmark": "雷軌驛站與浮空信標",
+      "conflict": "不同陣營要求截留急件",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "規劃限時戰場急件的接力路線",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-002-P4-C2",
+      "name": "鳴鼓鎮",
+      "universe_id": "U-002",
+      "planet_id": "U-002-P4",
+      "is_capital_seat": false,
+      "landmark": "沿山排列的電磁鼓樓",
+      "conflict": "地方將領製造警報牟利",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "校準跨山警報，識破假戰訊",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-003-P1-C1",
+      "name": "記憶城區",
+      "universe_id": "U-003",
+      "planet_id": "U-003-P1",
+      "is_capital_seat": false,
+      "landmark": "記憶晶片掛成的光幕巷",
+      "conflict": "當事人不願想起真相",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "修復自願提交的破碎個人回憶",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-003-P1-C2",
+      "name": "學院城區",
+      "universe_id": "U-003",
+      "planet_id": "U-003-P1",
+      "is_capital_seat": false,
+      "landmark": "連接意識教室的藤狀光纜",
+      "conflict": "研究成果依賴未授權樣本",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "審核集體記憶研究是否取得當事人同意",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-003-P1-C3",
+      "name": "織心京",
+      "universe_id": "U-003",
+      "planet_id": "U-003-P1",
+      "is_capital_seat": true,
+      "landmark": "巨型神經冠下的靜默議場",
+      "conflict": "多數共識壓過少數心聲",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "向蓋亞申請跨群體心智協商",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-003-P2-C1",
+      "name": "中繼城區",
+      "universe_id": "U-003",
+      "planet_id": "U-003-P2",
+      "is_capital_seat": false,
+      "landmark": "多層訊號折返塔",
+      "conflict": "軍用優先權擠占求救訊號",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "修復被斷開的遠距訊息鏈",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-003-P2-C2",
+      "name": "離線聚落",
+      "universe_id": "U-003",
+      "planet_id": "U-003-P2",
+      "is_capital_seat": false,
+      "landmark": "屏蔽銅網覆蓋的紙本小屋",
+      "conflict": "企業把離線者視為無身分者",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "協助居民選擇是否重新接入神經網",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-003-P3-C1",
+      "name": "算潮城",
+      "universe_id": "U-003",
+      "planet_id": "U-003-P3",
+      "is_capital_seat": false,
+      "landmark": "潮汐冷卻的運算堤",
+      "conflict": "大戶壟斷災害預測資源",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "分配公共預測模型的算力配額",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-003-P3-C2",
+      "name": "誤差鎮",
+      "universe_id": "U-003",
+      "planet_id": "U-003-P3",
+      "is_capital_seat": false,
+      "landmark": "展示矛盾結果的黑白算板",
+      "conflict": "修正模型會推翻既得判決",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "查出決策模型對特定居民的偏差",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-003-P3-C3",
+      "name": "夢稿埠",
+      "universe_id": "U-003",
+      "planet_id": "U-003-P3",
+      "is_capital_seat": false,
+      "landmark": "可封存夢稿的睡艙劇棚",
+      "conflict": "夢稿被當作無主資料",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "取得夢境作品的作者授權並處理盜用",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-003-P4-C1",
+      "name": "鏡庫城",
+      "universe_id": "U-003",
+      "planet_id": "U-003-P4",
+      "is_capital_seat": false,
+      "landmark": "冰鏡中的多版本檔案架",
+      "conflict": "當局只允許公布有利版本",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "復原遭凍結的公共資料版本",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-003-P4-C2",
+      "name": "雪噪鎮",
+      "universe_id": "U-003",
+      "planet_id": "U-003-P4",
+      "is_capital_seat": false,
+      "landmark": "雪地裡不斷變色的天線林",
+      "conflict": "真假訊息混雜於同一來源",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "隔離記憶網路中的偽造訊號源",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-004-P1-C1",
+      "name": "登錄城區",
+      "universe_id": "U-004",
+      "planet_id": "U-004-P1",
+      "is_capital_seat": false,
+      "landmark": "篆印式身分登錄終端",
+      "conflict": "登錄制度排斥拼裝機體",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "替無籍機械生命建立合法身分",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-004-P1-C2",
+      "name": "製造城區",
+      "universe_id": "U-004",
+      "planet_id": "U-004-P1",
+      "is_capital_seat": false,
+      "landmark": "層疊組裝軌與懸空工匠台",
+      "conflict": "民生訂單被權貴插隊",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "決定公共機體的生產優先次序",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-004-P1-C3",
+      "name": "玉律京",
+      "universe_id": "U-004",
+      "planet_id": "U-004-P1",
+      "is_capital_seat": true,
+      "landmark": "玉色晶格環繞的演算法朝堂",
+      "conflict": "依法執行造成不合理後果",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "向玉皇 Prime 提交法令例外申訴",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-004-P2-C1",
+      "name": "邊防城區",
+      "universe_id": "U-004",
+      "planet_id": "U-004-P2",
+      "is_capital_seat": false,
+      "landmark": "掃描光柵貫穿的雪關",
+      "conflict": "安全演算法誤判難民",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "核驗越境機體，辨識偽裝與誤攔",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-004-P2-C2",
+      "name": "退役聚落",
+      "universe_id": "U-004",
+      "planet_id": "U-004-P2",
+      "is_capital_seat": false,
+      "landmark": "機甲殼改建的安居院",
+      "conflict": "製造商拒絕交還自主權",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "協助退役機體解除原雇主控制權",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-004-P3-C1",
+      "name": "曜爐城",
+      "universe_id": "U-004",
+      "planet_id": "U-004-P3",
+      "is_capital_seat": false,
+      "landmark": "懸浮日核與遮光屋簷",
+      "conflict": "核心維修期間誰先斷電",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "分配人工恆星的民生供能",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-004-P3-C2",
+      "name": "衡晝鎮",
+      "universe_id": "U-004",
+      "planet_id": "U-004-P3",
+      "is_capital_seat": false,
+      "landmark": "分格開合的天空百葉",
+      "conflict": "長工時讓居民失去夜晚",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "協商人工天幕的日照與輪班時制",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-004-P3-C3",
+      "name": "熄災埠",
+      "universe_id": "U-004",
+      "planet_id": "U-004-P3",
+      "is_capital_seat": false,
+      "landmark": "伸向真空的熄火棧橋",
+      "conflict": "承包商把危險模組私售",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "安排失控能源模組的安全退場",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-004-P4-C1",
+      "name": "鑄印城",
+      "universe_id": "U-004",
+      "planet_id": "U-004-P4",
+      "is_capital_seat": false,
+      "landmark": "巨型印璽模具與驗章爐",
+      "conflict": "偽印背後有合法官員",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "鑑別機械法令簽章是否遭竄改",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-004-P4-C2",
+      "name": "解鎖鎮",
+      "universe_id": "U-004",
+      "planet_id": "U-004-P4",
+      "is_capital_seat": false,
+      "landmark": "成排拆開的權限鎖匣",
+      "conflict": "企業宣稱維修等於侵權",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "解除過期修理授權對民間工坊的封鎖",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-005-P1-C1",
+      "name": "商港城區",
+      "universe_id": "U-005",
+      "planet_id": "U-005-P1",
+      "is_capital_seat": false,
+      "landmark": "飛舟桅杆密集的黃銅港",
+      "conflict": "小商隊無法負擔旺季泊費",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "競標星際泊位時窗與裝卸順序",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-005-P1-C2",
+      "name": "舊市城區",
+      "universe_id": "U-005",
+      "planet_id": "U-005-P1",
+      "is_capital_seat": false,
+      "landmark": "舊招牌覆蓋的地下拍賣廳",
+      "conflict": "知名藏家販售精密贗品",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "鑑定傳世拍賣品的真偽與流轉紀錄",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-005-P1-C3",
+      "name": "萬衡京",
+      "universe_id": "U-005",
+      "planet_id": "U-005-P1",
+      "is_capital_seat": true,
+      "landmark": "秤臂形高架交易議宮",
+      "conflict": "商盟理事將公共航路私有化",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "向沃倫提交跨星交易秩序的改革案",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-005-P2-C1",
+      "name": "保稅城區",
+      "universe_id": "U-005",
+      "planet_id": "U-005-P2",
+      "is_capital_seat": false,
+      "landmark": "雙層貨櫃與封條檢驗門",
+      "conflict": "民生物資被錯列奢侈品",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "核對貨物分類以揭露關稅套利",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-005-P2-C2",
+      "name": "邊境集市",
+      "universe_id": "U-005",
+      "planet_id": "U-005-P2",
+      "is_capital_seat": false,
+      "landmark": "多種度量衡共存的篷市",
+      "conflict": "匯兌商操控交換比率",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "協商互不承認貨幣的邊境易物",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-005-P3-C1",
+      "name": "舶匠城",
+      "universe_id": "U-005",
+      "planet_id": "U-005-P3",
+      "is_capital_seat": false,
+      "landmark": "船體懸在乾塢祠堂之上",
+      "conflict": "船廠趕工省略防護結構",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "訂製飛舟艙室，取捨容量與用途",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-005-P3-C2",
+      "name": "保航鎮",
+      "universe_id": "U-005",
+      "planet_id": "U-005-P3",
+      "is_capital_seat": false,
+      "landmark": "刻著失事航線的保單鐘樓",
+      "conflict": "保險商拒賠被封鎖航道",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "依航路實際風險辦理保險與理賠",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-005-P3-C3",
+      "name": "引潮埠",
+      "universe_id": "U-005",
+      "planet_id": "U-005-P3",
+      "is_capital_seat": false,
+      "landmark": "移動浮標構成的港外迷陣",
+      "conflict": "領航圖被盜賣給海盜",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "招募熟悉暗流的領航員",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-005-P4-C1",
+      "name": "百味城",
+      "universe_id": "U-005",
+      "planet_id": "U-005-P4",
+      "is_capital_seat": false,
+      "landmark": "百種蒸籠連接冷鏈管道",
+      "conflict": "統一標準排擠地方飲食",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "處理跨星食材的檢疫與文化禁忌",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-005-P4-C2",
+      "name": "平價鎮",
+      "universe_id": "U-005",
+      "planet_id": "U-005-P4",
+      "is_capital_seat": false,
+      "landmark": "每日公開存量的穀物廣場",
+      "conflict": "糧商散播恐慌推高售價",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "建立糧價緩衝庫抑制囤積",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-006-P1-C1",
+      "name": "鑄造城區",
+      "universe_id": "U-006",
+      "planet_id": "U-006-P1",
+      "is_capital_seat": false,
+      "landmark": "熔岩上方的符文鍛台",
+      "conflict": "高產配方帶來嚴重污染",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "合成不同元素比例的法器坯料",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-006-P1-C2",
+      "name": "冷卻城區",
+      "universe_id": "U-006",
+      "planet_id": "U-006-P1",
+      "is_capital_seat": false,
+      "landmark": "冷凝塔形成的霧瀑街道",
+      "conflict": "工廠排熱使民宅失去適居性",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "分配工業餘熱回收與居民降溫",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-006-P1-C3",
+      "name": "萬相京",
+      "universe_id": "U-006",
+      "planet_id": "U-006-P1",
+      "is_capital_seat": true,
+      "landmark": "四態物質環繞的變相議壇",
+      "conflict": "研究者要求解禁高風險反應",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "請聚變裁定危險元素實驗的邊界",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-006-P2-C1",
+      "name": "晶礦城區",
+      "universe_id": "U-006",
+      "planet_id": "U-006-P2",
+      "is_capital_seat": false,
+      "landmark": "脈衝晶柱間的軌道井",
+      "conflict": "爆破開採喚醒連鎖共振",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "選擇晶礦開採方式以控制共振災害",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-006-P2-C2",
+      "name": "重構城區",
+      "universe_id": "U-006",
+      "planet_id": "U-006-P2",
+      "is_capital_seat": false,
+      "landmark": "可拆換地台上的折疊房屋",
+      "conflict": "重建公司借機驅逐舊居民",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "重新配置災後地形支架與通道",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-006-P3-C1",
+      "name": "霜匣城",
+      "universe_id": "U-006",
+      "planet_id": "U-006-P3",
+      "is_capital_seat": false,
+      "landmark": "冰匣像燈籠懸在白霧巷",
+      "conflict": "能源短缺威脅易變材料",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "封裝極低溫材料並維持冷鏈",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-006-P3-C2",
+      "name": "熱衡鎮",
+      "universe_id": "U-006",
+      "planet_id": "U-006-P3",
+      "is_capital_seat": false,
+      "landmark": "半冰半赤的雙塔換熱橋",
+      "conflict": "兩區把負荷轉嫁對方",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "調和冷熱交換站的失衡",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-006-P3-C3",
+      "name": "蒸舟埠",
+      "universe_id": "U-006",
+      "planet_id": "U-006-P3",
+      "is_capital_seat": false,
+      "landmark": "間歇噴泉上的升舟環",
+      "conflict": "噴口預測被船商壟斷",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "利用蒸汽噴口調整元素飛舟升空窗",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-006-P4-C1",
+      "name": "遷基城",
+      "universe_id": "U-006",
+      "planet_id": "U-006-P4",
+      "is_capital_seat": false,
+      "landmark": "履帶地基托住的街坊",
+      "conflict": "土地契約無法適應地塊移動",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "引導移動陸塊的居民搬遷",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-006-P4-C2",
+      "name": "砂瓷鎮",
+      "universe_id": "U-006",
+      "planet_id": "U-006-P4",
+      "is_capital_seat": false,
+      "landmark": "沙丘內的六角窯群",
+      "conflict": "廉價偽瓷混入防災工程",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "把元素廢砂燒成穩定防護陶瓷",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-007-P1-C1",
+      "name": "育生城區",
+      "universe_id": "U-007",
+      "planet_id": "U-007-P1",
+      "is_capital_seat": false,
+      "landmark": "發光培育莢簇成的街牆",
+      "conflict": "研究所只認產權不認照護",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "審議人工培育生命的成長照護責任",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-007-P1-C2",
+      "name": "療養城區",
+      "universe_id": "U-007",
+      "planet_id": "U-007-P1",
+      "is_capital_seat": false,
+      "landmark": "樹根穿過的復健步道",
+      "conflict": "療程合約剝奪病患自主",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "協助義體與生體融合後的長期適應",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-007-P1-C3",
+      "name": "花胚京",
+      "universe_id": "U-007",
+      "planet_id": "U-007-P1",
+      "is_capital_seat": true,
+      "landmark": "活體花瓣開合的生議庭",
+      "conflict": "強勢物種要求擴張棲地",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "向涂山氏呈報跨物種共存爭議",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-007-P2-C1",
+      "name": "共生城區",
+      "universe_id": "U-007",
+      "planet_id": "U-007-P2",
+      "is_capital_seat": false,
+      "landmark": "菌傘屋頂與呼吸式地板",
+      "conflict": "商業菌株侵占原生菌群",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "調整居民與共生菌的互惠條件",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-007-P2-C2",
+      "name": "隔離城區",
+      "universe_id": "U-007",
+      "planet_id": "U-007-P2",
+      "is_capital_seat": false,
+      "landmark": "透明膜牆分隔的綠色庭院",
+      "conflict": "健康居民被無限期拘留",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "追蹤異變來源並選擇解除隔離順序",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-007-P3-C1",
+      "name": "授粉城",
+      "universe_id": "U-007",
+      "planet_id": "U-007-P3",
+      "is_capital_seat": false,
+      "landmark": "跨越花海的蜂形微機巢",
+      "conflict": "單一作物破壞授粉網",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "恢復不同生態區的授粉通道",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-007-P3-C2",
+      "name": "香契鎮",
+      "universe_id": "U-007",
+      "planet_id": "U-007-P3",
+      "is_capital_seat": false,
+      "landmark": "飄動香霧的交涉亭",
+      "conflict": "氣味翻譯錯誤引起敵意",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "設計以氣味辨識的非語言外交",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-007-P3-C3",
+      "name": "蜜釀埠",
+      "universe_id": "U-007",
+      "planet_id": "U-007-P3",
+      "is_capital_seat": false,
+      "landmark": "琥珀發酵罐與潮汐木棧",
+      "conflict": "過度採蜜使蟲群崩潰",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "決定靈蜜發酵批次的生態代價",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-007-P4-C1",
+      "name": "葉鏡城",
+      "universe_id": "U-007",
+      "planet_id": "U-007-P4",
+      "is_capital_seat": false,
+      "landmark": "葉面映出不同面孔的林街",
+      "conflict": "真假身分導致居住權爭奪",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "辨認模仿居民外貌的植生擬態體",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-007-P4-C2",
+      "name": "繭歸鎮",
+      "universe_id": "U-007",
+      "planet_id": "U-007-P4",
+      "is_capital_seat": false,
+      "landmark": "繭殼排成的靜候長廊",
+      "conflict": "家人拒絕承認蛻化後的親人",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "陪伴選擇變態蛻化的居民完成身分交接",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-008-P1-C1",
+      "name": "渡口城區",
+      "universe_id": "U-008",
+      "planet_id": "U-008-P1",
+      "is_capital_seat": false,
+      "landmark": "資料河上的青銅渡橋",
+      "conflict": "承運者擅自更改目的地",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "核對亡者資料的轉渡意願",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-008-P1-C2",
+      "name": "封存城區",
+      "universe_id": "U-008",
+      "planet_id": "U-008-P1",
+      "is_capital_seat": false,
+      "landmark": "掛滿封緘燈的冷庫神龕",
+      "conflict": "親屬與本人遺願衝突",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "決定人格資料的封存期限與開啟條件",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-008-P1-C3",
+      "name": "冥衡京",
+      "universe_id": "U-008",
+      "planet_id": "U-008-P1",
+      "is_capital_seat": true,
+      "landmark": "黑色資料瀑布中的裁籍殿",
+      "conflict": "官署要求無限保留亡者資料",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "向閻羅 X 提交生死資料權屬的終審",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-008-P2-C1",
+      "name": "除名城區",
+      "universe_id": "U-008",
+      "planet_id": "U-008-P2",
+      "is_capital_seat": false,
+      "landmark": "空白名碑構成的審查街",
+      "conflict": "更正會暴露官員過失",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "協助遭誤刪身分者恢復存在證據",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-008-P2-C2",
+      "name": "舊魂聚落",
+      "universe_id": "U-008",
+      "planet_id": "U-008-P2",
+      "is_capital_seat": false,
+      "landmark": "舊式錄音匣拼成的居所",
+      "conflict": "舊魂被當成過時程式淘汰",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "協助古老人格適應已變動的語言與社會",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-008-P3-C1",
+      "name": "碑契城",
+      "universe_id": "U-008",
+      "planet_id": "U-008-P3",
+      "is_capital_seat": false,
+      "landmark": "分岔誓碑與時間戳印台",
+      "conflict": "後代不願承擔先人承諾",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "公證跨世承諾與遺贈是否成立",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-008-P3-C2",
+      "name": "斷章鎮",
+      "universe_id": "U-008",
+      "planet_id": "U-008-P3",
+      "is_capital_seat": false,
+      "landmark": "殘頁漂浮於防潮紙庫",
+      "conflict": "公開真相會傷害仍在世者",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "拼合被拆散的遺書並確認公開範圍",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-008-P3-C3",
+      "name": "靜算埠",
+      "universe_id": "U-008",
+      "planet_id": "U-008-P3",
+      "is_capital_seat": false,
+      "landmark": "無聲轉動的魂匣算架",
+      "conflict": "富戶插隊占用喚醒名額",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "安排暫停人格的喚醒資源",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-008-P4-C1",
+      "name": "燈信城",
+      "universe_id": "U-008",
+      "planet_id": "U-008-P4",
+      "is_capital_seat": false,
+      "landmark": "每封未達信對應一盞河燈",
+      "conflict": "收信者選擇拒絕前世關係",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "代送跨世留言並核對收信者意願",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-008-P4-C2",
+      "name": "歸盞鎮",
+      "universe_id": "U-008",
+      "planet_id": "U-008-P4",
+      "is_capital_seat": false,
+      "landmark": "沿岸緩慢熄滅的浮盞",
+      "conflict": "紀念產業要求永不熄燈",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "為沒有接收者的記憶舉行告別",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-009-P1-C1",
+      "name": "守燈聚落",
+      "universe_id": "U-009",
+      "planet_id": "U-009-P1",
+      "is_capital_seat": false,
+      "landmark": "漂浮石柱上的孤燈列陣",
+      "conflict": "守燈物資不足須取捨航路",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "維持虛空導航燈的點亮次序",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-009-P1-C2",
+      "name": "繫橋聚落",
+      "universe_id": "U-009",
+      "planet_id": "U-009-P1",
+      "is_capital_seat": false,
+      "landmark": "多島互扣的銅索橋",
+      "conflict": "不同島民爭奪通行優先權",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "在浮島位移間調整橋索張力",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-009-P1-C3",
+      "name": "空座京",
+      "universe_id": "U-009",
+      "planet_id": "U-009-P1",
+      "is_capital_seat": true,
+      "landmark": "中心空缺的懸浮議席",
+      "conflict": "使者以自身解釋壟斷真相",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "向亞茲遞交無法被通常秩序解釋的異常",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-009-P2-C1",
+      "name": "回聲城區",
+      "universe_id": "U-009",
+      "planet_id": "U-009-P2",
+      "is_capital_seat": false,
+      "landmark": "殘門石陣與回聲收束器",
+      "conflict": "探險隊偽造回音出售線索",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "辨識虛空回音屬於過去事件還是誘餌",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-009-P2-C2",
+      "name": "避難城區",
+      "universe_id": "U-009",
+      "planet_id": "U-009-P2",
+      "is_capital_seat": false,
+      "landmark": "厚壁浮島上的環形安全院",
+      "conflict": "收容容量與來者需求失衡",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "分配短期避難位並安排後續安置",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-009-P3-C1",
+      "name": "錨環城",
+      "universe_id": "U-009",
+      "planet_id": "U-009-P3",
+      "is_capital_seat": false,
+      "landmark": "巨大錨環穿過倒懸岩層",
+      "conflict": "固定一島使別島偏離安全區",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "固定漂移島群相對座標",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-009-P3-C2",
+      "name": "墜索鎮",
+      "universe_id": "U-009",
+      "planet_id": "U-009-P3",
+      "is_capital_seat": false,
+      "landmark": "向下伸展的多段回收纜",
+      "conflict": "打撈商優先救貨不救人",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "打撈落入可達深淵層的失事載具",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-009-P3-C3",
+      "name": "盲圖埠",
+      "universe_id": "U-009",
+      "planet_id": "U-009-P3",
+      "is_capital_seat": false,
+      "landmark": "留有大片空白的石刻星圖",
+      "conflict": "假測量資料害死領航員",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "以實地航跡補足不可觀測區地圖",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-009-P4-C1",
+      "name": "焰種城",
+      "universe_id": "U-009",
+      "planet_id": "U-009-P4",
+      "is_capital_seat": false,
+      "landmark": "層層風障內的微火窖",
+      "conflict": "火種配額被收藏家囤積",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "保存能在虛空維持的微弱火種",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-009-P4-C2",
+      "name": "息風鎮",
+      "universe_id": "U-009",
+      "planet_id": "U-009-P4",
+      "is_capital_seat": false,
+      "landmark": "傾斜風向碑與折疊避風屋",
+      "conflict": "航商隱瞞風暴移動方向",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "找出虛空風暴間的可通行靜息帶",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-010-P1-C1",
+      "name": "光井城區",
+      "universe_id": "U-010",
+      "planet_id": "U-010-P1",
+      "is_capital_seat": false,
+      "landmark": "同心階梯包圍的光井",
+      "conflict": "核心區長亮造成外環黑暗",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "分配公共光能井的照明與防護",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-010-P1-C2",
+      "name": "書院城區",
+      "universe_id": "U-010",
+      "planet_id": "U-010-P1",
+      "is_capital_seat": false,
+      "landmark": "可旋轉的碑書與觀測台",
+      "conflict": "正統學派查禁異本",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "辨析創世文本的互相矛盾版本",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-010-P1-C3",
+      "name": "曦冠京",
+      "universe_id": "U-010",
+      "planet_id": "U-010-P1",
+      "is_capital_seat": true,
+      "landmark": "冠狀光環下的創議聖庭",
+      "conflict": "誓約被強者當作統治許可",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "向陸吾呈交新生世界的治理誓約",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-010-P2-C1",
+      "name": "初生城區",
+      "universe_id": "U-010",
+      "planet_id": "U-010-P2",
+      "is_capital_seat": false,
+      "landmark": "幼樹廣場與尚未封頂的屋舍",
+      "conflict": "先建產業還是先建民生",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "規劃新生聚落的第一批公共設施",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-010-P2-C2",
+      "name": "邊庭聚落",
+      "universe_id": "U-010",
+      "planet_id": "U-010-P2",
+      "is_capital_seat": false,
+      "landmark": "金屬日晷旁的邊界花園",
+      "conflict": "中心要求單一生活規範",
+      "name_status": "描述性模板；正式地名待定",
+      "kind": "既有城市／聚落／街區地點",
+      "story_issue_proposal": "協調聖堂外緣居民的自治條款",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-010-P3-C1",
+      "name": "白界城",
+      "universe_id": "U-010",
+      "planet_id": "U-010-P3",
+      "is_capital_seat": false,
+      "landmark": "白色界碑與可移動幕牆",
+      "conflict": "宗教地權吞併舊居",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "劃定擴張聖域的邊界而不侵占居民",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-010-P3-C2",
+      "name": "折光鎮",
+      "universe_id": "U-010",
+      "planet_id": "U-010-P3",
+      "is_capital_seat": false,
+      "landmark": "稜鏡屋頂組成的光折廊",
+      "conflict": "防衛指令排斥未登記生命",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "調整防護光幕避免誤傷通行者",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-010-P3-C3",
+      "name": "巡曦埠",
+      "universe_id": "U-010",
+      "planet_id": "U-010-P3",
+      "is_capital_seat": false,
+      "landmark": "環狀巡禮舟站與誓牌牆",
+      "conflict": "中介販售無效通行證",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "協助跨區巡禮者取得互認的通行資格",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-010-P4-C1",
+      "name": "晨耕城",
+      "universe_id": "U-010",
+      "planet_id": "U-010-P4",
+      "is_capital_seat": false,
+      "landmark": "晨霧下分色播種的田格",
+      "conflict": "速成收穫耗盡初生土壤",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "安排新生土壤的首輪耕作以保留生態",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    },
+    {
+      "id": "U-010-P4-C2",
+      "name": "種光鎮",
+      "universe_id": "U-010",
+      "planet_id": "U-010-P4",
+      "is_capital_seat": false,
+      "landmark": "小型人造曙光罩住的苗圃",
+      "conflict": "技術輸出被要求附帶效忠",
+      "name_status": "新增名稱提案",
+      "kind": "新增城鎮",
+      "story_issue_proposal": "培育能在弱光世界存活的作物",
+      "note": "議題素材，不構成任務、解鎖或獎勵規格"
+    }
+  ]
+}

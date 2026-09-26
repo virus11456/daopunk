@@ -1,158 +1,60 @@
-# 灰谷（Grey Valley）— 2D 半開放世界 RPG
+# DAOPUNK｜東方修仙 × 星球賽博龐克
 
-一款以 **Godot 4.3 + GDScript** 開發的 2D 高角度俯視、半開放世界 RPG。**美術風格**
-參考 RimWorld 的高層次理念（俯視 tile 世界、簡潔小型角色、系統化模擬，全部原創
-placeholder）；**玩法內容**採用《Kiro：觀測者之夢》世界觀（五術、十宇宙、功德、
-輪迴、世界變動率）。
+> **機器人也能被算命嗎？**
 
-進度：引擎層（探索、背包/裝備、對話/商店、導航）已完成；內容層正逐步換成 Kiro。
-- **K1（已完成）**：五術技能樹（山/醫/命/相/卜）+ 功德、世界變動率資源。
-- **K2（已完成）**：世界 reskin 為第一宇宙·歸墟·蔓哈頓深坑星，NPC 換成導師/紅/
-  星塵/零號/拾荒者，全中文對話。
-- **K3（已完成）**：Kiro 物品（銅錢/量子骰子/功德珠/靈魂水晶/體力藥水/賽博羅盤）、
-  算命賺錢經濟（對 NPC 卜算→Credits＋卜術/命術熟練度＋功德）、互動選單（E→對話/算命）。
-- **K4（已完成）**：世界變動率（五階觀察者偵測＋自然衰減，HUD 顯示階段）、輪迴繼承
-  （功德 50%、五術 100%、靈魂磨損 +1%／世；找導師輪迴、靈魂水晶修復磨損）。
-- **K5（已完成）**：戰鬥——部位健康/傷勢/流血/死亡、五行相剋、近戰/槍械、敵人 AI
-  （追擊/逃跑）、屍體可搜刮、**玩家死亡＝輪迴**、**Tactical Pause**（Space 暫停下令）。
-  **→ 核心可玩循環完整。**
-- K6+：其餘九大宇宙、感情/記憶繼承、組織/房產、法則碎片/結局。
+故事從這個疑問開始。主角出身世界僅存的算命門派，是最後的人類後裔之一；同門學成後各自下山，肩負不同使命。主角在累世輪迴中保留自己的全部記憶，與失散的人重逢，也逐步追問命運、生命與世界的真相。
 
----
+本作以有趣的人物、日常幽默、謎團與選擇後果承載道家思辨。只有人類能學算命，不代表只有人類值得被理解；知道命運，也未必有權替別人決定人生。
 
-## 如何執行
+## 目前設計基準
 
-用 Godot 4.3（或更新的 4.x）開啟專案後按 **F5**，或用指令：
+**2026-09-26 世界觀重整版**：保留故事背景與本次 GBA 像素美術，先前玩法規格全部退役，新玩法尚未定案。
 
-```bash
-godot --path .
-```
+| 項目 | 現況 |
+|---|---|
+| 故事 | 已統整世界骨架、人物、師門、輪迴、宇宙真相及四結局方向；補完提案與已確認設定分開 |
+| 地理 | 十大宇宙、40 顆代表星球、100 個城市／聚落／街區地點；新增名稱多仍屬提案 |
+| 美術 | GBA 時代像素、原創小比例角色、東方修仙與星球科技並存 |
+| 既有概念圖 | 十宇宙代表場景、16 張人物／道主／意象圖、40 個地點配置；非已完成遊戲素材 |
+| 製作工具 | Blender 與 Godot；既有工程為 Godot 4.3／GDScript 歷史原型 |
+| 遊戲程式 | 未依本次重整重寫；原型仍執行舊玩法，不能用它判定現行規則 |
+| 未完成 | 新玩法、正式像素素材與動畫、鯤鵬新圖、新增60地點圖、完整劇情腳本及新系統實作 |
 
-### 操作
+![已認可的 GBA 像素街區方向](docs/art-direction/assets/gba-scrap-street-v1.png)
 
-| 輸入 | 動作 |
-|------|------|
-| `W A S D` / 方向鍵 | 移動 |
-| `Shift` | 奔跑（消耗體力） |
-| `Ctrl` | 潛行（減速） |
-| `E` | 互動 / 對話 / 拾取 / 搜刮（也可關閉對話） |
-| `F` | 攻擊最近的敵人 |
-| `Space` | Tactical Pause（暫停世界，點敵人下令攻擊） |
-| `I` | 開關背包 |
-| `Tab` | 開關角色資訊（五術） |
-| 滑鼠滾輪 | 縮放鏡頭 |
-| 左鍵（開啟 debug 時） | 檢視游標下的 NPC |
-| `F1` | 切換 debug 疊層 |
-| `Esc` | 關閉對話 / 選單 |
+## 閱讀入口
 
-出生在**歸墟·蔓哈頓深坑星**的深坑中央。走近 NPC 按 **E**（或右鍵）會跳出互動選單，可選
-**對話**或**算命**。**導師**（方舟隱修院）談夢境與五術、**紅·二師姐**（破爛一條街）是黑市
-商人、**星塵**是革命軍領袖、**零號**是改造人僧侶。找 **紅** 對話選 **[交易]** 開商店。
+以下是作者設定，部分文件含世界真相及導師身分劇透。
 
-**算命賺錢**：對任何 NPC 選「算命」，用卜術替他卜卦，獲得 Credits＋卜術/命術熟練度＋功德
-（背包有銅錢/量子骰子會更準更值錢，每人有冷卻）。`I` 背包、`Tab` 五術；命術越高買越便宜。
+| 文件 | 用途 |
+|---|---|
+| [世界觀總入口](docs/worldbuilding/README.md) | 現行資料與版本優先順序 |
+| [故事設定總綱](docs/worldbuilding/STORY_BIBLE.md) | 已確認事實、人物關係與待補設定 |
+| [開場與最後人類師門](docs/worldbuilding/OPENING_AND_SECT.md) | 機器人算命疑問、同門使命及跨世相認提案 |
+| [宇宙結構與四結局](docs/worldbuilding/ENDINGS_AND_COSMOLOGY.md) | 夢境泡泡、邊緣世界、鯤鵬與結局因果 |
+| [道家思想與敘事原則](docs/worldbuilding/DAOIST_NARRATIVE.md) | 齊物、夢、無為等思想如何進入具體故事 |
+| [人物與十大道主](docs/worldbuilding/CHARACTERS.md) | 身分、性格與人物分歧 |
+| [星球與地點名錄](docs/worldbuilding/ATLAS.md) | 地理、地標、產業、政治與貿易 |
+| [矛盾檢查](docs/worldbuilding/CONTINUITY_AUDIT.md) | 37項衝突、缺口與寫作邊界及其處理狀態 |
+| [現行美術基準](docs/worldbuilding/ART_BIBLE.md) | 最新風格、角色辨識及素材製作限制 |
+| [更新紀錄](CHANGELOG.md) | 本次變更、退役範圍、驗證與未決事項 |
 
-**戰鬥**：地圖上有敵人（掠奪者·刃、觀察者殘影）。`F` 攻擊最近敵人，或 `Space` 暫停後點敵人
-下令。傷害走**五行相剋**（玩家土、敵人火/金）；受傷會依部位影響移動/攻擊，流血會致死。殺死
-敵人後可 `E` **搜刮**屍體取得武器與財物。**玩家死亡＝輪迴**：重開一世，保留五術、功德減半、
-靈魂磨損 +1%。找**導師**也可主動輪迴。
+## 世界真相（作者版劇透）
 
----
+十大宇宙是造物主夢中的泡泡，一個泡泡是一個宇宙級世界。宇宙間隙存在邊緣世界，其最底層連著夢境底層；鯤鵬是三大創世生命之一，形態為有翅膀的巨大鯨魚。道主們知道世界的本質，知情者對喚醒、維持沉睡或取代造物主有不同立場。
 
-## 已完成內容
+抹殺只是將人送入輪迴；大部分人會失去前世記憶，主角則記得自己經歷的一切。完整記憶不等於全知。同門是否認得主角、是否幫忙，需要依身分延續與各自使命判斷，尚未設定成每世必然發生。
 
-**Milestone 1 — 探索基礎**
-- 專案結構 + Autoload（`GameState`、`TimeManager`、`ItemDatabase`）
-- `Player`：WASD 移動、奔跑、潛行、可縮放鏡頭、體力
-- 程式生成的 tile 地面 + 執行期烘焙、繞開建築的 `NavigationRegion2D`
-- `Npc`：Idle / Wander / Talk 狀態機（`NavigationAgent2D` 自主走動）
-- 統一 `InteractableComponent`（E 互動）+ 資料驅動分支 `DialoguePanel`
-- `Hud`、`F1` `DebugOverlay`
+四個敘事方向為守護夢境、喚醒真實、弒神奪位與煉假成真。具体因果及代價逐步補完，不把任何一路預先視為標準答案。
 
-**核心 RPG 層**
-- **物品 Resource**：`ItemData` / `WeaponData` / `ConsumableData`，具體物品為 `.tres`
-- **背包** `InventoryComponent`：堆疊、容量、增減查詢（Player/NPC 共用）
-- **裝備** `EquipmentComponent`：武器槽，裝備／卸下與背包連動
-- **金錢** `WalletComponent`：Player 與 NPC 各自持有
-- **對話擴充**：節點／選項支援 `conditions`（旗標、物品、金錢、五術熟練度、功德門檻）
-  與 `effects`（give_item / remove_item / add_money / set_flag / add_proficiency /
-  add_karma / add_world_variance / open_shop）
-- **商店** `ShopPanel`：買賣，價格隨命術熟練度浮動並回饋熟練度
-- **世界拾取** `ItemPickup`：地上物品，重用互動系統
-- UI：背包（I）、角色（Tab）、商店，皆走統一的 `MenuPanel` 基底
+## 舊資料與工程
 
-**K1 — 五術 + 功德（Kiro 內容層）**
-- **五術** `FiveArtsComponent`：山/醫/命/相/卜，每術有熟練度（使用成長），技能依
-  熟練度門檻解鎖；技能資料來自 `data/skills/five_arts.json`（取自 Kiro 設定）
-- **功德 / 世界變動率**：`GameState` 上的 run 資源，功德可跨輪迴、變動率招來觀察者
-- 角色面板（Tab）顯示五術熟練度與已通技能；HUD 顯示功德
+[退役範圍](docs/worldbuilding/RESET_SCOPE.md)包含舊即時／卡牌戰鬥、225卡數量、兩術兼修、技能樹、肉鴿流程、購屋、城市隨機生成及NPC排程等規格。歷史檔案留作追溯；不得自動恢復為現行設計。
 
----
+如需查看舊工程，可用 Godot 4.3 開啟根目錄的 `project.godot`；操作資料見[歷史原型說明](docs/archive/LEGACY_PROTOTYPE_README.md)。這不是新世界觀版本的可玩驗收。
 
-## 架構與主要 class
+## 後續更新方式
 
-```
-res://
-├── project.godot            輸入對應、autoload、主場景
-├── autoload/
-│   ├── GameState.gd         全域參照、對話/商店事件匯流排、世界旗標
-│   ├── TimeManager.gd       遊戲時鐘、time_scale
-│   └── ItemDatabase.gd      以 id 註冊所有物品資源
-├── characters/
-│   ├── components/          Player 與 NPC 共用的元件
-│   │   ├── InteractableComponent.gd
-│   │   ├── InventoryComponent.gd
-│   │   ├── EquipmentComponent.gd
-│   │   ├── FiveArtsComponent.gd   五術（山/醫/命/相/卜）
-│   │   └── WalletComponent.gd
-│   ├── player/Player.gd/.tscn
-│   └── npc/Npc.gd/.tscn      含商人（is_merchant / shop_stock）
-├── items/
-│   ├── ItemData.gd          基底 Resource
-│   ├── weapons/WeaponData.gd + knife/wooden_club/revolver/shotgun/rifle .tres
-│   ├── consumables/ConsumableData.gd + bandage/canned_food/water .tres
-│   ├── equipment/*.tres
-│   └── ItemPickup.gd/.tscn   世界拾取物
-├── world/
-│   ├── WorldMap.gd          程式生成 TileMapLayer + TileSet
-│   ├── Region.gd            建地面、建築、烘焙導航
-│   └── Main.tscn            可玩場景
-├── ui/
-│   ├── MenuPanel.gd         全螢幕選單基底（切換、互斥、Esc、in_menu）
-│   ├── hud/Hud.gd + DebugOverlay.gd
-│   ├── dialogue/DialoguePanel.gd   條件 + 效果
-│   ├── inventory/InventoryPanel.gd
-│   ├── character/CharacterPanel.gd
-│   └── shop/ShopPanel.gd
-├── data/
-│   ├── dialogue/*.json      對話樹
-│   └── skills/five_arts.json 五術技能資料（Kiro 設定）
-└── tests/Smoke.gd/.tscn     headless 整合測試（26 項檢查）
-```
+每次故事定案，同步更新對應文件、[設定權威索引](docs/worldbuilding/authority.json)及 [CHANGELOG](CHANGELOG.md)。紀錄日期、確認／提案狀態、取代哪些舊說法、驗證結果及仍待回答的問題，避免不同版本同時生效。
 
-已遵守的設計原則：
-
-- **不做巨型 manager。** 邏輯拆進單一職責的元件；`GameState` 只保存共用參照、事件
-  匯流排與世界旗標。
-- **Component 化，Player 與 NPC 共用。** 背包／裝備／技能／錢包對兩者是同一套元件。
-- **Resource / 資料驅動。** 物品是 `.tres`；對話、商店庫存、起始裝備都以 id 引用，
-  不寫死路徑。
-- **UI 解耦。** 實體透過 signal 匯流排請求對話／商店，從不引用 UI 節點。
-- **AI 顧及效能。** NPC 只在閒置且計時器到期時才重新決策。
-
-### 驗證可執行
-
-```bash
-godot --headless --editor --quit                 # 匯入 + 解析檢查
-godot --headless --path . --quit-after 240       # headless 實跑（無錯誤）
-godot --headless --path . tests/Smoke.tscn        # 整合測試：26 項全 PASS
-```
-
----
-
-## 下一步（Kiro 內容遷移）
-
-- **K2 — 世界 reskin**：場景改為第一宇宙·歸墟·蔓哈頓深坑星（破爛一條街、數據陵墓、
-  地心、方舟隱修院），NPC 換成導師、紅、星塵、零號等，改中文對話。
-- **K3 — Kiro 物品／算命經濟**、**K4 — 世界變動率與輪迴繼承**、**K5 — 戰鬥（五行相剋、
-  觀察者/荒獸敵人、Tactical Pause）**。
+下一批優先釐清人類轉生或改造後的算命資格、造物主醒／死後眾生的延續、主角記憶例外原因與觀察者權限，再逐步完成開場及同門重逢。

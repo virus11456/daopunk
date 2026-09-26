@@ -1,0 +1,11 @@
+{
+  "status": "retired_mixed_design_reference_only",
+  "reward_draws": 15000,
+  "pairs": 10,
+  "cards": 225,
+  "unequal_pool_mixed_slot": {
+    "larger": 1508,
+    "smaller": 1492
+  },
+  "limits": "Only selection invariants tested; no battle, economy, innate-skill stacking or Godot verification."
+}
