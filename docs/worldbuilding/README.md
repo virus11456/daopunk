@@ -28,3 +28,7 @@
 
 - [十大道主法則與能力詳案](DAO_RULER_POWERS.md)：30項權能、10項傳奇候選及歸墟亡故傳聞檢查。
 - [Claude故事創作提示詞](CLAUDE_STORY_PROMPT.md)：可直接貼上，含正史、提案邊界與第一批分場劇本交付要求。
+
+- [中立組織近況與間接敘事](NEUTRAL_ORGANIZATION_NEWS.md)：含殺手組織，未接觸也可從新聞或口述得知其變化。
+
+- [輪迴資料保存契約](../contracts/REINCARNATION_DATA.md)：仙術、法則、當世醫術與世界歷史的資料分工及離線檢查。

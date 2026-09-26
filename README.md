@@ -68,3 +68,7 @@
 歸墟最新背景：與我們所在宇宙及地球相連，如今不穩且破碎，原因未知；地球與蔓哈頓深坑星的關係仍待確認。
 
 本批：[十大道主能力詳案](docs/worldbuilding/DAO_RULER_POWERS.md) · [交給Claude的故事提示詞](docs/worldbuilding/CLAUDE_STORY_PROMPT.md)。
+
+中立組織（含殺手組織）可透過新聞與口述持續出現，不要求每世直接接觸：[近況敘事規格](docs/worldbuilding/NEUTRAL_ORGANIZATION_NEWS.md)。
+
+實作準備：[輪迴保存契約](docs/contracts/REINCARNATION_DATA.md)。離線檢查命令：`python3 tools/check_reincarnation_contract.py`，目前16項通過；不是新版Godot遊戲驗收。

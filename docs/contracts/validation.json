@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "scope": "offline_proposed_reference_model",
+  "checks": [
+    "distinct_arts_stack",
+    "medical_first_use",
+    "medical_repeat_rejected",
+    "body_change_does_not_refresh_medical",
+    "permanent_memories_arts_laws_preserved",
+    "world_and_npc_history_preserved",
+    "medical_bonus_reset_not_permanent",
+    "recultivation_required",
+    "medical_available_after_recultivation",
+    "save_roundtrip_keeps_once_only_guard",
+    "same_law_cannot_be_regranted",
+    "different_laws_can_coexist",
+    "stat_limits_do_not_refill_resources",
+    "rebirth_retry_is_idempotent",
+    "reject_backward_time_without_mutation",
+    "repeated_lives_do_not_multiply_permanent_bonus"
+  ],
+  "count": 16,
+  "not_tested": [
+    "Godot",
+    "full_save_system",
+    "karma_transactions",
+    "law_eligibility",
+    "world_simulation",
+    "production_balance"
+  ]
+}
