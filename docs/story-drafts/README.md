@@ -41,3 +41,7 @@ Y01另新增七場原稿及14項檢查，見該篇修訂提示。先前五篇聯
 ## 全稿統整交接
 
 [Claude九篇統整指令](CLAUDE_CONSOLIDATION_PROMPT.md)要求年表、人物、伏筆、問題對照及選項交接七份成果。已備妥供使用者轉交，尚未收到Claude整理結果。[製作工作清單](../production/STORY_PRODUCTION_PLAN.md)與[資料契約](../contracts/STORY_EVENT_DATA.md)同步維護。
+
+## 最新六份修訂交付
+
+已收[共同前提與五篇修訂](revisions-batch-01/README.md)：X01 v1.1、D01 v1.1、S02 v2.1、M01 v1.1、F01 v1.1。原稿保留，修訂以補丁方式提供；尚非完整獨立腳本。二次檢查另列16項，B1～B5未定案，Y01尚未修訂。

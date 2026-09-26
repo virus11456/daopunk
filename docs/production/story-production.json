@@ -33,7 +33,9 @@
       "review": "docs/story-drafts/stardust-x01/REVIEW.md",
       "scene_count": 7,
       "review_item_count": 12,
-      "status": "received_not_revised"
+      "status": "revision_received_remaining_issues",
+      "latest_revision": "docs/story-drafts/stardust-x01/REVISION_v1.1.md",
+      "revision_type": "amendment_requires_original"
     },
     {
       "id": "D01",
@@ -41,7 +43,9 @@
       "review": "docs/story-drafts/death-d01/REVIEW.md",
       "scene_count": 8,
       "review_item_count": 14,
-      "status": "received_not_revised"
+      "status": "revision_received_remaining_issues",
+      "latest_revision": "docs/story-drafts/death-d01/REVISION_v1.1.md",
+      "revision_type": "amendment_requires_original"
     },
     {
       "id": "S02",
@@ -49,7 +53,9 @@
       "review": "docs/story-drafts/red-reunion-s02-v2/REVIEW.md",
       "scene_count": 7,
       "review_item_count": 12,
-      "status": "received_not_revised"
+      "status": "revision_received_remaining_issues",
+      "latest_revision": "docs/story-drafts/red-reunion-s02-v2/REVISION_v2.1.md",
+      "revision_type": "amendment_requires_original"
     },
     {
       "id": "M01",
@@ -57,7 +63,9 @@
       "review": "docs/story-drafts/elder-m01/REVIEW.md",
       "scene_count": 7,
       "review_item_count": 14,
-      "status": "received_not_revised"
+      "status": "revision_received_remaining_issues",
+      "latest_revision": "docs/story-drafts/elder-m01/REVISION_v1.1.md",
+      "revision_type": "amendment_requires_original"
     },
     {
       "id": "F01",
@@ -65,7 +73,9 @@
       "review": "docs/story-drafts/fourth-sister-f01/REVIEW.md",
       "scene_count": 7,
       "review_item_count": 14,
-      "status": "received_not_revised"
+      "status": "revision_received_remaining_issues",
+      "latest_revision": "docs/story-drafts/fourth-sister-f01/REVISION_v1.1.md",
+      "revision_type": "amendment_requires_original"
     },
     {
       "id": "Y01",
@@ -269,5 +279,7 @@
       ],
       "status": "awaiting_design_or_revision"
     }
-  ]
+  ],
+  "count_scope": "scene_count and review_item_count describe original deliveries, not expanded revised scenes or resolved issues",
+  "revision_batch": "docs/story-drafts/revisions-batch-01/receipt.json"
 }

@@ -1,0 +1,56 @@
+{
+  "received_on": "2026-09-26",
+  "sources": [
+    {
+      "chapter": "00",
+      "version": "v1",
+      "source": "docs/story-drafts/revisions-batch-01/COMMON_PREMISES_v1.md",
+      "sha256": "7f8a521244f4201296d7470f655a27607976326e659ec8a3a74a88063d7f164c",
+      "delivery_type": "shared_proposals_and_dependencies",
+      "status": "received_not_approved"
+    },
+    {
+      "chapter": "X01",
+      "version": "v1.1",
+      "source": "docs/story-drafts/stardust-x01/REVISION_v1.1.md",
+      "sha256": "bafb56a2991b3ff6bedb67eafadb2ed322c0cebf954729558a048eaafa3fa206",
+      "delivery_type": "amendment_requires_original",
+      "status": "received_reviewed_remaining_issues_not_final"
+    },
+    {
+      "chapter": "D01",
+      "version": "v1.1",
+      "source": "docs/story-drafts/death-d01/REVISION_v1.1.md",
+      "sha256": "15e73d65b601c6be9e9f1bbb06987b7fa2630f24163e06897a3dad76498173f1",
+      "delivery_type": "amendment_requires_original",
+      "status": "received_reviewed_remaining_issues_not_final"
+    },
+    {
+      "chapter": "S02",
+      "version": "v2.1",
+      "source": "docs/story-drafts/red-reunion-s02-v2/REVISION_v2.1.md",
+      "sha256": "4e8e28de6ea2881d59d771a99664e6c48170bae689252d49d9be3e7880789ca9",
+      "delivery_type": "amendment_requires_original",
+      "status": "received_reviewed_remaining_issues_not_final"
+    },
+    {
+      "chapter": "M01",
+      "version": "v1.1",
+      "source": "docs/story-drafts/elder-m01/REVISION_v1.1.md",
+      "sha256": "e006525b2bf94666edba30726a08c3cfcb10f9de7a25d235d373cf296c18e068",
+      "delivery_type": "amendment_requires_original",
+      "status": "received_reviewed_remaining_issues_not_final"
+    },
+    {
+      "chapter": "F01",
+      "version": "v1.1",
+      "source": "docs/story-drafts/fourth-sister-f01/REVISION_v1.1.md",
+      "sha256": "0fa5ab14a036450d104c35ae415de571c918fdb3f3cfcab3713ebb776dcf95ff",
+      "delivery_type": "amendment_requires_original",
+      "status": "received_reviewed_remaining_issues_not_final"
+    }
+  ],
+  "originals_preserved": true,
+  "author_decisions_adopted": [],
+  "remaining_review": "REVIEW.md"
+}
