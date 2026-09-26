@@ -5,11 +5,11 @@
   "visually_reviewed_characters": 10,
   "accepted_final": 10,
   "remaining_without_image": 990,
-  "synced_characters": 2,
-  "next_action": "Sync NPC-0001..0010 then generate NPC-0011 onward, maximum 10 characters per batch. Cleanup now authorized by user. Preserve originals and inspect each output.",
+  "synced_characters": 10,
+  "next_action": "Generate NPC-0011 onward, maximum10 per batch. Built-in imagegen plus authorized pixel cleanup; inspect, preserve source, sync and verify.",
   "batch": "2026-09-26-manual-cleanup-01",
-  "verified_asset_commit": "19faef5864e35365c356acf8eda8da87ce3c5328",
-  "latest_batch_synced": false,
+  "verified_asset_commit": "0c465cdbdf369352f8bf8405783acfd8eef181cd",
+  "latest_batch_synced": true,
   "quality_blocker": null,
   "cleanup_authorized": true
 }
