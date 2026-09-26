@@ -2,42 +2,42 @@
   {
     "id": "D01",
     "title": "Q2 弒神取代機制",
-    "status": "待裁決",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "已收作者裁決方案書v1，完成AO01～14覆核，待修訂及作者裁決；非已採建議",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.2/ORIGINAL.md；background-v1.6/ORIGINAL.md",
+    "next": "已落本輪工作稿；執行細節見consistency-pass-02/OPEN_DETAILS.md，不重開方案選擇",
+    "decision": "N29：接上渾沌、切斷連結；遮天掩蓋瞬間"
   },
   {
     "id": "D02",
     "title": "Q5 人類衰亡作者答案",
-    "status": "待裁決",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "已收作者裁決方案書v1，完成AO01～14覆核，待修訂及作者裁決；非已採建議",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.2/ORIGINAL.md；background-v1.6/ORIGINAL.md",
+    "next": "已落本輪工作稿；執行細節見consistency-pass-02/OPEN_DETAILS.md，不重開方案選擇",
+    "decision": "N30：作者層先人航行消耗不可再生之物；遊戲不揭"
   },
   {
     "id": "D03",
     "title": "Q6 歸墟／夢外／地球",
-    "status": "待裁決",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "已收作者裁決方案書v1，完成AO01～14覆核，待修訂及作者裁決；非已採建議",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.2/ORIGINAL.md；background-v1.6/ORIGINAL.md",
+    "next": "已落本輪工作稿；執行細節見consistency-pass-02/OPEN_DETAILS.md，不重開方案選擇",
+    "decision": "N31：歸墟為倒影、地球在夢外；遊戲只給角色說法"
   },
   {
     "id": "D04",
     "title": "共治穩定條件",
-    "status": "待設計",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "已收作者裁決方案書v1，完成AO01～14覆核，待修訂及作者裁決；非已採建議",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.2/ORIGINAL.md；background-v1.6/ORIGINAL.md",
+    "next": "已落本輪工作稿；執行細節見consistency-pass-02/OPEN_DETAILS.md，不重開方案選擇",
+    "decision": "N32：主從共治：一人做夢、兩人輔助"
   },
   {
     "id": "D05",
     "title": "閻羅拒絕時的兩方約定",
-    "status": "待設計",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "已收作者裁決方案書v1，完成AO01～14覆核，待修訂及作者裁決；非已採建議",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.2/ORIGINAL.md；background-v1.6/ORIGINAL.md",
+    "next": "已落本輪工作稿；執行細節見consistency-pass-02/OPEN_DETAILS.md，不重開方案選擇",
+    "decision": "N33：閻羅拒絕：主角做夢、陸吾修補；陸吾拒絕則不成立"
   },
   {
     "id": "D06",

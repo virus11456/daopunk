@@ -180,8 +180,14 @@
     "document": "luwu-l01-v1.1",
     "problem": "L-5b 要求先有 K6，卻又寫 K6 來自本場部分供述；未持真實、靠閻羅供述取得 K6 的主角仍必說「接縫。還有一塊太乾淨的空白。」",
     "required_change": "K6 依進場前實際來源讀取；本場供述只補充證據，不能反過來成為入場前提。依親見／閻羅供述分開台詞，不讓轉述變親見。無 K7 可私人談話，但不能完成階段十。門檻表「能做什麼：完成階段十」改為可進行正式對質；完成需相應事件完成旗標。閻羅出席與願意承認的具體條件仍需接既有稿，不自動成立。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "luwu-l01-v1.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "L11-02",
@@ -196,128 +202,224 @@
     "document": "luwu-l01-v1.1",
     "problem": "L-5b 選擇表「結盟」即開路線與資格，下面及第六節卻要求三方協議成立",
     "required_change": "表格明寫只有三方同意且協議成立才建立親授資格。撤回協議時，終章路線與尚未領取的資格／當下可用性分開；具體未領資格政策列待設計，不能撤回已取得的跨世法則，也不能再次領取。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "luwu-l01-v1.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "L11-04",
     "document": "luwu-l01-v1.1",
     "problem": "L-5a 固定寫主角已推知為「懷疑」會覆蓋陸吾已知；第五節揭發兩人即計畫中止省略執行",
     "required_change": "知情記錄新增來源，不以重訪降級已確認狀態。計畫中止要有實際約束、停止合作或其他已發生干預；單純提交證據只進調查／延滯，不自動讓兩人停手。具體執行方案維持提案。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "luwu-l01-v1.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LL01",
     "document": "late-life-v1",
     "problem": "S02 相認後即說「又換了一張臉」，忽略同世再訪與再次轉生未核對",
     "required_change": "依當前身體、上次相認的世次、此次核對與相信程度換台詞；不以歷史相認旗標直接識別所有新身體。首次才見紅、從未做過 R01 的路徑也須可達。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-life-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LL02",
     "document": "late-life-v1",
     "problem": "零號問鯨，K7 即回答「它沒有看你，可是它知道你在」",
     "required_change": "K7 只證明見過創世生命，不證明鯤鵬知道零號。可改「我見過有翅膀的巨鯨。它是不是你夢裡那隻，我不知道。」若要更確定，須具體對話或證據。紙條張數依起始日期、停寫、散失計算，標題不是固定五十幾張的數量保證。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-life-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LL03",
     "document": "late-life-v1",
     "problem": "星塵可出獄／流亡，最後卻必在糧倉、交鑰匙",
     "required_change": "依存活、所在地、是否建立糧倉分最後場景；早死者不進晚年，無倉者無鑰匙。阿錨的背叛與情感、那夜台詞須依 X01 實際結果；不存在的往事不能用來相認。觀命同意與告知結果分開確認。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-life-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LL04",
     "document": "late-life-v1",
     "problem": "大師兄默認見過主角童年；年表大師兄 T−25 下山，主角 T−15 出生",
     "required_change": "沒有回院／通信證據就不能知道童年歌或認得第一世樣子。優先用 M01 親歷或可查師門紀錄；若新增回院需標提案、補時地與來源。T+60 時約 103 歲（T−43 生），需列本世已完成延壽，未完成者依實際壽命提前離世；起算點仍待定。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-life-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LL05",
     "document": "late-life-v1",
     "problem": "第133台、九子「紙牆」拓本、遺物和死訊來源尚未閉合",
     "required_change": "M01 有132台基準，可將133設固定研究個體而非永遠最新總數。對象同意觀命，未找到錨不等於無生命。九子舊紙、紅所作拓本、後續複本分物件ID與合法交接；不要未交代就變紙牆。研究紀錄不是大師兄可任意處分的所有人資料，沿用受試者授權與封存範圍。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-life-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LL06",
     "document": "late-life-v1",
     "problem": "晚到必見承接者、雪鈴必寄信，且指定等於交付",
     "required_change": "指定、接受、實際保管、交付分欄；收件人可能先死、拒收或失聯。雪鈴須在世／能聯絡／確知死訊；無消息時主角只能不知道。紅的街燈熄滅不等於燈籍全熄。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-life-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "BG15-01",
     "document": "background-v1.5",
     "problem": "階段八看創世／遮天痕跡即授 K6，L01 卻說相似手法不能證明兇手；階段十又先要 K6",
     "required_change": "協調證據鏈：痕跡、可歸因依據、推論與供述分欄，不能由作者真相直接寫入玩家知識。私人詢問不需完整 K6；閻羅自白替代須來源與條件。L01 正式對質中的供述不能成為該場入場前提。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "background-v1.6"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "BG15-02",
     "document": "background-v1.5",
     "problem": "年表標「不依玩家而變」，卻包含死亡、燈交接、來訪；T+0 還標年齡待選；C06 固定 T+34",
     "required_change": "拆固定歷史與未介入預設。十五歲已定，不再待選；破碎至當下為約 300＋實際 T 年，不固定第三百三十四年。紅登報、拾六接燈／認人、拓本、信件數皆依狀態，不能只靠日期。葉遲人工生命仍為族屬提案，N2 只允許任意生命，不單独定案她的族屬。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "background-v1.6"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "BG15-03",
     "document": "background-v1.5",
     "problem": "C04 說缺印證明交接／逐出未完成；階段三說道主任何時代都可遇",
     "required_change": "缺印只代表可查紀錄缺失，不反證事件未發生。道主可離場／被逐出，長壽不保證所在位置與可用性。對齊 Y01 的資料權限與知識來源，不把行政印章變成宇宙機制。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "background-v1.6"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "BG15-04",
     "document": "background-v1.5",
     "problem": "轉生正文「下一個新生兒」與燈籍家庭 v1.1 半選擇候選不一致；等待期無經驗與主動選戶有缺口",
     "required_change": "寫明本源規則已定、落戶與選擇呈現仍為提案。若採半選擇，區分玩家介面選擇與主角經驗，或另設有限過渡時刻；不能同時宣稱全程無經驗且主角做了選擇。十年上限、沈家仍不代定。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "background-v1.6"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "BG15-05",
     "document": "background-v1.5",
     "problem": "「其餘五法則待道主篇」、輪迴替代待設計已落後收稿；傳法叫交出「一整種法則」",
     "required_change": "更新八道主篇與版本／待修狀態；取得有限法則能力不抽走道主全權。師父付出的暴露代價可保留提案，但不能用移交全部權能作既定理由。階段十一拒領後再次接受與完成旗標需補。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "background-v1.6"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "BG15-06",
     "document": "background-v1.5",
     "problem": "結局表必要法則與第四批下的替代條件不同；共治尚未穩定卻直接承載；被找到即被逐出",
     "required_change": "用共用條件表列本路／替代、拒領後可達性、終章前暫離。找到與實際逐出分事件；已阻止敵人時不能無原因仍固定逐出。共同承接仍待方案，不能當完成分支。煉真後能力是提案，不直接移入 runtime。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "background-v1.6"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "BG15-07",
     "document": "background-v1.5",
     "problem": "宇宙原先更多已定，被十道主據守與失聯敘述有提案混用；只有人類讀命與道主觀法則未分；Q6 乙說必須展示梦外地球",
     "required_change": "保留原始數量／失聯原因未知；相關構造逐句標來源或提案。人類修習五術讀命與道主直接法則權能分清。Q6 候選不得强迫喚醒結局回答結果，N18 優先。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "background-v1.6"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "BG15-08",
     "document": "background-v1.5",
     "problem": "相關文件列組織加入 v1.3、示範事件原文等，但收稿狀態未核；第十一節還列含未介入的舊台詞",
     "required_change": "舊版放歷史清單，新版放現行收稿索引；引用待核不當成已讀。N 編號維護來源對照，不能只改清單不掃正文。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "background-v1.6"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "B1／沈家",
@@ -348,56 +450,98 @@
     "document": "late-companions-v1",
     "problem": "叁和岑絲任何時代可遇卻又保證後期跨多輪；夏汐出生跟玩家某轮绑定",
     "required_change": "依世界出生／啟用日與實際生死、維修、離職狀態決定；不以輪數保證存活、不在後期復活已解體叁。夏汐設定固定世界出生事件提案，出生後不因玩家轉生改日期。後期同伴缺席時可有其他新人物，但不能換名重置同一弧線。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-companions-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LC02",
     "document": "late-companions-v1",
     "problem": "申訴權／未分類即讓叁活下來",
     "required_change": "法律成立、暫停解體、叁實際获救／登錄分開；已執行解體不能被後來改革撤銷。三機體片段只是讀取資料或未知夢，不證明三個前世、三個靈魂。主角用來核對的話須曾被叁告知，而非「只有叁知道」。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-companions-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LC03",
     "document": "late-companions-v1",
     "problem": "夏汐只在非夏家輪次結識，卻保留姊妹例外；第一位學生預設；血緣不完整",
     "required_change": "相遇不因出生戶關閉，親屬／非親屬換場景。記錄確切家譜，不能把同姓當直系；沿用直系限制的提案狀態。若之前教過他人，改「再次教學」。徒弟限既有燈籍人類，不新增不明散居人類或把非人類教成算命者。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-companions-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LC04",
     "document": "late-companions-v1",
     "problem": "夏汐會認命錨卻看見「完全不同的人」，又說未來一定不記得",
     "required_change": "觀測今生命途不等於否定同一靈魂，生辰也不自動是正確命錨。核對不能單憑觀命；保留修行復憶的可能，夏汐可擔心不記得，不能作者保證永不記得。教算命前她已能領航，風險來自曝光與能力使用，不是只有教她才危險。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-companions-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LC05",
     "document": "late-companions-v1",
     "problem": "岑絲「只有讀取記憶，沒有自己的」與她研究、抉擇、離職的親歷矛盾",
     "required_change": "改成她不確定哪些記錄是親歷、或覺得從未為自己做過選擇；若真要無親歷記憶需另設機制提案，不能不加說明沿用。刻鐘樓需已存在航線依據與管理者許可，不任意製造航海紀念紀錄。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-companions-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LC06",
     "document": "late-companions-v1",
     "problem": "撤回授權等於刪岑絲全部記得的你；紀錄授權只有四格",
     "required_change": "區分外存紀錄、研究副本、她親歷的記憶與第三人資料；主角能撤回哪些用途由約定決定，不自動抹除岑絲人格記憶。寫清範圍、期限、可控副本、刪除回執，不能許諾刪除外流副本。拒絕旅程紀錄不取消同行；主角不能代夏汐／叁同意。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-companions-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LC07",
     "document": "late-companions-v1",
     "problem": "岑絲任何結局都會問，等於自動在場且知道真相",
     "required_change": "限在世、同行、可達、知情且願意。問句置不可逆抉擇前；喚醒後不得靠她的紀錄確定夢外結果。見證叁取名可以記一項自主選擇，不自動滿足煉真全部門檻。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "late-companions-v1"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "LE01",
@@ -452,8 +596,14 @@
     "document": "lamp-families-v1.1",
     "problem": "1.5再次把N19寫成自動終局時限",
     "required_change": "刪除「更接近時限」；死亡代價為真實時間、人物與地方變化，最終四結局由玩家觸發",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "luwu-l01-v1.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "L11-02",
@@ -468,16 +618,28 @@
     "document": "lamp-families-v1.1",
     "problem": "待產清單的出现時間與實際出生時間混用",
     "required_change": "W計至實際出生，十年上限若採用也必須涵蓋剩餘孕期；不能等了十年找到待產者後再加未計孕期",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "luwu-l01-v1.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "L11-04",
     "document": "lamp-families-v1.1",
     "problem": "死後主角看清單並選擇，與等待期無經驗相衝",
     "required_change": "分清玩家UI與角色經驗；若角色確有選擇經驗，須正式修訂能力／記憶邊界，不能同時說完全無經驗",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "luwu-l01-v1.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "L11-05",
@@ -644,112 +806,196 @@
     "document": "main-missing-dialogue-v1.2",
     "problem": "殘-1 只檢查 K2，後文卻預設親聞棋局與名字提問；蓋-2 預設主角開閘後再次轉輪、告別某人。逐句依真實親歷旗標顯示；來自紀錄的 K2 另有開場。",
     "required_change": "",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-missing-dialogue-v1.3"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "D12-02",
     "document": "main-missing-dialogue-v1.2",
     "problem": "蓋-4 從「我沒收到」推到每次人類出生全程，且還等待道主普通靈魂，與逐出機制衝突。限定可觀察資料與推測；逐出印是紀錄不是離夢的物理閘門，缺印不證實未逐出。蓋亞收到主角自述不自動成獨立查證。",
     "required_change": "",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-missing-dialogue-v1.3"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "D12-03",
     "document": "main-missing-dialogue-v1.2",
     "problem": "追-2 師父說「留了你」須主角確實在場；預警／撤離、缺席與晚到需分支。追-3 藏身不保證生還，追-4 存活不必少燈；依實際傷亡與撤離結果，避免覆寫救援成功。",
     "required_change": "",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-missing-dialogue-v1.3"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "D12-04",
     "document": "main-missing-dialogue-v1.2",
     "problem": "K5 前半不能用單一完整 K5 放行後續；拆剪命／沉睡與動機，再組合完整條件。階段十一完成、拒領命運、可再領取與終章選項分開。晚期師父離場或逐出後必要知識來源仍須補；不真正死亡不保證始終可見。",
     "required_change": "",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-missing-dialogue-v1.3"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "D12-05",
     "document": "main-missing-dialogue-v1.2",
     "problem": "弒-2A「我記得整個夢」改親歷的累世，不授予此前全知。煉假成真刪「三世中」；親見自主選擇與聽說九子發問分開；夸父初始條目不等於親見鄧林。煉-4 繼續記得改玩家選擇的一種尾聲，不能代替所有玩家決定。",
     "required_change": "",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-missing-dialogue-v1.3"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "D12-06",
     "document": "main-missing-dialogue-v1.2",
     "problem": "真實只見改寫痕跡，守護的「看見每片原本樣子」擴張能力，需改依保存資料比對或標額外待定條件。四結局可用性在最終行動前檢查；不足可暫離補條件。共治尚待設計，尾聲只能標成立且穩定時的候選，不能省略閻羅獨立同意。喚醒陌生房间只為開放意象，不確認夢外座標。",
     "required_change": "",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-missing-dialogue-v1.3"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "D12-07",
     "document": "main-missing-dialogue-v1.2",
     "problem": "「輪迴替代取得待道主篇」已落後 G01 任務／擊倒提案；連結其具體版本與審閱狀態，不能稱已實作。對質入口接 L01 v1.1 的私人會面／正式對質區分，並套本輪 L11-01 的證據来源修正。",
     "required_change": "",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-missing-dialogue-v1.3"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "M21-01",
     "document": "main-v2.1",
     "problem": "第四節紅過世後固定拾六接燈、相認、交物；第六節改由紅決定",
     "required_change": "全文改實際指定／接受／保管／身份核對，包含無承接者、燈熄與物件失落，不重置晚年篇結果。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-v2.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "M21-02",
     "document": "main-v2.1",
     "problem": "階段十一直接寫取得命運且能自選記憶",
     "required_change": "完成會面、取得資格、接受傳法分開；自選交接仍須輪迴＋命運。拒領也能完成抉擇前的程序、暫離補条件及後來再領，不鎖死不需命運的候選結局。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-v2.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "M21-03",
     "document": "main-v2.1",
     "problem": "K6表格由有真實直接得到兇手；正式對質又可能才補K6",
     "required_change": "真實不自動知全案；依 L11-01／BG15-01 補來源與證據鏈。私人會面可補K6，K6＋K7才進正式階段十；進入不等於完成。閻羅立場可變，不永久鎖定「最終」。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-v2.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "M21-04",
     "document": "main-v2.1",
     "problem": "當世關係列為不保留，與舊識記憶／組織承認相衝突",
     "required_change": "主角新身體不自動被承認，但對方仍記得前世互動。實物仍在世界保管人處，不等於玩家死亡就從世界刪除；住房／繼承依另案，勿由一般物品表擅自否定。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-v2.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "M21-05",
     "document": "main-v2.1",
     "problem": "生死時鐘必留箱／寄信；道主任何時代皆可遇",
     "required_change": "日期標無介入預設，依存活、關係、授權、送達與實存物件。長壽不代表始終可接近；失聯／逐出需替代知識路徑。師父認得不等於隨時在院。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-v2.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "M21-06",
     "document": "main-v2.1",
     "problem": "5～8輪、首輪20小時沿舊量規劃，與遊戲量v2的20輪、每輪3～6小時不一致",
     "required_change": "兩者皆為估算，不能都作同一目標；建議連結遊戲量v2並標待原型驗證，不以一次性劇本量保證100小時。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-v2.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "M21-07",
     "document": "main-v2.1",
     "problem": "半選擇簡化成必有2～3戶；人類衰亡放慢似已證實；壽命延長等同傷害存活",
     "required_change": "候選0／1／多戶、親屬限制按家庭稿提案處理，不保證每次三戶。守護只確定夢延續，衰亡原因未解，不保證速度改變。延壽與抗傷／救治不同，閘門存活要相應能力與實際救援條件。",
-    "status": "待整合",
-    "resolution": null
+    "status": "已落工作稿／待覆核",
+    "resolution": {
+      "documents": [
+        "main-v2.2"
+      ],
+      "change_log": "consistency-pass-02/CHANGES.json",
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+    }
   },
   {
     "id": "A11-01",

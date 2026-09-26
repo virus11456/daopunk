@@ -1,0 +1,111 @@
+{
+  "checks": [
+    {
+      "check": "ORIGINAL逐位元組與收稿一致",
+      "file": "document-index-v1.2",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL逐位元組與收稿一致",
+      "file": "main-v2.2",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL逐位元組與收稿一致",
+      "file": "background-v1.6",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL逐位元組與收稿一致",
+      "file": "main-missing-dialogue-v1.3",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL逐位元組與收稿一致",
+      "file": "luwu-l01-v1.2",
+      "pass": true
+    },
+    {
+      "check": "退役句不在現行工作稿",
+      "document": "main-missing-dialogue-v1.3",
+      "pattern": "三個做夢者。夢比以前",
+      "pass": true
+    },
+    {
+      "check": "退役句不在現行工作稿",
+      "document": "main-missing-dialogue-v1.3",
+      "pattern": "我記得整個夢",
+      "pass": true
+    },
+    {
+      "check": "退役句不在現行工作稿",
+      "document": "main-missing-dialogue-v1.3",
+      "pattern": "三世中數位",
+      "pass": true
+    },
+    {
+      "check": "退役句不在現行工作稿",
+      "document": "luwu-l01-v1.2",
+      "pattern": "親見痕跡、比對、推論，加上陸吾的部分供述",
+      "pass": true
+    },
+    {
+      "check": "退役句不在現行工作稿",
+      "document": "background-v1.6",
+      "pattern": "年齡待選 Q12",
+      "pass": true
+    },
+    {
+      "check": "D01～D05已定",
+      "pass": true
+    },
+    {
+      "check": "20條本作描述80～150字（排除標點）",
+      "pass": true
+    }
+  ],
+  "text_change_records": 151,
+  "review_ids_touched": [
+    "BG15-01",
+    "BG15-02",
+    "BG15-03",
+    "BG15-04",
+    "BG15-05",
+    "BG15-06",
+    "BG15-07",
+    "BG15-08",
+    "D12-01",
+    "D12-02",
+    "D12-03",
+    "D12-04",
+    "D12-05",
+    "D12-06",
+    "D12-07",
+    "L11-01",
+    "L11-03",
+    "L11-04",
+    "LC01",
+    "LC02",
+    "LC03",
+    "LC04",
+    "LC05",
+    "LC06",
+    "LC07",
+    "LL01",
+    "LL02",
+    "LL03",
+    "LL04",
+    "LL05",
+    "LL06",
+    "M21-01",
+    "M21-02",
+    "M21-03",
+    "M21-04",
+    "M21-05",
+    "M21-06",
+    "M21-07",
+    "N32"
+  ],
+  "all_reviews_closed": false,
+  "gameplay_tested": false
+}
