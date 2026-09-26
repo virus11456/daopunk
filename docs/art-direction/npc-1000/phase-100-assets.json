@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "NPC-0033",
+    "asset": "assets/NPC-0033-front-v1.png",
+    "sha256": "24965095f0cc3d86d0ea909dfcd72db5069f4f05f0dbc289af2e336d21494f2e",
+    "git_blob_sha": "267bab5392f68941438a8a3ccb0549d9dec72fea"
+  },
+  {
+    "id": "NPC-0033",
+    "asset": "assets/NPC-0033-front-clean-v1.png",
+    "sha256": "d54473ac33a4cc1b4b37d818f5415bcbc23e3f99cf1496a2dd774456c50a599f",
+    "git_blob_sha": "d06dc715bf44c14d4830657817b5a2961b752ecd"
+  },
+  {
+    "id": "NPC-0034",
+    "asset": "assets/NPC-0034-front-v1.png",
+    "sha256": "2b49363fb19fd1a6d1aca2a4b2d35b426281d7890c565f1b9a4622858235a3ef",
+    "git_blob_sha": "4fb4210c30378f2f76ba329485f5b6af1c42ca2a"
+  },
+  {
+    "id": "NPC-0034",
+    "asset": "assets/NPC-0034-front-clean-v1.png",
+    "sha256": "e17d9031493331d520217e7a6b43b8facbaa3ba01884749601faee0cfa941cb7",
+    "git_blob_sha": "f129e8689ae6f70f3f599e41ca1dcb714fe4daca"
+  },
+  {
+    "id": "NPC-0035",
+    "asset": "assets/NPC-0035-front-v1.png",
+    "sha256": "eb9b3ae7e2fd0e249359d960c2bd17bd596ce58f4738283b0f0ed2f130cfbf15",
+    "git_blob_sha": "b5e67f4ef3f61597929afa1123d2dd1cb2331475"
+  },
+  {
+    "id": "NPC-0035",
+    "asset": "assets/NPC-0035-front-clean-v1.png",
+    "sha256": "888fd08530965278da84457cd9869191fb8285b1e5362e6df146c7ff4cf24e18",
+    "git_blob_sha": "323cab10ed0bd0cb78d26c87ab6f88a9fa7f798a"
+  },
+  {
+    "id": "NPC-0036",
+    "asset": "assets/NPC-0036-front-v1.png",
+    "sha256": "b215de8ea4fa1f1406af6e7acf48b7165dea9d763181cd5a5070d8f4fefda7d2",
+    "git_blob_sha": "dae3391bd663a13af7face364c3d0f5ba18f6d40"
+  },
+  {
+    "id": "NPC-0036",
+    "asset": "assets/NPC-0036-front-clean-v1.png",
+    "sha256": "711213c0276769241a6e068ea3b7fdd5904581f39bbe803e4dcaabd665dd2601",
+    "git_blob_sha": "5463aa21967519e89a0d276637c248168a80a15c"
+  },
+  {
+    "id": "NPC-0037",
+    "asset": "assets/NPC-0037-front-v1.png",
+    "sha256": "9589ad0ffabcc182faca860215c97b2a27144687c45c9c4f3fce14b408eb3ff8",
+    "git_blob_sha": "abe6d5b389c5fd5ec26f453179944ce90868c128"
+  },
+  {
+    "id": "NPC-0037",
+    "asset": "assets/NPC-0037-front-clean-v1.png",
+    "sha256": "05e35a89fa31ee7cbb81dce3b5c439ff604d98174ab5db08aa0a774763d4a8b4",
+    "git_blob_sha": "97edf4e9c66f2c71885d47cc074afdb0e4d04dc3"
+  },
+  {
+    "id": "NPC-0038",
+    "asset": "assets/NPC-0038-front-v1.png",
+    "sha256": "0b8458f9973160f9d1ded4fc8fb836ac20ad8aad689eee7ab0c0ddb8fd5c0018",
+    "git_blob_sha": "a7695a94b7fe1f26a6b53d74d237b866cad78fb8"
+  },
+  {
+    "id": "NPC-0038",
+    "asset": "assets/NPC-0038-front-clean-v1.png",
+    "sha256": "caa4b67a571706112a2de0992a405e8315ae1e7a53427b9c55d0b139e4fe83ff",
+    "git_blob_sha": "df7df4dd413ff656216b6fe785445015e74b138e"
+  },
+  {
+    "id": "NPC-0039",
+    "asset": "assets/NPC-0039-front-v1.png",
+    "sha256": "8205cdefd3334dc0d47f7baad9e0e93c03ed959f68c0b25d7722979b9905e9f2",
+    "git_blob_sha": "ce4732d6f1daa4800d13f10cc2ee23538e9cc608"
+  },
+  {
+    "id": "NPC-0039",
+    "asset": "assets/NPC-0039-front-clean-v1.png",
+    "sha256": "d771880240d2408e0ce7d3e47598007170820ec06ee00e3977df3e5ec2414a90",
+    "git_blob_sha": "9ccd4ec00d1b603cb540ca90c98dbbdb95d71e00"
+  },
+  {
+    "id": "NPC-0040",
+    "asset": "assets/NPC-0040-front-v1.png",
+    "sha256": "87ea552312117fc01509b130dea1a5a6df327e90f8eb58cb20a9475c2eba1412",
+    "git_blob_sha": "b910db712f594f10d472d8a960e6554c1fb92236"
+  },
+  {
+    "id": "NPC-0040",
+    "asset": "assets/NPC-0040-front-clean-v1.png",
+    "sha256": "ae3659d21ee6dc785e54d0f60c0fcf0e70e2e6bb8bba5ec51937b63c52c93b49",
+    "git_blob_sha": "ee368de3ae0fa2e65671b79972f7ec2708a66ab9"
+  },
+  {
+    "id": "NPC-0041",
+    "asset": "assets/NPC-0041-front-v1.png",
+    "sha256": "20a7d1c1db77c8785208cc2154741aff6e6b5c57465641c4e9f894db178ca849",
+    "git_blob_sha": "b8e128a2de8c5cfb04dc7ad57f54dda4a81214ca"
+  },
+  {
+    "id": "NPC-0041",
+    "asset": "assets/NPC-0041-front-clean-v1.png",
+    "sha256": "5724334ed93bdd5de43aae1e17310fcaceb1b51b8203d1b6b67dd6c6cdbb88b5",
+    "git_blob_sha": "a47ea2e3a74f782f7a8dc7d5a6a587231a662351"
+  },
+  {
+    "id": "NPC-0042",
+    "asset": "assets/NPC-0042-front-v1.png",
+    "sha256": "4f1995e5d3895638fd7ba4a9b182fb1d2d72c7a064486ca2fc18e3b9885214ee",
+    "git_blob_sha": "c67b1d978ada4b4ac04d21fc4375542b3fcb0426"
+  },
+  {
+    "id": "NPC-0042",
+    "asset": "assets/NPC-0042-front-clean-v1.png",
+    "sha256": "37253e66e8837ada9fbef9afe88a9daa4d40681134aa0d5803958058f5921d24",
+    "git_blob_sha": "6830dbd7d1f7ab066724324f0bb98c6e5d885eb2"
+  },
+  {
+    "id": "NPC-0043",
+    "asset": "assets/NPC-0043-front-v1.png",
+    "sha256": "032d9477d262d497376d1595d66e4fe44655aa9ce080a66a7268ab71f43811ca",
+    "git_blob_sha": "ff0d94c2fa21140002c3d094b239d1b0a9f24503"
+  },
+  {
+    "id": "NPC-0043",
+    "asset": "assets/NPC-0043-front-clean-v1.png",
+    "sha256": "815a63b31013e87026ecdd02407af94970e8f9379f37ba75ac6bb6f715c55761",
+    "git_blob_sha": "42e0f4c075cc4c3762bbc37d1ef4f4e353edd1b4"
+  },
+  {
+    "id": "NPC-0044",
+    "asset": "assets/NPC-0044-front-v1.png",
+    "sha256": "727e01e7b94e9cbe6ad2c24cfd5f4f21f6b85eeea174dc0d6bca1c6b1cd5c38a",
+    "git_blob_sha": "8f96f8beb0e9d74c46ad5ebf2ee997f95d3a44b5"
+  },
+  {
+    "id": "NPC-0044",
+    "asset": "assets/NPC-0044-front-clean-v1.png",
+    "sha256": "c84020b90c6e2e851e80f398881985c8984963d06b56e6f899d0405a75f574fc",
+    "git_blob_sha": "14510967ba686e7712b75e3372d6c927e64c29d2"
+  },
+  {
+    "id": "NPC-0045",
+    "asset": "assets/NPC-0045-front-v1.png",
+    "sha256": "cce495cbb6938db17c8518e7b0b87c5ff98d958afdfae46dfde99f45169ad2e8",
+    "git_blob_sha": "d0fbf5c20fb15ab5b9925b6d82c282b1ed9d30f8"
+  },
+  {
+    "id": "NPC-0045",
+    "asset": "assets/NPC-0045-front-clean-v1.png",
+    "sha256": "cce0ba1435c5583359c988de9960d3a7f378f6bda4fca30efb7cc5e33ac3fc60",
+    "git_blob_sha": "90c4dac2718a59221da685e720ccf75f7fe47f8c"
+  },
+  {
+    "id": "NPC-0046",
+    "asset": "assets/NPC-0046-front-v1.png",
+    "sha256": "48a6d0188fdd888785fada41ac5f46beaa4fb1547a1ccd9348a41cc29b57dddf",
+    "git_blob_sha": "a197cacf0c4bcf3550876fc144ff212d8d41f07a"
+  },
+  {
+    "id": "NPC-0046",
+    "asset": "assets/NPC-0046-front-clean-v1.png",
+    "sha256": "be5083b297d7b4974f11d4f9035132350ece91710442ce22b098f525300f2515",
+    "git_blob_sha": "9e54b7dcf1053edc0d5342506baef131643ade14"
+  },
+  {
+    "id": "NPC-0047",
+    "asset": "assets/NPC-0047-front-v1.png",
+    "sha256": "b7b9bed4efdc4d9fe37fb1b1ef02e78fb1396931ea21abda3597268f75e34700",
+    "git_blob_sha": "0f2f0b58b51e5177411c075bf509aadf48035aff"
+  },
+  {
+    "id": "NPC-0047",
+    "asset": "assets/NPC-0047-front-clean-v1.png",
+    "sha256": "643256c5278b1fc9c776c9394a9d4dfa7b781b107681dd78c53889fb063c1489",
+    "git_blob_sha": "324ce2b3818bfe340d6df1446e62df2d114c6fae"
+  },
+  {
+    "id": "NPC-0048",
+    "asset": "assets/NPC-0048-front-v1.png",
+    "sha256": "3c19e12a458ef243337d5af5eb638d4ef1363e2db8c45281f0dd5f03016a6581",
+    "git_blob_sha": "85653ddc9e19b2025162963d839f2cfd92f06905"
+  },
+  {
+    "id": "NPC-0048",
+    "asset": "assets/NPC-0048-front-clean-v1.png",
+    "sha256": "85d16706dba36bd4401a8c3f8042d0b966a3719dff2e5774ea57a8c29947f55f",
+    "git_blob_sha": "9457f1fbb3e778efad7ccb1ab4eb8c436edae2e3"
+  },
+  {
+    "id": "NPC-0049",
+    "asset": "assets/NPC-0049-front-v1.png",
+    "sha256": "af36445dde2f980d0bb1aa0cd0897511b51e2cfa29c6c512335e5abc578e9068",
+    "git_blob_sha": "2fe86d0532812f9990f940d6d0af586736235108"
+  },
+  {
+    "id": "NPC-0049",
+    "asset": "assets/NPC-0049-front-clean-v1.png",
+    "sha256": "6015a0616251ac91c9cef89c8d5c6d3df08674fd6c97cab39d13e0abf4f6dfc1",
+    "git_blob_sha": "dd1ef32f9440683857daabd27f79d306aad6441a"
+  },
+  {
+    "id": "NPC-0050",
+    "asset": "assets/NPC-0050-front-v1.png",
+    "sha256": "592f01440663d0e8700451c1621da3ebcb75613aa06e9f8b1f72acf7be89a5ad",
+    "git_blob_sha": "754aad928bf9cbc5841304bcdca570c1732c8895"
+  },
+  {
+    "id": "NPC-0050",
+    "asset": "assets/NPC-0050-front-clean-v1.png",
+    "sha256": "72e935802dd604b94d4c7660b13b235b941f56e2a3efd78e080318b2bf5f8eaa",
+    "git_blob_sha": "c7f89cdc97dd6d0a12fec0019e5f52859bb83b60"
+  },
+  {
+    "id": "NPC-0051",
+    "asset": "assets/NPC-0051-front-v1.png",
+    "sha256": "3c0f9033edf9be3a6822b4886eb51cdebebfd78bcd340cb5226f91f3a1f8cb62",
+    "git_blob_sha": "a6f2ee9fd15c81092e847acdb8cd089dcfa4ef9b"
+  },
+  {
+    "id": "NPC-0051",
+    "asset": "assets/NPC-0051-front-clean-v1.png",
+    "sha256": "66a11a6d23194a7bbff9c285de5d7fb7e2ef02b0a2ac1c8f6627914bfbe51339",
+    "git_blob_sha": "3e13f7dcf161a392b1744447af894d287114475c"
+  },
+  {
+    "id": "NPC-0052",
+    "asset": "assets/NPC-0052-front-v1.png",
+    "sha256": "c9c385c87f5707183fe8c5aa6d08513652b8cbcf9382bcfe17e1fba57b17ec3f",
+    "git_blob_sha": "c959245cf9355dd8b3f78b7c3f6955ddc902598b"
+  },
+  {
+    "id": "NPC-0052",
+    "asset": "assets/NPC-0052-front-clean-v1.png",
+    "sha256": "ebe771cb9b476efc30d76879ff65f8ce0a21b04aedd21fce123c0eee26c49721",
+    "git_blob_sha": "33a034b2b31070ff4d2dbbdc58d9f32ce2d3d40b"
+  },
+  {
+    "id": "NPC-0053",
+    "asset": "assets/NPC-0053-front-v1.png",
+    "sha256": "4158e0599418e2dd0db06e8bd9c2c9c41f7a8b7f29ec8dea86f069b029ff0fbe",
+    "git_blob_sha": "a452760853b44ace14dcac703780e30adf7623ec"
+  },
+  {
+    "id": "NPC-0053",
+    "asset": "assets/NPC-0053-front-clean-v1.png",
+    "sha256": "ccd53cb89fef491f105efc8e5872bd532b7c6fc06fb16b689148a785a7fe6711",
+    "git_blob_sha": "e70d61081360a555449ee0a88832feef6fff41a5"
+  },
+  {
+    "id": "NPC-0054",
+    "asset": "assets/NPC-0054-front-v1.png",
+    "sha256": "1cc8a2aa62c279da00af9aa0e513da402102e5e7e6b70a9587c64604ce70e8fe",
+    "git_blob_sha": "cc503fc1ae8af860b458016962c8e023dd03b743"
+  },
+  {
+    "id": "NPC-0054",
+    "asset": "assets/NPC-0054-front-clean-v1.png",
+    "sha256": "60fe854c44855a7aa6ae61f72ada1f5b211352287e3fd9f782ff3df00af2c1ff",
+    "git_blob_sha": "e334da7d289513e96dbfa6424c745a888c0c5a28"
+  },
+  {
+    "id": "NPC-0055",
+    "asset": "assets/NPC-0055-front-v1.png",
+    "sha256": "b03e019817bc28d7e7d88db4221ccbb37a7761399dec730c2d668af40ebddfb1",
+    "git_blob_sha": "aa9fe9cddeb86a17fe4ced08b161d66d4ed0871d"
+  },
+  {
+    "id": "NPC-0055",
+    "asset": "assets/NPC-0055-front-clean-v1.png",
+    "sha256": "2f0aafe7dcc9dbb0dfd2d26d3d4edac096aa9b69e56fd7abf581bb38412f9390",
+    "git_blob_sha": "75fb9c688d9e3d2307c2f1101daae0e154d97b57"
+  },
+  {
+    "id": "NPC-0056",
+    "asset": "assets/NPC-0056-front-v1.png",
+    "sha256": "b47e825fd8ced091c8d0d290a295c6e386e886d44c08bb3ea9729cb27a327f8e",
+    "git_blob_sha": "e7b61d6be5d435af04380752e5ed8216f7f0a86e"
+  },
+  {
+    "id": "NPC-0056",
+    "asset": "assets/NPC-0056-front-clean-v1.png",
+    "sha256": "01056cd319e2c53bebcd82f60a60041c3196afbf5874803c8bcab4d25ff32992",
+    "git_blob_sha": "0d51a77f228567c2c426f6ddd5bb72f14729dc45"
+  },
+  {
+    "id": "NPC-0057",
+    "asset": "assets/NPC-0057-front-v1.png",
+    "sha256": "f03b7c3471c8c3d359440eeb554c9e418970a91194803df07960a285530648f9",
+    "git_blob_sha": "16d537b1e3b961ab745b54e0f5500a1ff5e45aba"
+  },
+  {
+    "id": "NPC-0057",
+    "asset": "assets/NPC-0057-front-clean-v1.png",
+    "sha256": "ca98354198823dea1f9bde75b615538354764ea1efbd37e0b6c55cde2dc22d7c",
+    "git_blob_sha": "89d0bde16544bc06d7f678c0c8902efac083f9eb"
+  },
+  {
+    "id": "NPC-0058",
+    "asset": "assets/NPC-0058-front-v1.png",
+    "sha256": "0df120144f2f7efccd64ca3f07a490e472e815c6ae18096d07a31ff3dbd08986",
+    "git_blob_sha": "7ca615d4f5bb1e54dedab15beb22a3328e3d6fe2"
+  },
+  {
+    "id": "NPC-0058",
+    "asset": "assets/NPC-0058-front-clean-v1.png",
+    "sha256": "2fcd82d6b16a500dd3ceb0822ccd09bd46259a61dd9923262013588e730af7c2",
+    "git_blob_sha": "7f1888ab6a75e7f30c8db07dc3f2cef3fa1f7f24"
+  },
+  {
+    "id": "NPC-0059",
+    "asset": "assets/NPC-0059-front-v1.png",
+    "sha256": "ee47158898c913c903d17559a27a8d4a16753e82a5bf06f41c562ac44c8ecb72",
+    "git_blob_sha": "6c04a29cad4981da7309e211908fb05e51df0dfc"
+  },
+  {
+    "id": "NPC-0059",
+    "asset": "assets/NPC-0059-front-clean-v1.png",
+    "sha256": "1e688b94c03c56205f35237f158c8687e4495a283440206acd574b7356d8456e",
+    "git_blob_sha": "bf284b7f63896015b5cf2362af22aa210dd8a516"
+  },
+  {
+    "id": "NPC-0060",
+    "asset": "assets/NPC-0060-front-v1.png",
+    "sha256": "2d857bcae43f9159877c71e89c1f9f2ee4ed849f0da285401d9a4a1f1318e643",
+    "git_blob_sha": "26b878380bc33001e07e19acc87731bfb708d13f"
+  },
+  {
+    "id": "NPC-0060",
+    "asset": "assets/NPC-0060-front-clean-v1.png",
+    "sha256": "6d9fb3a5c14f91fc7d878bf3822f89ebc32a610f7ae2c55a1cd5fa6d71fa4dc5",
+    "git_blob_sha": "c25bbeb2bce92c4c989f57c77cfe60a665557968"
+  },
+  {
+    "id": "NPC-0061",
+    "asset": "assets/NPC-0061-front-v1.png",
+    "sha256": "70e9d388dd663493f021c020e50b2d03951cb609d5e4dba595752b06de32e16a",
+    "git_blob_sha": "f78e593b049934cb6618b6c28e8f9874a7cb9058"
+  },
+  {
+    "id": "NPC-0061",
+    "asset": "assets/NPC-0061-front-clean-v1.png",
+    "sha256": "f47576950b6a70117f5b9f19824edf95eb7f2f0194d4a728f5ff5a73519af9f7",
+    "git_blob_sha": "4037e7b13392327835dbdb8ff1dc3222a71a4c9d"
+  },
+  {
+    "id": "NPC-0062",
+    "asset": "assets/NPC-0062-front-v1.png",
+    "sha256": "0725d36f666e1a5efa1ceb5a9d7db8a555f967c0583ad68775fcf9ddce9ad7b7",
+    "git_blob_sha": "e767e55abb328ae53ed1fbf9b20a3753d8436eae"
+  },
+  {
+    "id": "NPC-0062",
+    "asset": "assets/NPC-0062-front-clean-v1.png",
+    "sha256": "ec960c0e8dd2c348e8efb4dddf8e4cc4e389c429af6da2253ce67f5414aa55b2",
+    "git_blob_sha": "0bb85992b39ff54696e34da9a5494e4731529eb3"
+  },
+  {
+    "id": "NPC-0063",
+    "asset": "assets/NPC-0063-front-v1.png",
+    "sha256": "8458f891ff00aea5444836ab4839aff4893b6c8579379a252ef6395cb787630f",
+    "git_blob_sha": "1e720e3662144f5450251b29740baefb1a8e0fc9"
+  },
+  {
+    "id": "NPC-0063",
+    "asset": "assets/NPC-0063-front-clean-v1.png",
+    "sha256": "666897118bdbe3a65acdcfc2658d85c17f6fa7b2cf88c3d12d04e84026d034ee",
+    "git_blob_sha": "f256d634fd8cdb797274e82c53ccf50e2d1ff8a8"
+  },
+  {
+    "id": "NPC-0064",
+    "asset": "assets/NPC-0064-front-v1.png",
+    "sha256": "67ee895e6a754a97bf2a0afac47d65cf5c7031eb7d94ff4dba1ca6594e97a3ee",
+    "git_blob_sha": "f32513a2d94b89e05211c9b06c841fe647e4af84"
+  },
+  {
+    "id": "NPC-0064",
+    "asset": "assets/NPC-0064-front-clean-v1.png",
+    "sha256": "aa4efb3be47bd665837a5b184ae04abd2bc89c1936fd50a4181b6b29e770eecf",
+    "git_blob_sha": "86d430489993ec4d8b82dcb6e5f42b928f4ecd21"
+  },
+  {
+    "id": "NPC-0065",
+    "asset": "assets/NPC-0065-front-v1.png",
+    "sha256": "27970eb5ff1a7041b44ddaf74ec9251c62dd1f140a7d7dcf506f80ecba6e1c92",
+    "git_blob_sha": "0329e87d543822922a2d8bc07ae0412249de4b83"
+  },
+  {
+    "id": "NPC-0065",
+    "asset": "assets/NPC-0065-front-clean-v1.png",
+    "sha256": "4f5e2d22d5f7352a7bd91b82ed1b5f08f50d6b5da36ca5e05c6d0e0894cd79e1",
+    "git_blob_sha": "59d4ca283045ef187031aee62d5e904fdc53853f"
+  },
+  {
+    "id": "NPC-0066",
+    "asset": "assets/NPC-0066-front-v1.png",
+    "sha256": "dd862df3876cfddc2dc9eb8c8d965285fb230079f2ad1d72d26067ff5766f322",
+    "git_blob_sha": "eb962f3e00639a42b6769a49879b6f8dbacda33f"
+  },
+  {
+    "id": "NPC-0066",
+    "asset": "assets/NPC-0066-front-clean-v1.png",
+    "sha256": "cec201d08352b6adb75527a52c94a992abe7b16d4495cefaf4c6512ccb7d3cde",
+    "git_blob_sha": "2024132a3b71ecb7a53f33750f59233584a4728f"
+  },
+  {
+    "id": "NPC-0067",
+    "asset": "assets/NPC-0067-front-v1.png",
+    "sha256": "a61ab39c6fd84b4445a1fb7b1ed645c800757156e94b3525addca981a8e63244",
+    "git_blob_sha": "8efe493940acbbe66ef25eeac07d403d651adefd"
+  },
+  {
+    "id": "NPC-0067",
+    "asset": "assets/NPC-0067-front-clean-v1.png",
+    "sha256": "5c3e0d6bd7ce0f0000a8b42ad94e4d2ab1778d19035d4d082dc9a792615881cc",
+    "git_blob_sha": "a168fcc8504d6afaf85e6bdeb49e98731ed78ef9"
+  },
+  {
+    "id": "NPC-0068",
+    "asset": "assets/NPC-0068-front-v1.png",
+    "sha256": "13e24575ca9d9ccc71d879aab1c97d6ab2a2df724078a3aa660ffee4c5e27a84",
+    "git_blob_sha": "4a98484c912eaac63d8c12233e38b52374293ac4"
+  },
+  {
+    "id": "NPC-0068",
+    "asset": "assets/NPC-0068-front-clean-v1.png",
+    "sha256": "13eb2b6f05e737d0e13ad1625f5007967b3b9b47fe84406d93ea728d63a0ffaa",
+    "git_blob_sha": "605db4c9f5a72bdf8666f2d2a123f50c7414dcd7"
+  },
+  {
+    "id": "NPC-0069",
+    "asset": "assets/NPC-0069-front-v1.png",
+    "sha256": "5d15fb6d5f9fae8d4f4c33dac0b19d5fde337da152749502a89f70db146cee9f",
+    "git_blob_sha": "6b4c09094f70404268829f626dcb136154b03bf5"
+  },
+  {
+    "id": "NPC-0069",
+    "asset": "assets/NPC-0069-front-clean-v1.png",
+    "sha256": "b7e0ce0105d367833d885d0de0f7937ff29f5054d8d06787105c2b95d9337a92",
+    "git_blob_sha": "c586543c2feca8d6872f213652a61307291b47bc"
+  },
+  {
+    "id": "NPC-0070",
+    "asset": "assets/NPC-0070-front-v1.png",
+    "sha256": "2c83d061bd6b5cd168f0e053930d001bed7aedf37865674cf421a8ccdf99d70b",
+    "git_blob_sha": "e9137970e443cf95c440cc04ee8f95efb2bdd71a"
+  },
+  {
+    "id": "NPC-0070",
+    "asset": "assets/NPC-0070-front-clean-v1.png",
+    "sha256": "6886d744c7db18d557cd7352916d6fc26afe6066d4f74ecbf8fd57db14d3f122",
+    "git_blob_sha": "ab468c92c7512c2ff41224827790d4361bc88c11"
+  },
+  {
+    "id": "NPC-0071",
+    "asset": "assets/NPC-0071-front-v1.png",
+    "sha256": "626a9b753d954f2a275440f9d8ddc9f89b4c28640206bec8b4cdb1bbf3b91bfa",
+    "git_blob_sha": "ba1fc11f9564b208f367aaf88c0af6a2ff61933e"
+  },
+  {
+    "id": "NPC-0071",
+    "asset": "assets/NPC-0071-front-clean-v1.png",
+    "sha256": "a3cd6a6ac5d49f350a313befee6f8d521235f3c5d1dc9c731fb103af377ec5da",
+    "git_blob_sha": "809bfa9e450dd873935f3982d3c03f71e93dda05"
+  },
+  {
+    "id": "NPC-0072",
+    "asset": "assets/NPC-0072-front-v1.png",
+    "sha256": "b0490bea5c0c8ae97b76951006390b926c23dd27eb3fee87fd436c4e65800bbf",
+    "git_blob_sha": "920b886ea02da74530a06f312c19670c0add34b4"
+  },
+  {
+    "id": "NPC-0072",
+    "asset": "assets/NPC-0072-front-clean-v1.png",
+    "sha256": "6aae14938a8f1d13ced171f307f15d4426e2c33a3464ba21a08787194f399845",
+    "git_blob_sha": "f4ae0bd571d127d2107c4da818868a5798190ac5"
+  },
+  {
+    "id": "NPC-0073",
+    "asset": "assets/NPC-0073-front-v1.png",
+    "sha256": "695d93bd2767306c573994c87d4feff70b45c44703e9ebe2b46720e2f486104c",
+    "git_blob_sha": "89cfccb58412ed0d3d75c9748c261e9459274ac1"
+  },
+  {
+    "id": "NPC-0073",
+    "asset": "assets/NPC-0073-front-clean-v1.png",
+    "sha256": "3a6a52b820dd31d1219ade077156980155d1761194303b38097f960340ec729d",
+    "git_blob_sha": "68b14370d91c49c3bfebd305ec2c1920ae93edc0"
+  },
+  {
+    "id": "NPC-0074",
+    "asset": "assets/NPC-0074-front-v1.png",
+    "sha256": "f22402405f82262df68f3cc10d8c2e8c3ccec6ffbbbf5d6fca3107dcaea020c5",
+    "git_blob_sha": "32fc89ce2c94bdc1af19f7ba67d02b5961f4a4f5"
+  },
+  {
+    "id": "NPC-0074",
+    "asset": "assets/NPC-0074-front-clean-v1.png",
+    "sha256": "0947a439ba0f385c98eb785f58e2fec92f4356918459f3a4bf5dc92e7eaa9a9f",
+    "git_blob_sha": "5a166e9b2e582131489d9122f5e03666cc6fb857"
+  },
+  {
+    "id": "NPC-0075",
+    "asset": "assets/NPC-0075-front-v1.png",
+    "sha256": "01cf4caf3ede9dc6981920dead91d0f4d9f1da90e09fe7a6ec11af00f3239372",
+    "git_blob_sha": "ae9ef75a34bba6621da499504f71c33f36e56631"
+  },
+  {
+    "id": "NPC-0075",
+    "asset": "assets/NPC-0075-front-clean-v1.png",
+    "sha256": "6c815fe226322e577dd7b6f5c0131aba17c28688a928e0f02b3e9c577c872898",
+    "git_blob_sha": "cd3d062286009827726eee9a6e3e864f6aa3f1cb"
+  },
+  {
+    "id": "NPC-0076",
+    "asset": "assets/NPC-0076-front-v1.png",
+    "sha256": "f1e280705f0e58e04b9200453bbfa318fc0e02be4e60c32ccdf7e42302cc77d1",
+    "git_blob_sha": "ea5933a695ad013525603bbc0f120c00fa03f1fe"
+  },
+  {
+    "id": "NPC-0076",
+    "asset": "assets/NPC-0076-front-clean-v1.png",
+    "sha256": "5545330a5a6026cf1c6527d15c5210d569acaf82c3f52f83a60ab5d716785017",
+    "git_blob_sha": "bc0e321edc68d8f3993ad430706504f392859bf3"
+  },
+  {
+    "id": "NPC-0077",
+    "asset": "assets/NPC-0077-front-v1.png",
+    "sha256": "56d208a971474c32a1904ab30975700e95a27b58346165f30ead2b02cfe9cb24",
+    "git_blob_sha": "6c4415622d2673b0c52d7ca28ed80d745eab90cf"
+  },
+  {
+    "id": "NPC-0077",
+    "asset": "assets/NPC-0077-front-clean-v1.png",
+    "sha256": "4ae555c716cc5bb2de9b272879540aba5ae4fc0c60cd32fa5178331acd893888",
+    "git_blob_sha": "46e967b59d060a9d6062f876e69f9e1c56a0e50a"
+  },
+  {
+    "id": "NPC-0078",
+    "asset": "assets/NPC-0078-front-v1.png",
+    "sha256": "839a21e0e079319b90ce78acd30d77e80cb78c85895f50788c63dfa6c5798219",
+    "git_blob_sha": "3a4269b4d60bebea73afbedd106a018063652e6f"
+  },
+  {
+    "id": "NPC-0078",
+    "asset": "assets/NPC-0078-front-clean-v1.png",
+    "sha256": "c1a013569b60ba1a4f805a8d9995d20011d542c2e7baa7e9ade8ddedd1c9b932",
+    "git_blob_sha": "9900e0a9289538c14aa5128ddc885a947df3aea2"
+  },
+  {
+    "id": "NPC-0079",
+    "asset": "assets/NPC-0079-front-v1.png",
+    "sha256": "edddede51a2b23aa7e5bcf5af8b7fa7cd7f38783cf5457f900ab001154cf10ee",
+    "git_blob_sha": "1833202020c12274363b0e64f8daf192a1227d7b"
+  },
+  {
+    "id": "NPC-0079",
+    "asset": "assets/NPC-0079-front-clean-v1.png",
+    "sha256": "3ed3b95ebc12cedc42bd95b90fb4f82b4d223864f76a14e1eb0be0bfe3314546",
+    "git_blob_sha": "7ce71090797a9a96ccd06ef7e72a26f9c3185ef8"
+  },
+  {
+    "id": "NPC-0080",
+    "asset": "assets/NPC-0080-front-v1.png",
+    "sha256": "0c3cb73c191b73575972bde845b0c57f9de21fd7f7eeb1de8bddea5049befedb",
+    "git_blob_sha": "91332a27f6bb6f2255a86e8e3b9134746c567254"
+  },
+  {
+    "id": "NPC-0080",
+    "asset": "assets/NPC-0080-front-clean-v1.png",
+    "sha256": "5b0c5f3ba58e58773a937112381ec700124222af50f32bd2c225ab65e9831790",
+    "git_blob_sha": "46b1dfcd74541f4fa735fd8f1ed3c579e387c65a"
+  },
+  {
+    "id": "NPC-0081",
+    "asset": "assets/NPC-0081-front-v1.png",
+    "sha256": "c4c5e5ca0c8fd58064478ae3ae8b3517a5e8a4c29153ea30e94557197a7985a5",
+    "git_blob_sha": "aa8c515942209b796c71c9b341b19983f3a24e37"
+  },
+  {
+    "id": "NPC-0081",
+    "asset": "assets/NPC-0081-front-clean-v1.png",
+    "sha256": "26147e89db10b8cbe220406504da399bcfc72b307168658f3c5369f6ba7d5049",
+    "git_blob_sha": "440dd01944df3a5851aebe1712ee7bc1a35a826f"
+  },
+  {
+    "id": "NPC-0082",
+    "asset": "assets/NPC-0082-front-v1.png",
+    "sha256": "586ec784b68d94765015cfc7fa385a0ee86d53382573f9562550fae562ea98ea",
+    "git_blob_sha": "a027643ad85f2b54fa3d969f32820c1d2511592e"
+  },
+  {
+    "id": "NPC-0082",
+    "asset": "assets/NPC-0082-front-clean-v1.png",
+    "sha256": "0a764068d5072448dbb696bb80ee5a6152dbca5ac3af62b593759b426c307624",
+    "git_blob_sha": "85bcf75e2f7552366c972d916b42812d1d5935b2"
+  },
+  {
+    "id": "NPC-0083",
+    "asset": "assets/NPC-0083-front-v1.png",
+    "sha256": "8765ef5dd086b25a170998e72afcb3dcb23672c13f453a955e15dca1a0b50253",
+    "git_blob_sha": "1756cb3cce3af7a77e3a2e121595b37b71a4cb9d"
+  },
+  {
+    "id": "NPC-0083",
+    "asset": "assets/NPC-0083-front-clean-v1.png",
+    "sha256": "41443512ffba9174191315feb4d6e96fc1decf63c24bc4325bd916558684e94b",
+    "git_blob_sha": "296cd659efe46bd82cccea592eeb1441223aec75"
+  },
+  {
+    "id": "NPC-0084",
+    "asset": "assets/NPC-0084-front-v1.png",
+    "sha256": "317086c31902b62e7c808d7b874a9460ee3987d15d085ddb9747dca767791438",
+    "git_blob_sha": "078251383e88af645edc513f9900496488997d58"
+  },
+  {
+    "id": "NPC-0084",
+    "asset": "assets/NPC-0084-front-clean-v1.png",
+    "sha256": "96d14e804943eef56ae146b1406adf8d5f8e917ceff7352a262bb21c1223c980",
+    "git_blob_sha": "f9301159135b10d8f03ca89bffdab9494cb6acae"
+  },
+  {
+    "id": "NPC-0085",
+    "asset": "assets/NPC-0085-front-v1.png",
+    "sha256": "9b3a0f40bb72b09e100c02f2770ec999c048ec60a1f291c50810b93e1ed020b3",
+    "git_blob_sha": "0dbaa8d0f2a0d552dcc5050114dea47dfbb121ee"
+  },
+  {
+    "id": "NPC-0085",
+    "asset": "assets/NPC-0085-front-clean-v1.png",
+    "sha256": "96cbe2cf841a70fbc29cac4c774879bfb9b9f5e7aec48c0be4a2ca396e9ee0e4",
+    "git_blob_sha": "ba961b25e17e6af0be37051b5004dd9e886850f9"
+  },
+  {
+    "id": "NPC-0086",
+    "asset": "assets/NPC-0086-front-v1.png",
+    "sha256": "1c6559cb3b94c4c272bb4e0df7d13003ee9862894fe2c31494c222d543663834",
+    "git_blob_sha": "4c1375542cba0f79a911849d735d1299035f07a4"
+  },
+  {
+    "id": "NPC-0086",
+    "asset": "assets/NPC-0086-front-clean-v1.png",
+    "sha256": "cce500e291935b7af813c23ca7cb195d4fb350f4f5ff05714bf048c4a629a12e",
+    "git_blob_sha": "ea214beaa79118ebc61ed10b27625368f33fbd9b"
+  },
+  {
+    "id": "NPC-0087",
+    "asset": "assets/NPC-0087-front-v1.png",
+    "sha256": "b10bd83243c567418801e670ac035b5f41f958ee831f124acade386561267f09",
+    "git_blob_sha": "410af9b8afb4e6fb5cfaa8208bf1c255339bc244"
+  },
+  {
+    "id": "NPC-0087",
+    "asset": "assets/NPC-0087-front-clean-v1.png",
+    "sha256": "af03d27e8b9f6fa36a158782c1abbaf3d1fe14cdd79acea461bf7aefa6e4039b",
+    "git_blob_sha": "ab25f1f91f9569076e1bcb19a79c756404b52f04"
+  },
+  {
+    "id": "NPC-0088",
+    "asset": "assets/NPC-0088-front-v1.png",
+    "sha256": "01dcea673ef30367bf5f2880b31b3c0a94145a494d04652f9c01cd0897ad39d7",
+    "git_blob_sha": "d6d32b142bdf9cb2810402e379f84850d01a947b"
+  },
+  {
+    "id": "NPC-0088",
+    "asset": "assets/NPC-0088-front-clean-v1.png",
+    "sha256": "3070f7700379011e1a9348f9da8efb5bd5c8be6f42ab46f679a87dc05160020a",
+    "git_blob_sha": "e40c0420d6c1a3dba91cbf9ba2f2e22427695be6"
+  },
+  {
+    "id": "NPC-0089",
+    "asset": "assets/NPC-0089-front-v1.png",
+    "sha256": "69d81fccb244d026f60b7de14e157ca9022b78e3a5afba9dc760c9fe5b51ad03",
+    "git_blob_sha": "c93a8137841d8dd0e612505d9b258631aaaa81a0"
+  },
+  {
+    "id": "NPC-0089",
+    "asset": "assets/NPC-0089-front-clean-v1.png",
+    "sha256": "98122285ee3860c3eec9d9a75ff316b4689b051fdf2c16319e01f39465906c8e",
+    "git_blob_sha": "fc53f81c3be41237c23bb418ac67f65ea38654b8"
+  },
+  {
+    "id": "NPC-0090",
+    "asset": "assets/NPC-0090-front-v1.png",
+    "sha256": "7b06c73cf2ae98032ee5ed35166812e966cc2cbcab1bf760c5f00433137aef0e",
+    "git_blob_sha": "997b1733324f1072fae754396731ceb667f61341"
+  },
+  {
+    "id": "NPC-0090",
+    "asset": "assets/NPC-0090-front-clean-v1.png",
+    "sha256": "6384fb3d78e09c885e5479bfd6ad29c1521fc8e4d5c3d8542aa098891282a476",
+    "git_blob_sha": "f6fde519c1b350c6adc3c8465c23256c0ad513ac"
+  },
+  {
+    "id": "NPC-0091",
+    "asset": "assets/NPC-0091-front-v1.png",
+    "sha256": "97e087dd6f310b32165f2d7f6cc1075c2ceafc7a674746a10993e5d4b6cb9160",
+    "git_blob_sha": "cb85b1d8997f43ce1bb8c185b4e8137dcfad65e7"
+  },
+  {
+    "id": "NPC-0091",
+    "asset": "assets/NPC-0091-front-clean-v1.png",
+    "sha256": "7b105d95a962a35454fced6d3f91bebaf3626c04f079c4e863706e6054bf8045",
+    "git_blob_sha": "af89001e91a6328ca6d345d06c3049d9a47d9c79"
+  },
+  {
+    "id": "NPC-0092",
+    "asset": "assets/NPC-0092-front-v1.png",
+    "sha256": "94cccea299e8511cd2db5440bce71a732ca055cc745e7f73ee24ab4103638e77",
+    "git_blob_sha": "2e8211b040547eaa74b9441ffc0f49e69a4ee99b"
+  },
+  {
+    "id": "NPC-0092",
+    "asset": "assets/NPC-0092-front-clean-v1.png",
+    "sha256": "6622634aaec430a098cc4b3290b7cc4849a3f3c8f4b406bf5a131f182fc96ad6",
+    "git_blob_sha": "475ba3b885ed8933079e60db7de1c11d1bfc0e9e"
+  },
+  {
+    "id": "NPC-0093",
+    "asset": "assets/NPC-0093-front-v1.png",
+    "sha256": "03460ac27a866a3b425c68f1f592ea24b06586ee66c0611bc8c593f130802185",
+    "git_blob_sha": "22287cbf646a8b3930edbd5edb5bd79a7d68cf5f"
+  },
+  {
+    "id": "NPC-0093",
+    "asset": "assets/NPC-0093-front-clean-v1.png",
+    "sha256": "776d854945389048f7d7e81bba7b516a229b859ab2c3b3ee629ecc4da32b741a",
+    "git_blob_sha": "dc0afe0523dbcd9f12621256b1e4d965826126e6"
+  },
+  {
+    "id": "NPC-0094",
+    "asset": "assets/NPC-0094-front-v1.png",
+    "sha256": "f801e68620cd5a317e2239a75102af35f4524671d6250aabba67df5167c56a98",
+    "git_blob_sha": "3e3689a5cd5e4cf5dc8d97f9d4b302091b50d8ed"
+  },
+  {
+    "id": "NPC-0094",
+    "asset": "assets/NPC-0094-front-clean-v1.png",
+    "sha256": "a0516ec42d7676a5a60e8733968e6ddbfdc3d802ed9560f9afc730607bd33606",
+    "git_blob_sha": "7a511c58060edc7e29e047c3411bb4750cb14ad5"
+  },
+  {
+    "id": "NPC-0095",
+    "asset": "assets/NPC-0095-front-v1.png",
+    "sha256": "2a16a46b741b8a8447e895d391063d6a188e9fb63b5969d9d2c2801df3ed4447",
+    "git_blob_sha": "3ca93b761e35e45fe520613b1b557c6b3de1afc8"
+  },
+  {
+    "id": "NPC-0095",
+    "asset": "assets/NPC-0095-front-clean-v1.png",
+    "sha256": "22f90ed5e2775214fb1b1ae666c77547ed4a78ab0b9e75dd9be5b18844603aa7",
+    "git_blob_sha": "d4947daeb135e1c9a0d9a058faf5887cb199a97d"
+  },
+  {
+    "id": "NPC-0096",
+    "asset": "assets/NPC-0096-front-v1.png",
+    "sha256": "d1f98e615add55b64987fbdc6db4915d07755c1bdbb8b362ea5ca03b388fb7ee",
+    "git_blob_sha": "6abafda1654ffd72a92d7872a8bdba0be9fba8a8"
+  },
+  {
+    "id": "NPC-0096",
+    "asset": "assets/NPC-0096-front-clean-v1.png",
+    "sha256": "55f80ecac897ecc7a1981c8bee585c3aaba8598702d00676a79b03e61bd3e71e",
+    "git_blob_sha": "ea9e5f91469e00d7959c720e73496f52dcc3018b"
+  },
+  {
+    "id": "NPC-0097",
+    "asset": "assets/NPC-0097-front-v1.png",
+    "sha256": "6c59960907c1905bd9714121aa5acf3455b72736a06ec51f79675bd49cc1f505",
+    "git_blob_sha": "e31b36488e0a2ddc588dba90a7355ee60bd3f243"
+  },
+  {
+    "id": "NPC-0097",
+    "asset": "assets/NPC-0097-front-clean-v1.png",
+    "sha256": "b017b34a509ed6195600bee4817fa148e53b3bb57dd036e503ae3f49d91e8cae",
+    "git_blob_sha": "e316db21429c2c683c2105356373cf1efef2962c"
+  },
+  {
+    "id": "NPC-0098",
+    "asset": "assets/NPC-0098-front-v1.png",
+    "sha256": "52aa5c18ed516c61f38b11f18483bf727466a970ca1df0ee50a5c56361a04ba6",
+    "git_blob_sha": "38e755d1fdfce4a74be56c3bc643f7e2318c6fdd"
+  },
+  {
+    "id": "NPC-0098",
+    "asset": "assets/NPC-0098-front-clean-v1.png",
+    "sha256": "e7dfad7a9d5bf854767a909af4e23f85445ad008d58590fc5fca9a5b2d0c029e",
+    "git_blob_sha": "faf7551b344d0c46f2092f20fa63c46bfce56098"
+  },
+  {
+    "id": "NPC-0099",
+    "asset": "assets/NPC-0099-front-v1.png",
+    "sha256": "cb725dc0c87969a304b3672806f1dc091c0b9c1223641a51251c0234359c3fa4",
+    "git_blob_sha": "7ce1f4cd5cde375d86e3b7f17fdc35bec6d866c8"
+  },
+  {
+    "id": "NPC-0099",
+    "asset": "assets/NPC-0099-front-clean-v1.png",
+    "sha256": "cdffbeda51ecb061d2b14571c6c052484464870f272375dcf60e79e6f67bce80",
+    "git_blob_sha": "3052d2ea807473ae09d39cc3dc475867188a7948"
+  },
+  {
+    "id": "NPC-0100",
+    "asset": "assets/NPC-0100-front-v1.png",
+    "sha256": "58a6abf4af01f95fb04c0d9498e67ca389ff9cb94fcd36686dece6f64ab6771b",
+    "git_blob_sha": "afb2a7acd5fb47fbb5d56cfd229133cdcc766077"
+  },
+  {
+    "id": "NPC-0100",
+    "asset": "assets/NPC-0100-front-clean-v1.png",
+    "sha256": "3ef03404d06cbda070d2cdd64b66c52c625d29c0dc8d48dca52dcbf6a517bf6e",
+    "git_blob_sha": "fdf4095e937de982896bb617f36675400e0ee757"
+  },
+  {
+    "id": "NPC-0101",
+    "asset": "assets/NPC-0101-front-v1.png",
+    "sha256": "81952b40cd22eb37bef4ffb437934f23efa04bae033fe7e7dbca9a934dcce0ce",
+    "git_blob_sha": "4bf9974a9dcc5498972b4e424128dd9087d592fa"
+  },
+  {
+    "id": "NPC-0101",
+    "asset": "assets/NPC-0101-front-clean-v1.png",
+    "sha256": "68991ab819880ff4231977bd901379305113d792e685fdbcbbdf4d0f5edc235a",
+    "git_blob_sha": "6ed62213423bb55f7c102a7c55109ef53b86370e"
+  },
+  {
+    "id": "NPC-0102",
+    "asset": "assets/NPC-0102-front-v1.png",
+    "sha256": "b94f63f07173db3a9993a803e06e36a797aad50339c569b9c031787c90e554a0",
+    "git_blob_sha": "2fcc78d282ca56a1e7ae08ff92204f5c0d162d26"
+  },
+  {
+    "id": "NPC-0102",
+    "asset": "assets/NPC-0102-front-clean-v1.png",
+    "sha256": "4812e9563594f3912d731fb9bf1f2e60676f930b5bfb734620bfd82bb11c9a95",
+    "git_blob_sha": "e352c835ec12a79563d0c0b7a198ddcd5d418a3f"
+  },
+  {
+    "id": "NPC-0103",
+    "asset": "assets/NPC-0103-front-v1.png",
+    "sha256": "35a5efb1608ef1e7b797b1d360459b9a5e3d024abbf3472c2b74864a7c3665d5",
+    "git_blob_sha": "cc9db624546e7e01c6bf92e41c10791402f20f07"
+  },
+  {
+    "id": "NPC-0103",
+    "asset": "assets/NPC-0103-front-clean-v1.png",
+    "sha256": "aa3c5ca4ff88150615030ffa1ff949e34e2d7b28b3a0c1ba280171b50901c252",
+    "git_blob_sha": "f47b8e63147ee91a8a6d6e3f86a0875ef7e1b701"
+  },
+  {
+    "id": "NPC-0104",
+    "asset": "assets/NPC-0104-front-v1.png",
+    "sha256": "484a2f8ac615d58457de229dd2920298a3629f17c4802110da44af7c3e7f33e3",
+    "git_blob_sha": "2136ce779f35180e47e2ec8dc7185d09f47e61a3"
+  },
+  {
+    "id": "NPC-0104",
+    "asset": "assets/NPC-0104-front-clean-v1.png",
+    "sha256": "a712af5d81a556dc060a95c7b4c38953211b446a158790c529bcfd4d1fbe51c7",
+    "git_blob_sha": "4d31a74c2ff78681a22334e29d150990335e89ce"
+  },
+  {
+    "id": "NPC-0105",
+    "asset": "assets/NPC-0105-front-v1.png",
+    "sha256": "228e00e8cd69065393af367b8fca15951fdaac8bd357472e0728d8100c215a0c",
+    "git_blob_sha": "9bbed66d046e68ea01afe652a34054e76e942113"
+  },
+  {
+    "id": "NPC-0105",
+    "asset": "assets/NPC-0105-front-clean-v1.png",
+    "sha256": "89db2a031a6692d3cb785bff9f727b080d95524098b0b9c0e0ffd75bb834d52e",
+    "git_blob_sha": "4e6dded131a548c4613ab631d8909b395cc22f8c"
+  },
+  {
+    "id": "NPC-0106",
+    "asset": "assets/NPC-0106-front-v1.png",
+    "sha256": "3b47368f8e5de92c8f948f44f32ea8b901fec1696c8ac40d1c392c3adb10dd57",
+    "git_blob_sha": "700d0bc6592cebede06c9e18943e36ebd8105272"
+  },
+  {
+    "id": "NPC-0106",
+    "asset": "assets/NPC-0106-front-clean-v1.png",
+    "sha256": "216d49f8408ecf279fd6555536be4d7d89eb182b248e4f8b77bb364442c78413",
+    "git_blob_sha": "ea59d7d7d121ac5208eb617654032af99fec1983"
+  },
+  {
+    "id": "NPC-0107",
+    "asset": "assets/NPC-0107-front-v1.png",
+    "sha256": "c3b344edc3465a46dc0422047a1c563205493370efe58b7548bbcf81f2904929",
+    "git_blob_sha": "ec84ba6db8c53ba671cbccf0455b797765b5604f"
+  },
+  {
+    "id": "NPC-0107",
+    "asset": "assets/NPC-0107-front-clean-v1.png",
+    "sha256": "1b5a0b666ecec763d495870f63be4ea77dfa2899c3e49526b9513d19cf91380f",
+    "git_blob_sha": "9e2c35d6d3e1bc4d06efc71b7fd3c83c28570b8d"
+  },
+  {
+    "id": "NPC-0108",
+    "asset": "assets/NPC-0108-front-v1.png",
+    "sha256": "d2a00b18d6ebe31c9ca1f0112048d590ccbc66cd19ee0b39926904d57be88458",
+    "git_blob_sha": "75be57d80d10f2fd22f7cdbc31f989730ece06c4"
+  },
+  {
+    "id": "NPC-0108",
+    "asset": "assets/NPC-0108-front-clean-v1.png",
+    "sha256": "76fe497e216e952f7f90018a5dfc128badae05c564927892c516757ba913eed7",
+    "git_blob_sha": "c454e4bbfb1026084a64896d9b80360f6215fa7d"
+  },
+  {
+    "id": "NPC-0109",
+    "asset": "assets/NPC-0109-front-v1.png",
+    "sha256": "893d2372e8706c6838c283b15a32207a598f8dbebf90aa7d64fadc3cae866fdb",
+    "git_blob_sha": "26781fdb0cde5ed0034093433da369953e595eb8"
+  },
+  {
+    "id": "NPC-0109",
+    "asset": "assets/NPC-0109-front-clean-v1.png",
+    "sha256": "131b334083a69d0b8fc38d098953353607cf3b413722054c4bd4d31d20077d9b",
+    "git_blob_sha": "27c907d1bb44f51b87a27b811483ac7088cef3dc"
+  },
+  {
+    "id": "NPC-0110",
+    "asset": "assets/NPC-0110-front-v1.png",
+    "sha256": "ab5bda657b8812c218b878db512c68b88e5ba0c9225400d4e9001e97dcd82cb3",
+    "git_blob_sha": "380659a9e73af6ebb87db3ac5a6b7d9d9928dcbb"
+  },
+  {
+    "id": "NPC-0110",
+    "asset": "assets/NPC-0110-front-clean-v1.png",
+    "sha256": "374cb922ad7ffc07cc1243b79daf0a247373595d5f2c59b994d588b2973e18ea",
+    "git_blob_sha": "3595533b8364b3685537fb8dbdfee6eac92ec1fa"
+  },
+  {
+    "id": "NPC-0111",
+    "asset": "assets/NPC-0111-front-v1.png",
+    "sha256": "78b0d449ee37414808f20e9828059a26660de8be88f5f8b18d720045faa155ae",
+    "git_blob_sha": "a4237c1dfde87ddcb65f24930bee06eca8c79c67"
+  },
+  {
+    "id": "NPC-0111",
+    "asset": "assets/NPC-0111-front-clean-v1.png",
+    "sha256": "ac1569b5aca15aae3655976b345f565231820245cb8771419a12d001b546fe47",
+    "git_blob_sha": "c31d3989712bb1f202db12efd18e536b734bf677"
+  },
+  {
+    "id": "NPC-0112",
+    "asset": "assets/NPC-0112-front-v1.png",
+    "sha256": "7fca2f51c91dbb3bfc29aa1da9b696da5c24fa6f071c25823183314de8854336",
+    "git_blob_sha": "39ad462ada69f6ddc4b54138f6e047202a224810"
+  },
+  {
+    "id": "NPC-0112",
+    "asset": "assets/NPC-0112-front-clean-v1.png",
+    "sha256": "a5443a1218652cd50fd34c83f5b82ce921996620564f988fef4f0722465829fd",
+    "git_blob_sha": "6ba2dd670f682cbe6606b8c5af47d838cea13630"
+  },
+  {
+    "id": "NPC-0113",
+    "asset": "assets/NPC-0113-front-v1.png",
+    "sha256": "f06ee09862f97647796c1a0e2776da5e35ea56dec2b6d1f7d1f8fce94dcf5755",
+    "git_blob_sha": "35640cfa48d75c0572cac5209b8bc5d046c5e1d3"
+  },
+  {
+    "id": "NPC-0113",
+    "asset": "assets/NPC-0113-front-clean-v1.png",
+    "sha256": "77c31ae655b5d0e50f78a78ebc3cee150c465cfd3fa38f02778872b455368c62",
+    "git_blob_sha": "d9e308b08ab7e7004bcb13138e3087fc846d0eb7"
+  },
+  {
+    "id": "NPC-0114",
+    "asset": "assets/NPC-0114-front-v1.png",
+    "sha256": "258ca3776485099383f70dc4449964de3723a2ef089592c3ebfc759c136e52c7",
+    "git_blob_sha": "5fc01c757ec80fda0128b3f01b15b1c3b0d4b04e"
+  },
+  {
+    "id": "NPC-0114",
+    "asset": "assets/NPC-0114-front-clean-v1.png",
+    "sha256": "d3e013992226ee18c4b756114a8a53ed6d1a0e5c889a878b6f9c4239b46ee3f9",
+    "git_blob_sha": "d2c9e48efe6a631bf5c97e52a019daef200bdda0"
+  },
+  {
+    "id": "NPC-0115",
+    "asset": "assets/NPC-0115-front-v1.png",
+    "sha256": "59db676fd86a2db7679f6de3067660cb17d1ec2f558633c10f79be6968471415",
+    "git_blob_sha": "996305ef96db8cc11feed2108ca7e551f41b0dcb"
+  },
+  {
+    "id": "NPC-0115",
+    "asset": "assets/NPC-0115-front-clean-v1.png",
+    "sha256": "b6fe858a0b095ca43659a96b931bfb56a81fd3a32de83973946d6d9ceeda174d",
+    "git_blob_sha": "eb63855edb00fed442feea0161295874782bdef1"
+  },
+  {
+    "id": "NPC-0116",
+    "asset": "assets/NPC-0116-front-v1.png",
+    "sha256": "086d3ac28b7acdb1b02b0b33a786e5c0cf9242cc63d3e5d1059b6e1ae973349c",
+    "git_blob_sha": "b35e4402f373a705937019098487dd04e5a49a31"
+  },
+  {
+    "id": "NPC-0116",
+    "asset": "assets/NPC-0116-front-clean-v1.png",
+    "sha256": "e7b3ed0a41dbad522c709e50dad3ba11cf69bf12e9129e59dff2f8827ea1a817",
+    "git_blob_sha": "610608d97db1d8bb641d96ed83e0759dce294afa"
+  },
+  {
+    "id": "NPC-0117",
+    "asset": "assets/NPC-0117-front-v1.png",
+    "sha256": "debc4691444207a118091002e2df7d94d92d47cb03d1f2271a43a3ea6fb0e339",
+    "git_blob_sha": "94e909db6e79e8f659cf1ed804e1ca7cc05b0b8f"
+  },
+  {
+    "id": "NPC-0117",
+    "asset": "assets/NPC-0117-front-clean-v1.png",
+    "sha256": "d3a3acf1e51a231a4e51051ef02473f893515c5fbe8c3055936a017260847b78",
+    "git_blob_sha": "4a66f2f6252d32886e07607dfecfaa35f6c3ae5f"
+  },
+  {
+    "id": "NPC-0118",
+    "asset": "assets/NPC-0118-front-v1.png",
+    "sha256": "120fd223818fbb4b0c21bc2e7ee149cf18655c368389adbef4dc17f80aaa26e1",
+    "git_blob_sha": "f38fb916e4cd6192324dca145f474224a7f4fa3c"
+  },
+  {
+    "id": "NPC-0118",
+    "asset": "assets/NPC-0118-front-clean-v1.png",
+    "sha256": "8155bb838be6166c6cc7436a54966dd7b9890db8af5e6b9719cc82288d3ba8ca",
+    "git_blob_sha": "66be3c3029e1c96faf2ef60c1efa2cb379717b44"
+  },
+  {
+    "id": "NPC-0119",
+    "asset": "assets/NPC-0119-front-v1.png",
+    "sha256": "b6aa61950a72f8134a5b8c3efd07e301b3e545ec911fbc696ca36c0c9cfa6064",
+    "git_blob_sha": "c5bda0d5b6e3a40c603af0875e0f4ecc7748aa57"
+  },
+  {
+    "id": "NPC-0119",
+    "asset": "assets/NPC-0119-front-clean-v1.png",
+    "sha256": "0a1169a0e76a6ce68249826194171cf4a5499608e613dc6fea444cdfc61a8f56",
+    "git_blob_sha": "5083b8bd909c1241c78a792c9cc61ee9bf7edf4f"
+  },
+  {
+    "id": "NPC-0120",
+    "asset": "assets/NPC-0120-front-v1.png",
+    "sha256": "1f8a704c64bdd3dc5c998ff836a0ff241e9a4da1f939a4159b3de7d6f3451a68",
+    "git_blob_sha": "174cba7355c988b0c923a0197c1761ab9007bf7b"
+  },
+  {
+    "id": "NPC-0120",
+    "asset": "assets/NPC-0120-front-clean-v1.png",
+    "sha256": "c08676e414ada172041f45fdb87d619cd05c7d6cea30eb5a50d9790dea76da2a",
+    "git_blob_sha": "29e800e7d3f9fd372056c55e7e10e45117b66dc1"
+  },
+  {
+    "id": "NPC-0121",
+    "asset": "assets/NPC-0121-front-v1.png",
+    "sha256": "506aa8e7060b7ac19d6220744a0d9a9591e2d9bc198e3d9eafe6bbe793738bac",
+    "git_blob_sha": "3622d590ca072df6dff0382f5ae46a123d18461c"
+  },
+  {
+    "id": "NPC-0121",
+    "asset": "assets/NPC-0121-front-clean-v1.png",
+    "sha256": "7ad5ef43aa1a84874de4a333f4fec089c7c86232c22ce296243437a1e7fa7f08",
+    "git_blob_sha": "0d01728434e7862ede3b3f079ce6dd4b82474f98"
+  },
+  {
+    "id": "NPC-0122",
+    "asset": "assets/NPC-0122-front-v1.png",
+    "sha256": "aab75422e060c1d346681f149852d1598697b4d34d574f2f7cd098d29bbf6d10",
+    "git_blob_sha": "e40850714a76ebe258a61d0c20c8d069a4861068"
+  },
+  {
+    "id": "NPC-0122",
+    "asset": "assets/NPC-0122-front-clean-v1.png",
+    "sha256": "60180d75032ce7193ae33be48680b63fa81af1353e60be39de70784bb7e8f7b3",
+    "git_blob_sha": "231d4db8b0ea75a1efd1232f5c0e4b004eab217c"
+  },
+  {
+    "id": "NPC-0123",
+    "asset": "assets/NPC-0123-front-v1.png",
+    "sha256": "8cbf5da10b957c6daae82f40c2cf35ea5f9eb5345bc29ef01feebf6eb0dab621",
+    "git_blob_sha": "61a9237f850b4be3d0e082418eb7be8cb8d82bfe"
+  },
+  {
+    "id": "NPC-0123",
+    "asset": "assets/NPC-0123-front-clean-v1.png",
+    "sha256": "5479bd8ff49683db5fa9104c38c662adb144c23cef88660070305ece02b58f00",
+    "git_blob_sha": "3d2e6be553544c6b926cc74328f7361a6ca10902"
+  },
+  {
+    "id": "NPC-0124",
+    "asset": "assets/NPC-0124-front-v1.png",
+    "sha256": "69599906c282282bb06332a11c972c2777e838b125024114beb591cfeeecd2fe",
+    "git_blob_sha": "3d31b56fe3b75491072019977d8585077e71d2d2"
+  },
+  {
+    "id": "NPC-0124",
+    "asset": "assets/NPC-0124-front-clean-v1.png",
+    "sha256": "22e42be44e06f46306720620fe35ed840f83bde6030c7c6b27671053419d2d06",
+    "git_blob_sha": "082ee5b451eda4d3c1a940099625fecede4bdcc8"
+  },
+  {
+    "id": "NPC-0125",
+    "asset": "assets/NPC-0125-front-v1.png",
+    "sha256": "9c62f51bbb82ee53686aff06cc881ef9c7996aa2bf622478261a02441d92a6d1",
+    "git_blob_sha": "66ef2ca49f4be7b652e0a80f6b501370d4bd666e"
+  },
+  {
+    "id": "NPC-0125",
+    "asset": "assets/NPC-0125-front-clean-v1.png",
+    "sha256": "7ef7388ae81e3972ed64e16078d2c6c4030e387417ab217258357265f5588c7a",
+    "git_blob_sha": "0b0259fc164e07ddda230777e4735296e04a47c6"
+  },
+  {
+    "id": "NPC-0126",
+    "asset": "assets/NPC-0126-front-v1.png",
+    "sha256": "97ec0f345c898d3d636d05cbd04acd93e6640953c20a9875964e573c5e78a28d",
+    "git_blob_sha": "fb8192a49b2c82999dbbead0b3ae20215ecd0b3f"
+  },
+  {
+    "id": "NPC-0126",
+    "asset": "assets/NPC-0126-front-clean-v1.png",
+    "sha256": "9eae671d2d71836f539e164d5857d1f7bbc3c448c2de38439abde02cec90ffdb",
+    "git_blob_sha": "b5fb84378daa1320e28b1a209ead818630751522"
+  },
+  {
+    "id": "NPC-0127",
+    "asset": "assets/NPC-0127-front-v1.png",
+    "sha256": "49864bd9285238bfe58d370b1cbebca210d31f6022132565acecea978b5a8468",
+    "git_blob_sha": "089692864c0b5ce94ad4ce6cd42856517e86f799"
+  },
+  {
+    "id": "NPC-0127",
+    "asset": "assets/NPC-0127-front-clean-v1.png",
+    "sha256": "fc9818540cdcb372f341cb9d97648928255e05f5554dd09d245576e8958cf3b7",
+    "git_blob_sha": "834e6c36475e0d03d0e47845737b19de03f31d71"
+  },
+  {
+    "id": "NPC-0128",
+    "asset": "assets/NPC-0128-front-v1.png",
+    "sha256": "51dcac7689555944b34dffef81baf221fec60f468bf732c111eee42aeef8cd3c",
+    "git_blob_sha": "e1b3d834299845701137bb001d39a216679df39c"
+  },
+  {
+    "id": "NPC-0128",
+    "asset": "assets/NPC-0128-front-clean-v1.png",
+    "sha256": "31778fef5a2a768637cc5f20b10759a67381927ba6ca699a913531dadf21886f",
+    "git_blob_sha": "3f30f7dfc99571451de0d4466344c871532654c0"
+  },
+  {
+    "id": "NPC-0129",
+    "asset": "assets/NPC-0129-front-v1.png",
+    "sha256": "441bcc4f71cfd07b06dd99f82afc410fd6f0174c6188ec5b8255c00e24243827",
+    "git_blob_sha": "79d528ca2fca36977e2ad2e6ebc9a3b87a3ba805"
+  },
+  {
+    "id": "NPC-0129",
+    "asset": "assets/NPC-0129-front-clean-v1.png",
+    "sha256": "5f0d1bc6511bf03711a9988fccb3073c2ce41b87e02898309c8e6ab9bdbb1b91",
+    "git_blob_sha": "dd6fb431719cf1a6737da0166d6e17222a36f0de"
+  },
+  {
+    "id": "NPC-0130",
+    "asset": "assets/NPC-0130-front-v1.png",
+    "sha256": "80b582f8f295cbbc3c1bac9a0d07f06bac2e25404c60bc2b0bca6283135696f1",
+    "git_blob_sha": "bbedb074586f28dfd031e312b9269e518881fbf0"
+  },
+  {
+    "id": "NPC-0130",
+    "asset": "assets/NPC-0130-front-clean-v1.png",
+    "sha256": "597d08c54a026482712f5ef76cc4729ac190eaf645b7fb96cb66ccd07b9fa3e5",
+    "git_blob_sha": "27be7415865b73571e5ae6646f61b845d085ca8b"
+  },
+  {
+    "id": "NPC-0131",
+    "asset": "assets/NPC-0131-front-v1.png",
+    "sha256": "f3294ed3d827ecc2d0927ecd921ee39c9ec0c369397eb241ed1f26287c27ed63",
+    "git_blob_sha": "e0ba959f95876fe5f90ae342eb7e75fbf7a6c5c7"
+  },
+  {
+    "id": "NPC-0131",
+    "asset": "assets/NPC-0131-front-clean-v1.png",
+    "sha256": "7c58734f34cff47f6afcd4a06d2891d94e880b415e8d33a5baee6c2c428e30af",
+    "git_blob_sha": "b7a4222ca0b5d9a149e1703785c118c5f0e534c8"
+  },
+  {
+    "id": "NPC-0132",
+    "asset": "assets/NPC-0132-front-v1.png",
+    "sha256": "2d179be558f6c738c9086a92c8ad2e165c8cd6129b40c99b44af054e68bc2dde",
+    "git_blob_sha": "5cc707636356d14e5fd56ab412a7b8b0cd5f4bfe"
+  },
+  {
+    "id": "NPC-0132",
+    "asset": "assets/NPC-0132-front-clean-v1.png",
+    "sha256": "9d1bdf28e66d5a9bc32e8d05462fabc1517bc84fe6149ed503f59c88b667fb04",
+    "git_blob_sha": "440a8a0c70d773cf0f16397d6afb053e3da2f92c"
+  }
+]

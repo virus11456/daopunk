@@ -323,3 +323,8 @@
 ### NPC 0123–0132 靜態角色交付
 
 新增最後十位正面角色原稿、40×48 像素清理版與檢查紀錄。本階段 100／100 位已完成本機檢查；全庫 142 位（含另行授權的 0133–0142）。[本批預覽](docs/art-direction/npc-1000/contact-sheet-0123-0132.png)。動畫與 Godot 整合尚未製作。
+
+
+### 百位 NPC 階段完成：0033–0132
+
+100／100 位已完成原稿、40×48 像素清理、逐張目視檢查、本機交付及遠端圖片雜湊驗證。全庫累計 142 位，長期 1,000 位目標尚餘 858 位。[本階段交付索引](docs/art-direction/npc-1000/PHASE-100-DELIVERY.md) · [可搜尋圖庫](docs/art-direction/npc-1000/phase-100-gallery.html) · [百位總覽](docs/art-direction/npc-1000/phase-100-contact.png)。本機下載包：outputs/npc-1000/DAOPUNK-NPC-0033-0132.zip。依授權於本階段完成後暫停既有排程；動畫、四方向及 Godot 整合尚未製作。

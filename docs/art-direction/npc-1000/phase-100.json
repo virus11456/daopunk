@@ -4,12 +4,12 @@
   "phase_target": 100,
   "batch_size": 10,
   "phase_reviewed": 100,
-  "phase_synced": 90,
+  "phase_synced": 100,
   "cumulative_target": 142,
-  "next_id": "NPC-0133",
+  "next_id": null,
   "stop_after_phase": true,
-  "status": "reviewed_pending_sync",
-  "verified_asset_commit": "3b7aaae59f28c439bf5e9046e88514df5a81863e",
+  "status": "complete_verified",
+  "verified_asset_commit": "cf36459f72806d673744a9bdcf435c4b425efdee",
   "pending_cleanup_ids": [],
   "additional_outside_phase": {
     "start": "NPC-0133",
@@ -19,5 +19,7 @@
     "synced": 10,
     "verified_asset_commit": "956d906744caa6a1ec67dcd6db274a0b23a9dfc4"
   },
-  "completion_rule": "Count only accepted and remotely verified IDs NPC-0033–0132; extra IDs do not advance phase."
+  "completion_rule": "Count only accepted and remotely verified IDs NPC-0033–0132; extra IDs do not advance phase.",
+  "delivery_index": "phase-100-gallery.html",
+  "delivery_package": "DAOPUNK-NPC-0033-0132.zip"
 }
