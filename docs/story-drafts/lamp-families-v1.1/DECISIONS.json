@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "id": "L11-D1",
+      "topic": "十年軟目標或硬上限及保障",
+      "status": "pending_user_reply",
+      "decision": null
+    },
+    {
+      "id": "L11-D2",
+      "topic": "半選擇由玩家或角色經驗，或取消",
+      "status": "pending_user_reply",
+      "decision": null
+    },
+    {
+      "id": "L11-D3",
+      "topic": "親屬排除範圍",
+      "status": "pending_user_reply",
+      "decision": null
+    },
+    {
+      "id": "LF-D4",
+      "topic": "沈家納入（沿用待答）",
+      "status": "pending_user_reply",
+      "decision": null
+    },
+    {
+      "id": "LF-D3",
+      "topic": "林家不知情（沿用待答）",
+      "status": "pending_user_reply",
+      "decision": null
+    },
+    {
+      "id": "LF-D2",
+      "topic": "人類人口規模（沿用待答）",
+      "status": "pending_user_reply",
+      "decision": null
+    }
+  ],
+  "note": "Submission is latest proposal; its approval claim is not blanket confirmation. Old LF-D1 is superseded by new proposal, not marked adopted."
+}
