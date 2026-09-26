@@ -90,3 +90,7 @@
 最新故事背景：[《燈還掛著》v1.2](docs/story-drafts/background-v1.2/README.md)，已收17項稿內決定與15項連貫性檢查；仍需補齊引用母稿，未視為完整可玩劇本。另新增[NPC知識與秘密分層](docs/contracts/NPC_KNOWLEDGE_BOUNDARIES.md)。
 
 新增[山海探索圖鑑](docs/worldbuilding/SHANHAI_EXPLORATION_CODEX.md)：古籍是遊戲內的宇宙探索紀錄，最早宇宙不只十個；圖鑑允許缺頁、過時與互相矛盾的見聞。[交給Claude的下一批](docs/story-drafts/background-v1.2/NEXT_WRITING_PROMPT.md)。
+
+最新：[山海經v1.1](docs/story-drafts/shanhai-v1.1/README.md)已更新三項決定；[NPC生活離線模型](docs/contracts/NPC_LIFE_DATA.md)通過14項檢查，尚未接入Godot。
+
+[山海圖鑑設計v1.1](docs/story-drafts/shanhai-codex-v1.1/README.md)：開局上百條未見經文、不收一般人物、師父批註提供另一線索路徑已定；內容與圖像尚待逐條製作。

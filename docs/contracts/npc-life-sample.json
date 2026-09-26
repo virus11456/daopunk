@@ -1,0 +1,94 @@
+{
+  "status": "offline_fixture_proposal",
+  "location_id": "U-001-P1-C1",
+  "time_unit": "abstract fixture tick; not canonical hours or calendar",
+  "period": 24,
+  "rain_intervals": [
+    [
+      8,
+      11
+    ]
+  ],
+  "shelter_capacity": 1,
+  "npcs": [
+    {
+      "id": "fixture-carrier",
+      "outdoor": true,
+      "work_start": 6,
+      "work_end": 18
+    },
+    {
+      "id": "fixture-clerk",
+      "outdoor": false,
+      "work_start": 6,
+      "work_end": 18
+    },
+    {
+      "id": "fixture-repairer",
+      "outdoor": true,
+      "work_start": 6,
+      "work_end": 18
+    }
+  ],
+  "reports": [
+    {
+      "id": "caravan-rumor",
+      "channel": "caravan",
+      "occurred_at": 4,
+      "published_at": 6,
+      "due_at": 9,
+      "recipients": [
+        "fixture-repairer"
+      ],
+      "root_source_id": "port-office",
+      "supersedes": [],
+      "claim_id": "route_status",
+      "claim": "route closed"
+    },
+    {
+      "id": "wire-original",
+      "channel": "wire",
+      "occurred_at": 4,
+      "published_at": 6,
+      "due_at": 9,
+      "recipients": [
+        "fixture-clerk"
+      ],
+      "root_source_id": "port-office",
+      "supersedes": [],
+      "claim_id": "route_status",
+      "claim": "route closed"
+    },
+    {
+      "id": "wire-repeat",
+      "channel": "wire",
+      "occurred_at": 4,
+      "published_at": 7,
+      "due_at": 13,
+      "recipients": [
+        "fixture-clerk"
+      ],
+      "root_source_id": "port-office",
+      "supersedes": [],
+      "claim_id": "route_status",
+      "claim": "route closed"
+    },
+    {
+      "id": "wire-correction",
+      "channel": "wire",
+      "occurred_at": 4,
+      "published_at": 14,
+      "due_at": 15,
+      "recipients": [
+        "fixture-clerk"
+      ],
+      "root_source_id": "port-office",
+      "supersedes": [
+        "wire-original",
+        "wire-repeat"
+      ],
+      "claim_id": "route_status",
+      "claim": "route reopening"
+    }
+  ]
+}
