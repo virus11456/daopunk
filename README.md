@@ -76,3 +76,5 @@
 已收[Claude第一批A～D故事草稿](docs/story-drafts/claude-batch-01/README.md)，保留原文並附一致性檢查；尚未將新增真相全部定案或接入Godot。
 
 已續收[R01紅篇《一盞燈的高度》](docs/story-drafts/red-r01/README.md)，與第一批S01及未來S02分開管理。
+
+故事續稿：[Z01零號篇《半邊夢》](docs/story-drafts/zero-z01/README.md)已收錄；全部交稿、已答決策與修訂入口見[故事交稿索引](docs/story-drafts/README.md)。

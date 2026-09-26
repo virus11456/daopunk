@@ -36,3 +36,5 @@
 - [Claude第一批故事交稿](../story-drafts/claude-batch-01/README.md)：原文、12項一致性檢查與修訂提示；提案未自動定案。
 
 - [R01紅篇《一盞燈的高度》收稿](../story-drafts/red-r01/README.md)：第一世共同經歷、9項檢查與修訂提示。
+
+- [外部故事交稿索引](../story-drafts/README.md)：S01、R01、Z01原稿與逐篇修訂提示。
