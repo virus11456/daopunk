@@ -272,3 +272,17 @@ NPC-0063～0072已完成靜態設計與像素清理，累計72位。本階段40�
 - [background-v1.5](docs/story-drafts/background-v1.5/README.md)
 
 無自動終局的修正已見於新稿；證據來源、世界時間與晚到補救、結局條件仍待局部對齊，詳各篇 REVIEW。
+
+
+## 人物、地點、事件與圖鑑收稿
+
+六份新稿與原稿、審閱、Claude 精修包：
+
+- [late-life-v1](docs/story-drafts/late-life-v1/README.md)
+- [late-companions-v1](docs/story-drafts/late-companions-v1/README.md)
+- [locations-30-eras-v1](docs/story-drafts/locations-30-eras-v1/README.md)
+- [events-031-060-v1](docs/story-drafts/events-031-060-v1/README.md)
+- [shanhai-20-v1](docs/story-drafts/shanhai-20-v1/README.md)
+- [main-v2.1](docs/story-drafts/main-v2.1/README.md)
+
+已核對30個既有地點ID、30個事件短ID及20條圖鑑數量；事件分類統計與完整模板欄位仍需修訂。建木來源与圖鑑星球候選另附。提案未升格正史，未接Godot，未新增圖片完成數。

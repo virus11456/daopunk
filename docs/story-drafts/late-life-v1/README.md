@@ -1,0 +1,8 @@
+# DAOPUNK｜人物晚年篇 v1：紅、零號、星塵、大師兄｜收稿
+
+原稿保留；文本覆核完成，待局部修訂。提案未升格正史，未接 Godot。
+
+- [原稿](ORIGINAL.md)
+- [覆核](REVIEW.md)
+- [Claude 完整交接包](CLAUDE_HANDOFF.md)
+- [來源收據](receipt.json)

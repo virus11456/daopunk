@@ -1,0 +1,160 @@
+{
+  "count": 30,
+  "unique": 30,
+  "heading_ids_sequential": true,
+  "claimed_distribution_sum": 32,
+  "claimed_two_batches_sum": 64,
+  "note": "欄位字面盤點不是語意驗收；玩家到場型須另外明標不生成實例。",
+  "events": [
+    {
+      "id": "EV-031",
+      "explicit_choice_field": true,
+      "explicit_absence_field": true
+    },
+    {
+      "id": "EV-032",
+      "explicit_choice_field": true,
+      "explicit_absence_field": true
+    },
+    {
+      "id": "EV-033",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-034",
+      "explicit_choice_field": true,
+      "explicit_absence_field": true
+    },
+    {
+      "id": "EV-035",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-036",
+      "explicit_choice_field": true,
+      "explicit_absence_field": true
+    },
+    {
+      "id": "EV-037",
+      "explicit_choice_field": true,
+      "explicit_absence_field": true
+    },
+    {
+      "id": "EV-038",
+      "explicit_choice_field": true,
+      "explicit_absence_field": true
+    },
+    {
+      "id": "EV-039",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-040",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-041",
+      "explicit_choice_field": true,
+      "explicit_absence_field": true
+    },
+    {
+      "id": "EV-042",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-043",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-044",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-045",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-046",
+      "explicit_choice_field": false,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-047",
+      "explicit_choice_field": false,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-048",
+      "explicit_choice_field": false,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-049",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-050",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-051",
+      "explicit_choice_field": false,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-052",
+      "explicit_choice_field": false,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-053",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-054",
+      "explicit_choice_field": false,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-055",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-056",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-057",
+      "explicit_choice_field": false,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-058",
+      "explicit_choice_field": false,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-059",
+      "explicit_choice_field": false,
+      "explicit_absence_field": false
+    },
+    {
+      "id": "EV-060",
+      "explicit_choice_field": true,
+      "explicit_absence_field": false
+    }
+  ]
+}

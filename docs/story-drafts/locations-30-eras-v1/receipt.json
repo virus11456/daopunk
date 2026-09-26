@@ -1,0 +1,8 @@
+{
+  "source_type": "user_message_transcription",
+  "source": "本次使用者貼文（保留文句，文字檔末尾加換行）",
+  "saved_original_sha256": "2ac96d5dff5f033e04cf37ee351f1e03ed97e6e22b5aa258599b2d61e0bfed8e",
+  "status": "received_reviewed_pending_revision",
+  "canon_changes": false,
+  "godot_implemented": false
+}

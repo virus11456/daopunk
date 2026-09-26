@@ -1,0 +1,8 @@
+# DAOPUNK｜後期同伴篇 v1：叁、夏汐、岑絲｜收稿
+
+原稿保留；文本覆核完成，待局部修訂。提案未升格正史，未接 Godot。
+
+- [原稿](ORIGINAL.md)
+- [覆核](REVIEW.md)
+- [Claude 完整交接包](CLAUDE_HANDOFF.md)
+- [來源收據](receipt.json)
