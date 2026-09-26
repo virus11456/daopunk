@@ -3976,10 +3976,43 @@
       "universe_id": "U-001",
       "role_proposal": "街食攤販",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: round ceramic automaton, street food vendor of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear short round hood and cropped quilted coat, carry compact lidded food pot. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0083 for bookkeeping only, do not write it in image.",
-      "status": "planned_not_generated",
-      "asset": null,
-      "review": null
+      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: round ceramic automaton, street food vendor of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear short round hood and cropped quilted coat, carry compact lidded food pot. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0083 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+      "status": "reviewed_static_design",
+      "asset": "assets/NPC-0083-front-clean-v1.png",
+      "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready.",
+      "planned_prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: round ceramic automaton, street food vendor of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear short round hood and cropped quilted coat, carry compact lidded food pot. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0083 for bookkeeping only, do not write it in image.",
+      "versions": [
+        {
+          "asset": "assets/NPC-0083-front-v1.png",
+          "width": 1145,
+          "height": 1374,
+          "sha256": "8765ef5dd086b25a170998e72afcb3dcb23672c13f453a955e15dca1a0b50253",
+          "git_blob_sha": "1756cb3cce3af7a77e3a2e121595b37b71a4cb9d",
+          "alpha_partial_pixels": 551897,
+          "synced": false,
+          "version": 1,
+          "qa": "visually_reviewed_source_needs_cleanup",
+          "source": "built-in imagegen",
+          "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-b7c889ab-11dd-483c-8abe-97d6097dfd63.png",
+          "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: round ceramic automaton, street food vendor of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear short round hood and cropped quilted coat, carry compact lidded food pot. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0083 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+          "prompt_fidelity": "exact_tool_input"
+        },
+        {
+          "asset": "assets/NPC-0083-front-clean-v1.png",
+          "width": 40,
+          "height": 48,
+          "sha256": "41443512ffba9174191315feb4d6e96fc1decf63c24bc4325bd916558684e94b",
+          "git_blob_sha": "296cd659efe46bd82cccea592eeb1441223aec75",
+          "alpha_partial_pixels": 0,
+          "synced": false,
+          "version": "clean-v1",
+          "qa": "accepted_static_front_design",
+          "source": "user-authorized deterministic pixel cleanup",
+          "source_asset": "assets/NPC-0083-front-v1.png",
+          "cleanup_recipe": "batch-0083-0092-cleanup.py",
+          "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready."
+        }
+      ]
     },
     {
       "id": "NPC-0084",
@@ -3988,10 +4021,43 @@
       "universe_id": "U-001",
       "role_proposal": "信使",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: brass insectoid service construct, courier of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear broad round work helmet and one-shoulder wrap, carry sealed message tube. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0084 for bookkeeping only, do not write it in image.",
-      "status": "planned_not_generated",
-      "asset": null,
-      "review": null
+      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: brass insectoid service construct, courier of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear broad round work helmet and one-shoulder wrap, carry sealed message tube. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0084 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+      "status": "reviewed_static_design",
+      "asset": "assets/NPC-0084-front-clean-v1.png",
+      "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready.",
+      "planned_prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: brass insectoid service construct, courier of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear broad round work helmet and one-shoulder wrap, carry sealed message tube. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0084 for bookkeeping only, do not write it in image.",
+      "versions": [
+        {
+          "asset": "assets/NPC-0084-front-v1.png",
+          "width": 1145,
+          "height": 1374,
+          "sha256": "317086c31902b62e7c808d7b874a9460ee3987d15d085ddb9747dca767791438",
+          "git_blob_sha": "078251383e88af645edc513f9900496488997d58",
+          "alpha_partial_pixels": 593289,
+          "synced": false,
+          "version": 1,
+          "qa": "visually_reviewed_source_needs_cleanup",
+          "source": "built-in imagegen",
+          "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-560b2b47-6085-4ba2-bfd6-75e408c1fda6.png",
+          "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: brass insectoid service construct, courier of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear broad round work helmet and one-shoulder wrap, carry sealed message tube. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0084 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+          "prompt_fidelity": "exact_tool_input"
+        },
+        {
+          "asset": "assets/NPC-0084-front-clean-v1.png",
+          "width": 40,
+          "height": 48,
+          "sha256": "96d14e804943eef56ae146b1406adf8d5f8e917ceff7352a262bb21c1223c980",
+          "git_blob_sha": "f9301159135b10d8f03ca89bffdab9494cb6acae",
+          "alpha_partial_pixels": 0,
+          "synced": false,
+          "version": "clean-v1",
+          "qa": "accepted_static_front_design",
+          "source": "user-authorized deterministic pixel cleanup",
+          "source_asset": "assets/NPC-0084-front-v1.png",
+          "cleanup_recipe": "batch-0083-0092-cleanup.py",
+          "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready."
+        }
+      ]
     },
     {
       "id": "NPC-0085",
@@ -4000,10 +4066,43 @@
       "universe_id": "U-001",
       "role_proposal": "夜間巡查員",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial foxlike biped with visible synthetic joints, night inspector of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear leaf-shaped sun visor and short split rain cape, carry hooded inspection lantern. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0085 for bookkeeping only, do not write it in image.",
-      "status": "planned_not_generated",
-      "asset": null,
-      "review": null
+      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial foxlike biped with visible synthetic joints, night inspector of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear leaf-shaped sun visor and short split rain cape, carry hooded inspection lantern. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0085 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+      "status": "reviewed_static_design",
+      "asset": "assets/NPC-0085-front-clean-v1.png",
+      "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready.",
+      "planned_prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial foxlike biped with visible synthetic joints, night inspector of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear leaf-shaped sun visor and short split rain cape, carry hooded inspection lantern. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0085 for bookkeeping only, do not write it in image.",
+      "versions": [
+        {
+          "asset": "assets/NPC-0085-front-v1.png",
+          "width": 1145,
+          "height": 1374,
+          "sha256": "9b3a0f40bb72b09e100c02f2770ec999c048ec60a1f291c50810b93e1ed020b3",
+          "git_blob_sha": "0dbaa8d0f2a0d552dcc5050114dea47dfbb121ee",
+          "alpha_partial_pixels": 591659,
+          "synced": false,
+          "version": 1,
+          "qa": "visually_reviewed_source_needs_cleanup",
+          "source": "built-in imagegen",
+          "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-90a249ea-0cb3-432a-a58d-1be725215805.png",
+          "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial foxlike biped with visible synthetic joints, night inspector of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear leaf-shaped sun visor and short split rain cape, carry hooded inspection lantern. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0085 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+          "prompt_fidelity": "exact_tool_input"
+        },
+        {
+          "asset": "assets/NPC-0085-front-clean-v1.png",
+          "width": 40,
+          "height": 48,
+          "sha256": "96cbe2cf841a70fbc29cac4c774879bfb9b9f5e7aec48c0be4a2ca396e9ee0e4",
+          "git_blob_sha": "ba961b25e17e6af0be37051b5004dd9e886850f9",
+          "alpha_partial_pixels": 0,
+          "synced": false,
+          "version": "clean-v1",
+          "qa": "accepted_static_front_design",
+          "source": "user-authorized deterministic pixel cleanup",
+          "source_asset": "assets/NPC-0085-front-v1.png",
+          "cleanup_recipe": "batch-0083-0092-cleanup.py",
+          "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready."
+        }
+      ]
     },
     {
       "id": "NPC-0086",
@@ -4012,10 +4111,43 @@
       "universe_id": "U-001",
       "role_proposal": "醫療助手",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: nonhuman vat-grown leaf-skinned biped, medical assistant of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear flat boat-shaped cap and wide sleeve work tunic, carry small medical case. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0086 for bookkeeping only, do not write it in image.",
-      "status": "planned_not_generated",
-      "asset": null,
-      "review": null
+      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: nonhuman vat-grown leaf-skinned biped, medical assistant of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear flat boat-shaped cap and wide sleeve work tunic, carry small medical case. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0086 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+      "status": "reviewed_static_design",
+      "asset": "assets/NPC-0086-front-clean-v1.png",
+      "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready.",
+      "planned_prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: nonhuman vat-grown leaf-skinned biped, medical assistant of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear flat boat-shaped cap and wide sleeve work tunic, carry small medical case. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0086 for bookkeeping only, do not write it in image.",
+      "versions": [
+        {
+          "asset": "assets/NPC-0086-front-v1.png",
+          "width": 1214,
+          "height": 1295,
+          "sha256": "1c6559cb3b94c4c272bb4e0df7d13003ee9862894fe2c31494c222d543663834",
+          "git_blob_sha": "4c1375542cba0f79a911849d735d1299035f07a4",
+          "alpha_partial_pixels": 649631,
+          "synced": false,
+          "version": 1,
+          "qa": "visually_reviewed_source_needs_cleanup",
+          "source": "built-in imagegen",
+          "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-ce8ce21c-39e2-4d8b-94e3-c45289ea495b.png",
+          "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: nonhuman vat-grown leaf-skinned biped, medical assistant of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear flat boat-shaped cap and wide sleeve work tunic, carry small medical case. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0086 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+          "prompt_fidelity": "exact_tool_input"
+        },
+        {
+          "asset": "assets/NPC-0086-front-clean-v1.png",
+          "width": 40,
+          "height": 48,
+          "sha256": "cce500e291935b7af813c23ca7cb195d4fb350f4f5ff05714bf048c4a629a12e",
+          "git_blob_sha": "ea214beaa79118ebc61ed10b27625368f33fbd9b",
+          "alpha_partial_pixels": 0,
+          "synced": false,
+          "version": "clean-v1",
+          "qa": "accepted_static_front_design",
+          "source": "user-authorized deterministic pixel cleanup",
+          "source_asset": "assets/NPC-0086-front-v1.png",
+          "cleanup_recipe": "batch-0083-0092-cleanup.py",
+          "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready."
+        }
+      ]
     },
     {
       "id": "NPC-0087",
@@ -4024,10 +4156,43 @@
       "universe_id": "U-001",
       "role_proposal": "植栽照護員",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: octagonal screen-head robot, plant caretaker of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear low folded cloth cap and belted layered tabard, carry one seedling pot. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0087 for bookkeeping only, do not write it in image.",
-      "status": "planned_not_generated",
-      "asset": null,
-      "review": null
+      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: octagonal screen-head robot, plant caretaker of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear low folded cloth cap and belted layered tabard, carry one seedling pot. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0087 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+      "status": "reviewed_static_design",
+      "asset": "assets/NPC-0087-front-clean-v1.png",
+      "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready.",
+      "planned_prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: octagonal screen-head robot, plant caretaker of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear low folded cloth cap and belted layered tabard, carry one seedling pot. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0087 for bookkeeping only, do not write it in image.",
+      "versions": [
+        {
+          "asset": "assets/NPC-0087-front-v1.png",
+          "width": 1145,
+          "height": 1374,
+          "sha256": "b10bd83243c567418801e670ac035b5f41f958ee831f124acade386561267f09",
+          "git_blob_sha": "410af9b8afb4e6fb5cfaa8208bf1c255339bc244",
+          "alpha_partial_pixels": 612915,
+          "synced": false,
+          "version": 1,
+          "qa": "visually_reviewed_source_needs_cleanup",
+          "source": "built-in imagegen",
+          "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-48a2484d-4b93-4903-ae70-c522e568ef23.png",
+          "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: octagonal screen-head robot, plant caretaker of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear low folded cloth cap and belted layered tabard, carry one seedling pot. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0087 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+          "prompt_fidelity": "exact_tool_input"
+        },
+        {
+          "asset": "assets/NPC-0087-front-clean-v1.png",
+          "width": 40,
+          "height": 48,
+          "sha256": "af03d27e8b9f6fa36a158782c1abbaf3d1fe14cdd79acea461bf7aefa6e4039b",
+          "git_blob_sha": "ab25f1f91f9569076e1bcb19a79c756404b52f04",
+          "alpha_partial_pixels": 0,
+          "synced": false,
+          "version": "clean-v1",
+          "qa": "accepted_static_front_design",
+          "source": "user-authorized deterministic pixel cleanup",
+          "source_asset": "assets/NPC-0087-front-v1.png",
+          "cleanup_recipe": "batch-0083-0092-cleanup.py",
+          "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready."
+        }
+      ]
     },
     {
       "id": "NPC-0088",
@@ -4036,10 +4201,43 @@
       "universe_id": "U-001",
       "role_proposal": "材料回收員",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial amphibian biped with gill vents, material salvager of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear short round hood and short padded vest, carry salvage clamp. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0088 for bookkeeping only, do not write it in image.",
-      "status": "planned_not_generated",
-      "asset": null,
-      "review": null
+      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial amphibian biped with gill vents, material salvager of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear short round hood and short padded vest, carry salvage clamp. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0088 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+      "status": "reviewed_static_design",
+      "asset": "assets/NPC-0088-front-clean-v1.png",
+      "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready.",
+      "planned_prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial amphibian biped with gill vents, material salvager of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear short round hood and short padded vest, carry salvage clamp. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0088 for bookkeeping only, do not write it in image.",
+      "versions": [
+        {
+          "asset": "assets/NPC-0088-front-v1.png",
+          "width": 1145,
+          "height": 1374,
+          "sha256": "01dcea673ef30367bf5f2880b31b3c0a94145a494d04652f9c01cd0897ad39d7",
+          "git_blob_sha": "d6d32b142bdf9cb2810402e379f84850d01a947b",
+          "alpha_partial_pixels": 578351,
+          "synced": false,
+          "version": 1,
+          "qa": "visually_reviewed_source_needs_cleanup",
+          "source": "built-in imagegen",
+          "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-28021733-eaea-4a60-a565-c8e73b4449d2.png",
+          "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial amphibian biped with gill vents, material salvager of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear short round hood and short padded vest, carry salvage clamp. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0088 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+          "prompt_fidelity": "exact_tool_input"
+        },
+        {
+          "asset": "assets/NPC-0088-front-clean-v1.png",
+          "width": 40,
+          "height": 48,
+          "sha256": "3070f7700379011e1a9348f9da8efb5bd5c8be6f42ab46f679a87dc05160020a",
+          "git_blob_sha": "e40c0420d6c1a3dba91cbf9ba2f2e22427695be6",
+          "alpha_partial_pixels": 0,
+          "synced": false,
+          "version": "clean-v1",
+          "qa": "accepted_static_front_design",
+          "source": "user-authorized deterministic pixel cleanup",
+          "source_asset": "assets/NPC-0088-front-v1.png",
+          "cleanup_recipe": "batch-0083-0092-cleanup.py",
+          "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready."
+        }
+      ]
     },
     {
       "id": "NPC-0089",
@@ -4048,10 +4246,43 @@
       "universe_id": "U-001",
       "role_proposal": "渡運接待員",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: small horned stone-and-circuit construct, transit attendant of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear broad round work helmet and asymmetric collar coat, carry folded route board without writing. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0089 for bookkeeping only, do not write it in image.",
-      "status": "planned_not_generated",
-      "asset": null,
-      "review": null
+      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: small horned stone-and-circuit construct, transit attendant of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear broad round work helmet and asymmetric collar coat, carry folded route board without writing. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0089 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+      "status": "reviewed_static_design",
+      "asset": "assets/NPC-0089-front-clean-v1.png",
+      "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready.",
+      "planned_prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: small horned stone-and-circuit construct, transit attendant of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear broad round work helmet and asymmetric collar coat, carry folded route board without writing. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0089 for bookkeeping only, do not write it in image.",
+      "versions": [
+        {
+          "asset": "assets/NPC-0089-front-v1.png",
+          "width": 1145,
+          "height": 1374,
+          "sha256": "69d81fccb244d026f60b7de14e157ca9022b78e3a5afba9dc760c9fe5b51ad03",
+          "git_blob_sha": "c93a8137841d8dd0e612505d9b258631aaaa81a0",
+          "alpha_partial_pixels": 523448,
+          "synced": false,
+          "version": 1,
+          "qa": "visually_reviewed_source_needs_cleanup",
+          "source": "built-in imagegen",
+          "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-a7ad8773-2dae-4c40-8639-5f18443431c1.png",
+          "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: small horned stone-and-circuit construct, transit attendant of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear broad round work helmet and asymmetric collar coat, carry folded route board without writing. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0089 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+          "prompt_fidelity": "exact_tool_input"
+        },
+        {
+          "asset": "assets/NPC-0089-front-clean-v1.png",
+          "width": 40,
+          "height": 48,
+          "sha256": "98122285ee3860c3eec9d9a75ff316b4689b051fdf2c16319e01f39465906c8e",
+          "git_blob_sha": "fc53f81c3be41237c23bb418ac67f65ea38654b8",
+          "alpha_partial_pixels": 0,
+          "synced": false,
+          "version": "clean-v1",
+          "qa": "accepted_static_front_design",
+          "source": "user-authorized deterministic pixel cleanup",
+          "source_asset": "assets/NPC-0089-front-v1.png",
+          "cleanup_recipe": "batch-0083-0092-cleanup.py",
+          "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready."
+        }
+      ]
     },
     {
       "id": "NPC-0090",
@@ -4060,10 +4291,43 @@
       "universe_id": "U-001",
       "role_proposal": "退休居民",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial avian biped with short beak, retired resident of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear leaf-shaped sun visor and loose short robe, carry walking cane with small keepsake. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0090 for bookkeeping only, do not write it in image.",
-      "status": "planned_not_generated",
-      "asset": null,
-      "review": null
+      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial avian biped with short beak, retired resident of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear leaf-shaped sun visor and loose short robe, carry walking cane with small keepsake. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0090 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+      "status": "reviewed_static_design",
+      "asset": "assets/NPC-0090-front-clean-v1.png",
+      "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready.",
+      "planned_prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial avian biped with short beak, retired resident of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear leaf-shaped sun visor and loose short robe, carry walking cane with small keepsake. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0090 for bookkeeping only, do not write it in image.",
+      "versions": [
+        {
+          "asset": "assets/NPC-0090-front-v1.png",
+          "width": 1145,
+          "height": 1374,
+          "sha256": "7b06c73cf2ae98032ee5ed35166812e966cc2cbcab1bf760c5f00433137aef0e",
+          "git_blob_sha": "997b1733324f1072fae754396731ceb667f61341",
+          "alpha_partial_pixels": 622351,
+          "synced": false,
+          "version": 1,
+          "qa": "visually_reviewed_source_needs_cleanup",
+          "source": "built-in imagegen",
+          "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-c2533ed9-c227-4dc6-be00-60232d1fd5a6.png",
+          "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: artificial avian biped with short beak, retired resident of 泉衡城 on U-001-P4, universe U-001. Local visual context: 可見水位的階梯分水壇. Wear leaf-shaped sun visor and loose short robe, carry walking cane with small keepsake. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, one small left cheek seam. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0090 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+          "prompt_fidelity": "exact_tool_input"
+        },
+        {
+          "asset": "assets/NPC-0090-front-clean-v1.png",
+          "width": 40,
+          "height": 48,
+          "sha256": "6384fb3d78e09c885e5479bfd6ad29c1521fc8e4d5c3d8542aa098891282a476",
+          "git_blob_sha": "f6fde519c1b350c6adc3c8465c23256c0ad513ac",
+          "alpha_partial_pixels": 0,
+          "synced": false,
+          "version": "clean-v1",
+          "qa": "accepted_static_front_design",
+          "source": "user-authorized deterministic pixel cleanup",
+          "source_asset": "assets/NPC-0090-front-v1.png",
+          "cleanup_recipe": "batch-0083-0092-cleanup.py",
+          "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready."
+        }
+      ]
     },
     {
       "id": "NPC-0091",
@@ -4072,10 +4336,43 @@
       "universe_id": "U-001",
       "role_proposal": "修理工",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: trapezoid iron maintenance robot, repair worker of 濾心鎮 on U-001-P4, universe U-001. Local visual context: 層層透明濾膜街牆. Wear bare sculpted head and cross-collar short jacket, carry single large wrench. Palette: jade indigo ivory copper. Distinctive silhouette: broad sleeve shape, two asymmetrical eye apertures. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0091 for bookkeeping only, do not write it in image.",
-      "status": "planned_not_generated",
-      "asset": null,
-      "review": null
+      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: trapezoid iron maintenance robot, repair worker of 濾心鎮 on U-001-P4, universe U-001. Local visual context: 層層透明濾膜街牆. Wear bare sculpted head and cross-collar short jacket, carry single large wrench. Palette: jade indigo ivory copper. Distinctive silhouette: broad sleeve shape, two asymmetrical eye apertures. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0091 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+      "status": "reviewed_static_design",
+      "asset": "assets/NPC-0091-front-clean-v1.png",
+      "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready.",
+      "planned_prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: trapezoid iron maintenance robot, repair worker of 濾心鎮 on U-001-P4, universe U-001. Local visual context: 層層透明濾膜街牆. Wear bare sculpted head and cross-collar short jacket, carry single large wrench. Palette: jade indigo ivory copper. Distinctive silhouette: broad sleeve shape, two asymmetrical eye apertures. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0091 for bookkeeping only, do not write it in image.",
+      "versions": [
+        {
+          "asset": "assets/NPC-0091-front-v1.png",
+          "width": 1214,
+          "height": 1295,
+          "sha256": "97e087dd6f310b32165f2d7f6cc1075c2ceafc7a674746a10993e5d4b6cb9160",
+          "git_blob_sha": "cb85b1d8997f43ce1bb8c185b4e8137dcfad65e7",
+          "alpha_partial_pixels": 630661,
+          "synced": false,
+          "version": 1,
+          "qa": "visually_reviewed_source_needs_cleanup",
+          "source": "built-in imagegen",
+          "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-126beedd-7e99-4275-a793-2da738b79712.png",
+          "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: trapezoid iron maintenance robot, repair worker of 濾心鎮 on U-001-P4, universe U-001. Local visual context: 層層透明濾膜街牆. Wear bare sculpted head and cross-collar short jacket, carry single large wrench. Palette: jade indigo ivory copper. Distinctive silhouette: broad sleeve shape, two asymmetrical eye apertures. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0091 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+          "prompt_fidelity": "exact_tool_input"
+        },
+        {
+          "asset": "assets/NPC-0091-front-clean-v1.png",
+          "width": 40,
+          "height": 48,
+          "sha256": "7b105d95a962a35454fced6d3f91bebaf3626c04f079c4e863706e6054bf8045",
+          "git_blob_sha": "af89001e91a6328ca6d345d06c3049d9a47d9c79",
+          "alpha_partial_pixels": 0,
+          "synced": false,
+          "version": "clean-v1",
+          "qa": "accepted_static_front_design",
+          "source": "user-authorized deterministic pixel cleanup",
+          "source_asset": "assets/NPC-0091-front-v1.png",
+          "cleanup_recipe": "batch-0083-0092-cleanup.py",
+          "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready."
+        }
+      ]
     },
     {
       "id": "NPC-0092",
@@ -4084,10 +4381,43 @@
       "universe_id": "U-001",
       "role_proposal": "搬運員",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: round ceramic automaton, porter of 濾心鎮 on U-001-P4, universe U-001. Local visual context: 層層透明濾膜街牆. Wear conical rain hat and patched sleeveless apron, carry one strapped parcel. Palette: jade indigo ivory copper. Distinctive silhouette: broad sleeve shape, two asymmetrical eye apertures. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0092 for bookkeeping only, do not write it in image.",
-      "status": "planned_not_generated",
-      "asset": null,
-      "review": null
+      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: round ceramic automaton, porter of 濾心鎮 on U-001-P4, universe U-001. Local visual context: 層層透明濾膜街牆. Wear conical rain hat and patched sleeveless apron, carry one strapped parcel. Palette: jade indigo ivory copper. Distinctive silhouette: broad sleeve shape, two asymmetrical eye apertures. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0092 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+      "status": "reviewed_static_design",
+      "asset": "assets/NPC-0092-front-clean-v1.png",
+      "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready.",
+      "planned_prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: round ceramic automaton, porter of 濾心鎮 on U-001-P4, universe U-001. Local visual context: 層層透明濾膜街牆. Wear conical rain hat and patched sleeveless apron, carry one strapped parcel. Palette: jade indigo ivory copper. Distinctive silhouette: broad sleeve shape, two asymmetrical eye apertures. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0092 for bookkeeping only, do not write it in image.",
+      "versions": [
+        {
+          "asset": "assets/NPC-0092-front-v1.png",
+          "width": 1145,
+          "height": 1374,
+          "sha256": "94cccea299e8511cd2db5440bce71a732ca055cc745e7f73ee24ab4103638e77",
+          "git_blob_sha": "2e8211b040547eaa74b9441ffc0f49e69a4ee99b",
+          "alpha_partial_pixels": 791619,
+          "synced": false,
+          "version": 1,
+          "qa": "visually_reviewed_source_needs_cleanup",
+          "source": "built-in imagegen",
+          "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-a9b346d5-9ce5-46e4-9256-0785040f3453.png",
+          "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: round ceramic automaton, porter of 濾心鎮 on U-001-P4, universe U-001. Local visual context: 層層透明濾膜街牆. Wear conical rain hat and patched sleeveless apron, carry one strapped parcel. Palette: jade indigo ivory copper. Distinctive silhouette: broad sleeve shape, two asymmetrical eye apertures. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0092 for bookkeeping only, do not write it in image. Required delivery: isolated transparent full-body front character, chunky 40x48 pixel design readability. Keep both feet apart. Simplify surface decoration; no lettering. One occupational prop must remain distinct from torso.",
+          "prompt_fidelity": "exact_tool_input"
+        },
+        {
+          "asset": "assets/NPC-0092-front-clean-v1.png",
+          "width": 40,
+          "height": 48,
+          "sha256": "6622634aaec430a098cc4b3290b7cc4849a3f3c8f4b406bf5a131f182fc96ad6",
+          "git_blob_sha": "475ba3b885ed8933079e60db7de1c11d1bfc0e9e",
+          "alpha_partial_pixels": 0,
+          "synced": false,
+          "version": "clean-v1",
+          "qa": "accepted_static_front_design",
+          "source": "user-authorized deterministic pixel cleanup",
+          "source_asset": "assets/NPC-0092-front-v1.png",
+          "cleanup_recipe": "batch-0083-0092-cleanup.py",
+          "review": "Visually checked 10-character contact sheet: one complete frontal figure each, distinct heads and occupational props, feet visible, binary alpha. Static concept only, not animated or Godot-ready."
+        }
+      ]
     },
     {
       "id": "NPC-0093",
