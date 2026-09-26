@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "scope": "authored_data_consistency_not_godot_runtime",
+  "planet_count": 40,
+  "location_count": 100,
+  "checks": [
+    "catalog_ID_coverage",
+    "unique_IDs",
+    "location_planet_references",
+    "exact_catalog_names",
+    "distinct_daily_response_text",
+    "no_ordinary_weather_for_vacuum_or_undefined_abyss_exteriors"
+  ],
+  "not_tested": [
+    "season_simulation",
+    "NPC_navigation",
+    "Godot_rendering",
+    "cultural_distinctness",
+    "physical_planet_model"
+  ]
+}

@@ -1,10 +1,12 @@
 {
-  "version": "2026-09-26-lore-reset",
+  "version": "2026-09-26-lore-living-world",
   "active_scope": [
     "story",
-    "current_GBA_art"
+    "current_GBA_art",
+    "seasons_weather_design",
+    "five_arts_and_cross_life_abilities_concept"
   ],
-  "gameplay_status": "retired_pending_redesign",
+  "gameplay_status": "100_cross_life_immortal_arts_with_karma_costs_confirmed_combat_pending",
   "retired_document_paths": [
     "docs/design/DAO_RULERS.md",
     "docs/design/MASTER_REVEAL.md",
@@ -80,7 +82,32 @@
     "fun_story_with_continuing_philosophical_inquiry",
     "eastern_philosophy_and_daoist_thought",
     "retro_pixel_proportions_with_modern_detail_no_16px_hard_limit",
-    "seasons_and_weather_for_living_world"
+    "seasons_and_weather_for_living_world",
+    "world_time_continues_across_reincarnation",
+    "protagonist_reincarnates_as_human",
+    "five_arts_and_cross_life_abilities_concept_retained_combat_pending",
+    "divination_reads_tendencies_and_conditions_not_unique_guaranteed_future",
+    "living_disciples_can_recognize_protagonist",
+    "reincarnated_disciples_can_unlock_memory_through_cultivation",
+    "recognition_depends_on_disciple_state_at_encounter",
+    "mentor_always_recognizes_protagonist",
+    "divination_reads_branch_probabilities_and_trajectories_enables_fate_change",
+    "100_immortal_arts_purchased_with_individual_karma_costs",
+    "immortal_arts_lifespan_health_qi_attributes_passive_and_active",
+    "acquired_immortal_arts_persist_across_lives",
+    "immortal_arts_manifest_ten_original_laws",
+    "dao_rulers_each_govern_one_original_law",
+    "law_power_is_legendary_immortal_art",
+    "legendary_law_acquired_via_defeat_task_or_willing_teaching",
+    "base_lifespan_99_years",
+    "medical_and_body_replacement_life_extension_current_life_only",
+    "lifespan_immortal_arts_effects_persist_across_lives",
+    "each_legendary_law_acquired_once_multiple_laws_across_lives",
+    "medical_cultivation_life_extension_once_per_life",
+    "medical_life_extension_requires_recultivation_next_life",
+    "lifespan_health_and_qi_immortal_art_effects_stack",
+    "guixu_is_our_universe_with_earth_connection",
+    "guixu_unstable_and_fragmented_cause_unknown"
   ],
   "development_workflow": "故事、人物與世界設定分篇完成，最後整合主線並接入Godot；GitHub持續記錄更新",
   "proposal_modules": [
