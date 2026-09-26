@@ -112,3 +112,7 @@ NPC第三批：修理工v4為描述重繪試驗，2位共6版本、正式驗收0
 NPC已有10位正面靜態設計通過檢查（990位待生成），原稿與固定像素清理版均保留，見[圖庫](docs/art-direction/npc-1000/gallery.html)。
 
 山海第二批[古籍與探索者](docs/story-drafts/shanhai-explorers-v1/README.md)、第三批[兩段支線](docs/story-drafts/shanhai-sidequests-v1/README.md)、第四批上[主線缺頁綱要](docs/story-drafts/main-missing-scenes-v1/README.md)已收稿與檢查，尚非遊戲實作。
+
+## 最新進度：數據陵墓居民與第四批下篇
+
+NPC-0011～0020完成正面靜態設計與像素清理，累計20位，980位待生成。[角色圖庫](docs/art-direction/npc-1000/gallery.html)。[第四批下篇台詞](docs/story-drafts/main-missing-dialogue-v1.1/README.md)與[背景v1.4](docs/story-drafts/background-v1.4/README.md)已收稿；Q11已再次確認維持玩家觸發結局，兩份稿件附定向修訂全文，原件保留。

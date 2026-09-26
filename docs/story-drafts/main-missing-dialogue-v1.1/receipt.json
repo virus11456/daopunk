@@ -1,0 +1,33 @@
+{
+  "source_path": "/Users/frank/.codex/attachments/444aee65-3e2d-48d8-bd27-d8c79d50b68f/貼上的文字.txt",
+  "original_file": "ORIGINAL.md",
+  "sha256": "2db64c59de0f4a361d1c0ef88551c40f1ff97e3161aa9a31ece3edf75767a879",
+  "bytes": 24053,
+  "verification": "byte_identical",
+  "delivery_type": "main_missing_dialogue_draft_v1.1",
+  "full_dialogue_delivered": true,
+  "full_dialogue_scope": "draft scenes and branching endings; unresolved branches remain",
+  "implementation_status": "not_implemented",
+  "prior_review_items": 20,
+  "prior_review_status_counts": {
+    "targeted_revision": 1,
+    "partial": 11,
+    "unfixed": 8,
+    "decision_required": 0
+  },
+  "new_review_items": 10,
+  "external_reported_decisions": [
+    "Q7",
+    "Q8",
+    "Q9",
+    "Q10"
+  ],
+  "conflicting_external_reported_decisions": [
+    "Q11_superseded_by_direct_confirmation"
+  ],
+  "canonical_override_applied": false,
+  "Q11_status": "confirmed_player_triggered",
+  "targeted_revision": "REVISION_Q11.md",
+  "targeted_revision_scope": "Q11 and direct world-time/ending consequences only",
+  "revision_sha256": "3759366216cfcf9d474cdc632d58812661ada2b200a4f6d1048b41e982d27488"
+}

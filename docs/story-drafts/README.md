@@ -69,3 +69,7 @@ Y01另新增七場原稿及14項檢查，見該篇修訂提示。先前五篇聯
 - [第二批古籍與探索者](shanhai-explorers-v1/README.md)：12條圖鑑草案、兩位來源人物已交；待修訂與古籍查證，不再列為未寫。
 - [第三批兩段互動支線](shanhai-sidequests-v1/README.md)：兩篇已交，待修選項後果和資訊條件。
 - [第四批上主線缺頁](main-missing-scenes-v1/README.md)：綱要與依賴已交；完整台詞仍待下篇。
+
+## 第四批下篇與背景v1.4
+
+[主線缺頁台詞v1.1](main-missing-dialogue-v1.1/README.md)已交付，取代「台詞尚未收到」的進度；仍須分支與依賴修訂。[背景v1.4](background-v1.4/README.md)已收稿，原版皆保留。Q11已再次確認不設自動終局，定向修訂全文見各資料夾REVISION_Q11.md。

@@ -1,0 +1,29 @@
+{
+  "source_path": "/Users/frank/.codex/attachments/93f1af58-ff2e-4174-9e3e-a9e13552b3e2/貼上的文字.txt",
+  "original_file": "ORIGINAL.md",
+  "sha256": "abe148e19c5e9711ae5a32719e88536dfaada319559a998dd2c0e954fb4bff35",
+  "bytes": 38785,
+  "verification": "byte_identical",
+  "delivery_type": "complete_story_background_v1.4",
+  "implementation_status": "not_implemented",
+  "prior_review_items": 15,
+  "new_review_items": 8,
+  "Q11_status": "confirmed_player_triggered",
+  "direct_decisions_preserved": [
+    "first_run_age_15",
+    "world_time_forward",
+    "cenxing_chaobo_names_roles",
+    "chaobo_mechanical_navigation",
+    "some_routes_fate_line_distance"
+  ],
+  "external_reported_decisions": [
+    "Q7",
+    "Q8",
+    "Q9",
+    "Q10"
+  ],
+  "canonical_override_applied": false,
+  "targeted_revision": "REVISION_Q11.md",
+  "targeted_revision_scope": "Q11 and direct world-time/ending consequences only",
+  "revision_sha256": "d6b632c8ada58d0b2e18cb9d90c5c48e49f417dbb4b4dcc836b66841bdb31a4d"
+}
