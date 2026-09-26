@@ -3,11 +3,11 @@
   "phase_end": "NPC-0132",
   "phase_target": 100,
   "batch_size": 10,
-  "phase_reviewed": 10,
+  "phase_reviewed": 20,
   "phase_synced": 10,
   "cumulative_target": 132,
-  "next_id": "NPC-0043",
+  "next_id": "NPC-0053",
   "stop_after_phase": true,
-  "status": "batch_1_complete",
+  "status": "batch_2_pending_sync",
   "verified_asset_commit": "8ccff39b5ab10b6ecc164b2cd9e9080035f92421"
 }
