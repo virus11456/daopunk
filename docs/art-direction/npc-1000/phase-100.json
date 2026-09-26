@@ -19,7 +19,8 @@
     "end": "NPC-0142",
     "target": 10,
     "reviewed": 10,
-    "synced": 0
+    "synced": 10,
+    "verified_asset_commit": "956d906744caa6a1ec67dcd6db274a0b23a9dfc4"
   },
   "completion_rule": "Count only accepted and remotely verified IDs NPC-0033–0132; extra IDs do not advance phase."
 }

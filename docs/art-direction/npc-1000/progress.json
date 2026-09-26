@@ -5,15 +5,16 @@
   "visually_reviewed_characters": 82,
   "accepted_final": 82,
   "remaining_without_image": 916,
-  "synced_characters": 72,
+  "synced_characters": 82,
   "next_action": "Existing phase: clean/review NPC-0073–0074 from saved raw sources, then generate NPC-0075–0132. Extra NPC-0133–0142 are outside phase; do not regenerate.",
   "batch": "extra-NPC-0133-0142",
-  "verified_asset_commit": "2962511955cea17d16d4aed6f0142b84ac9051e9",
-  "latest_batch_synced": false,
+  "verified_asset_commit": "956d906744caa6a1ec67dcd6db274a0b23a9dfc4",
+  "latest_batch_synced": true,
   "quality_blocker": null,
   "cleanup_authorized": true,
   "pending_cleanup_ids": [
     "NPC-0073",
     "NPC-0074"
-  ]
+  ],
+  "synced_generated_characters": 84
 }
