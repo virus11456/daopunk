@@ -54,3 +54,5 @@
 ## 主線v2最新生效範圍
 
 肉鴿定位與跨輪條件主線已重新確認；本頁前段「肉鴿流程退出」僅指歷史實作表。以[主線v2](../story-drafts/main-v2/README.md)與RESET_SCOPE最新段為準。固定三世／必死事件／人類全滅期限撤回；戰鬥尚未選定。
+
+[完整背景v1.3](../story-drafts/background-v1.3/README.md)含最新来源提案与检查；遇年龄和时限冲突以主線v2最新直接答案为准。新增[事件契約](../contracts/RANDOM_EVENT_DATA.md)與[圖鑑證據契約](../contracts/CODEX_EVIDENCE_DATA.md)，均為離線模型，未与引擎整合。

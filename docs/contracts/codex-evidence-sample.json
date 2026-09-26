@@ -1,0 +1,17 @@
+{
+  "status": "proposal_offline_synthetic_fixture",
+  "time_unit": "illustrative_monotonic_tick_not_game_calendar",
+  "entries": [
+    {"id": "DEMO-BIRD", "public_label": "測試鳥類", "kind": "species", "author_secret": "不得出現在玩家輸出中的測試秘密"},
+    {"id": "DEMO-RUIN", "public_label": "測試遺跡", "kind": "ruin"},
+    {"id": "DEMO-ANCIENT", "public_label": "測試古籍對象", "kind": "ancient_subject", "editorial_status": "proposal"}
+  ],
+  "events": [
+    {"id": "read-1", "entry_id": "DEMO-BIRD", "kind": "text", "source_id": "copy-a", "root_source_id": "book-a", "life": 1, "world_time": 0, "acquired_at": 0, "place": "test-library", "text": "合成測試摘要：書中記有某鳥。本句不是古籍引文。", "requires": [], "citations": []},
+    {"id": "heard-1", "entry_id": "DEMO-BIRD", "kind": "rumor", "source_id": "speaker-a", "root_source_id": "report-a", "life": 1, "world_time": 1, "acquired_at": 2, "place": "test-square", "text": "合成傳聞：最近有人說在橋邊見鳥。", "requires": [], "citations": []},
+    {"id": "heard-2", "entry_id": "DEMO-BIRD", "kind": "rumor", "source_id": "speaker-b", "root_source_id": "report-a", "life": 1, "world_time": 1, "acquired_at": 3, "place": "test-square", "text": "另一人轉述同一則消息。", "requires": [], "citations": []},
+    {"id": "seen-1", "entry_id": "DEMO-BIRD", "kind": "observation", "source_id": "self-seen-1", "root_source_id": "self-seen-1", "life": 1, "world_time": 4, "acquired_at": 4, "place": "test-bridge", "text": "這次親見有斑點的鳥，不能推論所有鳥。", "requires": [], "citations": []},
+    {"id": "absent-1", "entry_id": "DEMO-BIRD", "kind": "revisit_absent", "source_id": "self-visit-2", "root_source_id": "self-visit-2", "life": 2, "world_time": 30, "acquired_at": 30, "place": "test-bridge", "text": "本次再訪橋邊未見，不證明物種滅絕。", "requires": [], "citations": []},
+    {"id": "correct-1", "entry_id": "DEMO-BIRD", "kind": "correction", "source_id": "self-judgement-1", "root_source_id": "self-judgement-1", "life": 2, "world_time": 31, "acquired_at": 31, "place": "test-home", "text": "主角判斷：舊摘要可能過度概括；保留原文與疑問。", "requires": ["comparison-learned"], "citations": ["read-1", "seen-1"]}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "scope": "offline_reference_only",
+  "sample_templates": 4,
+  "passed": 22,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "participant eligibility",
+      "passed": true
+    },
+    {
+      "check": "location eligibility",
+      "passed": true
+    },
+    {
+      "check": "consequence requires prior effect",
+      "passed": true
+    },
+    {
+      "check": "mutex blocks overlapping occurrence",
+      "passed": true
+    },
+    {
+      "check": "independent group can coexist",
+      "passed": true
+    },
+    {
+      "check": "once event never restarts",
+      "passed": true
+    },
+    {
+      "check": "history is idempotent",
+      "passed": true
+    },
+    {
+      "check": "same occurrence returns saved outcome",
+      "passed": true
+    },
+    {
+      "check": "occurrence ID cannot alias another event",
+      "passed": true
+    },
+    {
+      "check": "periodic cooldown active",
+      "passed": true
+    },
+    {
+      "check": "periodic cooldown boundary",
+      "passed": true
+    },
+    {
+      "check": "absence resolves deadline without player",
+      "passed": true
+    },
+    {
+      "check": "consequence enabled by persisted effect",
+      "passed": true
+    },
+    {
+      "check": "permanently resolved periodic event excluded",
+      "passed": true
+    },
+    {
+      "check": "completed consequence never restarts",
+      "passed": true
+    },
+    {
+      "check": "reverse time rejected",
+      "passed": true
+    },
+    {
+      "check": "pending save/load preserves result",
+      "passed": true
+    },
+    {
+      "check": "completed save/load cannot reroll or duplicate effects",
+      "passed": true
+    },
+    {
+      "check": "pending definition retained after catalog changes",
+      "passed": true
+    },
+    {
+      "check": "large absence catchup equals small steps",
+      "passed": true
+    },
+    {
+      "check": "repeated catchup has no duplicate history",
+      "passed": true
+    },
+    {
+      "check": "duplicate catalog IDs rejected",
+      "passed": true
+    }
+  ]
+}

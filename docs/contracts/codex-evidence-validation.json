@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "scope": "offline_synthetic_contract_only_not_godot",
+  "count": 19,
+  "checks": [
+    {
+      "name": "未取得條目不顯示作者目錄",
+      "passed": true
+    },
+    {
+      "name": "未發生事件不能入記憶",
+      "passed": true
+    },
+    {
+      "name": "背過經文不等於親見",
+      "passed": true
+    },
+    {
+      "name": "輸出不含作者秘密",
+      "passed": true
+    },
+    {
+      "name": "重播同一事件冪等",
+      "passed": true
+    },
+    {
+      "name": "同ID異文拒絕覆寫歷史",
+      "passed": true
+    },
+    {
+      "name": "兩人轉述同源保留兩份但不算兩個源頭",
+      "passed": true
+    },
+    {
+      "name": "未到世界時間不可提前知情",
+      "passed": true
+    },
+    {
+      "name": "再訪未見保留既有親見且不斷言滅絕",
+      "passed": true
+    },
+    {
+      "name": "訂正知識門檻未達不洩露",
+      "passed": true
+    },
+    {
+      "name": "訂正缺引用證據拒絕",
+      "passed": true
+    },
+    {
+      "name": "訂正追加保留原文",
+      "passed": true
+    },
+    {
+      "name": "跨世親见不綁指定世次",
+      "passed": true
+    },
+    {
+      "name": "輪迴保存所有取得記憶實物留原處",
+      "passed": true
+    },
+    {
+      "name": "新狀態不意外改寫舊快照",
+      "passed": true
+    },
+    {
+      "name": "正式輪迴世界時間不倒轉",
+      "passed": true
+    },
+    {
+      "name": "拒絕個別NPC條目",
+      "passed": true
+    },
+    {
+      "name": "古籍神與人物邊界保持提案",
+      "passed": true
+    },
+    {
+      "name": "可直接親見不用先讀經文或聽傳聞",
+      "passed": true
+    }
+  ]
+}

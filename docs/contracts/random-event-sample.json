@@ -1,0 +1,181 @@
+{
+  "status": "proposal_offline_sample",
+  "time_unit": "abstract_tick_not_year",
+  "events": [
+    {
+      "id": "RE-SAMPLE-01",
+      "kind": "once",
+      "title_proposal": "臨時通道勘查",
+      "location_tags": [
+        "settlement"
+      ],
+      "participant_tags": [
+        "local_service"
+      ],
+      "requires_flags": [],
+      "forbids_flags": [],
+      "mutex": "service",
+      "cooldown": 3,
+      "window": 2,
+      "outcomes": {
+        "present": [
+          {
+            "id": "route_checked",
+            "weight": 1,
+            "add_flags": [
+              "route_checked"
+            ],
+            "remove_flags": [],
+            "permanently_resolve": []
+          }
+        ],
+        "absent": [
+          {
+            "id": "route_unchecked",
+            "weight": 1,
+            "add_flags": [
+              "route_unchecked"
+            ],
+            "remove_flags": [],
+            "permanently_resolve": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "RE-SAMPLE-02",
+      "kind": "periodic",
+      "title_proposal": "遮雨棚例行修補",
+      "location_tags": [
+        "settlement"
+      ],
+      "participant_tags": [
+        "local_service"
+      ],
+      "requires_flags": [],
+      "forbids_flags": [
+        "shelter_replaced"
+      ],
+      "mutex": "service",
+      "cooldown": 3,
+      "window": 2,
+      "outcomes": {
+        "present": [
+          {
+            "id": "repaired",
+            "weight": 1,
+            "add_flags": [
+              "shelter_usable"
+            ],
+            "remove_flags": [],
+            "permanently_resolve": []
+          },
+          {
+            "id": "needs_parts",
+            "weight": 1,
+            "add_flags": [
+              "parts_needed"
+            ],
+            "remove_flags": [],
+            "permanently_resolve": []
+          }
+        ],
+        "absent": [
+          {
+            "id": "needs_parts",
+            "weight": 1,
+            "add_flags": [
+              "parts_needed"
+            ],
+            "remove_flags": [],
+            "permanently_resolve": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "RE-SAMPLE-03",
+      "kind": "consequence",
+      "title_proposal": "缺料後的替代棚架",
+      "location_tags": [
+        "settlement"
+      ],
+      "participant_tags": [
+        "local_service"
+      ],
+      "requires_flags": [
+        "parts_needed"
+      ],
+      "forbids_flags": [],
+      "mutex": "service",
+      "cooldown": 3,
+      "window": 2,
+      "outcomes": {
+        "present": [
+          {
+            "id": "replaced",
+            "weight": 1,
+            "add_flags": [
+              "shelter_replaced"
+            ],
+            "remove_flags": [
+              "parts_needed"
+            ],
+            "permanently_resolve": [
+              "RE-SAMPLE-02"
+            ]
+          }
+        ],
+        "absent": [
+          {
+            "id": "supply_missed",
+            "weight": 1,
+            "add_flags": [
+              "supply_missed"
+            ],
+            "remove_flags": [],
+            "permanently_resolve": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "RE-SAMPLE-04",
+      "kind": "periodic",
+      "title_proposal": "風土觀測輪值",
+      "location_tags": [
+        "settlement"
+      ],
+      "participant_tags": [
+        "local_service"
+      ],
+      "requires_flags": [],
+      "forbids_flags": [],
+      "mutex": "observation",
+      "cooldown": 3,
+      "window": 2,
+      "outcomes": {
+        "present": [
+          {
+            "id": "noted",
+            "weight": 1,
+            "add_flags": [
+              "weather_note"
+            ],
+            "remove_flags": [],
+            "permanently_resolve": []
+          }
+        ],
+        "absent": [
+          {
+            "id": "unobserved",
+            "weight": 1,
+            "add_flags": [],
+            "remove_flags": [],
+            "permanently_resolve": []
+          }
+        ]
+      }
+    }
+  ]
+}
