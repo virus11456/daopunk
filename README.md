@@ -286,3 +286,10 @@ NPC-0063～0072已完成靜態設計與像素清理，累計72位。本階段40�
 - [main-v2.1](docs/story-drafts/main-v2.1/README.md)
 
 已核對30個既有地點ID、30個事件短ID及20條圖鑑數量；事件分類統計與完整模板欄位仍需修訂。建木來源与圖鑑星球候選另附。提案未升格正史，未接Godot，未新增圖片完成數。
+
+
+## 山海圖鑑完整清單與像素素材
+
+[180條工作清單](docs/art-direction/shanhai-codex/FULL_LIST.md)（130條經載候選＋50條補充，文字待Claude撰寫）｜[文字交接](docs/art-direction/shanhai-codex/CLAUDE_HANDOFF.md)｜[像素規格](docs/art-direction/shanhai-codex/ART_SPEC.md)。旋龜已生成一張像素樣張及96×96透明清理版；其餘未生成，非180條完成。
+
+[事件EV-061～090收稿與審閱](docs/story-drafts/events-061-090-v1/README.md)。

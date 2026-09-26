@@ -1,0 +1,156 @@
+{
+  "count": 30,
+  "ids_unique": true,
+  "literal_fields_only_not_semantic_pass": {
+    "EV-061": {
+      "選擇": true,
+      "結果": true,
+      "缺席": true
+    },
+    "EV-062": {
+      "選擇": true,
+      "結果": true,
+      "缺席": true
+    },
+    "EV-063": {
+      "選擇": true,
+      "結果": false,
+      "缺席": true
+    },
+    "EV-064": {
+      "選擇": true,
+      "結果": true,
+      "缺席": true
+    },
+    "EV-065": {
+      "選擇": true,
+      "結果": true,
+      "缺席": true
+    },
+    "EV-066": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-067": {
+      "選擇": true,
+      "結果": true,
+      "缺席": true
+    },
+    "EV-068": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-069": {
+      "選擇": false,
+      "結果": true,
+      "缺席": true
+    },
+    "EV-070": {
+      "選擇": true,
+      "結果": false,
+      "缺席": true
+    },
+    "EV-071": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-072": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-073": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-074": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-075": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-076": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-077": {
+      "選擇": true,
+      "結果": false,
+      "缺席": true
+    },
+    "EV-078": {
+      "選擇": false,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-079": {
+      "選擇": true,
+      "結果": true,
+      "缺席": true
+    },
+    "EV-080": {
+      "選擇": false,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-081": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-082": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-083": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-084": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-085": {
+      "選擇": true,
+      "結果": false,
+      "缺席": true
+    },
+    "EV-086": {
+      "選擇": true,
+      "結果": false,
+      "缺席": false
+    },
+    "EV-087": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-088": {
+      "選擇": false,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-089": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    },
+    "EV-090": {
+      "選擇": true,
+      "結果": true,
+      "缺席": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "SH-LIFE-102",
+  "generator": "built-in imagegen",
+  "status": "reviewed_style_sample_not_final_game_approval",
+  "size": [
+    96,
+    96
+  ],
+  "alpha_values": [
+    0,
+    255
+  ],
+  "opaque_rgb_colors": 22,
+  "visual_review": {
+    "single_subject": true,
+    "complete_silhouette": true,
+    "bird_head_turtle_body_serpent_tail": true,
+    "four_legs": true,
+    "pixel_style": true,
+    "note": "清理後眼部細節較少；作為像素風樣張，待圖鑑實際显示尺寸核定。不是已接Godot的驗收素材。"
+  },
+  "files": {
+    "SH-LIFE-102-pixel-clean-v1.png": "77f5ee7facddb446e97159398e24692048fa04f04b2c514cc9b35f7662885da2",
+    "SH-LIFE-102-preview-8x.png": "69850b3cf697b8440628ee593c7fedbc5b7a3b5eaaa4bed206d0279c5af03af0",
+    "SH-LIFE-102-prompt.txt": "839a139de65e2ed9824fc22fcf3878ab8846713423f635a4a2e6dd20cc6884c6",
+    "SH-LIFE-102-pixel-v1.png": "e48d705b27621405345e4246c5e46be631be65a8767aad5e71bcc549b6c2a06c"
+  },
+  "rejected_attempt": "版刻圖未採用；不計交付",
+  "cleanup": "等比例最近鄰縮到88×88內，96×96透明畫布，24色量化，alpha>=128為255，其餘0；原稿不變",
+  "remote_policy": "清理PNG與8倍預覽同步；大尺寸生成原稿僅本機交付"
+}
