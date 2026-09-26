@@ -1533,10 +1533,44 @@
       "universe_id": "U-001",
       "role_proposal": "搬運員",
       "lore_status": "unnamed_nonhuman_resident_visual_proposal_not_canon",
-      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: octagonal screen-head robot, porter of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear tall folded headwrap and patched sleeveless apron, carry one strapped parcel. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0032 for bookkeeping only, do not write it in image.",
-      "status": "planned_not_generated",
-      "asset": null,
-      "review": null
+      "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: octagonal screen-head robot, porter of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear tall folded headwrap and patched sleeveless apron, carry one strapped parcel. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0032 for bookkeeping only, do not write it in image. Keep parcel secured against the torso so both feet and both arms are readable. One copper magnetic clamp on the parcel strap. Favor chunky pixels and very few details, approximately 40x48 logical pixels.",
+      "status": "reviewed_static_design",
+      "asset": "assets/NPC-0032-front-clean-v1.png",
+      "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done.",
+      "planned_prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: octagonal screen-head robot, porter of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear tall folded headwrap and patched sleeveless apron, carry one strapped parcel. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0032 for bookkeeping only, do not write it in image.",
+      "versions": [
+        {
+          "asset": "assets/NPC-0032-front-v1.png",
+          "width": 1145,
+          "height": 1374,
+          "sha256": "47c5e6379c273fa7f8c4c17a709bfd79f8fbc4e88d3e698628988d46fd4c1055",
+          "git_blob_sha": "1212f4dda3d37ba43827762c6b49768814180d7e",
+          "alpha_partial_pixels": 596501,
+          "synced": false,
+          "version": 1,
+          "qa": "visually_reviewed_source_needs_cleanup",
+          "prompt": "Use case: stylized-concept. ONE original DAOPUNK NPC overworld front/south full-body character, slightly viewed from above, genuinely transparent background. Deliberately small GBA map sprite proportions, two heads tall, large head, very short body and legs, silhouette legible at map scale. Coarse consistent pixel clusters like a 32x40 source enlarged with nearest-neighbor, 16-24 colors, flat organized color masses and minimal seams. No painterly texture, no tiny shading noise, no blur, no antialiasing, no text, no scenery, no labels, no extra characters, no sheet. Eastern planetary cyberpunk original design. This is a front-view concept only, not animation or final game-ready sprite. Subject: octagonal screen-head robot, porter of 回收聚落 on U-001-P2, universe U-001. Local visual context: 磁吸吊臂橫跨銅鹽台地. Wear tall folded headwrap and patched sleeveless apron, carry one strapped parcel. Palette: jade indigo ivory copper. Distinctive silhouette: short barrel torso, three simple forehead rivets. Keep local landmark influence to one wearable motif, never add background. Character ID NPC-0032 for bookkeeping only, do not write it in image. Keep parcel secured against the torso so both feet and both arms are readable. One copper magnetic clamp on the parcel strap. Favor chunky pixels and very few details, approximately 40x48 logical pixels.",
+          "prompt_fidelity": "exact_tool_input",
+          "source": "built-in imagegen",
+          "source_file": "/Users/frank/.codex/generated_images/01a0d983-4ddd-7690-91a1-7326831af29e/exec-2ff33255-04d4-494c-b8f7-839097922238.png",
+          "review": "Single frontal full body; nonhuman identity, occupation tool and local copper magnetic parcel clamp reviewed. Fine gradients require cleanup."
+        },
+        {
+          "asset": "assets/NPC-0032-front-clean-v1.png",
+          "width": 40,
+          "height": 48,
+          "sha256": "ee4317cec3632efb236d9566b8620a8f533cc18c675f68fe2114173409b9ef8a",
+          "git_blob_sha": "aaf5e1cdffea96412f40ac7f7abbed3a7bb3678f",
+          "alpha_partial_pixels": 0,
+          "synced": false,
+          "version": "clean-v1",
+          "qa": "accepted_static_front_design",
+          "source": "user-authorized deterministic cleanup of imagegen source",
+          "source_asset": "assets/NPC-0032-front-v1.png",
+          "cleanup_recipe": "batch-0032-cleanup.py: threshold128; aspect preserving nearest scaling within36x44; shared32-color palette no dithering; 40x48 canvas; 8x preview",
+          "review": "Visually checked single front full-body nonhuman resident; complete silhouette and readable occupational prop; hard transparent edges. Static design only, animation and engine integration not done."
+        }
+      ]
     },
     {
       "id": "NPC-0033",

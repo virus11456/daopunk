@@ -124,3 +124,7 @@ NPC-0021～0030已完成正面靜態設計、40×48像素清理及逐張檢查�
 ## 最新交付：NPC-0031 與 Y01 v1.1
 
 [角色圖庫](docs/art-direction/npc-1000/gallery.html)累計31位，969位待生成；回收聚落修理工完成40×48清理與檢查。[Y01 v1.1收稿](docs/story-drafts/yanluo-y01-v1.1/README.md)保留原稿並列修訂事項，未接入Godot。
+
+## NPC-0032 與共同年表 v1.1
+
+[搬運員與圖庫](docs/art-direction/npc-1000/gallery.html)：累計32位靜態設計，968位待生成。[共同年表收稿與修正](docs/story-drafts/common-timeline-v1.1/REVIEW.md)：十五歲下山優先，死亡與遺物交接採条件分支。
