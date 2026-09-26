@@ -8,7 +8,7 @@
   "synced_characters": 2,
   "next_action": "Await user answer to programmatic pixel-cleanup question; do not repeat same generation-only cleanup attempts while pending.",
   "batch": "2026-09-26T08:05:38.682Z",
-  "verified_asset_commit": "a1deb0f0ddeb4f9aa144e05772583ac6aeeda3e7",
-  "latest_batch_synced": false,
+  "verified_asset_commit": "19faef5864e35365c356acf8eda8da87ce3c5328",
+  "latest_batch_synced": true,
   "quality_blocker": "Fresh redraw still has gradients/partial alpha; optional deterministic cleanup requires explicit user instruction."
 }

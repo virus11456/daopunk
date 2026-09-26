@@ -80,12 +80,13 @@
           "asset": "assets/NPC-0001-front-v4.png",
           "version": 4,
           "qa": "visually_reviewed_needs_pixel_cleanup",
-          "synced": false,
+          "synced": true,
           "prompt": "Use case: stylized-concept. Draw a fresh alternative design for DAOPUNK NPC-0001, a tiny squat nonhuman repair robot for a GBA-era top-down town. Single front-facing full-body character on a truly transparent background. Huge simple cream square head, single offset amber eye, little indigo work apron, one copper wrench claw, jade hanging tag and two tiny boots. Big head short body, classic overhead map sprite proportions. Hand-placed pixel art with a very small number of large solid square pixels and dark outlines; flat palette of cream, tan, charcoal, indigo, copper, amber, jade. Minimal details, no painterly lighting, no gradients or anti-aliasing, no soft edges. Character fits a compact 32x40 logical pixel silhouette shown at integer enlargement. Render only one character, no text, no floor or cast shadow, no grid background. This is a new redraw from the identity description, not a high-resolution illustration.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen fresh redraw without image input",
           "source_file": "exec-e8c65379-dbb3-487a-b1fd-5971773159b4.png",
-          "review": "Single frontal full body, distinct robot identity and compact silhouette preserved. Palette gradients and partial alpha persist. Alternative redesign, not accepted final."
+          "review": "Single frontal full body, distinct robot identity and compact silhouette preserved. Palette gradients and partial alpha persist. Alternative redesign, not accepted final.",
+          "verified_asset_commit": "19faef5864e35365c356acf8eda8da87ce3c5328"
         }
       ]
     },

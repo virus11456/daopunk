@@ -1,12 +1,13 @@
 {
-  "verified_commit": "a1deb0f0ddeb4f9aa144e05772583ac6aeeda3e7",
-  "verification": "Committed tree blob SHA checked against local PNG Git blob SHA; 5 versions tracked.",
+  "verified_commit": "19faef5864e35365c356acf8eda8da87ce3c5328",
+  "verification": "Committed PNG blob SHAs match local PNG Git blob SHA; six versions tracked.",
   "assets": {
     "docs/art-direction/npc-1000/assets/NPC-0001-front-v1.png": "37834f4d0e638c4020971504c127f902a8c66339",
     "docs/art-direction/npc-1000/assets/NPC-0001-front-v2.png": "cd21d4484e79cf5d4430aa1c7a778332029c6e3c",
     "docs/art-direction/npc-1000/assets/NPC-0002-front-v1.png": "e0302b93bc80bd96f70ecf3ddd9f23a161be6efe",
     "docs/art-direction/npc-1000/assets/NPC-0002-front-v2.png": "a5ee7451650defd9e58548da40defca674f91756",
-    "docs/art-direction/npc-1000/assets/NPC-0001-front-v3.png": "9d0d8ce139593270c94f4f55223812eb57c278b4"
+    "docs/art-direction/npc-1000/assets/NPC-0001-front-v3.png": "9d0d8ce139593270c94f4f55223812eb57c278b4",
+    "docs/art-direction/npc-1000/assets/NPC-0001-front-v4.png": "999776d295524b9ac23b5502a767eebd978ecbfc"
   },
   "synced_characters": 2,
   "accepted_final": 0
