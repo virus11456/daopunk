@@ -106,3 +106,9 @@ NPC第三批：修理工v4為描述重繪試驗，2位共6版本、正式驗收0
 [現行主線v2](docs/story-drafts/main-v2/README.md)確認肉鴿定位、取消固定三世與必死事件；世界持續惡化但終局由玩家觸發，人類不歸零，第一輪15歲下山、後續14～15歲覺醒開局，正式輪迴不回溯。戰鬥仍未定，旧數值不恢復。[給Claude的修訂提示](docs/story-drafts/main-v2/FOLLOWUP_PROMPT.md)。
 
 最新收稿：[完整背景v1.3](docs/story-drafts/background-v1.3/README.md)已保存，附最新年齡／時限覆蓋與15項檢查。分頭完成[隨機事件契約](docs/contracts/RANDOM_EVENT_DATA.md)22項、[圖鑑證據契約](docs/contracts/CODEX_EVIDENCE_DATA.md)19項離線檢查；未接Godot。[舊稿修改對照](docs/production/MAIN_V2_MIGRATION.md)。
+
+## 最新交付：前10位NPC與山海收稿
+
+NPC已有10位正面靜態設計通過檢查（990位待生成），原稿與固定像素清理版均保留，見[圖庫](docs/art-direction/npc-1000/gallery.html)。
+
+山海第二批[古籍與探索者](docs/story-drafts/shanhai-explorers-v1/README.md)、第三批[兩段支線](docs/story-drafts/shanhai-sidequests-v1/README.md)、第四批上[主線缺頁綱要](docs/story-drafts/main-missing-scenes-v1/README.md)已收稿與檢查，尚非遊戲實作。
