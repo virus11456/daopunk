@@ -4,10 +4,10 @@
   "phase_target": 100,
   "batch_size": 10,
   "phase_reviewed": 30,
-  "phase_synced": 20,
+  "phase_synced": 30,
   "cumulative_target": 132,
   "next_id": "NPC-0063",
   "stop_after_phase": true,
-  "status": "batch_3_pending_sync",
-  "verified_asset_commit": "6c74c4fb2d0313ee832eaa3888f3b0f7a23042ed"
+  "status": "batch_3_complete",
+  "verified_asset_commit": "28b224d2bb47bfd90ece27b179d14f6462ee0487"
 }
