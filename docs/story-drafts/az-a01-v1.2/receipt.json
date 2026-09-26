@@ -1,0 +1,13 @@
+{
+  "version": "A01 v1.2",
+  "source_sha256": "8c4584add06b994d7ac144a8842e730a56c97a7e32516e08f91a0cabadccbb45",
+  "original_byte_verified": true,
+  "editorial_status": "core_review_closed_with_documented_wording_alignment",
+  "canon_changes": false,
+  "runtime_implemented": false,
+  "working_copy_changes": [
+    "record-case terminology",
+    "identity evidence routes",
+    "policy-dependent dialogue"
+  ]
+}
