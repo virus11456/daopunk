@@ -1,11 +1,12 @@
 {
-  "verified_commit": "8eed6ed0aa498646ca6c1a1e67cc7bd24b950f92",
-  "verification": "Remote committed Git tree blob SHA equals SHA-1 of local PNG Git blob bytes; 4 PNGs verified.",
+  "verified_commit": "a1deb0f0ddeb4f9aa144e05772583ac6aeeda3e7",
+  "verification": "Committed tree blob SHA checked against local PNG Git blob SHA; 5 versions tracked.",
   "assets": {
     "docs/art-direction/npc-1000/assets/NPC-0001-front-v1.png": "37834f4d0e638c4020971504c127f902a8c66339",
     "docs/art-direction/npc-1000/assets/NPC-0001-front-v2.png": "cd21d4484e79cf5d4430aa1c7a778332029c6e3c",
     "docs/art-direction/npc-1000/assets/NPC-0002-front-v1.png": "e0302b93bc80bd96f70ecf3ddd9f23a161be6efe",
-    "docs/art-direction/npc-1000/assets/NPC-0002-front-v2.png": "a5ee7451650defd9e58548da40defca674f91756"
+    "docs/art-direction/npc-1000/assets/NPC-0002-front-v2.png": "a5ee7451650defd9e58548da40defca674f91756",
+    "docs/art-direction/npc-1000/assets/NPC-0001-front-v3.png": "9d0d8ce139593270c94f4f55223812eb57c278b4"
   },
   "synced_characters": 2,
   "accepted_final": 0

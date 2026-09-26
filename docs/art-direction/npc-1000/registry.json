@@ -61,12 +61,13 @@
           "asset": "assets/NPC-0001-front-v3.png",
           "version": 3,
           "qa": "visually_reviewed_needs_pixel_cleanup",
-          "synced": false,
+          "synced": true,
           "prompt": "Use case: style-transfer. Clean up the attached DAOPUNK robot repairer as one front-facing compact GBA map pixel sprite, version 3. Keep cream square head, offset amber lens, indigo apron, copper wrench arm, jade tag and short boots. Crucial change: FLAT SOLID pixel clusters, exactly uniform pixel grid, no gradients within a block, no soft antialiasing, no glow, no texture noise. Build on a 32 by 40 logical pixel grid and show enlarged crisp square pixels. Simplify head to a square silhouette and plain flat cream planes. Two-heads-tall full body. Transparent background with hard binary alpha edges, no shadow. One centered character only, no lettering or labels. Preserve the character identity while reducing detail to readable coarse shapes.",
           "prompt_fidelity": "exact_tool_input",
           "source": "built-in imagegen",
           "source_file": "exec-4597ab17-8027-4534-9f91-36dec51a5b6d.png",
-          "review": "Front full body and one subject; identity preserved; coarse silhouette improved. Smooth internal gradients and partial alpha persist, strict uniform pixel-grid request not met. Final acceptance withheld."
+          "review": "Front full body and one subject; identity preserved; coarse silhouette improved. Smooth internal gradients and partial alpha persist, strict uniform pixel-grid request not met. Final acceptance withheld.",
+          "verified_asset_commit": "a1deb0f0ddeb4f9aa144e05772583ac6aeeda3e7"
         }
       ]
     },
