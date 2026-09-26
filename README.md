@@ -128,3 +128,7 @@ NPC-0021～0030已完成正面靜態設計、40×48像素清理及逐張檢查�
 ## NPC-0032 與共同年表 v1.1
 
 [搬運員與圖庫](docs/art-direction/npc-1000/gallery.html)：累計32位靜態設計，968位待生成。[共同年表收稿與修正](docs/story-drafts/common-timeline-v1.1/REVIEW.md)：十五歲下山優先，死亡與遺物交接採条件分支。
+
+## NPC百位階段與故事修訂
+
+[圖庫](docs/art-direction/npc-1000/gallery.html)：NPC-0033～0042完成，累計42位。新階段共100位（0033～0132），每批10位，完成累計132位後先停。[共同年表修訂](docs/story-drafts/common-timeline-v1.1/REVISION_v1.2.md)已採本輪確認。開場與紅篇v1.1保留原稿並附檢查。

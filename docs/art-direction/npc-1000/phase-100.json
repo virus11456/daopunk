@@ -1,0 +1,12 @@
+{
+  "phase_start": "NPC-0033",
+  "phase_end": "NPC-0132",
+  "phase_target": 100,
+  "batch_size": 10,
+  "phase_reviewed": 10,
+  "phase_synced": 0,
+  "cumulative_target": 132,
+  "next_id": "NPC-0043",
+  "stop_after_phase": true,
+  "status": "batch_1_pending_sync"
+}
