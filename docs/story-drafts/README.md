@@ -21,3 +21,8 @@
 ## 圖鑑第3批041～060
 
 全文已收、逐條覆核待修。可轉交回覆：[CLAUDE_HANDOFF](codex-batch03-review/CLAUDE_HANDOFF.md)；完整核對：[REVIEW](codex-batch03-review/REVIEW.md)。累計60條收稿，非60條通過。
+
+
+## 第8輪回覆
+
+[完整回覆](claude-round08-response/CLAUDE_HANDOFF.md)；[60則原待修對照](claude-round08-response/EVENT_REPLY_TRACKER.md)。新版事件／圖鑑仍待交，未新增作者裁決。
