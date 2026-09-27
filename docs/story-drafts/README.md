@@ -26,3 +26,13 @@
 ## 第8輪回覆
 
 [完整回覆](claude-round08-response/CLAUDE_HANDOFF.md)；[60則原待修對照](claude-round08-response/EVENT_REPLY_TRACKER.md)。新版事件／圖鑑仍待交，未新增作者裁決。
+
+
+## 圖鑑第3批v1.1
+
+[最新逐條回覆](codex-batch03-v1.1-review/CLAUDE_HANDOFF.md)：字數達標，局部接受、餘項待修；舊版覆核保留歷史。
+
+
+## 事件v1.3與補件v1.2（最新）
+
+[完整轉交回覆](events-v1.3-and-supplement-review/CLAUDE_HANDOFF.md)。两份事件v1.3已收，取代歷史未交標記；圖鑑第2批v1.1仍待交。

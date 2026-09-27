@@ -1,0 +1,12 @@
+{
+  "entries": 20,
+  "summary_target_pass": 19,
+  "summary_exception": [
+    60
+  ],
+  "modern_target_pass": 20,
+  "atlas_ids_checked": 22,
+  "atlas_missing": [],
+  "original_preserved": true,
+  "author_decisions_added": 0
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "EV-061",
+    "original_line": 12,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "申訴受理另計接受；同一碑可有多次改動，作用域需版本／爭議。發言來源與缺席另案關聯仍未填。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-062",
+    "original_line": 17,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "自主申訴世界延續接受；轉介條件及結果、兵契依據、個體與所涉義肢要分，不是退伍者終身只生一次任務。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-063",
+    "original_line": 22,
+    "version_revision": true,
+    "review": "已改照護關係、補說錯試錨。M／N需排除共同照護重疊，須定主要照護或明確優先。決定自己照護不等於已實行；主角缺席也保留戰獸意願及其他介入，不能只抽牧人去向。",
+    "previous_open_findings": "先問戰獸與同意判斷改善；舊傷治好亦可安穩老去，適應後亦可能拒食，需同一時點互斥結局。說錯錨驗證、具體觀測時點與照護結果未補。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-064",
+    "original_line": 34,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "不撤外洩接受；選幫修不等於修好，前提與效果要驗證。原不外存位置／不抹親歷限制應保留，作用域到本次故障。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-065",
+    "original_line": 40,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "政策公布不等於撤下接受；公證轉介的許可／實際結果缺，正負授權分支的優先順序仍待補。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-066",
+    "original_line": 46,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "蓋亞可達／得知新增可接受；記錄仍需實際收受；教方法後结果不確定需分世界與主角知情。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-067",
+    "original_line": 53,
+    "version_revision": true,
+    "review": "保護逐項保留改善；執行仍需有效命令、時點及保護核對。作用域到該筆登錄／該次裁定，不是機器終身一次。",
+    "previous_open_findings": "權利不等受理接受；未提出→依法執行仍不能略過P01其他已生效保護、改判及中止。這里只可在可執行令與所有保護都核對後执行。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-068",
+    "original_line": 59,
+    "version_revision": true,
+    "review": "已給既有ID候選，接受提名工作已做；格式是否正式採用與實際部署仍須分，缺席不保證照常變更；權限與版本作用域待补。",
+    "previous_open_findings": "承認映射待指定；正式格式是否已改、誰能讀／記錄與權限未補，不能沒生成委託就默认變更已完成。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-069",
+    "original_line": 63,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "非第一不保證較早接受；填表自主接受。作用域需該登記個體／申請，不是工坊一生一次；真實送件與登記完成不同。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-070",
+    "original_line": 71,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "申訴结果與15日提案已補；預抽延誤不能覆蓋自行申訴或此前改列，綁貨批實際進度。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-071",
+    "original_line": 76,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "公開比率需交易當時資料，還有費用與差額；找其他商家结果未補，老婦钱不足應依其後續救助非永遠固定。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-072",
+    "original_line": 81,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "7日世界窗口有補；看板也可能毀損停更，消息源追查仍无结果，作用域需此次消息而非整個平價鎮。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-073",
+    "original_line": 88,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "可達有補但願見仍獨立，萬相京只是場景位置提案不全面封鎖其他可達場合。查配額表结果與当批配额ID未補。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-074",
+    "original_line": 93,
+    "version_revision": true,
+    "review": "已補實際授予、拒領保存及逐出接口，接受該修法；資格與知情依B-5核，缺席窯工不必永遠照舊，其他人也可改進。",
+    "previous_open_findings": "資格條件表述改善；接受傳授→實際領取仍跳了交付完成，資格、意願、教授／領取分時點，逐出／暫緩接口保留。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-075",
+    "original_line": 99,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "許可分支有補；未許可可以自記，許可也須實際刻成與保存。作用域到該街段／本次重構。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-076",
+    "original_line": 106,
+    "version_revision": true,
+    "review": "固定Tt截止與方案進度有改善；未列觀測時點、告知內容／向誰／何時，條件仍不完整。尚未開始包含何種取消／終止，是否存活適用範圍待定；父母決定不抹孩子意願及醫療實際條件。",
+    "previous_open_findings": "本人意願進步；說錯錨漏處理。配合療程與情緒恢復、療程順利與失去信任可同時成立，不能當互斥機率；「告知」具體內容、時點与介入後更新待補。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-077",
+    "original_line": 115,
+    "version_revision": true,
+    "review": "澄清／願談／實談分開已修；仍保留只有一方有雙語者即中斷，前輪問題未修：一名能讓雙方理解且被信任的人也可能澄清。",
+    "previous_open_findings": "按世界條件取代抽樣進步；一個雙語者是否足以澄清要看能傳達與雙方信任，不必兩方各有一人。找出錯處不等於對方接受或交涉恢復。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-078",
+    "original_line": 122,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "授課歷史與現況分開接受；請轉達需葉遲仍在世可聯絡且引導員同意、實際送達，若死／失聯不得預設可見。作用域具體到引導員與消息。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-079",
+    "original_line": 132,
+    "version_revision": true,
+    "review": "已給除名城區與舊魂聚落候選，接受提名已做；命令來源／權限／範圍、實際拒交部分全交及家庭落點仍未採。",
+    "previous_open_findings": "城市待選尚未提名方案；拒交／部分／全交須依具體命令、權限、範圍與執行，而非泛世界事件。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-080",
+    "original_line": 137,
+    "version_revision": true,
+    "review": "補審核結論與拒絕分支；「通常維持」需證據條件，拒絕本身不證爭議成立。本人紀錄重查途徑仍漏，不應只剩審核员遮蔽副本。",
+    "previous_open_findings": "權限範圍接受；說明／拒絕／離開各结果仍空，自己的紀錄須保留本人重查途徑，不能只剩審核员副本。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-081",
+    "original_line": 142,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "在世／地址／意願／相見四分接受；知道在世不代表知道地址，地址应可未知。透過中介詢問意願、消息送達與各選擇反應待補。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-082",
+    "original_line": 154,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "可採用或爭執進步；具體排表方案／授權／執行及作用域仍不足，應綁通行爭議與橋段。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-083",
+    "original_line": 159,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "主角須選風險不是已授權島嶼決策；需島民知情与有權者批准及實施，主角可只提案／退出。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-084",
+    "original_line": 164,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "各船收訊自主接受；缺席繼續隱瞞不能抹他人已公開預警。觀測日應早於抵達時才有預警機會，具體時程待補。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-085",
+    "original_line": 171,
+    "version_revision": true,
+    "review": "程序、命令通知與保護已分開，30日／上訴仍待設計標示正確；需本案實際制度方案及結果，不能記程序完成即結案，逐條受理證據界線待補。",
+    "previous_open_findings": "30日期限與反證條件是新提案；前置說無人提反證才併，分支又說不受理即併，彼此衝突。查舊位置不保證取得反證，記有無資料、送件、受理、裁定、執行。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-086",
+    "original_line": 184,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "有效途徑找到與获准分列，還缺路徑及不可達原因。家庭既有身份／族屬与中介调查结果待補。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-087",
+    "original_line": 189,
+    "version_revision": false,
+    "review": "本則沿用v1.2，前輪待修尚未落入；以下完整保留，勿標已關閉。",
+    "previous_open_findings": "找到替代光源不保证可用／可負担／已裝好，不直接恢复苗圃；申訴需落到实际結果，L01出場狀態保留。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-088",
+    "original_line": 197,
+    "version_revision": true,
+    "review": "補地點與人物作用域有進步；還缺童謠版本／當次遭遇、一起唱反應，重複觸發欄可整理。來源不回答不代表抹孩子實際已有知識。",
+    "previous_open_findings": "觸發與已學前置接受；仍缺人物／地點／童謠版本作用域，一起唱的反應与來源不可知分開。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-089",
+    "original_line": 203,
+    "version_revision": true,
+    "review": "作用域人物ID與既有地點有補；警告對象可達、送達、反應及同一人證據待補，可保存證據不限定文書。",
+    "previous_open_findings": "可提出指控接受；需同一人来源与可達角色，佐证不限定只有文書。幫助查辦／私下警告的送達反應與作用域缺。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  },
+  {
+    "id": "EV-090",
+    "original_line": 210,
+    "version_revision": true,
+    "review": "孩子人物／家庭ID已補，保留不從外表判騙；觀察／問話／教導的實際成果仍空，願教不等於已學會。",
+    "previous_open_findings": "不從表演判欺騙、已有人類個體及願學接受；仍缺特定孩子／地點作用域、觀察與問话結果、教導進度，不等於選教即會術。",
+    "status": "v1.3已收／局部修正接受／餘項待修"
+  }
+]

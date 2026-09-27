@@ -1,0 +1,22 @@
+[
+  {
+    "file": "/Users/frank/Downloads/files 4/DAOPUNK_示範事件_EV031-060_v1.3_20260927.md",
+    "sha256": "fb21027dccf62c615c6c6232b06ca8f57831880d712395532d5ae5b3db2ab71a",
+    "lines": 217,
+    "entries": 30,
+    "full_read": true
+  },
+  {
+    "file": "/Users/frank/Downloads/files 4/DAOPUNK_示範事件_EV061-090_v1.3_20260927.md",
+    "sha256": "e0919a26fe02d776a644981e0d8adf6d88a928b4ad5dbfdfb71a7696587a9963",
+    "lines": 226,
+    "entries": 30,
+    "full_read": true
+  },
+  {
+    "file": "/Users/frank/Downloads/files 4/DAOPUNK_補件_v1.2_20260927.md",
+    "sha256": "87e0b52bbdac0f8499d579ed21d53b7536c890bb2ba2550e2d03a5dc86364bf7",
+    "lines": 132,
+    "full_read": true
+  }
+]
