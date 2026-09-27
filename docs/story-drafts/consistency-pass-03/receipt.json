@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "document-index-v1.3",
+    "source": "/Users/frank/Downloads/files 2/DAOPUNK_文件總索引與問題狀態追蹤_v1.3.md",
+    "status": "本輪曾成功讀取與比對；保存時來源已不在原路徑，待補原檔",
+    "original_archived": false
+  },
+  {
+    "slug": "background-v1.7",
+    "source": "/Users/frank/Downloads/files 2/DAOPUNK_完整背景_v1.7_燈還掛著.md",
+    "status": "本輪曾成功讀取與比對；保存時來源已不在原路徑，待補原檔",
+    "original_archived": false
+  },
+  {
+    "slug": "lamp-families-v1.2",
+    "source": "/Users/frank/Downloads/files 2/DAOPUNK_燈籍家庭_v1.2.md",
+    "status": "本輪曾成功讀取與比對；保存時來源已不在原路徑，待補原檔",
+    "original_archived": false
+  },
+  {
+    "slug": "claude-round2-review",
+    "source": "/Users/frank/.codex/attachments/0ed46b15-b607-4360-8a2b-e49aec3955b0/貼上的文字.txt",
+    "sha256": "05a95aefcc3408b7de6698538166018ed5c3fde5e5920e1bfa11c2142150cbbb",
+    "bytes": 17091,
+    "original_archived": true,
+    "read_scope": "全文"
+  },
+  {
+    "slug": "warren-w01-v1.3",
+    "source": "/Users/frank/.codex/attachments/1a5fecff-58bb-42b1-ab37-6b301160d9dd/貼上的文字.txt",
+    "sha256": "c9b77fea53a93496be5d1a558ffd6b1253a67f568143a6f01d74d2b2aaa2b680",
+    "bytes": 27874,
+    "original_archived": true,
+    "read_scope": "全文"
+  }
+]

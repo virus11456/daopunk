@@ -1,0 +1,314 @@
+[
+  {
+    "id": "BG15-01",
+    "document_namespace": "BG15",
+    "claude_verdict": "另提修法",
+    "location": "背景 WORKING 階段八、九、C14、第 384 行",
+    "remaining": "方向正確；第三方可歸因證據見 F05，建議採「真實比對＋聖庭紀錄或因果追溯」",
+    "our_disposition": "方向保留；其F05方案尚有缺口，未採"
+  },
+  {
+    "id": "BG15-02",
+    "document_namespace": "BG15",
+    "claude_verdict": "接受修訂",
+    "location": "背景 4.1、4.2、階段二、閘門、追殺",
+    "remaining": "夏汐等人物的世界出生日另補",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "BG15-03",
+    "document_namespace": "BG15",
+    "claude_verdict": "接受修訂",
+    "location": "背景 C04、階段三",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "BG15-04",
+    "document_namespace": "BG15",
+    "claude_verdict": "另提修法：套用 N39、N40",
+    "location": "背景「轉生」一節",
+    "remaining": "「半選擇如何相容仍待設計」改為 N39；「十年」改為 N40 軟目標",
+    "our_disposition": "已依新裁決／明確殘留修文；F方案不自動採用"
+  },
+  {
+    "id": "BG15-05",
+    "document_namespace": "BG15",
+    "claude_verdict": "接受修訂",
+    "location": "背景師父段、相關文件、階段十一",
+    "remaining": "逐出後接口見 F05",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "BG15-06",
+    "document_namespace": "BG15",
+    "claude_verdict": "另提修法",
+    "location": "背景第七節、階段十一",
+    "remaining": "共用條件表已列；需補 F05 的「命運未取得時的結局可用性」",
+    "our_disposition": "方向保留；其F05方案尚有缺口，未採"
+  },
+  {
+    "id": "BG15-07",
+    "document_namespace": "BG15",
+    "claude_verdict": "接受修訂",
+    "location": "背景序、年表、階段一、階段九",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "BG15-08",
+    "document_namespace": "BG15",
+    "claude_verdict": "接受修訂",
+    "location": "背景相關文件",
+    "remaining": "相關文件清單需再加 N34～N41 的來源",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "D12-01",
+    "document_namespace": "D12",
+    "claude_verdict": "接受修訂",
+    "location": "dialogue 殘-1、殘-2、殘-5、蓋-2",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "D12-02",
+    "document_namespace": "D12",
+    "claude_verdict": "接受修訂",
+    "location": "dialogue 蓋-3、蓋-4",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "D12-03",
+    "document_namespace": "D12",
+    "claude_verdict": "接受修訂",
+    "location": "dialogue 追-2～追-4",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "D12-04",
+    "document_namespace": "D12",
+    "claude_verdict": "接受修訂",
+    "location": "dialogue 罪-2、罪-4、階段十一",
+    "remaining": "師父不可達時的替代來源見 F05",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "D12-05",
+    "document_namespace": "D12",
+    "claude_verdict": "另提修法",
+    "location": "dialogue 弒-2A、煉-1、煉-4",
+    "remaining": "弒-2A 需依 N29 寫「先接上、再切斷」（第一節 1b）",
+    "our_disposition": "已依新裁決／明確殘留修文；F方案不自動採用"
+  },
+  {
+    "id": "D12-06",
+    "document_namespace": "D12",
+    "claude_verdict": "另提修法",
+    "location": "dialogue 守-1、守-2、守-4、弒-2B、醒-4",
+    "remaining": "修正「階段十三方」措辭（1c）；刪弒-2B 舊三行（1）",
+    "our_disposition": "已依新裁決／明確殘留修文；F方案不自動採用"
+  },
+  {
+    "id": "D12-07",
+    "document_namespace": "D12",
+    "claude_verdict": "接受修訂",
+    "location": "dialogue 第六節",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "L11-01",
+    "document_namespace": "luwu-l01",
+    "claude_verdict": "另提修法",
+    "location": "L01 第 149、174 行（正文已符合）",
+    "remaining": "第 9、19 行加註「v1.2 起替代路徑僅限私人會面」",
+    "our_disposition": "已依新裁決／明確殘留修文；F方案不自動採用"
+  },
+  {
+    "id": "L11-03",
+    "document_namespace": "luwu-l01",
+    "claude_verdict": "另提修法",
+    "location": "L01 結盟表、第 232 行",
+    "remaining": "撤約時資格處理採 F05「暫停不刪除」",
+    "our_disposition": "方向保留；其F05方案尚有缺口，未採"
+  },
+  {
+    "id": "L11-04",
+    "document_namespace": "luwu-l01",
+    "claude_verdict": "接受修訂",
+    "location": "L01 知情欄、計畫狀態",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "LC01",
+    "document_namespace": "LC01",
+    "claude_verdict": "接受修訂",
+    "location": "late-companions 表、叁、夏汐、七",
+    "remaining": "夏汐的世界出生日待提名",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "LC02",
+    "document_namespace": "LC02",
+    "claude_verdict": "接受修訂",
+    "location": "late-companions 叁",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "LC03",
+    "document_namespace": "LC03",
+    "claude_verdict": "另提修法",
+    "location": "late-companions 夏汐",
+    "remaining": "「直系與旁系排除的待決部分維持未定」：直系規則已由 N40 確認不放寬；旁系排除（追蹤 3.3 第 19 項）仍待裁決",
+    "our_disposition": "已依新裁決／明確殘留修文；F方案不自動採用"
+  },
+  {
+    "id": "LC04",
+    "document_namespace": "LC04",
+    "claude_verdict": "另提修法：套用 N34、N37",
+    "location": "late-companions 夏汐",
+    "remaining": "「生辰不自動是正確命錨」改引 N37；核對流程改引 N34",
+    "our_disposition": "已依新裁決／明確殘留修文；F方案不自動採用"
+  },
+  {
+    "id": "LC05",
+    "document_namespace": "LC05",
+    "claude_verdict": "接受修訂",
+    "location": "late-companions 岑絲",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "LC06",
+    "document_namespace": "LC06",
+    "claude_verdict": "接受修訂",
+    "location": "late-companions 岑絲、七",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "LC07",
+    "document_namespace": "LC07",
+    "claude_verdict": "接受修訂",
+    "location": "late-companions 岑絲終章",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "LL01",
+    "document_namespace": "LL01",
+    "claude_verdict": "接受修訂",
+    "location": "late-life 紅、七",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "LL02",
+    "document_namespace": "LL02",
+    "claude_verdict": "接受修訂",
+    "location": "late-life 零號",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "LL03",
+    "document_namespace": "LL03",
+    "claude_verdict": "另提修法：套用 N34、N35",
+    "location": "late-life 星塵",
+    "remaining": "觀命同意之外，補「星塵的命錨依 N34 核對」「須在場（N35）」",
+    "our_disposition": "已依新裁決／明確殘留修文；F方案不自動採用"
+  },
+  {
+    "id": "LL04",
+    "document_namespace": "LL04",
+    "claude_verdict": "另提修法：套用 N41",
+    "location": "late-life 大師兄",
+    "remaining": "刪「99 年起算點待定」，以出生起算：T+60y 約 103 歲，須有本世延壽依據",
+    "our_disposition": "已依新裁決／明確殘留修文；F方案不自動採用"
+  },
+  {
+    "id": "LL05",
+    "document_namespace": "LL05",
+    "claude_verdict": "接受修訂",
+    "location": "late-life 大師兄",
+    "remaining": "第 133 台的命錨判定引 N34",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "LL06",
+    "document_namespace": "LL06",
+    "claude_verdict": "接受修訂",
+    "location": "late-life 各篇、七",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "M21-01",
+    "document_namespace": "M21",
+    "claude_verdict": "接受修訂",
+    "location": "main 回來段表",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "M21-02",
+    "document_namespace": "M21",
+    "claude_verdict": "另提修法",
+    "location": "main 階段表十一、十二、階段七",
+    "remaining": "第十二列補 N29～N33（第一節 2）；階段七文中「背景 v1.5」改為現行版本",
+    "our_disposition": "已依新裁決／明確殘留修文；F方案不自動採用"
+  },
+  {
+    "id": "M21-03",
+    "document_namespace": "M21",
+    "claude_verdict": "接受修訂",
+    "location": "main 階段表八、十、K6 接口",
+    "remaining": "F05 的歸因來源可補入",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "M21-04",
+    "document_namespace": "M21",
+    "claude_verdict": "接受修訂",
+    "location": "main 2.3 表、之後每一輪",
+    "remaining": "—",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "M21-05",
+    "document_namespace": "M21",
+    "claude_verdict": "另提修法",
+    "location": "main 多處",
+    "remaining": "版本引用「背景 v1.5」「第四批下 v1.2」與同檔他處不一致，建議統一",
+    "our_disposition": "已依新裁決／明確殘留修文；F方案不自動採用"
+  },
+  {
+    "id": "M21-06",
+    "document_namespace": "M21",
+    "claude_verdict": "接受修訂",
+    "location": "main 七",
+    "remaining": "兩套時數估算仍未統一（追蹤 3.2 第 11 項），不是本 REVIEW 能解決的",
+    "our_disposition": "接受其文本覆核；保留未完成接口"
+  },
+  {
+    "id": "M21-07",
+    "document_namespace": "M21",
+    "claude_verdict": "另提修法：套用 N39、N40",
+    "location": "main 2.2、階段八至十二",
+    "remaining": "「玩家介面或主角有限意識的選擇方式未定」改為 N39",
+    "our_disposition": "已依新裁決／明確殘留修文；F方案不自動採用"
+  },
+  {
+    "id": "N32",
+    "document_namespace": "N32",
+    "claude_verdict": "另提修法",
+    "location": "dialogue 共治尾聲（已修）；弒-2B 開頭（未修）",
+    "remaining": "刪弒-2B 舊三行",
+    "our_disposition": "已依新裁決／明確殘留修文；F方案不自動採用"
+  }
+]

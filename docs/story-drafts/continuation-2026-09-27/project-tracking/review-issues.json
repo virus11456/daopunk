@@ -320,7 +320,8 @@
         "background-v1.6"
       ],
       "change_log": "consistency-pass-02/CHANGES.json",
-      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。",
+      "latest_working": "consistency-pass-03/background-v1.7/WORKING.md"
     }
   },
   {
@@ -334,7 +335,8 @@
         "background-v1.6"
       ],
       "change_log": "consistency-pass-02/CHANGES.json",
-      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。",
+      "latest_working": "consistency-pass-03/background-v1.7/WORKING.md"
     }
   },
   {
@@ -348,7 +350,8 @@
         "background-v1.6"
       ],
       "change_log": "consistency-pass-02/CHANGES.json",
-      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。",
+      "latest_working": "consistency-pass-03/background-v1.7/WORKING.md"
     }
   },
   {
@@ -362,7 +365,8 @@
         "background-v1.6"
       ],
       "change_log": "consistency-pass-02/CHANGES.json",
-      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。",
+      "latest_working": "consistency-pass-03/background-v1.7/WORKING.md"
     }
   },
   {
@@ -376,7 +380,8 @@
         "background-v1.6"
       ],
       "change_log": "consistency-pass-02/CHANGES.json",
-      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。",
+      "latest_working": "consistency-pass-03/background-v1.7/WORKING.md"
     }
   },
   {
@@ -390,7 +395,8 @@
         "background-v1.6"
       ],
       "change_log": "consistency-pass-02/CHANGES.json",
-      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。",
+      "latest_working": "consistency-pass-03/background-v1.7/WORKING.md"
     }
   },
   {
@@ -404,7 +410,8 @@
         "background-v1.6"
       ],
       "change_log": "consistency-pass-02/CHANGES.json",
-      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。",
+      "latest_working": "consistency-pass-03/background-v1.7/WORKING.md"
     }
   },
   {
@@ -418,7 +425,8 @@
         "background-v1.6"
       ],
       "change_log": "consistency-pass-02/CHANGES.json",
-      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。",
+      "latest_working": "consistency-pass-03/background-v1.7/WORKING.md"
     }
   },
   {
@@ -596,13 +604,10 @@
     "document": "lamp-families-v1.1",
     "problem": "1.5再次把N19寫成自動終局時限",
     "required_change": "刪除「更接近時限」；死亡代價為真實時間、人物與地方變化，最終四結局由玩家觸發",
-    "status": "已落工作稿／待覆核",
+    "status": "工作修訂／部分待設計",
     "resolution": {
-      "documents": [
-        "luwu-l01-v1.2"
-      ],
-      "change_log": "consistency-pass-02/CHANGES.json",
-      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
     }
   },
   {
@@ -610,21 +615,21 @@
     "document": "lamp-families-v1.1",
     "problem": "十年保證＋跨世後裔／配偶排除＋人類僅數十人，可能無合格出生",
     "required_change": "不能悄悄放寬血緣限制、添加新血緣或安排强制生育。十年是軟目標或另設保障須作者選擇；不歸零不代表還有合格生育來源",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "L11-03",
     "document": "lamp-families-v1.1",
     "problem": "待產清單的出现時間與實際出生時間混用",
     "required_change": "W計至實際出生，十年上限若採用也必須涵蓋剩餘孕期；不能等了十年找到待產者後再加未計孕期",
-    "status": "已落工作稿／待覆核",
+    "status": "工作修訂／部分待設計",
     "resolution": {
-      "documents": [
-        "luwu-l01-v1.2"
-      ],
-      "change_log": "consistency-pass-02/CHANGES.json",
-      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
     }
   },
   {
@@ -632,13 +637,10 @@
     "document": "lamp-families-v1.1",
     "problem": "死後主角看清單並選擇，與等待期無經驗相衝",
     "required_change": "分清玩家UI與角色經驗；若角色確有選擇經驗，須正式修訂能力／記憶邊界，不能同時說完全無經驗",
-    "status": "已落工作稿／待覆核",
+    "status": "工作修訂／部分待設計",
     "resolution": {
-      "documents": [
-        "luwu-l01-v1.2"
-      ],
-      "change_log": "consistency-pass-02/CHANGES.json",
-      "limit": "不視為整組關閉；待設計部分見OPEN_DETAILS.md。舊REVIEW所列Q2/Q5/Q6/共治待決已由N29～N33取代。"
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
     }
   },
   {
@@ -646,160 +648,228 @@
     "document": "lamp-families-v1.1",
     "problem": "「最早出生三戶」預知未來且忽略雙胞胎、流產、遷徙",
     "required_change": "區分預估日期與实际出生；家庭ID不等於孩子ID。同時候選需穩定排序與選定紀錄，不能進出清單重抽；出生未發生的處理另提案",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "L11-06",
     "document": "lamp-families-v1.1",
     "problem": "家業與星球已足以推測資源、地點与風險，不能稱無法挑好開局",
     "required_change": "只能降低資訊，不保證杜絕刷開局。候選消耗、世界後果與再選规则需後續測試，不能加自動結局懲罚",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "L11-07",
     "document": "lamp-families-v1.1",
     "problem": "「同清單不出現兩次」與同戶再次轉生混淆",
     "required_change": "同一出生實例不重現，同樣戶名組合可以再出現；以孩子／出生實例識別，不能為防重複強迫家庭換名",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "L11-08",
     "document": "lamp-families-v1.1",
     "problem": "同戶必為不同世代不成立",
     "required_change": "早死後可能轉生為父母晚年新生的另一個孩子，即前世手足；原排除规则未禁止。若要禁止父母重複生出主角須另定，不能假裝已禁止",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "L11-09",
     "document": "lamp-families-v1.1",
     "problem": "跨世親屬篩選不能用姓氏或當前戶籍",
     "required_change": "作者層需全世代人物ID、真實親子、配偶歷史；旁系是否排除待答。收養、前任／離異／喪偶範圍及資料缺漏需定義，秘密親屬不能因玩家不知就漏篩",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "L11-10",
     "document": "lamp-families-v1.1",
     "problem": "新戶模板直接生成兩名燈籍父母可能憑空增加人類",
     "required_change": "父母引用現存人物，成家／立戶／遷居／出生為不同事件。星球出口不是每位居民天生的技能與資產；家業要有來源",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "L11-11",
     "document": "lamp-families-v1.1",
     "problem": "七戶「固定」可能被實作成永不滅戶、保證存在",
     "required_change": "應指七個手寫家族來源提案，不保證每世可用。家人死活、失散、童年變化仍需獨立；第一世隱修院十五歲下山不變",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "L11-12",
     "document": "lamp-families-v1.1",
     "problem": "林家不知情仍待批准；沈家明列候選",
     "required_change": "保持各自作者決策状态，不因表格「固定」升格；旁系未排除也不代表人類族群已擴充",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "L11-13",
     "document": "lamp-families-v1.1",
     "problem": "白家仍缺城市，程家新戶未有遷居條件",
     "required_change": "白家保留星球級提案，需從現有城市選；新戶可移動但有連續歷史，不隨每輪瞬移",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "L11-14",
     "document": "lamp-families-v1.1",
     "problem": "接續型無條件出現拾六、紅的燈及家族知情",
     "required_change": "依人物存活、位置、實物保管與資訊來源；家人可能已被主角告知前世，不該每次都無條件不知情",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "L11-15",
     "document": "lamp-families-v1.1",
     "problem": "D01 v1.2、S02 v2.2被當作已存在依據",
     "required_change": "本機收稿目前為D01修訂v1.1、S02修訂v2.1；本次只記預期下一版接口，未收到較新版不稱已修好",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "L11-16",
     "document": "lamp-families-v1.1",
     "problem": "師父「不回自己的血裡」涵蓋旁系，但旁系被允許",
     "required_change": "改為明確「不落在你累世子孫或配偶所生的孩子身上」的候選台詞；詩性句可保留，但不能當精確规则證明",
-    "status": "待整合",
-    "resolution": null
+    "status": "工作修訂／部分待設計",
+    "resolution": {
+      "latest_working": "consistency-pass-03/lamp-families-v1.2/WORKING.md",
+      "limit": "L11-01～16逐項保留；03、05、08、09、13等尚有細設；新版ORIGINAL待補。只按文件名＋ID追蹤，舊第2輪同號命中不算家庭篇處理證據。"
+    }
   },
   {
     "id": "W12-01",
     "document": "warren-w01-v1.2",
     "problem": "W-5、場景依賴與缺席",
     "required_change": "v1.1 的 W-5「已知 K5 且關係至少尊重」在本版消失，須補回，避免提前談造物主。恢復 W-2、W-3、W-4 的開啟條件或明確交叉引用。從未到商盟不等於沃倫一定不知道主角，他仍可能收到第四節其他來源；道主離場另有可聯絡條件。",
-    "status": "待整合",
-    "resolution": null
+    "status": "v1.3已覆核／工作修訂待確認",
+    "resolution": {
+      "latest_working": "consistency-pass-03/warren-w01-v1.3/WORKING.md",
+      "review": "consistency-pass-03/W01_REVIEW.md",
+      "limit": "W12-08仍待作者裁決；F05未採，其他接口見審閱。"
+    }
   },
   {
     "id": "W12-02",
     "document": "warren-w01-v1.2",
     "problem": "第三節、W-2 契約",
     "required_change": "「承認這一世條款」改為當世條款亦逐項審理。待設計摘要不能真的在場景中以空白計價條款完成簽署：寫明實作簽前須展示填定版本，可詢問、暫緩、諮詢、拒簽。優先購買權須有價格與回覆期限的規則接口，無需現在填數字。",
-    "status": "待整合",
-    "resolution": null
+    "status": "v1.3已覆核／工作修訂待確認",
+    "resolution": {
+      "latest_working": "consistency-pass-03/warren-w01-v1.3/WORKING.md",
+      "review": "consistency-pass-03/W01_REVIEW.md",
+      "limit": "W12-08仍待作者裁決；F05未採，其他接口見審閱。"
+    }
   },
   {
     "id": "W12-03",
     "document": "warren-w01-v1.2",
     "problem": "W-1、W-1b 無後人與證據",
     "required_change": "無後人不等於店舖必然归債權人，仍依擔保範圍、清償與世界中的遺產處理結果；可用檔案呈現未知或不同結局。「沒有交付紀錄」也不等於證實未交付。開庭以世界日期起算；當事人已有相同有效證據時，不只因玩家缺席降低結果。保留阿衡是否訴訟與公開的意願。",
-    "status": "待整合",
-    "resolution": null
+    "status": "v1.3已覆核／工作修訂待確認",
+    "resolution": {
+      "latest_working": "consistency-pass-03/warren-w01-v1.3/WORKING.md",
+      "review": "consistency-pass-03/W01_REVIEW.md",
+      "limit": "W12-08仍待作者裁決；F05未採，其他接口見審閱。"
+    }
   },
   {
     "id": "W12-04",
     "document": "warren-w01-v1.2",
     "problem": "W-3b、W-6 實際成果",
     "required_change": "收到通知是程序成果，不保證執行者已停工、放人、停止追索。任務资格需核對選定案件已實際解除子女義務／停止追索；其餘工資與補償可另列追蹤，不強求整個宇宙改革才授法。債權人不明或轉售不應封死個案審理與暫緩執行，只能等制度改革；可設虛構法院程序候選。直屬機構不等於沃倫本人可任意放棄其債權，補授權；公告效力、地域與落地執行分開。",
-    "status": "待整合",
-    "resolution": null
+    "status": "v1.3已覆核／工作修訂待確認",
+    "resolution": {
+      "latest_working": "consistency-pass-03/warren-w01-v1.3/WORKING.md",
+      "review": "consistency-pass-03/W01_REVIEW.md",
+      "limit": "W12-08仍待作者裁決；F05未採，其他接口見審閱。"
+    }
   },
   {
     "id": "W12-05",
     "document": "warren-w01-v1.2",
     "problem": "W-3、W-4 公證與證據",
     "required_change": "「母親不能代孩子同意任何事」限縮為不能代賣未來／代替未來自主同意，避免把照護也否定。公證結果改為「在本次方法範圍未發現剪接」，非絕對真實；提供結果不自动透露當世住址。唯一錯字等是強線索，仍需來源、時間及交叉證據，不能只存環數就算全鏈證實。",
-    "status": "待整合",
-    "resolution": null
+    "status": "v1.3已覆核／工作修訂待確認",
+    "resolution": {
+      "latest_working": "consistency-pass-03/warren-w01-v1.3/WORKING.md",
+      "review": "consistency-pass-03/W01_REVIEW.md",
+      "limit": "W12-08仍待作者裁決；F05未採，其他接口見審閱。"
+    }
   },
   {
     "id": "W12-06",
     "document": "warren-w01-v1.2",
     "problem": "W-6 跨世資格",
     "required_change": "查验未完成不等於已完成資格被抹除；記為資格存在、當世辨認待核，提供補證或其他來源；重新做任務可選，非唯一解。擊倒後領取與道主逐出先後需留明確接口；已得法則在本人未被認出時仍可使用，領取一次不等於只能使用一次。",
-    "status": "待整合",
-    "resolution": null
+    "status": "v1.3已覆核／工作修訂待確認",
+    "resolution": {
+      "latest_working": "consistency-pass-03/warren-w01-v1.3/WORKING.md",
+      "review": "consistency-pass-03/W01_REVIEW.md",
+      "limit": "W12-08仍待作者裁決；F05未採，其他接口見審閱。"
+    }
   },
   {
     "id": "W12-07",
     "document": "warren-w01-v1.2",
     "problem": "W-3b 與情境六、狀態欄",
     "required_change": "正文說沃倫承認後玩家缺席仍可能單案撤銷；覆核六卻說未跟進一切皆未發生。改為當下尚未發生，日後依世界事件與代理進度。補通知送達／實際停止、資助期／既有債務、承諾完成／合理不能／違約、當世辨認與證據來源；避免枚舉組合漏掉「含五但議四」。旗標用 W01_ 前綴便於與其他篇區分。",
-    "status": "待整合",
-    "resolution": null
+    "status": "v1.3已覆核／工作修訂待確認",
+    "resolution": {
+      "latest_working": "consistency-pass-03/warren-w01-v1.3/WORKING.md",
+      "review": "consistency-pass-03/W01_REVIEW.md",
+      "limit": "W12-08仍待作者裁決；F05未採，其他接口見審閱。"
+    }
   },
   {
     "id": "W12-08",
     "document": "warren-w01-v1.2",
     "problem": "九節來訪期限",
     "required_change": "仍待作者選，不代定。乙「一生中若能至少一次」需明確是簽約當世還是累世總一次；丙「前三世」需明確從簽約算起、無法履行的世是否計入。可以提出建議，不將未選期限写成簽約已完成。",
-    "status": "待整合",
-    "resolution": null
+    "status": "v1.3已覆核／工作修訂待確認",
+    "resolution": {
+      "latest_working": "consistency-pass-03/warren-w01-v1.3/WORKING.md",
+      "review": "consistency-pass-03/W01_REVIEW.md",
+      "limit": "W12-08仍待作者裁決；F05未採，其他接口見審閱。"
+    }
   },
   {
     "id": "D12-01",

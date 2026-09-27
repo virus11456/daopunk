@@ -1,0 +1,13 @@
+{
+  "checks_passed": [
+    "claude-round2-review original byte match",
+    "warren-w01-v1.3 original byte match",
+    "39 rows = 24 accept + 15 amend; 38 previous IDs + N32",
+    "W01 four stale flag names removed",
+    "dialogue order and duplicate lines checked"
+  ],
+  "exact_new_md_originals_pending": 3,
+  "archived_attachment_originals": 2,
+  "gameplay_tested": false,
+  "all_reviews_closed": false
+}

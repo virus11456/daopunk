@@ -58,42 +58,42 @@
   {
     "id": "D08",
     "title": "非人類命錨如何判定",
-    "status": "待設計",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "需可觀測的試驗與證據流程",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.3/ORIGINAL.md；background-v1.7/ORIGINAL.md",
+    "next": "已落第3輪工作稿；細設與逐場驗收另記，不重開裁決",
+    "decision": "N34：命錨判定：先問對方「開始成為自己的那一刻」；說不出或說錯時主角再試錨。錨對＝至少讀得出一條分支的機率與條件；錨不對＝只見模糊細線"
   },
   {
     "id": "D09",
     "title": "觀命範圍",
-    "status": "待設計",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "不可默認遠距定位",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.3/ORIGINAL.md；background-v1.7/ORIGINAL.md",
+    "next": "已落第3輪工作稿；細設與逐場驗收另記，不重開裁決",
+    "decision": "N35：觀命範圍：對象在場，或主角親見過且知道其命錨；只看條件與機率，看不出位置，不能定位失蹤者"
   },
   {
     "id": "D10",
     "title": "被觀命者能否察覺",
-    "status": "待裁決",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "—",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.3/ORIGINAL.md；background-v1.7/ORIGINAL.md",
+    "next": "已落第3輪工作稿；細設與逐場驗收另記，不重開裁決",
+    "decision": "N36：只有道主能察覺自己被觀命；一般人與同門只能從主角的身體跡象推知"
   },
   {
     "id": "D11",
     "title": "下山日替代生辰",
-    "status": "待裁決",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "—",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.3/ORIGINAL.md；background-v1.7/ORIGINAL.md",
+    "next": "已落第3輪工作稿；細設與逐場驗收另記，不重開裁決",
+    "decision": "N37：人與非人統一以「開始成為自己的那一刻」為錨；生辰是人類最常見的那一刻（紅的下山日、零號的出家日為例）"
   },
   {
     "id": "D12",
     "title": "觀命能否看夢",
-    "status": "待裁決",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "不以 Z01 單案定規則",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.3/ORIGINAL.md；background-v1.7/ORIGINAL.md",
+    "next": "已落第3輪工作稿；細設與逐場驗收另記，不重開裁決",
+    "decision": "N38：觀命看不見夢或內在經驗"
   },
   {
     "id": "D13",
@@ -138,10 +138,10 @@
   {
     "id": "D18",
     "title": "燈籍等待上限約十年",
-    "status": "待裁決",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "區分軟目標與硬保證（見 3.2 第 4 項）",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.3/ORIGINAL.md；background-v1.7/ORIGINAL.md",
+    "next": "已落第3輪工作稿；細設與逐場驗收另記，不重開裁決",
+    "decision": "N40：燈籍等待約十年為軟目標，以燈籍人口規模使其多數情況成立；不放寬直系規則；不憑空新增家庭"
   },
   {
     "id": "D19",
@@ -154,10 +154,10 @@
   {
     "id": "D20",
     "title": "師父留下選擇空隙",
-    "status": "待裁決",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "需區分玩家介面與主角經驗（見 3.2 第 3 項）",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.3/ORIGINAL.md；background-v1.7/ORIGINAL.md",
+    "next": "已落第3輪工作稿；細設與逐場驗收另記，不重開裁決",
+    "decision": "N39：燈籍落點的半選擇只存在於玩家介面；主角不記得選過，於主線階段六聽師父說後才明白（可信可疑）"
   },
   {
     "id": "D21",
@@ -266,26 +266,26 @@
   {
     "id": "M03",
     "title": "半選擇的機制：玩家介面操作，還是主角死後的有限意識選擇",
-    "status": "待設計",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "須與「等待期無經驗」一致",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.3/ORIGINAL.md；background-v1.7/ORIGINAL.md",
+    "next": "已落第3輪工作稿；細設與逐場驗收另記，不重開裁決",
+    "decision": "N39：燈籍落點的半選擇只存在於玩家介面；主角不記得選過，於主線階段六聽師父說後才明白（可信可疑）"
   },
   {
     "id": "M04",
     "title": "十年上限在直系排除後無合資格新生兒時如何成立",
-    "status": "待設計",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "不得憑空新增人類家庭",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.3/ORIGINAL.md；background-v1.7/ORIGINAL.md",
+    "next": "已落第3輪工作稿；細設與逐場驗收另記，不重開裁決",
+    "decision": "N40：燈籍等待約十年為軟目標，以燈籍人口規模使其多數情況成立；不放寬直系規則；不憑空新增家庭"
   },
   {
     "id": "M05",
     "title": "99 年基礎承載的起算點",
-    "status": "待裁決",
-    "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "不能同時以出生與覺醒推年表",
-    "decision": null
+    "status": "已定",
+    "source": "document-index-v1.3/ORIGINAL.md；background-v1.7/ORIGINAL.md",
+    "next": "已落第3輪工作稿；細設與逐場驗收另記，不重開裁決",
+    "decision": "N41：99 年基礎承載從出生起算"
   },
   {
     "id": "M06",
