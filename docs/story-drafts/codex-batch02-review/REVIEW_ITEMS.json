@@ -1,0 +1,301 @@
+[
+  {
+    "sequence": 21,
+    "id": "SH-GOD-201",
+    "title": "英招（修訂）",
+    "original_line": 16,
+    "original_fields_1_to_10": true,
+    "summary_chars": 36,
+    "modern_chars": 51,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "篇章與形貌可對照；「榴／橊」所指不宜擅解。異本焚毀只留下主角記憶須限於他確實讀過且無其他副本的情況；插圖須實存、實際看過，不因背經生成古圖。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/西山經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 22,
+    "id": "SH-GOD-202",
+    "title": "刑天（修訂）",
+    "original_line": 29,
+    "original_fields_1_to_10": true,
+    "summary_chars": 38,
+    "modern_chars": 32,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "刑天與常羊篇章可對照；石刻是本作提案，親見石刻不等於親見刑天。補進入邊緣世界的既有路徑、拒絕／缺席與石刻損毀狀態。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/海外西經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 23,
+    "id": "SH-NATION-201",
+    "title": "貫匈國（修訂）",
+    "original_line": 42,
+    "original_fields_1_to_10": true,
+    "summary_chars": 16,
+    "modern_chars": 48,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "貫匈正文可對照；衣物與牆門不能證祖源。需遺物來源／轉手鏈、盜掘前後狀態；胸口孔洞的經文形貌不自動等於新散居人類。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/海外南經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 24,
+    "id": "SH-NATION-202",
+    "title": "丈夫國（修訂）",
+    "original_line": 55,
+    "original_fields_1_to_10": true,
+    "summary_chars": 18,
+    "modern_chars": 35,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "正文為衣冠帶劍，刀為多加；成年禮及後裔自稱保留提案。只給U007不算完成具體落點提名，需既有星球／地點候選；族譜文書與記憶片段檢驗方法不能混同。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/海外西經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 25,
+    "id": "SH-NATION-203",
+    "title": "大人國（修訂）",
+    "original_line": 68,
+    "original_fields_1_to_10": true,
+    "summary_chars": 18,
+    "modern_chars": 18,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "坐而削船有來源；巨大工具不證造船者身高。船塢在邊緣或萬舶附近二擇仍未完成落點提名；列各候選及進入／受託／拒絕條件。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/海外東經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 26,
+    "id": "SH-NATION-204",
+    "title": "君子國（修訂）",
+    "original_line": 81,
+    "original_fields_1_to_10": true,
+    "summary_chars": 31,
+    "modern_chars": 35,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "正文載兩文虎並有大虎異文，可標版本，不當錯字。鞘劍空席是編輯示意，不是因背經取得的古圖／實物紀錄；來源人需實際參與談判。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/海外東經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 27,
+    "id": "SH-NATION-205",
+    "title": "不死民（修訂；原稱「不死國」）",
+    "original_line": 94,
+    "original_fields_1_to_10": true,
+    "summary_chars": 19,
+    "modern_chars": 27,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "海外南經確作不死民，經文名稱更正可做校訂、不需作者重新選古籍字句；保留原不死國為舊名與同ID。遇掮客不等於已揭穿，偽字與禁文字矛盾，需區分作者真相、查證及UI標籤。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/海外南經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 28,
+    "id": "SH-LAND-201",
+    "title": "扶桑與湯谷（修訂）",
+    "original_line": 107,
+    "original_fields_1_to_10": true,
+    "summary_chars": 34,
+    "modern_chars": 23,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "扶桑湯谷正文可對照，十日不證宇宙數已限縮。十光源九暗一亮是本作景物，須有實際計數／狀態，不把經文上下一枝配置自動畫成現場。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/海外東經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 29,
+    "id": "SH-LAND-202",
+    "title": "建木（修訂；篇章已查證）",
+    "original_line": 120,
+    "original_fields_1_to_10": true,
+    "summary_chars": 45,
+    "modern_chars": 24,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "兩篇建木與淮南子分層正確。九欘九枸的曲枝／盤根是釋義而非正文原詞，需標解釋来源；現場只見懸幹，不能自動畫出未見頂端九枝／底部九根。入口提案未採維持。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/海內南經",
+      "https://zh.wikisource.org/wiki/山海經/海內經",
+      "https://zh.wikisource.org/wiki/淮南子/墜形訓"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 30,
+    "id": "SH-LAND-203",
+    "title": "常羊山（修訂）",
+    "original_line": 136,
+    "original_fields_1_to_10": true,
+    "summary_chars": 11,
+    "modern_chars": 24,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "常羊葬首篇章可核；伏臥人形山是本作新增形貌，遠望與登山兩種所得分開。補既有星球／地點候選及可達與再訪。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/海外西經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 31,
+    "id": "SH-CUSTOM-201",
+    "title": "君子之約（修訂）",
+    "original_line": 149,
+    "original_fields_1_to_10": true,
+    "summary_chars": null,
+    "modern_chars": 40,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "本作風俗應獨立標「本作設定」，不是他書。無須硬塞古籍短文；補具體談判地點、雙方是否同意與不參與結果。",
+    "source_urls": [],
+    "source_scope": "本作設定，古籍核對不適用"
+  },
+  {
+    "sequence": 32,
+    "id": "SH-TEXT-201",
+    "title": "扶桑頁的十個圓（修訂）",
+    "original_line": 162,
+    "original_fields_1_to_10": true,
+    "summary_chars": null,
+    "modern_chars": 45,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "十圓一黑屬批註提案；抄本載體、開局實際看過與作者歸屬需各有條件。可開局看見記號不等於知道師父用意或十宇宙；後世仍需物件保管链。",
+    "source_urls": [],
+    "source_scope": "本作設定，古籍核對不適用"
+  },
+  {
+    "sequence": 33,
+    "id": "SH-LIFE-301",
+    "title": "狌狌（新增）",
+    "original_line": 177,
+    "original_fields_1_to_10": true,
+    "summary_chars": 37,
+    "modern_chars": 53,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "兩篇狌狌形貌與知人名可核，但跨篇記載差異不等於同一篇的抄本異文。支線乙落點本身未指定，引用它未完成提名；舊乙-2仍無概率且把非人觀命說未定，須按N26／34／35修，不照抄EV063舊牧人條件。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/南山經",
+      "https://zh.wikisource.org/wiki/山海經/海內南經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 34,
+    "id": "SH-LIFE-302",
+    "title": "鯥（新增）",
+    "original_line": 192,
+    "original_fields_1_to_10": true,
+    "summary_chars": 36,
+    "modern_chars": 25,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "鯥正文與蟄伏解釋可分層對照；郭注歸屬需有版本責任資料。要證跨季復甦須同一個體或足夠辨認紀錄，冬季像死不等於已死復活。多水山地不是具體落點。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/南山經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 35,
+    "id": "SH-LIFE-303",
+    "title": "類（新增）",
+    "original_line": 205,
+    "original_fields_1_to_10": true,
+    "summary_chars": 30,
+    "modern_chars": 22,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "類及沛異名在所開頁正文／夾注可見；自為牝牡的白話解釋保留釋義標記。頸背長毛較正文髦具體，需分古籍釋義與現代美術方案，補高崖落點及遠望可辨範圍。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/南山經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 36,
+    "id": "SH-LIFE-304",
+    "title": "猼訑（新增）",
+    "original_line": 218,
+    "original_fields_1_to_10": true,
+    "summary_chars": 39,
+    "modern_chars": 38,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "九尾四耳背眼可核；括號「施一作阤」是頁面音注用字，不能直接標成物種異名。現代本文僅說背部感光器官，但image必九尾四耳，須補為現代形貌提案或只畫文獻示意。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/南山經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 37,
+    "id": "SH-LIFE-305",
+    "title": "九尾狐（新增）",
+    "original_line": 231,
+    "original_fields_1_to_10": true,
+    "summary_chars": 26,
+    "modern_chars": 70,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "青丘段無其名曰九尾狐，可限縮為本段描述；T-5親見的是涂山氏影子，不能直接當獨立野生獸已見。角色自稱是古人所見只記轉述，舊T01旁白也需同步限縮；三條同區不能由她駐地推野生棲地。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/南山經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 38,
+    "id": "SH-LIFE-306",
+    "title": "灌灌（新增）",
+    "original_line": 244,
+    "original_fields_1_to_10": true,
+    "summary_chars": 37,
+    "modern_chars": 30,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "灌灌正文只說佩之不惑，未指定羽毛；刪羽毛實指或另找明確注本來源。其棲地依尚未定的305仍未完成，聽見叫聲不等於看清全貌。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/南山經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 39,
+    "id": "SH-LIFE-307",
+    "title": "赤鱬（新增）",
+    "original_line": 257,
+    "original_fields_1_to_10": true,
+    "summary_chars": 28,
+    "modern_chars": 29,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "赤鱬人面及鴛鴦聲有來源；紅色與無表情肌屬本作提案、不能算由魚名或一次目擊證得。夜間聽聲與近距離形貌／解剖資料分開。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/南山經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  },
+  {
+    "sequence": 40,
+    "id": "SH-LIFE-308",
+    "title": "鴸（新增）",
+    "original_line": 270,
+    "original_fields_1_to_10": true,
+    "summary_chars": 44,
+    "modern_chars": 20,
+    "status": "已收全文；覆核待修，提名未採",
+    "review": "鴸正文為其音如痺，所開注寫未詳；「痺鳥」無該頁依據，应保留難詞。人手般足屬注釋層；與狸力同古山不證現代同落點，初生城區仍為提名。丹朱說既不採可不展開，但不能宣稱他書來源已核。",
+    "source_urls": [
+      "https://zh.wikisource.org/wiki/山海經/南山經"
+    ],
+    "source_scope": "所列線上轉錄正文／夾注定位已對照；未做底本影像與多版本校勘"
+  }
+]

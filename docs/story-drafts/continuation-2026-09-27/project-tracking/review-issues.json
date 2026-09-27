@@ -6,7 +6,8 @@
     "required_change": "重新以每則一個主類型統計；委託屬子類／標籤，時代專屬亦非重算事件。第一批全文未在本輪核對，合計暫不驗收。自動盤點見 validation.json。",
     "status": "本批分類接受",
     "resolution": "30唯一短號；主類型8+6+4+5+6+1=30，委託10／時代標籤6不另算。",
-    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/031-060/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "EB02",
@@ -15,7 +16,8 @@
     "required_change": "補每個實際選項結果、拒絕／離開，以及世界型／玩家到場型觸發。到場型可標不生成實例，世界型要結算缺席；沒有欄位不等於無需。EV-031 舉報結果補對應選項；EV-036 先貨／拒絕不能留空；EV-035 存活才有事後台詞。",
     "status": "未完成",
     "resolution": "雖30則都有缺席欄，仍有多則沒有選擇、離開及各結果；EV035只有觀命前置，未補完整節點。到場型也要分開既有世界流程。",
-    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/031-060/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "EB03",
@@ -24,7 +26,8 @@
     "required_change": "韋舷與老頭目可能已死或卸任，繼任者有新個體ID；「任一渡站／巡診站」須映射既有地點設施，不任意擴建ATLAS。30短號先在批次命名空間保存，正式全池ID查重後指定。",
     "status": "部分接受",
     "resolution": "031船長須在位；037設施待指定，038／040等缺具體地點。機構存續與參與人權限未逐則補全，繼任者不是自動生成。",
-    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/031-060/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "EB04",
@@ -33,7 +36,8 @@
     "required_change": "EV-042 需有燈、實際承接者與所在地；043 需拾六／跑腿站及舊紙實存、保管權；045 需糧倉存在且真實交接，新主不得固定背棄星塵。死亡只改事件可用性，不生成遺物。",
     "status": "本文限制接受，事件細節待補",
     "resolution": "042／043／045已加物件實存、保管與交接；仍需接收者意願、具體保存／懸掛／交涉結果，不能只說小變化。",
-    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/031-060/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "EB05",
@@ -42,7 +46,8 @@
     "required_change": "041 只有舊登記令實際撤回才叫「回來」；延期或從未撤回另寫。058 須主角真的擺攤，不能僅曾到過；059 須主角確實主動說前世。055 祖先從山下來不能證明燈籍，需玩家既有來源。",
     "status": "部分接受",
     "resolution": "041／058／059歷史前置已補；055把親見命線當燈籍證據不成立，工作稿已改。未採林家例外也不許自行新增人類家庭。",
-    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/031-060/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "EB06",
@@ -51,7 +56,8 @@
     "required_change": "049 空白不給宇宙座標處理正確。051 親見的是鳥與行為，對應精衛為待比對，不確證傳說。052「第一次延遲」須歷史基準，不能每次計畫推進重置第一次；EV-030 引用待核。054 作者可有真因，但玩家需調查，不因世界狀態直接知道。046 報刊消息與主角親見命線分開。",
     "status": "部分接受",
     "resolution": "精衛待比對、天象消息分層接受；052玩家前置綁世界異象與無觀測者仍記錄需修，054維修紀錄與夢動相關性不足以單獨證因。",
-    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/031-060/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "EB07",
@@ -60,7 +66,8 @@
     "required_change": "048 缺回執不等於缺宇宙交接；封存／匿名權限依Y01。038 不記錄節點應解為不外存可洩漏位置，不能要求主角忘掉亲歷。044 錯字只是比對線索，需傳遞鏈證據；040 本件非刺殺不擴成殺手組織不得加入。",
     "status": "本文限制接受，傳播仍待補",
     "resolution": "缺回執、記憶不抹除、錯字只線索、非刺殺不限制加入已對齊；031／039關係不能無消息自動改，048公告受權限限制。",
-    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/031-060/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "EB08",
@@ -69,7 +76,8 @@
     "required_change": "032 按在場、威懾與對方知情條件定當晚結果，不是任意主角必能嚇退。每則補實例ID、冷卻／一次性作用域、觸發日期、已結算結果；缺席只抽樣一次，不因讀檔／夢動切換重抽。",
     "status": "未完成",
     "resolution": "032威懾條件改善；全稿僅031明示作用域。共用ID與抽樣不能替代29則作用域／可重複性，031也要委託貨批／航次而非重演同一貨物。",
-    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/031-060/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "events-061-090-v1-1",
@@ -77,7 +85,8 @@
     "problem": "多則省略具體選擇、結果或缺席欄（見validation.json）；現場風景也須明寫離開及缺席無更新，不能以總則代替各條條件。",
     "status": "部分接受，仍待補",
     "resolution": "30則離開／缺席文字齊，但多選項仍沒有個別結果，作用域與日期缺；新版省略開場，工作稿從舊稿恢復情境並套新限制。",
-    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/061-090/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "events-061-090-v1-2",
@@ -85,7 +94,8 @@
     "problem": "EV-063戰獸觀命僅牧人同意：補戰獸表達意願方式，不能先假定所有照護者可代同意。命錨正確與同意是不同條件。",
     "status": "部分接受，工作修正待覆核",
     "resolution": "063分開同意／命錨進步；先問牧人仍不符合N34，姿態亦需有可理解意義。觀命節點未補齊。",
-    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/061-090/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "events-061-090-v1-3",
@@ -93,7 +103,8 @@
     "problem": "EV-064不記錄位置須指不留對外紀錄，不抹除主角親歷記憶；企業登記須有實際掃描與辨認条件。",
     "status": "本文限制接受，結果待補",
     "resolution": "064不抹記憶與掃描條件正確；修網不復原外洩／已登記後果，補實際修復和世界條件。",
-    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/061-090/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "events-061-090-v1-4",
@@ -101,7 +112,8 @@
     "problem": "EV-065承接G01改革、已撤回授權、逝者生前意願；EV-067缺席不得覆寫P01保護／申訴停解體。EV-069叁出場需存活與所在位置，『我是第一個』需歷史先後旗標。",
     "status": "部分接受，工作修正待覆核",
     "resolution": "065政策與執行、067申訴權與實際受理、069非第一不等於較早，三處已修。",
-    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/061-090/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "events-061-090-v1-5",
@@ -109,7 +121,8 @@
     "problem": "EV-074引用B01 B-5，不再F-5；親授仍需聚變知情與接受，取得只一次。EV-075重構時間由本地事件決定，不把歸墟崩塌當萬用門檻。",
     "status": "本文限制接受，事件細節待補",
     "resolution": "074改B-5、知情接受與一次取得；075本地日期正確。資格與實際領取已再區分，具体改善方案待補。",
-    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/061-090/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "events-061-090-v1-6",
@@ -117,7 +130,8 @@
     "problem": "EV-078葉遲為老師需實際授課關係，不只在世；EV-080調閱依Y01權限、目的及資料範圍；EV-081活著、收件身分與聯絡意願均需可追溯來源。",
     "status": "部分接受，仍待補",
     "resolution": "078授課、080權限、081追溯來源已加；需消息時點、具體調閱紀錄及各告知選項結果。",
-    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/061-090/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "events-061-090-v1-7",
@@ -125,7 +139,8 @@
     "problem": "EV-084公布風石不保證每船收到並避災；EV-087依L01 v1.1可用性與關係，不以推知真相前作統一截止。EV-088主角須曾學過該童謠。",
     "status": "本文限制接受，分支待補",
     "resolution": "084收訊、087可達性與088學過童謠改善；各結果、作用域與跨宇宙映射待補。",
-    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/061-090/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "events-061-090-v1-8",
@@ -133,7 +148,8 @@
     "problem": "EV-089主角記憶可形成親見證言，但不自動構成他人可獨立核驗的充分證據；同一人認定另列來源。EV-090補離開；教算命需確認人類資格，不憑表演新增散居人類。",
     "status": "部分接受，仍待補",
     "resolution": "089親見證言有效但不自動充分，提出指控不能又限死為先有書面證據；090需實際既有個體、資格與孩子意願，非新增散居人類。",
-    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
+    "latest_review": "events-v1.2-review/061-090/REVIEW.md",
+    "latest_delivery": "v1.2全文已收；逐條覆核仍待補"
   },
   {
     "id": "E12-01",

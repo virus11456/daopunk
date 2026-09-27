@@ -9,4 +9,10 @@
 - [問題狀態](project-tracking/STATUS.md)
 - [第4輪：家庭及F04／F05](consistency-pass-04/README.md)
 
-圖鑑021～040另待交；全部REVIEW尚未關閉，本次未新增作者裁決。
+圖鑑021～040已收並覆核待修；全部REVIEW尚未關閉，未新增作者裁決。
+
+- [圖鑑第2批021～040覆核](codex-batch02-review/README.md)
+
+- [第5～7輪回覆與補件再覆核](claude-rounds05-07-response/README.md)
+
+- [兩批事件v1.2最新逐條覆核](events-v1.2-review/README.md)

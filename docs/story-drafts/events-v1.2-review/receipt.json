@@ -1,0 +1,14 @@
+[
+  {
+    "source": "/Users/frank/Downloads/files 3/DAOPUNK_示範事件_EV031-060_v1.2_20260927.md",
+    "archived": "outputs/events-v1.2-review/031-060/ORIGINAL.md",
+    "bytes": 13931,
+    "sha256": "7661dd59684516c51bf5b437fb069dbadfec645e4787af44c3fd4336bdc23101"
+  },
+  {
+    "source": "/Users/frank/Downloads/files 3/DAOPUNK_示範事件_EV061-090_v1.2_20260927.md",
+    "archived": "outputs/events-v1.2-review/061-090/ORIGINAL.md",
+    "bytes": 13588,
+    "sha256": "78a3061fc3a55668ccccdd2834b7f785ba03e9e6e7c65c735a36145445291c9e"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "031-060": {
+    "count": 30,
+    "scope_explicit": 18,
+    "world_date_explicit": 15,
+    "absence_date_explicit": 11,
+    "trigger_explicit": 15,
+    "leave_explicit": 29,
+    "inherited_field_entries": 26,
+    "fully_accepted_templates": 0
+  },
+  "061-090": {
+    "count": 30,
+    "scope_explicit": 27,
+    "world_date_explicit": 8,
+    "absence_date_explicit": 6,
+    "trigger_explicit": 23,
+    "leave_explicit": 30,
+    "inherited_field_entries": 30,
+    "fully_accepted_templates": 0
+  }
+}
