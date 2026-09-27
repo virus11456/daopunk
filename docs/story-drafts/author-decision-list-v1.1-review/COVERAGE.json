@@ -1,0 +1,311 @@
+{
+  "main_topics": [
+    "AD1-A1",
+    "AD1-A2",
+    "AD1-A3",
+    "AD1-A4",
+    "AD1-A5",
+    "AD1-A6",
+    "AD1-A7",
+    "AD1-A8",
+    "AD1-A9",
+    "AD1-A10",
+    "AD1-A11",
+    "AD1-A12",
+    "AD1-A13",
+    "AD1-A14",
+    "AD1-B1",
+    "AD1-B2",
+    "AD1-B3",
+    "AD1-B4",
+    "AD1-B5",
+    "AD1-B6",
+    "AD1-B7",
+    "AD1-B8",
+    "AD1-B9",
+    "AD1-B10",
+    "AD1-B11",
+    "AD1-C1",
+    "AD1-C2",
+    "AD1-C3",
+    "AD1-C4",
+    "AD1-C5",
+    "AD1-C6",
+    "AD1-C7",
+    "AD1-D1",
+    "AD1-D2",
+    "AD1-D3",
+    "AD1-D4",
+    "AD1-D5",
+    "AD1-D6",
+    "AD1-D7",
+    "AD1-E1",
+    "AD1-E2",
+    "AD1-E3",
+    "AD1-E4",
+    "AD1-E5",
+    "AD1-E6",
+    "AD1-E7"
+  ],
+  "answer_fields": [
+    {
+      "id": "AD1-A1",
+      "choice": null
+    },
+    {
+      "id": "AD1-A2",
+      "choice": null
+    },
+    {
+      "id": "AD1-A3",
+      "choice": null
+    },
+    {
+      "id": "AD1-A4",
+      "choice": null
+    },
+    {
+      "id": "AD1-A5",
+      "choice": null
+    },
+    {
+      "id": "AD1-A6",
+      "choice": null
+    },
+    {
+      "id": "AD1-A7",
+      "choice": null
+    },
+    {
+      "id": "AD1-A8",
+      "choice": null
+    },
+    {
+      "id": "AD1-A9",
+      "choice": null
+    },
+    {
+      "id": "AD1-A10",
+      "choice": null
+    },
+    {
+      "id": "AD1-A11",
+      "choice": null
+    },
+    {
+      "id": "AD1-A12",
+      "choice": null
+    },
+    {
+      "id": "AD1-A13",
+      "choice": null
+    },
+    {
+      "id": "AD1-A14a",
+      "choice": null
+    },
+    {
+      "id": "AD1-A14b",
+      "choice": null
+    },
+    {
+      "id": "AD1-A14c",
+      "choice": null
+    },
+    {
+      "id": "AD1-B1",
+      "choice": null
+    },
+    {
+      "id": "AD1-B2",
+      "choice": null
+    },
+    {
+      "id": "AD1-B3a",
+      "choice": null
+    },
+    {
+      "id": "AD1-B3b",
+      "choice": null
+    },
+    {
+      "id": "AD1-B4",
+      "choice": null
+    },
+    {
+      "id": "AD1-B5",
+      "choice": null
+    },
+    {
+      "id": "AD1-B6",
+      "choice": null
+    },
+    {
+      "id": "AD1-B7",
+      "choice": null
+    },
+    {
+      "id": "AD1-B8",
+      "choice": null
+    },
+    {
+      "id": "AD1-B9",
+      "choice": null
+    },
+    {
+      "id": "AD1-B10",
+      "choice": null
+    },
+    {
+      "id": "AD1-B11a",
+      "choice": null
+    },
+    {
+      "id": "AD1-B11b",
+      "choice": null
+    },
+    {
+      "id": "AD1-C1",
+      "choice": null
+    },
+    {
+      "id": "AD1-C2",
+      "choice": null
+    },
+    {
+      "id": "AD1-C3a",
+      "choice": null
+    },
+    {
+      "id": "AD1-C3b",
+      "choice": null
+    },
+    {
+      "id": "AD1-C4",
+      "choice": null
+    },
+    {
+      "id": "AD1-C5",
+      "choice": null
+    },
+    {
+      "id": "AD1-C6a",
+      "choice": null
+    },
+    {
+      "id": "AD1-C6b",
+      "choice": null
+    },
+    {
+      "id": "AD1-C7",
+      "choice": null
+    },
+    {
+      "id": "AD1-D1",
+      "choice": null
+    },
+    {
+      "id": "AD1-D2",
+      "choice": null
+    },
+    {
+      "id": "AD1-D3",
+      "choice": null
+    },
+    {
+      "id": "AD1-D4",
+      "choice": null
+    },
+    {
+      "id": "AD1-D5",
+      "choice": null
+    },
+    {
+      "id": "AD1-D6",
+      "choice": null
+    },
+    {
+      "id": "AD1-D7",
+      "choice": null
+    },
+    {
+      "id": "AD1-E1",
+      "choice": null
+    },
+    {
+      "id": "AD1-E2",
+      "choice": null
+    },
+    {
+      "id": "AD1-E3",
+      "choice": null
+    },
+    {
+      "id": "AD1-E4",
+      "choice": null
+    },
+    {
+      "id": "AD1-E5",
+      "choice": null
+    },
+    {
+      "id": "AD1-E6",
+      "choice": null
+    },
+    {
+      "id": "AD1-E7",
+      "choice": null
+    }
+  ],
+  "locations": [
+    "021",
+    "022",
+    "023",
+    "024",
+    "025",
+    "026",
+    "027",
+    "028",
+    "029",
+    "030",
+    "031",
+    "032",
+    "033",
+    "034",
+    "035",
+    "036",
+    "037",
+    "038",
+    "039",
+    "040",
+    "041",
+    "042",
+    "043",
+    "044",
+    "045",
+    "046",
+    "047",
+    "048",
+    "049",
+    "050",
+    "051",
+    "052",
+    "053",
+    "054",
+    "055",
+    "056",
+    "057",
+    "058",
+    "059",
+    "060"
+  ],
+  "removed": [
+    "AD1-D8",
+    "AD1-D9"
+  ],
+  "added": [
+    "AD1-A14"
+  ],
+  "original_v1_rows": 47,
+  "latest_main_topics": 46
+}
