@@ -1,0 +1,17 @@
+{
+  "files": 5,
+  "full_read_lines": 1408,
+  "source_hashes_match": true,
+  "all_sections_indexed": true,
+  "read_complete": true,
+  "full_acceptance": false,
+  "external_sources_reverified": false,
+  "godot_tested": false,
+  "art_generated": false,
+  "review_items": 18,
+  "working_edits": 41,
+  "codex_ids": 60,
+  "locations": 30,
+  "pool_examples": 6,
+  "wordcount_failures": 8
+}

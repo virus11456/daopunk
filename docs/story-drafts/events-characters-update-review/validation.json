@@ -1,0 +1,16 @@
+{
+  "files": 10,
+  "full_read_lines": 3000,
+  "source_hashes_match": true,
+  "all_sections_indexed": true,
+  "read_complete": true,
+  "full_acceptance": false,
+  "external_sources_reverified": false,
+  "godot_tested": false,
+  "art_generated": false,
+  "review_items": 26,
+  "working_edits": 42,
+  "events": 60,
+  "character_scripts": 8,
+  "restored_event_openings": 30
+}

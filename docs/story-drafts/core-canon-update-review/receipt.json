@@ -1,0 +1,30 @@
+[
+  {
+    "key": "main",
+    "file": "/Users/frank/Downloads/files 7/DAOPUNK_主線_v2.3_肉鴿結構.md",
+    "sha256": "9700d9d6396862e682590d43bd19410fae385cef690b89545299827f0fa7a1de",
+    "lines": 188,
+    "full_read": true
+  },
+  {
+    "key": "background",
+    "file": "/Users/frank/Downloads/files 7/DAOPUNK_完整背景_v1.8_燈還掛著.md",
+    "sha256": "a96eb2d442ca31fef08f33fbbf9620d78bb6d742a21c093c380fe1521104ec67",
+    "lines": 622,
+    "full_read": true
+  },
+  {
+    "key": "dialogue",
+    "file": "/Users/frank/Downloads/files 7/DAOPUNK_第四批下_主線台詞_v1.4.md",
+    "sha256": "810e2553e9089325060f62a7fcae4b2419bd9a743462aa39ef88f25e3661acb2",
+    "lines": 543,
+    "full_read": true
+  },
+  {
+    "key": "luwu",
+    "file": "/Users/frank/Downloads/files 7/DAOPUNK_L01_v1.3_陸吾篇_帝之下都.md",
+    "sha256": "5005412cca1190558b7c26a94e41cc8627a8c542510a9bda809ec60bd3a9ebdd",
+    "lines": 381,
+    "full_read": true
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "001",
+    "file": "codex01",
+    "line": 37,
+    "unseen": 51,
+    "modern": 105,
+    "exception": false
+  },
+  {
+    "id": "002",
+    "file": "codex01",
+    "line": 58,
+    "unseen": 45,
+    "modern": 108,
+    "exception": false
+  },
+  {
+    "id": "003",
+    "file": "codex01",
+    "line": 79,
+    "unseen": 42,
+    "modern": 124,
+    "exception": false
+  },
+  {
+    "id": "004",
+    "file": "codex01",
+    "line": 101,
+    "unseen": 32,
+    "modern": 103,
+    "exception": false
+  },
+  {
+    "id": "005",
+    "file": "codex01",
+    "line": 123,
+    "unseen": 41,
+    "modern": 116,
+    "exception": false
+  },
+  {
+    "id": "006",
+    "file": "codex01",
+    "line": 144,
+    "unseen": 12,
+    "modern": 95,
+    "exception": true
+  },
+  {
+    "id": "007",
+    "file": "codex01",
+    "line": 165,
+    "unseen": 25,
+    "modern": 117,
+    "exception": false
+  },
+  {
+    "id": "008",
+    "file": "codex01",
+    "line": 187,
+    "unseen": 42,
+    "modern": 115,
+    "exception": false
+  },
+  {
+    "id": "009",
+    "file": "codex01",
+    "line": 208,
+    "unseen": 37,
+    "modern": 112,
+    "exception": false
+  },
+  {
+    "id": "010",
+    "file": "codex01",
+    "line": 229,
+    "unseen": 3,
+    "modern": 117,
+    "exception": true
+  },
+  {
+    "id": "011",
+    "file": "codex01",
+    "line": 251,
+    "unseen": 3,
+    "modern": 96,
+    "exception": true
+  },
+  {
+    "id": "012",
+    "file": "codex01",
+    "line": 273,
+    "unseen": 14,
+    "modern": 115,
+    "exception": true
+  },
+  {
+    "id": "013",
+    "file": "codex01",
+    "line": 295,
+    "unseen": 40,
+    "modern": 108,
+    "exception": false
+  },
+  {
+    "id": "014",
+    "file": "codex01",
+    "line": 316,
+    "unseen": 44,
+    "modern": 97,
+    "exception": false
+  },
+  {
+    "id": "015",
+    "file": "codex01",
+    "line": 337,
+    "unseen": 36,
+    "modern": 97,
+    "exception": false
+  },
+  {
+    "id": "016",
+    "file": "codex01",
+    "line": 358,
+    "unseen": 35,
+    "modern": 97,
+    "exception": false
+  },
+  {
+    "id": "017",
+    "file": "codex01",
+    "line": 379,
+    "unseen": 44,
+    "modern": 101,
+    "exception": false
+  },
+  {
+    "id": "018",
+    "file": "codex01",
+    "line": 400,
+    "unseen": 43,
+    "modern": 108,
+    "exception": false
+  },
+  {
+    "id": "019",
+    "file": "codex01",
+    "line": 421,
+    "unseen": 36,
+    "modern": 100,
+    "exception": false
+  },
+  {
+    "id": "020",
+    "file": "codex01",
+    "line": 442,
+    "unseen": 31,
+    "modern": 93,
+    "exception": false
+  },
+  {
+    "id": "021",
+    "file": "codex02",
+    "line": 15,
+    "unseen": 60,
+    "modern": 94,
+    "exception": false
+  },
+  {
+    "id": "022",
+    "file": "codex02",
+    "line": 24,
+    "unseen": 46,
+    "modern": 97,
+    "exception": false
+  },
+  {
+    "id": "023",
+    "file": "codex02",
+    "line": 32,
+    "unseen": 44,
+    "modern": 86,
+    "exception": false
+  },
+  {
+    "id": "024",
+    "file": "codex02",
+    "line": 40,
+    "unseen": 42,
+    "modern": 84,
+    "exception": false
+  },
+  {
+    "id": "025",
+    "file": "codex02",
+    "line": 48,
+    "unseen": 46,
+    "modern": 99,
+    "exception": false
+  },
+  {
+    "id": "026",
+    "file": "codex02",
+    "line": 56,
+    "unseen": 41,
+    "modern": 92,
+    "exception": false
+  },
+  {
+    "id": "027",
+    "file": "codex02",
+    "line": 64,
+    "unseen": 47,
+    "modern": 88,
+    "exception": false
+  },
+  {
+    "id": "028",
+    "file": "codex02",
+    "line": 72,
+    "unseen": 43,
+    "modern": 85,
+    "exception": false
+  },
+  {
+    "id": "029",
+    "file": "codex02",
+    "line": 80,
+    "unseen": 50,
+    "modern": 90,
+    "exception": false
+  },
+  {
+    "id": "030",
+    "file": "codex02",
+    "line": 91,
+    "unseen": 41,
+    "modern": 86,
+    "exception": false
+  },
+  {
+    "id": "031",
+    "file": "codex02",
+    "line": 99,
+    "unseen": 3,
+    "modern": 90,
+    "exception": true
+  },
+  {
+    "id": "032",
+    "file": "codex02",
+    "line": 107,
+    "unseen": 12,
+    "modern": 84,
+    "exception": true
+  },
+  {
+    "id": "033",
+    "file": "codex02",
+    "line": 117,
+    "unseen": 50,
+    "modern": 104,
+    "exception": false
+  },
+  {
+    "id": "034",
+    "file": "codex02",
+    "line": 126,
+    "unseen": 48,
+    "modern": 93,
+    "exception": false
+  },
+  {
+    "id": "035",
+    "file": "codex02",
+    "line": 134,
+    "unseen": 42,
+    "modern": 89,
+    "exception": false
+  },
+  {
+    "id": "036",
+    "file": "codex02",
+    "line": 142,
+    "unseen": 50,
+    "modern": 87,
+    "exception": false
+  },
+  {
+    "id": "037",
+    "file": "codex02",
+    "line": 151,
+    "unseen": 46,
+    "modern": 86,
+    "exception": false
+  },
+  {
+    "id": "038",
+    "file": "codex02",
+    "line": 159,
+    "unseen": 40,
+    "modern": 82,
+    "exception": false
+  },
+  {
+    "id": "039",
+    "file": "codex02",
+    "line": 167,
+    "unseen": 43,
+    "modern": 87,
+    "exception": false
+  },
+  {
+    "id": "040",
+    "file": "codex02",
+    "line": 175,
+    "unseen": 45,
+    "modern": 90,
+    "exception": false
+  },
+  {
+    "id": "041",
+    "file": "codex03",
+    "line": 20,
+    "unseen": 53,
+    "modern": 92,
+    "exception": false
+  },
+  {
+    "id": "042",
+    "file": "codex03",
+    "line": 28,
+    "unseen": 54,
+    "modern": 101,
+    "exception": false
+  },
+  {
+    "id": "043",
+    "file": "codex03",
+    "line": 36,
+    "unseen": 55,
+    "modern": 100,
+    "exception": false
+  },
+  {
+    "id": "044",
+    "file": "codex03",
+    "line": 44,
+    "unseen": 48,
+    "modern": 94,
+    "exception": false
+  },
+  {
+    "id": "045",
+    "file": "codex03",
+    "line": 52,
+    "unseen": 40,
+    "modern": 109,
+    "exception": false
+  },
+  {
+    "id": "046",
+    "file": "codex03",
+    "line": 60,
+    "unseen": 43,
+    "modern": 115,
+    "exception": false
+  },
+  {
+    "id": "047",
+    "file": "codex03",
+    "line": 68,
+    "unseen": 57,
+    "modern": 104,
+    "exception": false
+  },
+  {
+    "id": "048",
+    "file": "codex03",
+    "line": 76,
+    "unseen": 49,
+    "modern": 109,
+    "exception": false
+  },
+  {
+    "id": "049",
+    "file": "codex03",
+    "line": 84,
+    "unseen": 60,
+    "modern": 91,
+    "exception": false
+  },
+  {
+    "id": "050",
+    "file": "codex03",
+    "line": 92,
+    "unseen": 53,
+    "modern": 113,
+    "exception": false
+  },
+  {
+    "id": "051",
+    "file": "codex03",
+    "line": 100,
+    "unseen": 40,
+    "modern": 96,
+    "exception": false
+  },
+  {
+    "id": "052",
+    "file": "codex03",
+    "line": 108,
+    "unseen": 52,
+    "modern": 115,
+    "exception": false
+  },
+  {
+    "id": "053",
+    "file": "codex03",
+    "line": 116,
+    "unseen": 52,
+    "modern": 112,
+    "exception": false
+  },
+  {
+    "id": "054",
+    "file": "codex03",
+    "line": 124,
+    "unseen": 53,
+    "modern": 104,
+    "exception": false
+  },
+  {
+    "id": "055",
+    "file": "codex03",
+    "line": 132,
+    "unseen": 47,
+    "modern": 83,
+    "exception": false
+  },
+  {
+    "id": "056",
+    "file": "codex03",
+    "line": 140,
+    "unseen": 56,
+    "modern": 104,
+    "exception": false
+  },
+  {
+    "id": "057",
+    "file": "codex03",
+    "line": 148,
+    "unseen": 60,
+    "modern": 83,
+    "exception": false
+  },
+  {
+    "id": "058",
+    "file": "codex03",
+    "line": 156,
+    "unseen": 40,
+    "modern": 103,
+    "exception": false
+  },
+  {
+    "id": "059",
+    "file": "codex03",
+    "line": 164,
+    "unseen": 53,
+    "modern": 73,
+    "exception": false
+  },
+  {
+    "id": "060",
+    "file": "codex03",
+    "line": 172,
+    "unseen": 0,
+    "modern": 83,
+    "exception": true
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "upper",
+    "source": "/Users/frank/Downloads/files/DAOPUNK_第五批上_主線缺頁_總表_階段八九_v1.2.md",
+    "lines": 253,
+    "sha256": "27348a04861a416b41088ba5aafc6f7555f528db339c6770335308ee235c95e3",
+    "full_read": true
+  },
+  {
+    "file": "lower",
+    "source": "/Users/frank/Downloads/files/DAOPUNK_第五批下_主線缺頁_階段七十十一_v1.2.md",
+    "lines": 334,
+    "sha256": "aa3d132beb4175cc79a1d8c890c82784dab24ca6c2e7c2d49c95b020e0ed47f1",
+    "full_read": true
+  }
+]

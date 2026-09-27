@@ -1,0 +1,62 @@
+[
+  {
+    "key": "d01",
+    "lines": 260,
+    "sha256": "25e897fc48c25a8770be87f52231748b81d113130d59fc4d30262a41708a5c6e",
+    "sections": 18
+  },
+  {
+    "key": "ev031",
+    "lines": 386,
+    "sha256": "055bc4844dbf0294f42c94e73d62f115fc514abd4eed6015b6f0a2a562da29e6",
+    "sections": 36
+  },
+  {
+    "key": "ev061",
+    "lines": 406,
+    "sha256": "8c1817aa64f0745d398fa195c770a02d46c4fcfbdc6afcd644c675472584f60d",
+    "sections": 44
+  },
+  {
+    "key": "f01",
+    "lines": 328,
+    "sha256": "e19facedf331004f41d7ca0a7da0b7df42dbe77a1e1e83cc763260a8c1d771b7",
+    "sections": 21
+  },
+  {
+    "key": "m01",
+    "lines": 278,
+    "sha256": "5ec7d6011d337c7fa40b04dc46b3cd90729de2c9f1e8862cdc6484681058dca4",
+    "sections": 19
+  },
+  {
+    "key": "opening",
+    "lines": 289,
+    "sha256": "4a618d5baf8b49c5ea7def374f86e97d45c5831b9c501421703f34d456c6a643",
+    "sections": 19
+  },
+  {
+    "key": "r01",
+    "lines": 263,
+    "sha256": "ffce64737b5c6cc581642d69f11f16017a65be9ae901cc7d7c4e74c80ddeda2b",
+    "sections": 18
+  },
+  {
+    "key": "s02",
+    "lines": 236,
+    "sha256": "06451fff70fcb75c524bc5d50c9cd119b6520f651e8e0a4182caa0a1a0e5649f",
+    "sections": 17
+  },
+  {
+    "key": "x01",
+    "lines": 293,
+    "sha256": "436e410e555f134e4d43f928e84988e98307645b8fd6f94c62a721f584a43d25",
+    "sections": 17
+  },
+  {
+    "key": "z01",
+    "lines": 261,
+    "sha256": "6d421fec855d28b98fd1892a492598db0842e88c2ae3443894fee0c8d2967c3c",
+    "sections": 18
+  }
+]

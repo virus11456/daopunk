@@ -1,0 +1,62 @@
+[
+  {
+    "key": "ev031",
+    "source": "/Users/frank/Downloads/files 3/DAOPUNK_示範事件_EV031-060_v1.5_20260927.md",
+    "sha256": "055bc4844dbf0294f42c94e73d62f115fc514abd4eed6015b6f0a2a562da29e6",
+    "lines": 386
+  },
+  {
+    "key": "ev061",
+    "source": "/Users/frank/Downloads/files 3/DAOPUNK_示範事件_EV061-090_v1.5_20260927.md",
+    "sha256": "8c1817aa64f0745d398fa195c770a02d46c4fcfbdc6afcd644c675472584f60d",
+    "lines": 406
+  },
+  {
+    "key": "opening",
+    "source": "/Users/frank/Downloads/files 3/DAOPUNK_第一批_v1.2_開場修訂.md",
+    "sha256": "4a618d5baf8b49c5ea7def374f86e97d45c5831b9c501421703f34d456c6a643",
+    "lines": 289
+  },
+  {
+    "key": "d01",
+    "source": "/Users/frank/Downloads/files 3/DAOPUNK_D01_v1.3_第一次死亡與轉生_閘門.md",
+    "sha256": "25e897fc48c25a8770be87f52231748b81d113130d59fc4d30262a41708a5c6e",
+    "lines": 260
+  },
+  {
+    "key": "f01",
+    "source": "/Users/frank/Downloads/files 3/DAOPUNK_F01_v1.3_四師姐篇_出繭.md",
+    "sha256": "e19facedf331004f41d7ca0a7da0b7df42dbe77a1e1e83cc763260a8c1d771b7",
+    "lines": 328
+  },
+  {
+    "key": "m01",
+    "source": "/Users/frank/Downloads/files 3/DAOPUNK_M01_v1.3_大師兄篇_九子的圍裙.md",
+    "sha256": "5ec7d6011d337c7fa40b04dc46b3cd90729de2c9f1e8862cdc6484681058dca4",
+    "lines": 278
+  },
+  {
+    "key": "r01",
+    "source": "/Users/frank/Downloads/files 3/DAOPUNK_R01_v1.2_紅篇_一盞燈的高度.md",
+    "sha256": "ffce64737b5c6cc581642d69f11f16017a65be9ae901cc7d7c4e74c80ddeda2b",
+    "lines": 263
+  },
+  {
+    "key": "s02",
+    "source": "/Users/frank/Downloads/files 3/DAOPUNK_S02_v2.3_紅重逢_留燈的人.md",
+    "sha256": "06451fff70fcb75c524bc5d50c9cd119b6520f651e8e0a4182caa0a1a0e5649f",
+    "lines": 236
+  },
+  {
+    "key": "x01",
+    "source": "/Users/frank/Downloads/files 3/DAOPUNK_X01_v1.2_星塵篇_不要告訴我.md",
+    "sha256": "436e410e555f134e4d43f928e84988e98307645b8fd6f94c62a721f584a43d25",
+    "lines": 293
+  },
+  {
+    "key": "z01",
+    "source": "/Users/frank/Downloads/files 3/DAOPUNK_Z01_v1.2_零號篇_半邊夢.md",
+    "sha256": "6d421fec855d28b98fd1892a492598db0842e88c2ae3443894fee0c8d2967c3c",
+    "lines": 261
+  }
+]

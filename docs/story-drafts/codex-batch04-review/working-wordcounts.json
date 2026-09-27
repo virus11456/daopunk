@@ -1,0 +1,222 @@
+[
+  {
+    "sequence": "061",
+    "未見短文": {
+      "count": 45,
+      "pass": true
+    },
+    "本作": {
+      "count": 87,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "062",
+    "未見短文": {
+      "count": 46,
+      "pass": true
+    },
+    "本作": {
+      "count": 109,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "063",
+    "未見短文": {
+      "count": 51,
+      "pass": true
+    },
+    "本作": {
+      "count": 82,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "064",
+    "未見短文": {
+      "count": 40,
+      "pass": true
+    },
+    "本作": {
+      "count": 91,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "065",
+    "未見短文": {
+      "count": 51,
+      "pass": true
+    },
+    "本作": {
+      "count": 93,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "066",
+    "未見短文": {
+      "count": 44,
+      "pass": true
+    },
+    "本作": {
+      "count": 87,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "067",
+    "未見短文": {
+      "count": 46,
+      "pass": true
+    },
+    "本作": {
+      "count": 96,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "068",
+    "未見短文": {
+      "count": 45,
+      "pass": true
+    },
+    "本作": {
+      "count": 103,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "069",
+    "未見短文": {
+      "count": 55,
+      "pass": true
+    },
+    "本作": {
+      "count": 83,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "070",
+    "未見短文": {
+      "count": 48,
+      "pass": true
+    },
+    "本作": {
+      "count": 80,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "071",
+    "未見短文": {
+      "count": 47,
+      "pass": true
+    },
+    "本作": {
+      "count": 100,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "072",
+    "未見短文": {
+      "count": 51,
+      "pass": true
+    },
+    "本作": {
+      "count": 99,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "073",
+    "未見短文": {
+      "count": 46,
+      "pass": true
+    },
+    "本作": {
+      "count": 100,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "074",
+    "未見短文": {
+      "count": 48,
+      "pass": true
+    },
+    "本作": {
+      "count": 96,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "075",
+    "未見短文": {
+      "count": 47,
+      "pass": true
+    },
+    "本作": {
+      "count": 95,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "076",
+    "未見短文": {
+      "count": 47,
+      "pass": true
+    },
+    "本作": {
+      "count": 94,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "077",
+    "未見短文": {
+      "count": 52,
+      "pass": true
+    },
+    "本作": {
+      "count": 85,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "078",
+    "未見短文": {
+      "count": 44,
+      "pass": true
+    },
+    "本作": {
+      "count": 99,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "079",
+    "未見短文": {
+      "count": 43,
+      "pass": true
+    },
+    "本作": {
+      "count": 114,
+      "pass": true
+    }
+  },
+  {
+    "sequence": "080",
+    "未見短文": {
+      "count": 59,
+      "pass": true
+    },
+    "本作": {
+      "count": 80,
+      "pass": true
+    }
+  }
+]

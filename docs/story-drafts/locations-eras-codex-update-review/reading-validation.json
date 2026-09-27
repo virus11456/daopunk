@@ -1,0 +1,32 @@
+[
+  {
+    "key": "codex01",
+    "lines": 534,
+    "sha256": "8fd9b45e7d83e7ef51cc6e7a48e84c2bbff6a4e09a943eaf0257ad89fa97ee59",
+    "sections": 27
+  },
+  {
+    "key": "codex02",
+    "lines": 227,
+    "sha256": "fb8eb16daa1ff8660c7aa7b832fee59a51f385aee5e8ad0f897d2b45f23657ec",
+    "sections": 25
+  },
+  {
+    "key": "codex03",
+    "lines": 252,
+    "sha256": "4593d0fd6438ac2753061f657adbbd4139bb240fa8988a26f7300bc947f7c1dd",
+    "sections": 26
+  },
+  {
+    "key": "eras",
+    "lines": 263,
+    "sha256": "763f770e94a6df7b2196bc28ca30d1ec1a127e03c73df36ba1a79989ad405e1d",
+    "sections": 30
+  },
+  {
+    "key": "locations",
+    "lines": 132,
+    "sha256": "2f97975556e6b969eb2e612a5d8cc4600817ecf1b37699ec2eb6123b262707e3",
+    "sections": 14
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "package": "events-characters-update-review",
+    "file": "ev061",
+    "action": "按 ID 從前版 WORKING 補回已接受開場",
+    "count": 30
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "**修訂識別**：v1.4",
+    "new": "**修訂識別**：v1.5"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev061",
+    "old": "**修訂識別**：v1.4",
+    "new": "**修訂識別**：v1.5"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "（待作者 E4）",
+    "new": "（AD1-E4 已定）"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "前置：林家例外**待作者決定（B6）**；不採用時本事件為一般農戶的家族傳說，不新增人類家庭",
+    "new": "前置：林家例外依 N58 已採；使用既有家庭與實際地址，不新增人類家庭。觀命本身不證燈籍登錄"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "撤離（兵團與主角撤離，糧倉無人看守，當夜結果依對方行動）",
+    "new": "撤離（主角離場；兵團自行決定是否留下，依實際剩餘守衛與對方行動結算）"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "若已搬遷，盤查找不到該戶",
+    "new": "盤查方按其實際掌握的地址查找；搬遷不保證避開，須分舊址、新址、對方知情與後續追查"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "失敗的後果：撤離者依世界條件；該路線標記為已暴露。",
+    "new": "失敗的後果：撤離者依世界條件；路線暴露依追兵實際目擊與情報更新，失敗不必暴露，成功也可能被跟蹤。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "- **時間窗**：自敲擊聲被聽見起，被困者的存活時間有限（長度待設計）；救援需在時間窗內**可達**纜底。",
+    "new": "- **時間窗**：自實際受困與危險發生起計，不因首次聽見才啟動；聽見時評估剩餘窗口。窗口依供氣、損傷與實際環境，敘事長度待逐場配置；救援須仍可達。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "生還／死亡／失蹤",
+    "new": "生命：存活／死亡；位置與知情：已知／失聯（另欄）"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "否則死亡或失蹤",
+    "new": "否則生命依危險結算，是否失聯另欄"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "否則只感覺天色變了",
+    "new": "否則依實際感官接觸，可感覺變暗，也可完全不知"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "孩子已到能讀命覺醒的年齡（十四至十五歲前後）",
+    "new": "孩子本次已實際覺醒且看見分支；十四至十五歲只是常見年齡，不以年齡自動寫入"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "- 主角不在：算命機照常運作。",
+    "new": "- 主角不在：依機器實際損壞、維修、停電與經營狀態，不復原既有損害。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "- **世界狀態**（截止點時，互斥）：\n  - I 存活、無輔具可自行行走\n  - J 存活、需輔具行走\n  - K 存活、無法行走\n  - L 死亡\n  - M 手術未進行（取消或延至截止點後）\n- 觀命節點：同意（老人本人）；命錨（先問老人；說不出**或說錯**時試錨）；範圍（在場）；觀測時點（術前，Ts 前一日）；條件：依原定術式。示例可辨份額：I 四成、J 兩成五、K 一成、L 半成、M 未列入此條件；看不清兩成。**此為觀命示例，不作世界分布**。\n",
+    "new": "- **截止點**：Ts 為首次約定手術日，改期保留原 Ts＋3 個月。\n- **世界結果分軸**：手術＝未開始／進行中／完成／開始後中止；取消、延期另記原因。生命＝存活／死亡；存活者行動＝可自行走／需輔具／無法走。死亡者不再填現行走能力。未手術者也可能生還或死亡，不把 M 當第五個互斥生命結果。\n- **觀命節點**：本人同意，在場，依 N34 試錨；正錨需讀出條件與機率。術前依當時方案觀测。舊 I～M 百分比撤下，待依完整世界結果 P 與可辨程度 r 編寫，不倒推世界分布。\n"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev031",
+    "old": "- **v1.5**（S07）：原觀命示例數字只作敘事示例（AD1-E4），不推斷世界分布；手術未進行（M）也屬世界狀態，待有 P 與 r 時依 S07 計算。",
+    "new": "- **整合狀態**：生命、手術與行動能力已分軸；具體 P／r 與演出仍待設計，不列作者待選。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev061",
+    "old": "M 照護者含原牧人／N 不含原牧人但非空／O 無人照護且存活／P 死亡",
+    "new": "M 存活且照護者含原牧人／N 存活且照護者不含原牧人但非空／O 存活且無人照護／P 死亡（優先；照護史另存）"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev061",
+    "old": "世界狀態（截止點，互斥）：Q 療程已完成",
+    "new": "世界狀態（截止點，先判 U 死亡，其餘限存活，死亡不抹療程歷史）：Q 療程已完成"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev061",
+    "old": "期限與上訴：依 AD1-E5（待作者裁決）；本檔不代定。",
+    "new": "期限與上訴：依 SPEC S08 已定程序，見本則下方條文，不重開 AD1-E5。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev061",
+    "old": "聚變被逐出（依共用流程，待設計）",
+    "new": "聚變被逐出（依 N49／SPEC S02 既定留痕核驗與實際領取）"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "ev061",
+    "old": "白家（提案）是否在此依 AD1-B7。",
+    "new": "白家依 N59 已定於除名城區，當時是否仍在依實際搬遷與存續。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "opening",
+    "old": "下山年齡待定 Q12",
+    "new": "第一世十五歲下山，N21"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "d01",
+    "old": "| T+0 | S01，主角約十八歲 | 首次下山已定；年齡提案 |",
+    "new": "| T+0 | S01，主角十五歲 | N21 已定 |"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "d01",
+    "old": "很可能遇難（約三十三歲）",
+    "new": "可能遇難；當時仍為第一世則三十歲"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "d01",
+    "old": "- 記 `第一世_結束`，紀錄上的死因：**開閘後坑壁局部崩落，於導流閘通道內遇難**。",
+    "new": "- 只有實際死亡才記本世結束與真實死因。主角存活時返回當世流程；遇難者另記；維護成功可無崩塌。D01-6～8 僅於實際轉生與相應來源成立時進入，示範路不強制覆蓋存活路。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "d01",
+    "old": "- 【提案】這一戶姓沈，住在澄泉星濾心鎮。",
+    "new": "- 【已定 N57】沈家列入燈籍，住澄泉星濾心鎮；本例僅在實際符合轉生資格且活產落到該戶時成立。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "d01",
+    "old": "已消耗壽命重算（起算點未定）",
+    "new": "當世 99 年基礎承載自实际出生起算（N41）"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "f01",
+    "old": "| T−10y | 四師姐下山（主角第一世約八歲，之前她在隱修院教過他童謠） | 提案 |",
+    "new": "| T−7y | 四師姐十八歲下山；主角八歲，之前有童謠共同經歷 | N62；童謠經歷依原場景 |"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "f01",
+    "old": "| T+32y6m | 本篇（第二世約十七歲） | 提案 |",
+    "new": "| T+32y6m | 本篇；若第二世 T+16 活產則十六歲半 | 示例，不强制出生與會面 |"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "f01",
+    "old": "葉遲是人工生命（提案）",
+    "new": "葉遲是人工生命（N60 已定）"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "f01",
+    "old": "- 機構候選甲、乙、丙（待作者選）。",
+    "new": "- 機構採甲已定；乙丙只留歷史，不再待作者選。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "m01",
+    "old": "- B5（紅只有代收號）仍為暫存版本。",
+    "new": "- B5 已定：紅只知代收號，不知確切住處。任何後來告知須另記實際發生，不能把轉交信件等同得知地址。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "m01",
+    "old": "本篇可在任何一輪發生，只要大師兄在世（約 T+60y 之前）。",
+    "new": "本篇依實際世界日期、存活與位置；T+60 只是晚年基線，不由年代強制死亡。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "s02",
+    "old": "| T+15y | 主角第一世死亡 |",
+    "new": "| T+15y | 閘門風險窗；本示例採主角遇難，其他存活與維護成功歷史不套此列 |"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "s02",
+    "old": "| 紅在世（T+55y 之前） | 本篇原內容 |",
+    "new": "| 紅實際在世（T+55 為基線，非硬截止） | 依實際共享經歷與物件條件使用本篇 |"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "s02",
+    "old": "- 紅只有代收號、不知道大師兄地址（00 表 B5 暫存版本）。",
+    "new": "- 紅只有代收號、不知道確切住處，B5／N61 已定。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "z01",
+    "old": "- **這一次**，主角沒有在任何一條分支裡看到夢。",
+    "new": "- 觀命不能看夢或內在經驗（N38 通則）；夢的內容只能另據零號實際自述，不能用分支判定夢已消失。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "z01",
+    "old": "> 主角：「……我不知道。」",
+    "new": "> 主角：「命裡看不到夢。不是說你的夢不在了。」"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "z01",
+    "old": "2. 「命途看不見夢或內在經驗」是否為普遍規則（本篇只寫這一次沒看到）。",
+    "new": "2. N38 已定：觀命不能讀夢或內在經驗，不再待選。"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "x01",
+    "old": "星塵十二歲（T−19y）時",
+    "new": "星塵十二歲（T−7y）時"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "x01",
+    "old": "天衡在 T−10y 倒閉",
+    "new": "天衡在其母購買方案之後倒閉（原 T−10 早於 T−7，撤除；確切年月待敘事配置）"
+  },
+  {
+    "package": "events-characters-update-review",
+    "file": "x01",
+    "old": "不看，就只能帶著舊的判斷進入子時。",
+    "new": "不看就沒有更新的觀命知識；世界仍按新條件結算，改井分支按實際戌時執行。"
+  }
+]

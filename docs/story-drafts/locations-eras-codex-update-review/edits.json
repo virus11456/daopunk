@@ -1,0 +1,249 @@
+[
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "locations",
+    "old": "**修訂識別**：v1.1",
+    "new": "**修訂識別**：v1.2"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "**修訂識別**：v1.3",
+    "new": "**修訂識別**：v1.4"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex02",
+    "old": "**修訂識別**：第 2 批 v1.1",
+    "new": "**修訂識別**：第 2 批 v1.2"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex03",
+    "old": "**修訂識別**：第 3 批 v1.2",
+    "new": "**修訂識別**：第 3 批 v1.3"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex01",
+    "old": "## 待作者事項（第 1 批）",
+    "new": "## 舊候選記錄（以下五題已由 AD1 與文末 v1.3 整合取代，不再待作者）"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex01",
+    "old": "底本待作者裁決",
+    "new": "主文獻圖採海外北經青蛇，赤蛇版本另頁，不再待選"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex01",
+    "old": "單角未定",
+    "new": "現代一角已定；不推為原典角數"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex01",
+    "old": "「已對照」指本輪以維基文庫所載版本（部分為檢索摘錄）核對篇章與內容大意；未做多版本逐字校勘。",
+    "new": "「已對照」沿用前版的来源狀態，不表示本次覆核重新查證；本次僅核文本內部與既定規格，未做多版本逐字校勘。"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex02",
+    "old": "## 作者待採\n1. 各條落點（首選／替代）。\n2. 猼訑的現代形貌。\n3. 鴸的落點候選一／二。",
+    "new": "## 已裁決項目\n1. 021～040 落點採 CODEX_LOCATIONS。\n2. 猼訑採多尾、背部眼狀斑（AD1-D2）。\n3. 鴸採除名城區（AD1-D7）。來源查證另列，不以裁決代替。"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex02",
+    "old": "高原羊類。現代形貌未定，由作者決定：古籍記載的九尾、四耳、背目，不自動成為現代目擊的形貌，主角實際看見什麼就記什麼。",
+    "new": "高原羊類。現代形貌已定為多尾、背部眼狀斑；古籍記載的九尾、四耳、背目另存文獻層，主角實際看見什麼就記什麼。"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex02",
+    "old": "| 036 | 施／阤為音注；現代形貌待採 |",
+    "new": "| 036 | 來源說明待核；現代形貌依 AD1-D2 已定 |"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex02",
+    "old": "| 040 | 「痺」不補；兩候選並列 |",
+    "new": "| 040 | 「痺」不補；除名城區已定 |"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex03",
+    "old": "- **image_brief**：形貌未定；暫不生產。",
+    "new": "- **image_brief**：現代小體型、長毛、短角，單一牛形個體；形貌已定。親見圖僅呈實際目擊特徵，未見時隱藏；本稿不代表素材已製作。"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex03",
+    "old": "**落點**：每條提名既有 ATLAS 地點（附適配理由與替代），**交作者選**；同一古山只作「同區提案」，不預定現代同星。",
+    "new": "**落點**：依 CODEX_LOCATIONS 正式定案；古籍同山不額外推出現代同星或同一微棲地。"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex03",
+    "old": "眼數依所選方案",
+    "new": "兩隻真眼與兩個眼狀斑依實際可見特徵"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex03",
+    "old": "**親見圖**：依作者所選方案。",
+    "new": "**親見圖**：單鳥三首六尾（AD1-D4），只呈已目擊特徵。"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex03",
+    "old": "| 048 | 眼數矛盾 | 改為作者二選一 |",
+    "new": "| 048 | 眼數矛盾 | 已定兩隻真眼加兩個眼狀斑 |"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex03",
+    "old": "| 060 | 限英山正文；不宣稱全無資料；未定不產圖 | 已改 |",
+    "new": "| 060 | 限英山正文；不宣稱全無資料；本作小體長毛短角已定 | 已同步圖片欄 |"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex03",
+    "old": "此段一作肥𧔥",
+    "new": "所述轉錄此段作肥𧔥"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex03",
+    "old": "不同轉錄本在這一段用字不同，本條保留兩種寫法。",
+    "new": "目前僅有太華蛇段與英山鳥段的跨段用字差，本條分存顯示名與所述轉錄原字，不聲稱取得同段異本。"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex03",
+    "old": "親見（聲音；部分；全身）",
+    "new": "親聞（聲音）；親見（部分；全身）"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "codex03",
+    "old": "親見（聲音；全身）",
+    "new": "親聞（聲音）；親見（全身）",
+    "occurrences": 2
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "locations",
+    "old": "沈家（候選）去留",
+    "new": "沈家（N57 已定）依實際去留"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "locations",
+    "old": "| 解鎖鎮（U-004-P4-C2） | 維修工坊被起訴 | 依判決 |",
+    "new": "| 解鎖鎮（U-004-P4-C2） | 維修工坊被起訴 | 依判決；T+30 大師兄依存活、可達與本人選擇遷入小修理鋪 |"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "locations",
+    "old": "【待設計】其他道主或紀錄 | —",
+    "new": "聚變 B01 或涂山氏 T01 的 K4 說明 | 主動問；聚變有趣或涂山信任且能承受真相，須實際聽取"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "locations",
+    "old": "師父批註（只作起疑）；【待設計】K5 替代來源 | 見第2輪覆核回覆 F05",
+    "new": "K3 既有院中紀錄＋現地碎片；K5 夾頁留痕＋本人命線紀錄，沉睡與理由另核 | 依 SPEC S02～03 實際取得；理由保留道主說法，批註不當兇手證據"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "locations",
+    "old": "私人會面的閻羅供述；聖庭修補紀錄（F05 候選） | 依 L01",
+    "new": "涉事者具體供述或可歸責施作簽記＋陵墓改寫鏈＋碎片 | 依 N48／S03；修補時序本身不證出手；無可達對質者走調查結算"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "> **目的**：一百小時的肉鴿遊戲，約一半內容要靠可重複、會隨世界時間變化的事件撐起（遊戲量規劃 v2）。本文件定義五個時代的世界狀態，以及隨機事件池的結構、觸發條件與分量。",
+    "new": "> **目的**：依 SPEC S06 規劃隨世界時間變化的事件與延續年代；遊戲量採原型量測，不預先保證一百小時或事件占一半。"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "4. **事件池是可重複內容的主體**；一次性劇本（主線、人物篇、道主篇）只佔一半。",
+    "new": "4. **事件池提供可重複的新實例**；與主線、人物篇的實際時數比例依原型量測。"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "### 2.0 時代怎麼產生【提案】\n\n- **世界年代**：前四個年代以世界事件為界（示例）；這是世界的年代，不是玩家必經的關卡。邊界事件若因玩家行動而未發生（例如閘門風險被消除），改以地方版本或時間界線替代。\n- **延續時代**：第四時代之後，世界每隔一段世界時間（建議約二十到三十年）進入一個新的延續時代。延續時代的名稱與樣貌由當時的世界狀態生成（見 2.4）。\n- **「夢動」時代**（v1.2 改寫）：不再是固定的最後時代。當陸吾與閻羅 X 的計畫處於「推進」且世界惡化達到一定程度時，當前的延續時代呈現為「夢動」樣貌；計畫延滯或中止時，可以回到一般延續時代。沒有自動終局。\n\n| 順序 | 名稱 | 世界時間（T＝第一輪下山） | 邊界事件 |\n|---|---|---|---|\n| 一 | 燈下 | T−3y～約 T+15y | 閘門事件 |\n| 二 | 崩塌之後 | 約 T+15y～T+40y | 第一代人物開始老去 |\n| 三 | 老去 | 約 T+40y～T+70y | 追殺事件（蒐集人類開始） |\n| 四 | 蒐集 | 約 T+70y～T+100y | 蒐集常態化 |\n| 延續時代（0～數個） | 依世界狀態命名 | 每段約二十到三十年 | 依世界事件 |\n| 依狀態 | 夢動 | 計畫推進且惡化加劇時 | 計畫狀態改變 |\n\n",
+    "new": "### 2.0 世界年代（SPEC S06 已定）\n\n| 名稱 | 半開區間 |\n|---|---|\n| 燈下 | [T−3, T+15) |\n| 崩塌之後 | [T+15, T+40) |\n| 老去 | [T+40, T+70) |\n| 蒐集 | [T+70, T+100) |\n| 延續 | T+100 起，每 25 年一段 |\n\n年代標籤不強制災難、死亡、盤查或追殺；夢動獨立於年代，依實際計畫與地方狀態，不限延續年代。\n\n"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "### 3.2 事件類型\n\n| 類型 | 比例 | 說明 | 例子 |\n|---|---|---|---|\n| 日常求助 | 約 25% | 當地居民的小困難，通常可用觀命、五術或行動解決 | 找走失的機器寵物；替攤販判斷一批貨的真偽 |\n| 觀命委託 | 約 15% | 有人要主角看命；可拒絕、可接、可要求對方同意 | 一對要結婚的人想知道未來；一個人想知道母親會不會醒 |\n| 消息與傳聞 | 約 15% | 世界事件的在地版本；判斷真偽 | 茶攤流傳某商隊失蹤；地下聲明的真假 |\n| 山海探索 | 約 15% | 對應圖鑑條目；非戰鬥發現 | 逆流瀑的觀測；某種鳥每年同一天飛越 |\n| 中立組織 | 約 10% | 十一類中立組織（中立組織篇 v1）的在地事件與委託 | 拍賣場請主角鑑定；信使局找收件人 |\n| 燈籍與人類 | 約 10% | 與燈籍人家、人類處境有關 | 一戶燈籍人家的孩子被盤查 |\n| 異象 | 約 5% | 與夢、觀察者有關的少量異常；多在夢動狀態 | 所有人同時看見天空暗一瞬 |\n| 衝突 | 約 5% | 可能需要戰鬥或逃離的事件；戰鬥玩法未定 | 被誤當成未登錄的逃犯追捕 |\n\n",
+    "new": "### 3.2 唯一主標籤（SPEC S06 已定內容預算）\n\n| 主標籤 | 模板數 |\n|---|---|\n| 組織委託 | 90 |\n| 日常 | 60 |\n| 消息 | 45 |\n| 燈籍與人類 | 45 |\n| 山海探索 | 45 |\n| 異象 | 15 |\n\n合計 300。觀命、衝突作副標籤，不另占一份主配額；預算不代表已完成模板。\n\n"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "五類中立組織依前一時代的結果延續或改組",
+    "new": "十一類中立組織依實際存續、改組與制度結果變化"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "**只有實際死亡**改變在世燈數",
+    "new": "實際活產增加、實際死亡減少在世燈數；盤查與搬遷不直接改數"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "仍在（機器的壽命另定）",
+    "new": "依 N73 實際核心、維修與損傷，不保證在世"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "在世（人工生命壽命未定）",
+    "new": "依 N60／N73 實際存續"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "雪鈴為院長",
+    "new": "雪鈴僅在實際接任且仍在任時為院長"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "**抽樣一次並存檔**，不重抽。",
+    "new": "依實際世界條件結算並存檔；新的有效尋回、救援或他人介入先改條件，不以舊抽樣覆蓋。"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "先問主人狗的「開始成為自己的那一刻」，N34",
+    "new": "先有巡檢犬本身的有效同意；失聯須 N71 事前授權。主人只能提供候選錨，N34"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "夢動狀態首次出現時，鳥群的日子第一次延遲一天（「第一次」需有歷史基準紀錄，之後不重置）",
+    "new": "夢動首次出現後的第一個当地年度曆第 180 日，鳥群首次延遲一天；與 EV-052 共用實例（「第一次」需歷史基準，觀測、記錄、讀到分記）"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "- **開場**：所有人同時抬頭；天空暗了一瞬，又亮起來。",
+    "new": "- **開場**：天空暗了一瞬，又亮起來。只有當時具視野且實際觀察的人記親见；遮擋或缺席可完全不知。"
+  },
+  {
+    "package": "locations-eras-codex-update-review",
+    "file": "eras",
+    "old": "人類看得見命線同時抖動；其他人只看見天暗。報刊隔天寫「無法解釋的天象」。",
+    "new": "已覺醒且當時實際觀命的人類才記命線變化；其他目擊者只見天暗。報社實際採訪、刊登後，讀者才可由報導得知。"
+  }
+]
