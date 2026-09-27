@@ -1,0 +1,378 @@
+[
+  {
+    "id": "AD1-A1",
+    "original_id": "A1",
+    "status": "方向可裁決",
+    "finding": "自願放棄與外力撤銷分開；乙須說明與已取得法則跨世保留的相容性，不能把未使用當成歸還。",
+    "evidence": "D07；已取得法則跨世保留",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-A2",
+    "original_id": "A2",
+    "status": "方向可裁決",
+    "finding": "甲可供裁決；乙目前只是允許另做方案，不能同時宣稱拘束機制驗收完成。",
+    "evidence": "D14；A01覆核",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-A3",
+    "original_id": "A3",
+    "status": "需補方案",
+    "finding": "甲一次新增未交接靈魂可接入、命運可切斷、局部時限及失敗退出四條機制；乙又把輪迴與因果混成一項。補能力依據、前置條件及失敗後狀態；局部行動時限不可變成世界自動結局。",
+    "evidence": "F01；N20、N29；F07",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-A4",
+    "original_id": "A4",
+    "status": "需補方案",
+    "finding": "先列誰承接、誰修補、誰守夜及各自持有法則；放大不等於獲得新能力。甲會撤回主角可作輔助者的既有方向，應明示影響；乙須補放大邊界。",
+    "evidence": "F02；N32",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-A5",
+    "original_id": "A5",
+    "status": "需補方案",
+    "finding": "夢殼、永久裂痕和分夜切斷皆為新增機制；須列能否中止、裂痕對眾生的影響、後續修復邊界及燭陰察覺結果，再供比較。",
+    "evidence": "F03；N29、N33",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-A6",
+    "original_id": "A6",
+    "status": "需補方案",
+    "finding": "幾乎停止仍可能終有歸零日；甲須證明保留量永不可消耗，丙須處理燈籍條件消失。補出生是否消耗、一般航行是否消耗及不可耗盡機制，不能重交前輪已指出不足的三案。",
+    "evidence": "F04；N12、N30；第4輪覆核",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-A7",
+    "original_id": "A7",
+    "status": "需補方案",
+    "finding": "甲改變K6證據門檻，需區分猜測、個人確信、可保存的歸責證據與正式對質。乙須處理不能取得供述；丙看出先後不能直接證明行為人與故意。",
+    "evidence": "F05；K6；第4輪覆核",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-A8",
+    "original_id": "A8",
+    "status": "需補方案",
+    "finding": "永久封閉結局是新增重大選擇；先交命運各取得途徑、師父狀態、資格與實際領取、兩結局可達性及預警時點的表。乙不必預設只能新增第二來源，也應比較保留資格後的領取接口。",
+    "evidence": "F05、F06、F07；D15、M10",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-A9",
+    "original_id": "A9",
+    "status": "需補方案",
+    "finding": "甲須證明替代知情者、關係門檻可在不依賴K4時達成；乙須核師父不說的既定限制；丙須明列不可達時鎖住哪些段落。",
+    "evidence": "K4循環；補件v1.2覆核",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-A10",
+    "original_id": "A10",
+    "status": "需補方案",
+    "finding": "把補件合成表附在裁決頁，逐列標舊門檻與新門檻，檢查循環及缺席替代；不能只用採用整表代替可達性檢查。",
+    "evidence": "補件v1.2；K合成覆核",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-A11",
+    "original_id": "A11",
+    "status": "需補方案",
+    "finding": "與A10聯審：K2完整各子項及缺席時替代來源須列出，避免階段四要求尚未能取得的證據。",
+    "evidence": "K2；主線階段四",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-A12",
+    "original_id": "A12",
+    "status": "方向可裁決",
+    "finding": "乙方向可選；世界事件開始、資料外流、追兵得知與抵達須分欄，蒐集年代下限仍是本題提案，不以輪數替代。",
+    "evidence": "D06；共同年表v1.2",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-A13",
+    "original_id": "A13",
+    "status": "方向可裁決",
+    "finding": "明確採的是初始立場表；不能覆蓋角色後續因證據與行動改變立場的狀態。三種法則取得方式不重問。",
+    "evidence": "M07",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-B1",
+    "original_id": "B1",
+    "status": "方向可裁決",
+    "finding": "說明是燈籍登錄人口，還是全部存世人類；七戶只是寫作配置，不得由甲推成全人類只有七戶。",
+    "evidence": "M01；N12",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-B2",
+    "original_id": "B2",
+    "status": "需釐清題意",
+    "finding": "排除判定應落在候選新生兒的父母是否為主角累世後代或配偶；只寫排除直系與配偶易誤成排除新生兒本人。旁系範圍明列。",
+    "evidence": "D19；燈籍家庭v1.3",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-B3",
+    "original_id": "B3",
+    "status": "需拆題",
+    "finding": "一般轉生資格與一次性劇情是兩個選擇；允許成為舊世手足不保證父母再次生育，也不放寬資格或強迫出生。",
+    "evidence": "燈籍家庭v1.3；N40",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-B4",
+    "original_id": "B4",
+    "status": "需釐清題意",
+    "finding": "沿用候選父母判定；補親自養大之養子女的後代是否也排除，以及其他收養情形。離異、喪偶配偶仍算的規則須寫成可執行條件。",
+    "evidence": "燈籍家庭v1.3建議表",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-B5",
+    "original_id": "B5",
+    "status": "方向可裁決",
+    "finding": "可選沈家入籍，但改用AD1-B5或D17避免與已定的紅之B5撞號；納入不等於新增原不存在的人類家庭。",
+    "evidence": "D17；舊B5",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-B6",
+    "original_id": "B6",
+    "status": "方向可裁決",
+    "finding": "可選不知情例外；需續補誰保管登錄、如何通知與不知情的劇情證據，不能因此略過同意程序。",
+    "evidence": "M02",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-B7",
+    "original_id": "B7",
+    "status": "方向可裁決",
+    "finding": "兩地均是候選；選定後同步家庭稿與地點索引，地點ID查核不等於落點已採。",
+    "evidence": "燈籍家庭v1.3；ATLAS",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-B8",
+    "original_id": "B8",
+    "status": "方向可裁決",
+    "finding": "只裁決人工生命身分，不能同時關閉壽命、維修與記憶連續性的待設計問題。",
+    "evidence": "M06；F10",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-B9",
+    "original_id": "B9",
+    "status": "方向可裁決",
+    "finding": "選落點不改紅只知道代收號的已定資訊邊界；晚年到達時間仍需世界年表支持。",
+    "evidence": "D21；已定B5",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-B10",
+    "original_id": "B10",
+    "status": "需補對照",
+    "finding": "T+60或T+40與成年所屬年代，須附年代起迄及夏汐成年年齡再核；不能以覺醒14至15歲直接當法定成年。與E1聯動。",
+    "evidence": "後期同伴；共同年表；E1",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-B11",
+    "original_id": "B11",
+    "status": "需拆題",
+    "finding": "四師姐與零號分開裁決；T−25到T−7為18歲算術成立，但18歲是本題提案；主角15歲下山不自動適用所有人。零號生年須核既有經歷。",
+    "evidence": "共同年表；N21；Z01",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-C1",
+    "original_id": "C1",
+    "status": "方向可裁決",
+    "finding": "入會開放範圍可選；若乙，將老頭目一派不打劫的具體規矩與拒絕路徑補入組織稿。",
+    "evidence": "D22",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-C2",
+    "original_id": "C2",
+    "status": "方向可裁決",
+    "finding": "乙須區分成員本人私怨與委託者私怨；不能採乙後仍用甲的禁令判案。",
+    "evidence": "D23",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-C3",
+    "original_id": "C3",
+    "status": "需拆題",
+    "finding": "官員與孩童分題；實際職務需可觀測判準，當地成年需界定跨地委託採哪一地及非人生命如何認定。",
+    "evidence": "D23",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-C4",
+    "original_id": "C4",
+    "status": "需補方案",
+    "finding": "名字永久在價目簿究竟是紀錄、持續可被買兇或其他義務，須明寫；代價不能讓退出實際不成立。",
+    "evidence": "D24",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-C5",
+    "original_id": "C5",
+    "status": "方向可裁決",
+    "finding": "沿用W01v1.3定義；三世起算、例外世及來訪實際履行逐項明示，與C6不能相互默認。",
+    "evidence": "D25；W12-08",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-C6",
+    "original_id": "C6",
+    "status": "需拆題",
+    "finding": "跨世身分的證據標準與契約是否跨世可執行是不同問題。乙一次否認兩者；甲的報告也不宜被視為無條件確證。另列當世重新同意與自願履約。",
+    "evidence": "D26；W01v1.3",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-C7",
+    "original_id": "C7",
+    "status": "方向可裁決",
+    "finding": "主線不強制入會已定；支線定位仍可提供可選佐證，勿把只是支線自動解作禁止任何K2線索。",
+    "evidence": "D27；K2",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-D1",
+    "original_id": "D1",
+    "status": "需釐清題意",
+    "finding": "全部首選與D7第二候選衝突；需列021至060的40條落點及例外優先順序。採用但仍提案混淆狀態，改為暫作工作落點或正式採用兩種明確結果。",
+    "evidence": "第2、3批v1.1；D7",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-D2",
+    "original_id": "D2",
+    "status": "方向可裁決",
+    "finding": "裁決的是現代造型；古籍欄九尾四耳背目仍忠實保留，眼狀斑不得倒寫成原典。",
+    "evidence": "第2批v1.1",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-D3",
+    "original_id": "D3",
+    "status": "方向可裁決",
+    "finding": "現代兩眼加斑或四真眼可選；保留原典四目與改編說明。",
+    "evidence": "第2批v1.1",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-D4",
+    "original_id": "D4",
+    "status": "方向可裁決",
+    "finding": "字面單鳥或群聚是現代改編選擇；不能用採案取代來源與生態查證。",
+    "evidence": "第2批v1.1",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-D5",
+    "original_id": "D5",
+    "status": "方向可裁決",
+    "finding": "作為本作創作可選，勿宣稱小體型長毛短角全有原典依據。",
+    "evidence": "第3批v1.1覆核",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-D6",
+    "original_id": "D6",
+    "status": "方向可裁決",
+    "finding": "未知智慧與不以擊殺解鎖可選；未知不等於已證明無智慧。",
+    "evidence": "第3批v1.1",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-D7",
+    "original_id": "D7",
+    "status": "方向可裁決",
+    "finding": "若選第二候選，明列覆蓋D1的鴸首選；不能同時記全40條都採首選。",
+    "evidence": "第2批v1.1；D1",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-D8",
+    "original_id": "D8",
+    "status": "既有校正",
+    "finding": "最新版FULL_LIST已同步不死民及舊名；應移至校正紀錄，不重新占故事裁決或N42編號。",
+    "evidence": "第2批v1.1覆核FULL_LIST",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-D9",
+    "original_id": "D9",
+    "status": "編輯規格",
+    "finding": "可正式確認為編輯規格，記規格版本及短原文例外理由；已完成字數檢查不因此重開。勿編為世界觀正史條目。",
+    "evidence": "第2、3批v1.1字數驗證",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-E1",
+    "original_id": "E1",
+    "status": "方向可裁決",
+    "finding": "60＋9×25＋15＝300成立；只是設計目標，不等於已完成300份驗收。年代跨度與B10等固定生年需聯核。",
+    "evidence": "M08；B10",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-E2",
+    "original_id": "E2",
+    "status": "方向可裁決",
+    "finding": "三級可選；修復故障不能恢復永久傷亡，退出夢動不重置既發歷史。需保留各地具體驗收。",
+    "evidence": "M09；三十地點覆核",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-E3",
+    "original_id": "E3",
+    "status": "方向可裁決",
+    "finding": "丙是暫緩數值裁決；若選丙應記待原型驗證，不能標成已證實百小時遊戲量。",
+    "evidence": "M11",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-E4",
+    "original_id": "E4",
+    "status": "需釐清範圍",
+    "finding": "說明指哪些事件示例數值；N34成功條件與機率仍存在，選敘事示例不等於取消機率機制。玩法模型另列待設計。",
+    "evidence": "N34；事件v1.3／補件v1.2",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-E5",
+    "original_id": "E5",
+    "status": "需補方案",
+    "finding": "乙只有不設上訴，未交代是否保留30日，與甲不對稱；補世界日期起算、送達、缺席、上訴效力及期限內永久變化。",
+    "evidence": "EV-085覆核",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-E6",
+    "original_id": "E6",
+    "status": "需釐清題意",
+    "finding": "這是機構交接紀錄程序；自然輪迴不以名字或機構編號為必要條件。乙應說清是不設編號流程，而非無名者不能自然交接。",
+    "evidence": "D13；名字非自然輪迴必要條件",
+    "author_choice": null
+  },
+  {
+    "id": "AD1-E7",
+    "original_id": "E7",
+    "status": "需補方案",
+    "finding": "區分過去同意的範圍、期限、撤回及是否明示包含失聯時觀命；另分倫理判斷與能力能否成功。不可由一筆失蹤事件直接改成全部觀命的通則。",
+    "evidence": "N34至N38；事件覆核",
+    "author_choice": null
+  }
+]
