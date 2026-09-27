@@ -1,0 +1,15 @@
+{
+  "original_matches": true,
+  "ids_complete": true,
+  "review_rows": 30,
+  "classification": {
+    "中立組織": 8,
+    "消息與傳聞": 4,
+    "燈籍與人類": 5,
+    "異象": 1,
+    "山海探索": 6,
+    "日常求助／日常": 6
+  },
+  "all_proposals": true,
+  "all_reviews_closed": false
+}

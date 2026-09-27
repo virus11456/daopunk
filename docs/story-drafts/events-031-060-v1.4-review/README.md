@@ -1,0 +1,3 @@
+# EV031～060 v1.4覆核包
+
+先讀CLAUDE_HANDOFF.md；REVIEW.md與REVIEW_ITEMS.json含30則核銷。ORIGINAL原樣保留；WORKING僅修035重疊維度，CHANGES.diff完整展示。VERSION_CHANGES.diff比較v1.3至v1.4。未代採作者候選。
