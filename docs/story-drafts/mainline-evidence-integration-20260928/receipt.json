@@ -1,0 +1,10 @@
+{
+  "upper": {
+    "base_sha256": "a7799296d814d516b2ad5f4aa0d942caf325d6bb324f913d019c41c65f7a62ba",
+    "working_sha256": "5b22e50a726df68394cc6598e67e952cf465b9e3ebc87d11daf4ef6823e9d501"
+  },
+  "lower": {
+    "base_sha256": "7dd6bed58f249b9ff34b232ac2e1cee3f53a829078b677751149c1e9845345dd",
+    "working_sha256": "9309e5ad0fa8dbe00a785215a6a6eaf4b2622d0cbe18cf3a75c1fbe3e6836f47"
+  }
+}
