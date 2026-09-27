@@ -1,0 +1,92 @@
+[
+  {
+    "key": "locations",
+    "source": "/Users/frank/Downloads/files 7/DAOPUNK_三十地點時代版本_v1.3_20260927.md",
+    "sha256": "7225ae8a40d5bf681a9d542941f41114e5b19e60fb55a61a98c78dc65150e128",
+    "lines": 155,
+    "full_text_read": true,
+    "working_sha256": "424b164580b36e5c533311c5978028e1ca28f9a1da9f6a32689cf4d63e4e5063",
+    "status": "局部修正；未閉項見REVIEW"
+  },
+  {
+    "key": "codex01",
+    "source": "/Users/frank/Downloads/files 7/DAOPUNK_山海圖鑑180_第1批_v1.4_001-020.md",
+    "sha256": "e825c2c8342d1f4c2e42db2d29ab5ee408c6de9a08050f624fd51843065e8838",
+    "lines": 539,
+    "full_text_read": true,
+    "working_sha256": "2f006d24f6d871f88a4fd95a4a4af5e0e088fdaa26e22e04a1f5da4e4e963634",
+    "status": "局部修正；未閉項見REVIEW"
+  },
+  {
+    "key": "codex02",
+    "source": "/Users/frank/Downloads/files 7/DAOPUNK_山海圖鑑180_第2批_v1.3_021-040.md",
+    "sha256": "c74163387bd059a067f487cb25b7e704c28b8fe409b36bdcc9b2816b4b75c170",
+    "lines": 232,
+    "full_text_read": true,
+    "working_sha256": "c74163387bd059a067f487cb25b7e704c28b8fe409b36bdcc9b2816b4b75c170",
+    "status": "局部修正；未閉項見REVIEW"
+  },
+  {
+    "key": "codex03",
+    "source": "/Users/frank/Downloads/files 7/DAOPUNK_山海圖鑑180_第3批_v1.4_041-060.md",
+    "sha256": "52ee74f26ef1dab969dc9ca80e0289b25a7db31297285a168e3195495071fd14",
+    "lines": 257,
+    "full_text_read": true,
+    "working_sha256": "97e9047eb64e61b0da2aa4754990d182f6e586a5f9a15501e2ccc9bfcff10773",
+    "status": "局部修正；未閉項見REVIEW"
+  },
+  {
+    "key": "eras",
+    "source": "/Users/frank/Downloads/files 7/DAOPUNK_時代與事件池規格_v1.5_20260927.md",
+    "sha256": "b6004a51e2fa0e5855b5b76fa00320331ab5d6720e5f98dfeaf6a894ff7e40db",
+    "lines": 287,
+    "full_text_read": true,
+    "working_sha256": "a4cefd5669d1298731137b57a8363642979cc395938510fad2c3767e7cf9bd85",
+    "status": "局部修正；未閉項見REVIEW"
+  },
+  {
+    "key": "f01",
+    "source": "/Users/frank/Downloads/files 8/DAOPUNK_F01_v1.5_四師姐篇_出繭.md",
+    "sha256": "9baa7aea7f4e3fff4950b08789ec2a3164f3d27b20c75b900ef40f3ea026dd3b",
+    "lines": 358,
+    "full_text_read": true,
+    "working_sha256": "def606328e150c3b41e1263167c7395ee4fc065112f994a78cbb5107087b9283",
+    "status": "局部修正；未閉項見REVIEW"
+  },
+  {
+    "key": "m01",
+    "source": "/Users/frank/Downloads/files 8/DAOPUNK_M01_v1.5_大師兄篇_九子的圍裙.md",
+    "sha256": "0e7bcbc95ad346a427fdea23658575f0df3107f694d32c626f7d67d9aed6c36b",
+    "lines": 329,
+    "full_text_read": true,
+    "working_sha256": "e3f7f45b0d83241df0e8231fd57476a0f34c0e2669cf02c20b17e63fcefd3d7e",
+    "status": "局部修正；未閉項見REVIEW"
+  },
+  {
+    "key": "s02",
+    "source": "/Users/frank/Downloads/files 8/DAOPUNK_S02_v2.5_紅重逢_留燈的人.md",
+    "sha256": "e1641fee3486e80ebe185b995bec9922ff0502091e888079c8b2ae4e573625b6",
+    "lines": 273,
+    "full_text_read": true,
+    "working_sha256": "c8f4c7f81d6606c9e4695dc646fda9d4cbcd5cbc401fcaba08bf85fdf1d8d351",
+    "status": "局部修正；未閉項見REVIEW"
+  },
+  {
+    "key": "x01",
+    "source": "/Users/frank/Downloads/files 8/DAOPUNK_X01_v1.4_星塵篇_不要告訴我.md",
+    "sha256": "52aa07fdaee2895839d59c8e571a4938af7c8ed14945fcb9d0f1c24aab59d061",
+    "lines": 330,
+    "full_text_read": true,
+    "working_sha256": "726a072ba92218c93c553651800ccd2dfd1e564234e774120294840072c1d049",
+    "status": "局部修正；未閉項見REVIEW"
+  },
+  {
+    "key": "z01",
+    "source": "/Users/frank/Downloads/files 8/DAOPUNK_Z01_v1.4_零號篇_半邊夢.md",
+    "sha256": "17218141f6afe0e8cc39c1d4c6833df01ba0cd247121990cf1bde8215da12672",
+    "lines": 277,
+    "full_text_read": true,
+    "working_sha256": "1fc3362dfce602028b6bda7dd98cffcbe796226abf09c8602d368d3fafad4e30",
+    "status": "局部修正；未閉項見REVIEW"
+  }
+]

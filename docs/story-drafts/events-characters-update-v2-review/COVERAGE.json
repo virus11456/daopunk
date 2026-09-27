@@ -1,0 +1,92 @@
+[
+  {
+    "key": "ev031",
+    "source": "/Users/frank/Downloads/files 6/DAOPUNK_示範事件_EV031-060_v1.6_20260927.md",
+    "sha256": "901f46f939a72e817bcb20839eb58d123963f0c750ddc9724a91c4750266708a",
+    "lines": 387,
+    "full_text_read": true,
+    "working_sha256": "9138df97322bb2183cb15ce1cbaa01e4f545bc248908f09772b0bdb785d72768",
+    "review_status": "局部修訂；餘項見REVIEW與EVENT_CHECK"
+  },
+  {
+    "key": "ev061",
+    "source": "/Users/frank/Downloads/files 6/DAOPUNK_示範事件_EV061-090_v1.6_20260927.md",
+    "sha256": "210243bd93cc6227a4ba13999ed57678a2730c52e58117a4b227b5883b93a984",
+    "lines": 442,
+    "full_text_read": true,
+    "working_sha256": "fd88dd184582a2eb81aa0d2dbc318519f9f8e9b21c56ff7f2274817ea4cfe1d4",
+    "review_status": "局部修訂；餘項見REVIEW與EVENT_CHECK"
+  },
+  {
+    "key": "opening",
+    "source": "/Users/frank/Downloads/files 6/DAOPUNK_第一批_v1.3_開場修訂.md",
+    "sha256": "d556a9ff30afaef8805a49e2ce80f35dbfbebf1b58d2f6d9225646e70948b944",
+    "lines": 312,
+    "full_text_read": true,
+    "working_sha256": "744229c2ceaef24a7590757de934ed831849bf9df03e2babc92aee7140caf5a9",
+    "review_status": "局部修訂；餘項見REVIEW與EVENT_CHECK"
+  },
+  {
+    "key": "d01",
+    "source": "/Users/frank/Downloads/files 6/DAOPUNK_D01_v1.4_第一次死亡與轉生_閘門.md",
+    "sha256": "8f9bf50abaa5647710082fee6ba57a87b7903ef9af0dd4da3d31ff64fe51b3b0",
+    "lines": 268,
+    "full_text_read": true,
+    "working_sha256": "70cd6e94491906ba87a197c29f03517b59467c51ffa285584e0f4526b7d74da9",
+    "review_status": "局部修訂；餘項見REVIEW與EVENT_CHECK"
+  },
+  {
+    "key": "f01",
+    "source": "/Users/frank/Downloads/files 6/DAOPUNK_F01_v1.4_四師姐篇_出繭.md",
+    "sha256": "53130c8c5ff3cb4bbf61053cde21a6de060f63a25cbd668b4784a9191918f6dd",
+    "lines": 346,
+    "full_text_read": true,
+    "working_sha256": "88a62f78cec8549cf4142b64df382c5ad55add35bcf69a2a08e48a5e0e1f2046",
+    "review_status": "局部修訂；餘項見REVIEW與EVENT_CHECK"
+  },
+  {
+    "key": "m01",
+    "source": "/Users/frank/Downloads/files 6/DAOPUNK_M01_v1.4_大師兄篇_九子的圍裙.md",
+    "sha256": "07d0c34b0bb2ed62123e3d0301f09ca79cc448c1efce1ea0001650874f29f5d1",
+    "lines": 301,
+    "full_text_read": true,
+    "working_sha256": "d7e5d870077e9e2cf8cfc1852e1acf6a183da3fade3749b1610b621b18ada49f",
+    "review_status": "局部修訂；餘項見REVIEW與EVENT_CHECK"
+  },
+  {
+    "key": "r01",
+    "source": "/Users/frank/Downloads/files 6/DAOPUNK_R01_v1.3_紅篇_一盞燈的高度.md",
+    "sha256": "17afd3a09a4e6431993fdbefb398c006e01899fe2201209e57e23caa6120f737",
+    "lines": 267,
+    "full_text_read": true,
+    "working_sha256": "2da1ad1ac9f525bcd06e0a89c15fd402f91fb65031470e227c8fb1527a301680",
+    "review_status": "局部修訂；餘項見REVIEW與EVENT_CHECK"
+  },
+  {
+    "key": "s02",
+    "source": "/Users/frank/Downloads/files 6/DAOPUNK_S02_v2.4_紅重逢_留燈的人.md",
+    "sha256": "8de9c21868932812df244ceb1375d9704dd09811fcde97bc319e1900b8727c3f",
+    "lines": 248,
+    "full_text_read": true,
+    "working_sha256": "4a7cd7ec28efd28c36c209156d602971991b036d4dea848c626285ad423036fe",
+    "review_status": "局部修訂；餘項見REVIEW與EVENT_CHECK"
+  },
+  {
+    "key": "x01",
+    "source": "/Users/frank/Downloads/files 6/DAOPUNK_X01_v1.3_星塵篇_不要告訴我.md",
+    "sha256": "234ae95f8ea493a4319893beae2b7e0a85b569a8de85ad3515931d0b353cc69d",
+    "lines": 310,
+    "full_text_read": true,
+    "working_sha256": "ab72797395cd0c77b589266c70b7077d2e30e0673e3b23b073cf74c8460e2b09",
+    "review_status": "局部修訂；餘項見REVIEW與EVENT_CHECK"
+  },
+  {
+    "key": "z01",
+    "source": "/Users/frank/Downloads/files 6/DAOPUNK_Z01_v1.3_零號篇_半邊夢.md",
+    "sha256": "1211939ee348f17a703c8a6b91f5f895a56037b882ca7365d04727f74babe1ed",
+    "lines": 275,
+    "full_text_read": true,
+    "working_sha256": "d6bc18bd16c47cde09141b6ec636ab983850d1e0c51b6dccf488fecccf58239b",
+    "review_status": "局部修訂；餘項見REVIEW與EVENT_CHECK"
+  }
+]
