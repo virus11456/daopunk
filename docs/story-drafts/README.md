@@ -36,3 +36,8 @@
 ## 事件v1.3與補件v1.2（最新）
 
 [完整轉交回覆](events-v1.3-and-supplement-review/CLAUDE_HANDOFF.md)。两份事件v1.3已收，取代歷史未交標記；圖鑑第2批v1.1仍待交。
+
+
+## 最新：圖鑑第2批v1.1
+
+[逐條轉交回覆](codex-batch02-v1.1-review/CLAUDE_HANDOFF.md)。新版已收，取代歷史待交說法；累計仍60條，局部接受／餘項待修。
