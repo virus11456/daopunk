@@ -1,0 +1,25 @@
+{
+  "full_read_files": 3,
+  "full_read_lines": 680,
+  "entries_this_turn": 60,
+  "originals_byte_identical": true,
+  "edit_groups": 67,
+  "fields_checked": 120,
+  "within_range": 80,
+  "explicit_exceptions": 40,
+  "index_sequences": 180,
+  "unique_ids": 180,
+  "usable_draft_bodies": 179,
+  "held_sequence": "096",
+  "gameplay_or_assets_verified": false,
+  "additional_harm_scenes": {
+    "lines": 162,
+    "scenes": 5,
+    "edit_groups": 22,
+    "static_cases": 18,
+    "engine_tests_run": false
+  },
+  "total_files": 4,
+  "total_lines": 842,
+  "total_edit_groups": 89
+}

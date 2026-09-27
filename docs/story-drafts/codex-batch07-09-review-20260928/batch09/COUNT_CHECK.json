@@ -1,0 +1,282 @@
+[
+  {
+    "sequence": 161,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 161,
+    "field": "本作",
+    "count": 109,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 162,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 162,
+    "field": "本作",
+    "count": 111,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 163,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 163,
+    "field": "本作",
+    "count": 112,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 164,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 164,
+    "field": "本作",
+    "count": 110,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 165,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 165,
+    "field": "本作",
+    "count": 108,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 166,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 166,
+    "field": "本作",
+    "count": 109,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 167,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 167,
+    "field": "本作",
+    "count": 112,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 168,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 168,
+    "field": "本作",
+    "count": 111,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 169,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 169,
+    "field": "本作",
+    "count": 107,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 170,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 170,
+    "field": "本作",
+    "count": 112,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 171,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 171,
+    "field": "本作",
+    "count": 109,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 172,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 172,
+    "field": "本作",
+    "count": 107,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 173,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 173,
+    "field": "本作",
+    "count": 110,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 174,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 174,
+    "field": "本作",
+    "count": 109,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 175,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 175,
+    "field": "本作",
+    "count": 113,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 176,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 176,
+    "field": "本作",
+    "count": 104,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 177,
+    "field": "未見短文",
+    "count": 10,
+    "exception": true,
+    "pass": true
+  },
+  {
+    "sequence": 177,
+    "field": "本作",
+    "count": 109,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 178,
+    "field": "未見短文",
+    "count": 45,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 178,
+    "field": "本作",
+    "count": 112,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 179,
+    "field": "未見短文",
+    "count": 43,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 179,
+    "field": "本作",
+    "count": 108,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 180,
+    "field": "未見短文",
+    "count": 47,
+    "exception": false,
+    "pass": true
+  },
+  {
+    "sequence": 180,
+    "field": "本作",
+    "count": 111,
+    "exception": false,
+    "pass": true
+  }
+]

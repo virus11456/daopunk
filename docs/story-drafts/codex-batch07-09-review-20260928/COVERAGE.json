@@ -1,0 +1,29 @@
+[
+  {
+    "file": "/Users/frank/Downloads/files 10/DAOPUNK_山海圖鑑180_第7批_v1.1_121-140.md",
+    "lines": 221,
+    "full_read": true,
+    "sha256": "0672118049c7465546a4e6ad5e5c1f49df1134176febef155009f277c63c6130",
+    "working_sha256": "12a24b17decae8a3edb77c2e3b1946a4b3795ebcb360107852cb792689c6d5b4",
+    "edit_groups": 1,
+    "entries": 20
+  },
+  {
+    "file": "/Users/frank/Downloads/files 10/DAOPUNK_山海圖鑑180_第8批_141-160.md",
+    "lines": 226,
+    "full_read": true,
+    "sha256": "ae425601491b513ee29525c80f386b6191b4a3fed304bb94d69eb8c84053fcd9",
+    "working_sha256": "151384f629d4a525bc4086c83ef4828c40d555d16f8d3857543a620ef12f684d",
+    "edit_groups": 33,
+    "entries": 20
+  },
+  {
+    "file": "/Users/frank/Downloads/DAOPUNK_山海圖鑑180_第9批_161-180.md",
+    "lines": 233,
+    "full_read": true,
+    "sha256": "02b967a8f3abd3e115acf9f89209d6b0788d8ec122334ba53248d44fb62d6e92",
+    "working_sha256": "33204d78f4d7919a44516e5b19b287115da285efb728a5dd1758b6fe3dc35550",
+    "entries": 20,
+    "edit_groups": 33
+  }
+]
