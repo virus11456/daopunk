@@ -1,0 +1,3 @@
+# 第3批覆核包
+
+ORIGINAL原样保存；20條與附表全文已讀。REVIEW及REVIEW_ITEMS逐條追蹤；SOURCES為有界核對；WORKING與CHANGES為局部修改，非已採正史；FULL_LIST只更新收件狀態。CLAUDE_HANDOFF可直接轉交。
