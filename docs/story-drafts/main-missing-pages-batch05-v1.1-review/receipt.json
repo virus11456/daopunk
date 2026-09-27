@@ -1,0 +1,45 @@
+[
+  {
+    "source": "/Users/frank/Downloads/files 6/DAOPUNK_第五批上_主線缺頁_總表_階段八九_v1.1.md",
+    "sha256": "88ab8672f703b26f13698b55d82dece61a1deef084852f0cbca3c6bcb0e3f0bb",
+    "lines": 222,
+    "full_read": true,
+    "scenes": [
+      "碎-1",
+      "碎-2",
+      "碎-3",
+      "碎-4",
+      "碎-6",
+      "碎-7",
+      "碎-5",
+      "底-1",
+      "底-2",
+      "底-3",
+      "底-4",
+      "底-5",
+      "底-6"
+    ]
+  },
+  {
+    "source": "/Users/frank/Downloads/files 6/DAOPUNK_第五批下_主線缺頁_階段七十十一_v1.1.md",
+    "sha256": "62c508f34cd129cdf774088ee8dbc1d5af717b8c2c44bead9999039a3cae9523",
+    "lines": 259,
+    "full_read": true,
+    "scenes": [
+      "法-1",
+      "法-2",
+      "法-3",
+      "對閻-1",
+      "對閻-2",
+      "對閻-3",
+      "對閻-4",
+      "命-0",
+      "命-1",
+      "命-2",
+      "命-3",
+      "命-4",
+      "命-5",
+      "命-6"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "original_bytes_verified": true,
+  "full_read_lines": 481,
+  "scene_coverage": "27/27",
+  "new_scene_outlines": [
+    "碎-6",
+    "碎-7",
+    "命-0"
+  ],
+  "working_scene_ids_preserved": true,
+  "all_mainline_accepted": false,
+  "godot_tested": false,
+  "external_classics_verified": false,
+  "canon_reopened": false
+}

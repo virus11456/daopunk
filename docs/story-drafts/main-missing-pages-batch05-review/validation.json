@@ -1,0 +1,15 @@
+{
+  "original_bytes_verified": true,
+  "full_read_lines": 411,
+  "scene_coverage": "24/24",
+  "working_scene_ids_preserved": true,
+  "exact_replacements": 72,
+  "open_scene_routes": [
+    "R01 檔案取證",
+    "R02 無人對質調查結算",
+    "R03 留痕知情傳承"
+  ],
+  "all_mainline_accepted": false,
+  "external_classics_verified": false,
+  "godot_tested": false
+}
