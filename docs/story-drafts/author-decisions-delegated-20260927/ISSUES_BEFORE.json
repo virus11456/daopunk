@@ -42,18 +42,18 @@
   {
     "id": "D06",
     "title": "追殺事件的世界時點",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N51"
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "與輪數分開定",
+    "decision": null
   },
   {
     "id": "D07",
     "title": "法則不可歸還",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N42"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已取得者跨世保留不得任意撤銷；「無法歸還」仍為提案",
+    "decision": null
   },
   {
     "id": "D08",
@@ -98,26 +98,26 @@
   {
     "id": "D13",
     "title": "無名交接程序",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N70"
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "名字不是自然輪迴的必要條件",
+    "decision": null
   },
   {
     "id": "D14",
     "title": "A01 真實拘束變體",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N43"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "機制未定",
+    "decision": null
   },
   {
     "id": "D15",
     "title": "逐出夢外後的傳授流程",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N49"
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "資格保存與實際領取接口",
+    "decision": null
   },
   {
     "id": "D16",
@@ -130,10 +130,10 @@
   {
     "id": "D17",
     "title": "沈家入燈籍",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N57"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "—",
+    "decision": null
   },
   {
     "id": "D18",
@@ -146,10 +146,10 @@
   {
     "id": "D19",
     "title": "旁系後代是否排除",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N55"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "—",
+    "decision": null
   },
   {
     "id": "D20",
@@ -162,58 +162,58 @@
   {
     "id": "D21",
     "title": "大師兄晚年去向",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N61"
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "小修理鋪為提案，需提名既有地點",
+    "decision": null
   },
   {
     "id": "D22",
     "title": "海盜是否可加入",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N63"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "不因殺手已開放而推定",
+    "decision": null
   },
   {
     "id": "D23",
     "title": "無聲會規矩",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N64"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已有候選",
+    "decision": null
   },
   {
     "id": "D24",
     "title": "秤退出代價",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N65"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已有候選；丙案可能實際無法退出",
+    "decision": null
   },
   {
     "id": "D25",
     "title": "沃倫每世來訪期限",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N66"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "已有候選",
+    "decision": null
   },
   {
     "id": "D26",
     "title": "商事庭跨世同一人標準",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N67"
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "證據邊界已有",
+    "decision": null
   },
   {
     "id": "D27",
     "title": "公證所〈我記得〉主線定位",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N68"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "入會不作主線必需",
+    "decision": null
   },
   {
     "id": "D28",
@@ -244,24 +244,24 @@
     "title": "圖鑑逐條落點",
     "status": "進行中",
     "source": "document-index-v1.1/ORIGINAL.md",
-    "next": "001～060仍需來源查證與全文驗收；061～180未交稿，依既有清單續作，不以落點定案宣稱180完成。",
-    "decision": "001～060主要落點已定；造型選項見本輪CODEX_LOCATIONS與DECISIONS"
+    "next": "001～060全文已收；第2／3批v1.1均已收並局部接受／餘項待修；地點形貌未採。下一批061～080，非前批已結案。",
+    "decision": null
   },
   {
     "id": "M01",
     "title": "燈籍人口規模（第一時代數十人、十餘戶）",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N54"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "固定七戶是寫作配置，不等於全人類只剩七戶",
+    "decision": null
   },
   {
     "id": "M02",
     "title": "林家「不知自己是燈籍人」的例外",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N58"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "lamp-families-v1.1 DECISIONS 仍 pending",
+    "decision": null
   },
   {
     "id": "M03",
@@ -290,57 +290,57 @@
   {
     "id": "M06",
     "title": "葉遲是否採人工生命；長期角色的壽命與維修記憶邊界",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N60、N73"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "目前為提案",
+    "decision": null
   },
   {
     "id": "M07",
     "title": "道主立場表（守護五、動搖二、密謀二）",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N52"
+    "status": "待裁決",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "三種法則取得方式已定，不重問",
+    "decision": null
   },
   {
     "id": "M08",
     "title": "延續時代長度、300 模板配額與類型比例",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "SPEC S06"
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "皆為估算，非玩法數值",
+    "decision": null
   },
   {
     "id": "M09",
     "title": "三十地點的夢動異象分級",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N69"
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "輕微視覺、可維修故障、有傷害後果需分開",
+    "decision": null
   },
   {
     "id": "M10",
     "title": "法則傳授的共用流程（資格、接受、拒領、撤約、逐出）",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "N49／SPEC S02"
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "需一份各篇可一致引用的流程",
+    "decision": null
   },
   {
     "id": "M11",
     "title": "遊戲時數兩套估算（5～8 輪／首輪 20 小時 vs 20 輪／每輪 3～6 小時）",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "SPEC S06：採原型量測制"
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "未統一，不能宣稱已保證一百小時",
+    "decision": null
   },
   {
     "id": "M12",
     "title": "世界事件總表（15～20 項）",
-    "status": "已定",
-    "source": "document-index-v1.1/ORIGINAL.md；author-decisions-delegated-20260927/DECISIONS.md",
-    "next": "裁決／設計規則已定；正文待整合與驗收，見本輪SPEC及整合清單。",
-    "decision": "WORLD_EVENTS：18項"
+    "status": "待設計",
+    "source": "document-index-v1.1/ORIGINAL.md",
+    "next": "目前散在各篇",
+    "decision": null
   }
 ]

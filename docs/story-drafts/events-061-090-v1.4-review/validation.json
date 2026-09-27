@@ -1,0 +1,13 @@
+{
+  "original_exact": true,
+  "ids_complete": true,
+  "review_rows": 30,
+  "openings_restored": 30,
+  "classification": {
+    "消息與傳聞": 10,
+    "燈籍與人類": 2,
+    "觀命委託": 1,
+    "日常求助／日常": 17
+  },
+  "all_reviews_closed": false
+}
