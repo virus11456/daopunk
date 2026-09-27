@@ -279,7 +279,9 @@
         "line": 631,
         "heading": "## v1.9 補充（CU14、CU15、CU17）"
       }
-    ]
+    ],
+    "working_sha256": "7c7f44252841fb09ab0f0adbabdbc4d7c5013e4b1ce5511f39a9401725eb2502",
+    "subsequent_correction": "mainline-critical-gaps-v1-review-20260928/GAP04；九位沉睡自述勘誤"
   },
   {
     "key": "dialogue",
