@@ -1,10 +1,12 @@
 # DAOPUNK｜現行文本入口
 
-N29～N41及B5維持已定。上輪三份原稿缺件已補齊。
+原先六份待交新版已收齊；N29～N41及B5維持已定。收件、工作修訂、驗收分開。
 
-- [第4輪收件與覆核](consistency-pass-04/README.md)
-- [可轉交Claude的回覆](consistency-pass-04/CLAUDE_HANDOFF.md)
-- [問題狀態](continuation-2026-09-27/project-tracking/STATUS.md)
-- [第3輪完整追蹤](consistency-pass-03/COVERAGE.md)
+- [本次五份文件統一交接](CLAUDE_HANDOFF_第5至7輪.md)
+- [第7輪：EV-061～090](consistency-pass-07/README.md)
+- [第6輪：三十地點與EV-031～060](consistency-pass-06/README.md)
+- [第5輪：共同年表與時代池](consistency-pass-05/README.md)
+- [問題狀態](project-tracking/STATUS.md)
+- [第4輪：家庭及F04／F05](consistency-pass-04/README.md)
 
-最新家庭v1.3已覆核；F04／F05重提仍為未採提案。原稿、工作修訂與驗收分開。
+圖鑑021～040另待交；全部REVIEW尚未關閉，本次未新增作者裁決。

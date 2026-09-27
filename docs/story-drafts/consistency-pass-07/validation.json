@@ -1,0 +1,26 @@
+{
+  "event_count": 30,
+  "categories": {
+    "消息與傳聞": 10,
+    "日常求助": 13,
+    "燈籍與人類": 2,
+    "日常": 4,
+    "觀命委託": 1
+  },
+  "has_leave_count": 30,
+  "has_absence_count": 30,
+  "explicit_trigger_count": 27,
+  "explicit_scope_count": 0,
+  "restored_openings": 30,
+  "review_items": 8,
+  "author_decisions_added": 0,
+  "fully_accepted_event_templates": 0,
+  "source_receipt": [
+    {
+      "source": "/Users/frank/Downloads/DAOPUNK_示範事件_EV061-090_v1.1_20260927.md",
+      "archived": "outputs/consistency-pass-07/events-061-090-v1.1-20260927/ORIGINAL.md",
+      "bytes": 14062,
+      "sha256": "9c38f0e33b151d29b2aa9c442371cdc8ebabc4583472ccef032ef5feeffb7a2c"
+    }
+  ]
+}

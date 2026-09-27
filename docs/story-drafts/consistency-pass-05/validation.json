@@ -1,0 +1,15 @@
+{
+  "original_hashes": {
+    "common-timeline-v1.2-20260927": "32fd19d8088203c0aadc60ff8261560c8764f1b4e9f8230fff56bdecaa66bb90",
+    "eras-events-v1.3-20260927": "4f46183c3dd76e0775bb3caf88f53a89ea978de4441d4254cf133eaa865c67c1"
+  },
+  "timeline_review_rows": 13,
+  "era_review_rows": 7,
+  "demo_review_rows": 6,
+  "template_count_arithmetic": 300,
+  "percentage_sum": 100,
+  "author_decisions_added": 0,
+  "timeline_replacements": 15,
+  "era_replacements": 26,
+  "scope": "文字與依賴檢查；未做引擎、玩法或全事件驗收"
+}

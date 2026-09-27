@@ -1,0 +1,242 @@
+[
+  {
+    "id": "U-001-P1-C1",
+    "name": "破爛一條街",
+    "catalog_name": "破爛一條街",
+    "catalog_status": "地名既有；全域配置新提案",
+    "original_line": 31,
+    "review": "紅／燈實際狀態與閘門結果條件改善；延續店鋪存續及滲水修復記錄仍待補。"
+  },
+  {
+    "id": "U-001-P1-C2",
+    "name": "數據陵墓",
+    "catalog_name": "數據陵墓",
+    "catalog_status": "地名既有；全域配置新提案",
+    "original_line": 32,
+    "review": "繼任者不自動在職；檔案權限與除濕失靈造成的資料損失分開。"
+  },
+  {
+    "id": "U-001-P1-C3",
+    "name": "沉環京",
+    "catalog_name": "沉環京",
+    "catalog_status": "新增名稱提案",
+    "original_line": 33,
+    "review": "封條EV-003待核；回聲來源未證因，封鎖是否仍在依實際解除／重貼。"
+  },
+  {
+    "id": "U-001-P2-C1",
+    "name": "回收聚落",
+    "catalog_name": "回收聚落",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 34,
+    "review": "碎片混入不直接等於機械故障，需說明修級的具體影響及處理。"
+  },
+  {
+    "id": "U-001-P2-C2",
+    "name": "轉運聚落",
+    "catalog_name": "轉運聚落",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 35,
+    "review": "糧倉實建限制接受；貨梯卡層的事前徵兆、救援與傷亡後果待補。"
+  },
+  {
+    "id": "U-001-P3-C1",
+    "name": "穗契城",
+    "catalog_name": "穗契城",
+    "catalog_status": "新增名稱提案",
+    "original_line": 36,
+    "review": "公司種普及仍示例，判決不能按年代套用；色變無害範圍需與作物損失分開。"
+  },
+  {
+    "id": "U-001-P3-C2",
+    "name": "藥畦鎮",
+    "catalog_name": "藥畦鎮",
+    "catalog_status": "新增名稱提案",
+    "original_line": 37,
+    "review": "零號存活與葛家提案限制接受；短暫燈暗需界定不造成作業危害。"
+  },
+  {
+    "id": "U-001-P4-C2",
+    "name": "濾心鎮",
+    "catalog_name": "濾心鎮",
+    "catalog_status": "新增名稱提案",
+    "original_line": 38,
+    "review": "沈家候選維持；水中微粒是否污染／危害未明，不能靠修級保證可飲用。"
+  },
+  {
+    "id": "U-002-P1-C1",
+    "name": "演武城區",
+    "catalog_name": "演武城區",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 44,
+    "review": "白纓生死任職與懸賞依地方資料；戰鼓自響不證幕後原因。"
+  },
+  {
+    "id": "U-002-P1-C3",
+    "name": "赤旌京",
+    "catalog_name": "赤旌京",
+    "catalog_status": "新增名稱提案",
+    "original_line": 45,
+    "review": "制度依實際任務結果；主戰派政策要消息／执行條件，斷口發光不自動證據。"
+  },
+  {
+    "id": "U-003-P1-C1",
+    "name": "記憶城區",
+    "catalog_name": "記憶城區",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 51,
+    "review": "診所擴張不保證角色可達；光幕靜止須界定是否影響醫療，否則未必無害。"
+  },
+  {
+    "id": "U-003-P1-C2",
+    "name": "學院城區",
+    "catalog_name": "學院城區",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 52,
+    "review": "研究任務依實際日期接受；光纜雜訊需區分暫態及資料永久損失。"
+  },
+  {
+    "id": "U-003-P1-C3",
+    "name": "織心京",
+    "catalog_name": "織心京",
+    "catalog_status": "新增名稱提案",
+    "original_line": 53,
+    "review": "蓋亞實際立場接受；拒見／離場替代K4尚未設計。"
+  },
+  {
+    "id": "U-004-P1-C1",
+    "name": "登錄城區",
+    "catalog_name": "登錄城區",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 59,
+    "review": "叁不可復原與人類登錄若設立接受；錯誤訊息不自動取消已授權身分。"
+  },
+  {
+    "id": "U-004-P4-C2",
+    "name": "解鎖鎮",
+    "catalog_name": "解鎖鎮",
+    "catalog_status": "新增名稱提案",
+    "original_line": 60,
+    "review": "鎖匣解鎖有存取與洩密可能，修級須界定誰能利用與留下何種後果。"
+  },
+  {
+    "id": "U-004-P2-C2",
+    "name": "寒序星退役聚落",
+    "catalog_name": "退役聚落",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 61,
+    "review": "雪鈴實際接任接受；大師兄初始是否在院、住客齊抬頭須有實際條件。"
+  },
+  {
+    "id": "U-005-P1-C1",
+    "name": "商港城區",
+    "catalog_name": "商港城區",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 67,
+    "review": "W-3b依單案／制度接受；信號燈故障可能航路危害，須界定修級的安全條件。"
+  },
+  {
+    "id": "U-005-P3-C2",
+    "name": "保航鎮",
+    "catalog_name": "保航鎮",
+    "catalog_status": "新增名稱提案",
+    "original_line": 68,
+    "review": "沃倫丙案未採，已在工作稿修正；鐘自響不等於承諾觸發或期限到期。"
+  },
+  {
+    "id": "U-005-P3-C3",
+    "name": "引潮埠",
+    "catalog_name": "引潮埠",
+    "catalog_status": "新增名稱提案",
+    "original_line": 69,
+    "review": "夏家資料與頭目實況優先；浮標移動需事前風險、导航應對及船舶永久損失。"
+  },
+  {
+    "id": "U-006-P1-C2",
+    "name": "冷卻城區",
+    "catalog_name": "冷卻城區",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 75,
+    "review": "居民散居依實際搬遷；能量逆流的預警、避險、傷亡及修復待補。"
+  },
+  {
+    "id": "U-006-P4-C1",
+    "name": "遷基城",
+    "catalog_name": "遷基城",
+    "catalog_status": "新增名稱提案",
+    "original_line": 76,
+    "review": "已停／已塌版本不能延續正常移動；履帶異象也需設備仍存在與運轉條件。"
+  },
+  {
+    "id": "U-007-P4-C1",
+    "name": "葉鏡城",
+    "catalog_name": "葉鏡城",
+    "catalog_status": "新增名稱提案",
+    "original_line": 82,
+    "review": "溫家提案維持；鏡霧是否干擾身分檢驗、會否造成錯判須界定。"
+  },
+  {
+    "id": "U-007-P4-C2",
+    "name": "繭歸鎮",
+    "catalog_name": "繭歸鎮",
+    "catalog_status": "新增名稱提案",
+    "original_line": 83,
+    "review": "葉遲依出生改善；繭裂的未成熟生命風險、預警、保護與不可逆後果待補。"
+  },
+  {
+    "id": "U-007-P1-C3",
+    "name": "花胚京",
+    "catalog_name": "花胚京",
+    "catalog_status": "新增名稱提案",
+    "original_line": 84,
+    "review": "物種關係依實際結果接受；夜間開合若只現象需界定生理無害。"
+  },
+  {
+    "id": "U-008-P4-C1",
+    "name": "燈信城",
+    "catalog_name": "燈信城",
+    "catalog_status": "新增名稱提案",
+    "original_line": 90,
+    "review": "杭燈娘實況接受；河燈逆流不自動證明訊息送達或改收件人。"
+  },
+  {
+    "id": "U-008-P4-C2",
+    "name": "歸盞鎮",
+    "catalog_name": "歸盞鎮",
+    "catalog_status": "新增名稱提案",
+    "original_line": 91,
+    "review": "EV-022引用尚待核；浮盞搖晃與真正熄滅、祭物損失分開。"
+  },
+  {
+    "id": "U-009-P1-C1",
+    "name": "守燈聚落",
+    "catalog_name": "守燈聚落",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 97,
+    "review": "燃料依結果接受；航路變暗需事前提示、替代通行與失事後果。"
+  },
+  {
+    "id": "U-009-P2-C2",
+    "name": "避難城區",
+    "catalog_name": "避難城區",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 98,
+    "review": "安全院細紋可能結構風險，修級須先定受損程度、修補與人員安全界線。"
+  },
+  {
+    "id": "U-010-P1-C1",
+    "name": "光井城區",
+    "catalog_name": "光井城區",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 104,
+    "review": "L-1審理場未搬動接受；光斷無害條件、履約實況與外環供應分開。"
+  },
+  {
+    "id": "U-010-P2-C2",
+    "name": "邊庭聚落",
+    "catalog_name": "邊庭聚落",
+    "catalog_status": "描述性模板；正式地名待定",
+    "original_line": 105,
+    "review": "L-2拆後重建分支接受；日晷誤時的調查不得只憑夢動相關性定因。"
+  }
+]

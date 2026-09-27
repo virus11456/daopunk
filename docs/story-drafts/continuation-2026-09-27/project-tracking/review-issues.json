@@ -4,176 +4,199 @@
     "document": "events-031-060-v1",
     "problem": "分布本批數字合計32，兩批合計64，與標稱30／60不符",
     "required_change": "重新以每則一個主類型統計；委託屬子類／標籤，時代專屬亦非重算事件。第一批全文未在本輪核對，合計暫不驗收。自動盤點見 validation.json。",
-    "status": "待整合",
-    "resolution": null
+    "status": "本批分類接受",
+    "resolution": "30唯一短號；主類型8+6+4+5+6+1=30，委託10／時代標籤6不另算。",
+    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "EB02",
     "document": "events-031-060-v1",
     "problem": "明示選擇／缺席欄缺漏，觀命節點缺完整條件與結果",
     "required_change": "補每個實際選項結果、拒絕／離開，以及世界型／玩家到場型觸發。到場型可標不生成實例，世界型要結算缺席；沒有欄位不等於無需。EV-031 舉報結果補對應選項；EV-036 先貨／拒絕不能留空；EV-035 存活才有事後台詞。",
-    "status": "待整合",
-    "resolution": null
+    "status": "未完成",
+    "resolution": "雖30則都有缺席欄，仍有多則沒有選擇、離開及各結果；EV035只有觀命前置，未補完整節點。到場型也要分開既有世界流程。",
+    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "EB03",
     "document": "events-031-060-v1",
     "problem": "受雇條件、人物在世、機構存續、地點映射未齊",
     "required_change": "韋舷與老頭目可能已死或卸任，繼任者有新個體ID；「任一渡站／巡診站」須映射既有地點設施，不任意擴建ATLAS。30短號先在批次命名空間保存，正式全池ID查重後指定。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分接受",
+    "resolution": "031船長須在位；037設施待指定，038／040等缺具體地點。機構存續與參與人權限未逐則補全，繼任者不是自動生成。",
+    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "EB04",
     "document": "events-031-060-v1",
     "problem": "舊燈、紙與鑰匙場景可能憑空重生物件",
     "required_change": "EV-042 需有燈、實際承接者與所在地；043 需拾六／跑腿站及舊紙實存、保管權；045 需糧倉存在且真實交接，新主不得固定背棄星塵。死亡只改事件可用性，不生成遺物。",
-    "status": "待整合",
-    "resolution": null
+    "status": "本文限制接受，事件細節待補",
+    "resolution": "042／043／045已加物件實存、保管與交接；仍需接收者意願、具體保存／懸掛／交涉結果，不能只說小變化。",
+    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "EB05",
     "document": "events-031-060-v1",
     "problem": "故事歷史條件不足",
     "required_change": "041 只有舊登記令實際撤回才叫「回來」；延期或從未撤回另寫。058 須主角真的擺攤，不能僅曾到過；059 須主角確實主動說前世。055 祖先從山下來不能證明燈籍，需玩家既有來源。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分接受",
+    "resolution": "041／058／059歷史前置已補；055把親見命線當燈籍證據不成立，工作稿已改。未採林家例外也不許自行新增人類家庭。",
+    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "EB06",
     "document": "events-031-060-v1",
     "problem": "導航／觀測與主線知識",
     "required_change": "049 空白不給宇宙座標處理正確。051 親見的是鳥與行為，對應精衛為待比對，不確證傳說。052「第一次延遲」須歷史基準，不能每次計畫推進重置第一次；EV-030 引用待核。054 作者可有真因，但玩家需調查，不因世界狀態直接知道。046 報刊消息與主角親見命線分開。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分接受",
+    "resolution": "精衛待比對、天象消息分層接受；052玩家前置綁世界異象與無觀測者仍記錄需修，054維修紀錄與夢動相關性不足以單獨證因。",
+    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "EB07",
     "document": "events-031-060-v1",
     "problem": "機構印章、隱私與主角記憶",
     "required_change": "048 缺回執不等於缺宇宙交接；封存／匿名權限依Y01。038 不記錄節點應解為不外存可洩漏位置，不能要求主角忘掉亲歷。044 錯字只是比對線索，需傳遞鏈證據；040 本件非刺殺不擴成殺手組織不得加入。",
-    "status": "待整合",
-    "resolution": null
+    "status": "本文限制接受，傳播仍待補",
+    "resolution": "缺回執、記憶不抹除、錯字只線索、非刺殺不限制加入已對齊；031／039關係不能無消息自動改，048公告受權限限制。",
+    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "EB08",
     "document": "events-031-060-v1",
     "problem": "固定結果看似只要玩家到場就無敵；可重複性缺失",
     "required_change": "032 按在場、威懾與對方知情條件定當晚結果，不是任意主角必能嚇退。每則補實例ID、冷卻／一次性作用域、觸發日期、已結算結果；缺席只抽樣一次，不因讀檔／夢動切換重抽。",
-    "status": "待整合",
-    "resolution": null
+    "status": "未完成",
+    "resolution": "032威懾條件改善；全稿僅031明示作用域。共用ID與抽樣不能替代29則作用域／可重複性，031也要委託貨批／航次而非重演同一貨物。",
+    "latest_review": "consistency-pass-06/events-031-060-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "events-061-090-v1-1",
     "document": "events-061-090-v1",
     "problem": "多則省略具體選擇、結果或缺席欄（見validation.json）；現場風景也須明寫離開及缺席無更新，不能以總則代替各條條件。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分接受，仍待補",
+    "resolution": "30則離開／缺席文字齊，但多選項仍沒有個別結果，作用域與日期缺；新版省略開場，工作稿從舊稿恢復情境並套新限制。",
+    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "events-061-090-v1-2",
     "document": "events-061-090-v1",
     "problem": "EV-063戰獸觀命僅牧人同意：補戰獸表達意願方式，不能先假定所有照護者可代同意。命錨正確與同意是不同條件。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分接受，工作修正待覆核",
+    "resolution": "063分開同意／命錨進步；先問牧人仍不符合N34，姿態亦需有可理解意義。觀命節點未補齊。",
+    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "events-061-090-v1-3",
     "document": "events-061-090-v1",
     "problem": "EV-064不記錄位置須指不留對外紀錄，不抹除主角親歷記憶；企業登記須有實際掃描與辨認条件。",
-    "status": "待整合",
-    "resolution": null
+    "status": "本文限制接受，結果待補",
+    "resolution": "064不抹記憶與掃描條件正確；修網不復原外洩／已登記後果，補實際修復和世界條件。",
+    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "events-061-090-v1-4",
     "document": "events-061-090-v1",
     "problem": "EV-065承接G01改革、已撤回授權、逝者生前意願；EV-067缺席不得覆寫P01保護／申訴停解體。EV-069叁出場需存活與所在位置，『我是第一個』需歷史先後旗標。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分接受，工作修正待覆核",
+    "resolution": "065政策與執行、067申訴權與實際受理、069非第一不等於較早，三處已修。",
+    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "events-061-090-v1-5",
     "document": "events-061-090-v1",
     "problem": "EV-074引用B01 B-5，不再F-5；親授仍需聚變知情與接受，取得只一次。EV-075重構時間由本地事件決定，不把歸墟崩塌當萬用門檻。",
-    "status": "待整合",
-    "resolution": null
+    "status": "本文限制接受，事件細節待補",
+    "resolution": "074改B-5、知情接受與一次取得；075本地日期正確。資格與實際領取已再區分，具体改善方案待補。",
+    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "events-061-090-v1-6",
     "document": "events-061-090-v1",
     "problem": "EV-078葉遲為老師需實際授課關係，不只在世；EV-080調閱依Y01權限、目的及資料範圍；EV-081活著、收件身分與聯絡意願均需可追溯來源。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分接受，仍待補",
+    "resolution": "078授課、080權限、081追溯來源已加；需消息時點、具體調閱紀錄及各告知選項結果。",
+    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "events-061-090-v1-7",
     "document": "events-061-090-v1",
     "problem": "EV-084公布風石不保證每船收到並避災；EV-087依L01 v1.1可用性與關係，不以推知真相前作統一截止。EV-088主角須曾學過該童謠。",
-    "status": "待整合",
-    "resolution": null
+    "status": "本文限制接受，分支待補",
+    "resolution": "084收訊、087可達性與088學過童謠改善；各結果、作用域與跨宇宙映射待補。",
+    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "events-061-090-v1-8",
     "document": "events-061-090-v1",
     "problem": "EV-089主角記憶可形成親見證言，但不自動構成他人可獨立核驗的充分證據；同一人認定另列來源。EV-090補離開；教算命需確認人類資格，不憑表演新增散居人類。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分接受，仍待補",
+    "resolution": "089親見證言有效但不自動充分，提出指控不能又限死為先有書面證據；090需實際既有個體、資格與孩子意願，非新增散居人類。",
+    "latest_review": "consistency-pass-07/events-061-090-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "E12-01",
     "document": "eras-events-v1.2",
     "problem": "原則按世界時間，但 2.0 說每個玩家必經前四時代；表格仍稱「最終」、事件仍用一～五",
     "required_change": "世界經過不等於玩家親歷。分世界年代、地方事件與夢動狀態；夢動不是第五輪或必然最後時代。退出夢動只停止／減弱當前異象，已發生的死亡、拆除與政治結果不復原。二十到三十年仍為提案。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分落稿，待補與覆核",
+    "resolution": "世界與親歷已拆；正文仍說年代數由輪數決定，2.0 限延續年代、2.1 卻任何年代。工作稿消除矛盾，門檻、邊界及無閘門版本待設計。",
+    "latest_review": "consistency-pass-05/eras-events-v1.3-20260927/REVIEW.md"
   },
   {
     "id": "E12-02",
     "document": "eras-events-v1.2",
     "problem": "崩塌後必重建、拾六仍在、葉遲長大、工坊必空、燈數必最少等覆蓋實際事件",
     "required_change": "全部標無介入示例，實際狀態優先。閘門避免崩塌時改地方版本；轉生和年齡按實際時間；道主不真正死不代表不離場。燈數不歸零不代表必單調下降。「無燈之年」若保留需限定地方／比喻，不能全人類熄燈。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分落稿，待補與覆核",
+    "resolution": "標無介入示例是進步；拾六接燈缺實交、人工生命葉遲與雪鈴任職、工坊必空仍過度確定。已補限制；各格替代版仍待補。",
+    "latest_review": "consistency-pass-05/eras-events-v1.3-20260927/REVIEW.md"
   },
   {
     "id": "E12-03",
     "document": "eras-events-v1.2",
     "problem": "巡檢犬仍寫非人類觀命待定／只模糊方向，與稿末已回答矛盾；鳥在青穗卻標 U003",
     "required_change": "非人類找對命錨可同樣清楚；失蹤對象的接觸或媒介條件另列待設計，不把算命當定位雷達。青穗用 U-001-P3；新事件 ID 需查重後分配，不直接覆蓋其他 EV-U001-008。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分落稿，待補與覆核",
+    "resolution": "青穗 U-001-P3 可接受；問主人不等於問觀命對象，也不保證命錨正確。已改；兩則觀命完整節點與全池 ID 查重仍待補。",
+    "latest_review": "consistency-pass-05/eras-events-v1.3-20260927/REVIEW.md"
   },
   {
     "id": "E12-04",
     "document": "eras-events-v1.2",
     "problem": "60＋9×25＝285；類型比例合計 100%，但模板量與示例完整度未閉合",
     "required_change": "可沿前次工作稿提案增 15 跨宇宙通用模板，合計 300。變體不另算模板；100 小時仍待測。先試作 30 則；每則含拒絕、前置、結果、缺席、知識来源。組織範圍需納入已收的其他中立組織，不能只假定五類。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分落稿，待補與覆核",
+    "resolution": "60+225+15=300、比例100%正確；2.4仍五類已改十一類。目的段一百小時／半數內容降回目標。六示範未完整驗收，不能算完成30則或300則。",
+    "latest_review": "consistency-pass-05/eras-events-v1.3-20260927/REVIEW.md"
   },
   {
     "id": "E12-05",
     "document": "eras-events-v1.2",
     "problem": "模板未區分實例、每時代一次作用域；缺席各半可能反覆抽，夢動切換可刷事件",
     "required_change": "補 template_id、instance_id、地點／人物／年代作用域、世界觸發日、已結算結果、持久化抽樣。夢動切換不重置實例；缺席結算一次，不覆蓋玩家此前成果。可重複的是模板的新實例，不復活同一人重做同一歷史。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分落稿，待補與覆核",
+    "resolution": "持久抽樣與不覆蓋既有成果方向接受；模板定義與實例欄位原混用。工作稿拆分、補日期與夢動欄位區別；各事件仍須填入。",
+    "latest_review": "consistency-pass-05/eras-events-v1.3-20260927/REVIEW.md"
   },
   {
     "id": "E12-06",
     "document": "eras-events-v1.2",
     "problem": "盤查直接改燈數、到過夢底即知道燭陰、世界結果直接成玩家知識",
     "required_change": "盤查／遷移／死亡分開，只有實際生死改在世燈數；出生候選另按家庭資格與直系規則。親歷、消息、紀錄與作者真相分開；曾到夢底不足以確認異象原因。報刊消息須有來源和傳播日期。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分落稿，待補與覆核",
+    "resolution": "搬遷與盤查分離可接受；只有死亡改燈數漏出生已修。天暗仍預設全民觀測、隔天必報，已改條件式；各例來源日期未補全。",
+    "latest_review": "consistency-pass-05/eras-events-v1.3-20260927/REVIEW.md"
   },
   {
     "id": "E12-07",
     "document": "eras-events-v1.2",
     "problem": "隨機事件不得承載主線證據可能排掉圖鑑批註另一條路；跨篇 EV 短 ID 不明",
     "required_change": "主線不能依賴不可保證抽到的唯一隨機事件，但允許合格替代證據。區分起疑／證據／知識解鎖，另設保底來源。保留完整事件 ID 與引用對照；不要宣稱 EV-026／028 已核對原事件全文。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分落稿，待補與覆核",
+    "resolution": "起疑、證據、K解鎖方向接受；保底須有逐K對照，F05未採不能宣稱全有。批註材料不自動合格；ID尚未完成全池查重。",
+    "latest_review": "consistency-pass-05/eras-events-v1.3-20260927/REVIEW.md"
   },
   {
     "id": "L11-01",
@@ -434,24 +457,27 @@
     "document": "common-timeline-v1.1",
     "problem": "身體來源改為燈籍新生兒；「另設」與 B1 仍待選的舊句退役。沈家是否具名燈籍家庭、照護與血緣細節仍是提案，不能自動確定。",
     "required_change": "",
-    "status": "待整合",
-    "resolution": null
+    "status": "本文接受，作者題仍待決",
+    "resolution": "身體來源已定；沈家是否納入未定，不因本列通過而定案。",
+    "latest_review": "consistency-pass-05/common-timeline-v1.2-20260927/REVIEW.md"
   },
   {
     "id": "B2／B3",
     "document": "common-timeline-v1.1",
     "problem": "記憶湧現者庇護苑、同門可轉生任何生命依本稿新決定記錄；葉遲為人工生命仍是提案。主角每世為人類的例外不變；非人類恢復舊記憶不等於能重新施展人類讀命術，能力邊界仍待設計。",
     "required_change": "",
-    "status": "待整合",
-    "resolution": null
+    "status": "本文接受，接口仍待設計",
+    "resolution": "庇護苑及同門任何生命已定；葉遲人工生命未定，非人類恢復記憶不等於可學人類算命。",
+    "latest_review": "consistency-pass-05/common-timeline-v1.2-20260927/REVIEW.md"
   },
   {
     "id": "B5",
     "document": "common-timeline-v1.1",
     "problem": "只有代收號仍待使用者確認；不阻礙收稿與角色圖進度。",
     "required_change": "",
-    "status": "待整合",
-    "resolution": null
+    "status": "本文接受，已定不重問",
+    "resolution": "以 DECISIONS／歷史 REVISION_v1.2 覆蓋旧 REVIEW 的 pending；只知代收號。兩份同名 v1.2 以日期、交付者區分。",
+    "latest_review": "consistency-pass-05/common-timeline-v1.2-20260927/REVIEW.md"
   },
   {
     "id": "LC01",
@@ -556,48 +582,54 @@
     "document": "locations-30-eras-v1",
     "problem": "欄位把 G/P/B/T 等可任意年代開啟的任務固定進一、二時代",
     "required_change": "日期只决定環境基底，任務開始／結束依實際觸發日。後期首次 G-2 不能因表格已到老去而自動揭露；早期完成改革也不能等第二時代才生效。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分接受",
+    "resolution": "任務觸發日與年代已分開；未標任務的判決／改革仍需依實際事件，不能只按年代跳結果。",
+    "latest_review": "consistency-pass-06/locations-30-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "LE02",
     "document": "locations-30-eras-v1",
     "problem": "「依旗標改寫」尚不能防止覆寫早死、救援與長壽",
     "required_change": "人物／物件實際狀態優先；紅在世、叁获救、葉遲未出生、雪鈴未接任等皆有變體。無人介入默认不得含必然玩家取得資格或存在糧倉。覺醒、到訪、日常世界時間推進都更新，非只在新輪初始化。",
-    "status": "待整合",
-    "resolution": null
+    "status": "部分接受",
+    "resolution": "人物實際狀態優先、糧倉與叁的限制已改善；延續「照常」仍缺停業、死亡、不可達與無接任者的替代。沃倫丙案仍未定，工作稿已更正。",
+    "latest_review": "consistency-pass-06/locations-30-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "LE03",
     "document": "locations-30-eras-v1",
     "problem": "延續／夢動合一且退去回原貌，可能復原裂縫、繭、損失",
     "required_change": "一般延續基底與暫時異象分欄；永久後果另存，夢動消退不復原死傷／倒塌／遷移。空欄不代表沒有後期生活，至少給維持、重建或另有居民的普通版本。",
-    "status": "待整合",
-    "resolution": null
+    "status": "欄位接受，條件待補",
+    "resolution": "30列延續基底與夢動分欄完整，永久損失不復原已寫明；遷基塌陷後不能自動履帶運作，工作稿補限制。",
+    "latest_review": "consistency-pass-06/locations-30-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "LE04",
     "document": "locations-30-eras-v1",
     "problem": "異象自稱都輕微，但能量逆流、繭裂、安全院裂紋可能造成傷亡",
     "required_change": "可以保留為候選視覺；逐項分純現象、可維修故障與可能傷害。重複「燈同時暗」減少，依地方功能設差異。不自動證實燭陰／陸吾原因，不需因收稿便整批批准。",
-    "status": "待整合",
-    "resolution": null
+    "status": "分級接受，風險設計待補",
+    "resolution": "現／修／傷已分；五個傷害型仍無逐項事前線索、避免與後果。修級與現級的安全邊界也需釐清，分類仍提案。",
+    "latest_review": "consistency-pass-06/locations-30-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "LE05",
     "document": "locations-30-eras-v1",
     "problem": "所有地方同期政治蒐集／崩塌會把歸墟事件當宇宙同步指令",
     "required_change": "全域年代不等於各星球立即同政策；以消息到達、地方勢力與制度執行作條件。光井的誓約后果可在地呈現，但 L-1 審理場仍是曦冠京，不移動既有場景。",
-    "status": "待整合",
-    "resolution": null
+    "status": "本文接受",
+    "resolution": "各星政策依消息、勢力與執行；光井不移動 L-1 審理場。各地名稱／ID匹配目錄不等於所有地名提案定案。",
+    "latest_review": "consistency-pass-06/locations-30-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "LE06",
     "document": "locations-30-eras-v1",
     "problem": "單靠必要入口保替代宣言未完成可達性設計",
     "required_change": "列受損入口、替代人物／紀錄與條件，保持固定證據層級。EV 短號引用逐項另查原文；此處驗收只限名錄與提案表，不宣稱150個可玩版本完成。",
-    "status": "待整合",
-    "resolution": null
+    "status": "未完成",
+    "resolution": "入口表有六列但 K4／K5 明列待設計；紅死後的材料不能代替本人相認，F05候選不能當已可用的K6來源。EV短號仍待核。",
+    "latest_review": "consistency-pass-06/locations-30-v1.1-20260927/REVIEW.md"
   },
   {
     "id": "L11-01",

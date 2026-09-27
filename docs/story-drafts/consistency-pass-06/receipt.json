@@ -1,0 +1,14 @@
+[
+  {
+    "source": "/Users/frank/Downloads/DAOPUNK_三十地點時代版本_v1.1_20260927.md",
+    "archived": "outputs/consistency-pass-06/locations-30-v1.1-20260927/ORIGINAL.md",
+    "bytes": 11330,
+    "sha256": "56b9371aea94be22ddfbd5a4ba6f73feda7bfbc1f39d594fc32cfa537dd92446"
+  },
+  {
+    "source": "/Users/frank/Downloads/DAOPUNK_示範事件_EV031-060_v1.1_20260927.md",
+    "archived": "outputs/consistency-pass-06/events-031-060-v1.1-20260927/ORIGINAL.md",
+    "bytes": 16962,
+    "sha256": "392cb314f74803f0becf738e6571385ec3e30ffe03254060ef7b5c477760f987"
+  }
+]

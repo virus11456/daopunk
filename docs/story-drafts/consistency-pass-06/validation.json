@@ -1,0 +1,38 @@
+{
+  "location_count": 30,
+  "unique_location_count": 30,
+  "catalog_sha256": "ad524bb9348c0527f884713ec3dd6908237d5c587061a83c46a2a58e5c7703e1",
+  "catalog_source": "/Users/frank/Documents/Codex/2026-09-26/github-https-github-com-virus11456-daopunk/work/daopunk/docs/worldbuilding/world-catalog.json",
+  "events_count": 30,
+  "categories": {
+    "中立組織": 8,
+    "日常求助": 3,
+    "消息與傳聞": 4,
+    "燈籍與人類": 5,
+    "異象": 1,
+    "山海探索": 6,
+    "日常": 3
+  },
+  "world_trigger_count": 5,
+  "arrival_trigger_count": 25,
+  "explicit_scope_count": 1,
+  "absence_field_count": 30,
+  "fully_accepted_event_templates": 0,
+  "LE_rows": 6,
+  "EB_rows": 8,
+  "originals": [
+    {
+      "source": "/Users/frank/Downloads/DAOPUNK_三十地點時代版本_v1.1_20260927.md",
+      "archived": "outputs/consistency-pass-06/locations-30-v1.1-20260927/ORIGINAL.md",
+      "bytes": 11330,
+      "sha256": "56b9371aea94be22ddfbd5a4ba6f73feda7bfbc1f39d594fc32cfa537dd92446"
+    },
+    {
+      "source": "/Users/frank/Downloads/DAOPUNK_示範事件_EV031-060_v1.1_20260927.md",
+      "archived": "outputs/consistency-pass-06/events-031-060-v1.1-20260927/ORIGINAL.md",
+      "bytes": 16962,
+      "sha256": "392cb314f74803f0becf738e6571385ec3e30ffe03254060ef7b5c477760f987"
+    }
+  ],
+  "author_decisions_added": 0
+}
