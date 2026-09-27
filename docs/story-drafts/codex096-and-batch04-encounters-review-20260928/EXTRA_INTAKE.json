@@ -1,0 +1,18 @@
+[
+  {
+    "key": "batch05-v1.1",
+    "source": "/Users/frank/Downloads/files 13/DAOPUNK_山海圖鑑180_第5批_v1.1_081-100.md",
+    "lines": 208,
+    "full_read": true,
+    "sha256": "44e971d28adfbacc61438df918aeec2c5ffc85bea488570204335c4f3367b05d",
+    "working_sha256": "de24dd3b4d95f1fef3619b723128b0e58633a7607f32a5c5d2a34d017fca2f3f"
+  },
+  {
+    "key": "batch06-v1.1",
+    "source": "/Users/frank/Downloads/files 13/DAOPUNK_山海圖鑑180_第6批_v1.1_101-120.md",
+    "lines": 209,
+    "full_read": true,
+    "sha256": "a420e36c1f89e56f49eb518d4d8fc55e3c82d010da659c0ed22b6a012bc25fbe",
+    "working_sha256": "f9982c11f20233400e1dc7f763862b7900aea7d29f7748b24ecbd42b92757153"
+  }
+]

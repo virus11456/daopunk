@@ -1,0 +1,72 @@
+[
+  {
+    "key": "harm-v1.1",
+    "source": "/Users/frank/Downloads/files 11/DAOPUNK_三十地點_傷級五處場景_v1.1_20260928.md",
+    "lines": 159,
+    "full_read_or_identical_to_previously_full_read": true,
+    "identical_to_previous_working": true,
+    "sha256": "5df899254c2fabdb970948ffb9599648cf22d261e3bacacd9dc927fc557d9df9",
+    "working_sha256": "0a3110e5785c3150bd2ea62e5e6070da7ee9240f3c4991fabf6d532b7d8fe63b",
+    "edit_groups": 1
+  },
+  {
+    "key": "locations-v1.4",
+    "source": "/Users/frank/Downloads/files 11/DAOPUNK_三十地點時代版本_v1.4_20260928.md",
+    "lines": 177,
+    "full_read_or_identical_to_previously_full_read": true,
+    "identical_to_previous_working": false,
+    "sha256": "c98068abe85319aefdc325bf0fb64fb8d8de6cff52a71c8cbfe23a600ffd18c7",
+    "working_sha256": "aa66f4c65dc31d68ecd836c9754222066b844c8d73d0ac11fec949886a12831b",
+    "edit_groups": 9
+  },
+  {
+    "key": "batch08-v1.1",
+    "source": "/Users/frank/Downloads/files 11/DAOPUNK_山海圖鑑180_第8批_v1.1_141-160.md",
+    "lines": 229,
+    "full_read_or_identical_to_previously_full_read": true,
+    "identical_to_previous_working": true,
+    "sha256": "151384f629d4a525bc4086c83ef4828c40d555d16f8d3857543a620ef12f684d",
+    "working_sha256": "28358c66c07c2929da3fd3700bfd9bfd49a7c13e74b815928e0036fd8874b922",
+    "edit_groups": 1
+  },
+  {
+    "key": "batch09-v1.1",
+    "source": "/Users/frank/Downloads/files 11/DAOPUNK_山海圖鑑180_第9批_v1.1_161-180.md",
+    "lines": 235,
+    "full_read_or_identical_to_previously_full_read": true,
+    "identical_to_previous_working": true,
+    "sha256": "33204d78f4d7919a44516e5b19b287115da285efb728a5dd1758b6fe3dc35550",
+    "working_sha256": "5a7dc29d269ca39a1bbbef046a6a7288b4d092d6a7070d712d59fbe9872724a3",
+    "edit_groups": 1
+  },
+  {
+    "key": "full-list",
+    "source": "/Users/frank/Downloads/files 11/DAOPUNK_山海圖鑑180_總清單_20260928.md",
+    "lines": 190,
+    "full_read_or_identical_to_previously_full_read": true,
+    "identical_to_previous_working": true,
+    "sha256": "d7b5b9f849728d59be34ab49e68f0df2226597a45b9c6e27894e47540536956e",
+    "working_sha256": "7fa2a56e60abcbb162fa29aadbacf7bc86b16d72a7496c89f995d7523535d1e9",
+    "edit_groups": 0
+  },
+  {
+    "key": "encounters05-06",
+    "source": "/Users/frank/Downloads/files 12/DAOPUNK_圖鑑遭遇場景_第5-6批_v1_20260928.md",
+    "lines": 87,
+    "full_read_or_identical_to_previously_full_read": true,
+    "identical_to_previous_working": false,
+    "sha256": "8b6e37f2e930c4c7ccd53bad24bf30c41ba3df94310e846521d3b14917ed20af",
+    "working_sha256": "860bf940a481aae2ed021435bf5b45e63efc18facbb3c6250ad66aba15e56864",
+    "edit_groups": 36
+  },
+  {
+    "key": "encounters07-09",
+    "source": "/Users/frank/Downloads/files 12/DAOPUNK_圖鑑遭遇場景_第7-9批_v1_20260928.md",
+    "lines": 107,
+    "full_read_or_identical_to_previously_full_read": true,
+    "identical_to_previous_working": false,
+    "sha256": "3e105593ebb007997cf24529c25bbba902639eb2cbb2b2c6fe1540a45f482ed5",
+    "working_sha256": "bd397fe14e75702ffeb20395d80ef04573d11f51d3ded8eb544f81bfe6a8a847",
+    "edit_groups": 47
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "source": "/Users/frank/Downloads/DAOPUNK_圖鑑補件_096替換與第4批遭遇場景_v1_20260928.md",
+  "lines": 72,
+  "full_read": true,
+  "sha256": "c499d2e76187cf4621a05e52105c43eab1fda8bd50b8908333d481f1b2bedaf3",
+  "original_byte_identical": true,
+  "working_sha256": "050c30d62236a166c2013659996c45d5aaf6e284b12b088e7809dbb50689ec89",
+  "encounters": 20,
+  "replacement_entries": 1,
+  "patch_groups": 12,
+  "engine_tests_run": false
+}
