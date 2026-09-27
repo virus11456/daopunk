@@ -1,21 +1,48 @@
 [
   {
     "slug": "document-index-v1.3",
-    "source": "/Users/frank/Downloads/files 2/DAOPUNK_文件總索引與問題狀態追蹤_v1.3.md",
-    "status": "本輪曾成功讀取與比對；保存時來源已不在原路徑，待補原檔",
-    "original_archived": false
+    "source": "/Users/frank/Downloads/files/DAOPUNK_文件總索引與問題狀態追蹤_v1.3.md",
+    "status": "第4輪補回精確原檔並核對",
+    "original_archived": true,
+    "recovery": {
+      "status": "已补原檔並核對",
+      "path": "consistency-pass-04/document-index-v1.3/ORIGINAL.md",
+      "sha256": "ffb807fe66895790a03340b546209c2e588a9f9b35d88256c41bbf4ff1211733",
+      "source": "/Users/frank/Downloads/files/DAOPUNK_文件總索引與問題狀態追蹤_v1.3.md"
+    },
+    "previous_source": "/Users/frank/Downloads/files 2/DAOPUNK_文件總索引與問題狀態追蹤_v1.3.md",
+    "sha256": "ffb807fe66895790a03340b546209c2e588a9f9b35d88256c41bbf4ff1211733",
+    "bytes": 8354
   },
   {
     "slug": "background-v1.7",
-    "source": "/Users/frank/Downloads/files 2/DAOPUNK_完整背景_v1.7_燈還掛著.md",
-    "status": "本輪曾成功讀取與比對；保存時來源已不在原路徑，待補原檔",
-    "original_archived": false
+    "source": "/Users/frank/Downloads/files/DAOPUNK_完整背景_v1.7_燈還掛著.md",
+    "status": "第4輪補回精確原檔並核對",
+    "original_archived": true,
+    "recovery": {
+      "status": "已补原檔並核對",
+      "path": "consistency-pass-04/background-v1.7/ORIGINAL.md",
+      "sha256": "a269444e1f925c03153791813e408597e16ae154abefc3dd5cf81c5d290c30c6",
+      "source": "/Users/frank/Downloads/files/DAOPUNK_完整背景_v1.7_燈還掛著.md"
+    },
+    "previous_source": "/Users/frank/Downloads/files 2/DAOPUNK_完整背景_v1.7_燈還掛著.md",
+    "sha256": "a269444e1f925c03153791813e408597e16ae154abefc3dd5cf81c5d290c30c6",
+    "bytes": 41294
   },
   {
     "slug": "lamp-families-v1.2",
-    "source": "/Users/frank/Downloads/files 2/DAOPUNK_燈籍家庭_v1.2.md",
-    "status": "本輪曾成功讀取與比對；保存時來源已不在原路徑，待補原檔",
-    "original_archived": false
+    "source": "/Users/frank/Downloads/files/DAOPUNK_燈籍家庭_v1.2.md",
+    "status": "第4輪補回精確原檔並核對",
+    "original_archived": true,
+    "recovery": {
+      "status": "已补原檔並核對",
+      "path": "consistency-pass-04/lamp-families-v1.2/ORIGINAL.md",
+      "sha256": "418d09b47152ec1354bc9d60456a6616d6dd2e81ae1ef81443118fa9cb7a3c4a",
+      "source": "/Users/frank/Downloads/files/DAOPUNK_燈籍家庭_v1.2.md"
+    },
+    "previous_source": "/Users/frank/Downloads/files 2/DAOPUNK_燈籍家庭_v1.2.md",
+    "sha256": "418d09b47152ec1354bc9d60456a6616d6dd2e81ae1ef81443118fa9cb7a3c4a",
+    "bytes": 7408
   },
   {
     "slug": "claude-round2-review",

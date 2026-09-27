@@ -1,11 +1,10 @@
-# DAOPUNK｜現行入口
+# DAOPUNK｜現行文本入口
 
-現行裁決：N29～N41。B5已定紅只知道代收號。
+N29～N41及B5維持已定。上輪三份原稿缺件已補齊。
 
-- [第3輪完整回覆與工作稿](consistency-pass-03/README.md)
-- [給Claude的回覆](consistency-pass-03/CLAUDE_HANDOFF.md)
-- [不遺漏處置清單](consistency-pass-03/COVERAGE.md)
-- [問題追蹤](continuation-2026-09-27/project-tracking/STATUS.md)
-- [第2輪歷史交付](consistency-pass-02/README.md)
+- [第4輪收件與覆核](consistency-pass-04/README.md)
+- [可轉交Claude的回覆](consistency-pass-04/CLAUDE_HANDOFF.md)
+- [問題狀態](continuation-2026-09-27/project-tracking/STATUS.md)
+- [第3輪完整追蹤](consistency-pass-03/COVERAGE.md)
 
-最新三份md精確原檔待補回，詳收件紀錄；未宣稱整組REVIEW已關閉。
+最新家庭v1.3已覆核；F04／F05重提仍為未採提案。原稿、工作修訂與驗收分開。

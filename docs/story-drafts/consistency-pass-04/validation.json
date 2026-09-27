@@ -1,0 +1,34 @@
+{
+  "source_checks": [
+    {
+      "file": "document-index-v1.3",
+      "full_text_read": true,
+      "original_hash_match": true
+    },
+    {
+      "file": "background-v1.7",
+      "full_text_read": true,
+      "original_hash_match": true
+    },
+    {
+      "file": "lamp-families-v1.2",
+      "full_text_read": true,
+      "original_hash_match": true
+    },
+    {
+      "file": "lamp-families-v1.3-20260927",
+      "full_text_read": true,
+      "original_hash_match": true
+    },
+    {
+      "file": "f04f05-v1-20260927",
+      "full_text_read": true,
+      "original_hash_match": true
+    }
+  ],
+  "family_review_rows": 16,
+  "pending_original_recovery": 0,
+  "new_author_decisions": 0,
+  "all_reviews_closed": false,
+  "gameplay_tested": false
+}

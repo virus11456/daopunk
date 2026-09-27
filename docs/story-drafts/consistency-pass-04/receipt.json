@@ -1,0 +1,47 @@
+[
+  {
+    "file": "DAOPUNK_文件總索引與問題狀態追蹤_v1.3.md",
+    "source": "/Users/frank/Downloads/files/DAOPUNK_文件總索引與問題狀態追蹤_v1.3.md",
+    "sha256": "ffb807fe66895790a03340b546209c2e588a9f9b35d88256c41bbf4ff1211733",
+    "bytes": 8354,
+    "slug": "document-index-v1.3",
+    "read_scope": "全文已讀",
+    "original_archived": true
+  },
+  {
+    "file": "DAOPUNK_完整背景_v1.7_燈還掛著.md",
+    "source": "/Users/frank/Downloads/files/DAOPUNK_完整背景_v1.7_燈還掛著.md",
+    "sha256": "a269444e1f925c03153791813e408597e16ae154abefc3dd5cf81c5d290c30c6",
+    "bytes": 41294,
+    "slug": "background-v1.7",
+    "read_scope": "全文已讀",
+    "original_archived": true
+  },
+  {
+    "file": "DAOPUNK_燈籍家庭_v1.2.md",
+    "source": "/Users/frank/Downloads/files/DAOPUNK_燈籍家庭_v1.2.md",
+    "sha256": "418d09b47152ec1354bc9d60456a6616d6dd2e81ae1ef81443118fa9cb7a3c4a",
+    "bytes": 7408,
+    "slug": "lamp-families-v1.2",
+    "read_scope": "全文已讀",
+    "original_archived": true
+  },
+  {
+    "file": "DAOPUNK_燈籍家庭_v1.3_20260927.md",
+    "source": "/Users/frank/Downloads/files/DAOPUNK_燈籍家庭_v1.3_20260927.md",
+    "sha256": "6879d835c080058b964a3df8908ab533b87f1723f2525aa37db03d4aa0c78fa1",
+    "bytes": 10738,
+    "slug": "lamp-families-v1.3-20260927",
+    "read_scope": "全文已讀",
+    "original_archived": true
+  },
+  {
+    "file": "DAOPUNK_F04F05重提_v1_20260927.md",
+    "source": "/Users/frank/Downloads/files/DAOPUNK_F04F05重提_v1_20260927.md",
+    "sha256": "6c2b0fca06064211b348c8d259673e2012a99b7d6391bcf113cb6ce9aabb52d0",
+    "bytes": 5676,
+    "slug": "f04f05-v1-20260927",
+    "read_scope": "全文已讀",
+    "original_archived": true
+  }
+]
