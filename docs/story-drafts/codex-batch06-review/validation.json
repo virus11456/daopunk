@@ -1,0 +1,14 @@
+{
+  "original_preserved": true,
+  "entries": 20,
+  "all_40_counts_pass": true,
+  "atlas_city_ids_checked": true,
+  "full_read_lines": 209,
+  "images_generated": false,
+  "pending_source_details": [
+    "101 specified HY and museum manuscript variants",
+    "105 specified HY fire/water variants",
+    "113 為/惟 manuscript collation"
+  ],
+  "whole_catalog_verified": false
+}
