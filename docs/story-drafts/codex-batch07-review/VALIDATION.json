@@ -1,0 +1,12 @@
+{
+  "original_byte_identical": true,
+  "full_read_lines": 208,
+  "entries": 20,
+  "length_fields": 40,
+  "within_range": 37,
+  "explicit_exceptions": 3,
+  "edit_groups": 57,
+  "atlas_ids_checked": true,
+  "source_collation_complete": false,
+  "gameplay_assets_verified": false
+}
