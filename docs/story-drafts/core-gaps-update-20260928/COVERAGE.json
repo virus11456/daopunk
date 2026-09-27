@@ -1,0 +1,26 @@
+[
+  {
+    "key": "gaps",
+    "source": "/Users/frank/Downloads/files 9/DAOPUNK_主線關鍵缺口補寫_v1.2_20260928.md",
+    "lines": 202,
+    "sha256": "eace722579ad282355157d4c7f6899278556cbdbc41a506415f15ab40d7b1ee6",
+    "full_text_read": true,
+    "working_sha256": "eeeb182566ecaf0a6b1fa54ec879c11ada2eb606917a57b6db8acaee7d2fddcd"
+  },
+  {
+    "key": "background",
+    "source": "/Users/frank/Downloads/files 9/DAOPUNK_完整背景_v2.0_燈還掛著.md",
+    "lines": 638,
+    "sha256": "0fb636943a0f42ebc0f4cdfb51cd2639c1af254a4a51373949b052c53185ffda",
+    "full_text_read": true,
+    "working_sha256": "8f6182dbb9aaeeba29f149c676c3e190f39f0b9b506f68983795ca7341229544"
+  },
+  {
+    "key": "dialogue",
+    "source": "/Users/frank/Downloads/files 9/DAOPUNK_第四批下_主線台詞_v1.6.md",
+    "lines": 626,
+    "sha256": "0551744fa857af082f7d83242b156b10c6071ec78df35d6329979f8db5590482",
+    "full_text_read": true,
+    "working_sha256": "b8b67b1960bf1dc51ade68a360b5959c2592512236577ad6bcd66a2b1040cb2a"
+  }
+]
