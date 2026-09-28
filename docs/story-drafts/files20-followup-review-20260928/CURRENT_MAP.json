@@ -1,0 +1,484 @@
+[
+  {
+    "file": "DAOPUNK_00_共同年表_v1.5_20260928.md",
+    "working_source": "outputs/pkg01-09-followup-review-20260928/WORKING/DAOPUNK_00_共同年表_v1.5_20260928.md",
+    "working_sha256": "b38eae770274f7ae8a8bcee26690662e6a872b441e009f129a6db84424402123",
+    "status": "本輪增量 WORKING；未宣稱整組關閉",
+    "replaces": "DAOPUNK_00_共同年表_v1.4_20260928.md",
+    "in_this_package": true
+  },
+  {
+    "file": "DAOPUNK_A01_v1.4_亞茲篇_空座.md",
+    "working_source": "outputs/pkg01-09-followup-review-20260928/WORKING/DAOPUNK_A01_v1.4_亞茲篇_空座.md",
+    "working_sha256": "bfa7b8af6df228f03dac111a869ff1d203a311ea1aeb0d309d7383e933533392",
+    "status": "本輪增量 WORKING；未宣稱整組關閉",
+    "replaces": "DAOPUNK_A01_v1.3_亞茲篇_空座.md",
+    "in_this_package": true
+  },
+  {
+    "file": "DAOPUNK_B01_聚變篇_試的人_v1.4.md",
+    "working_source": "outputs/files20-followup-review-20260928/WORKING/DAOPUNK_B01_聚變篇_試的人_v1.4.md",
+    "working_sha256": "6c720e5bdc59d2f02ef745a5003fa0377d14784abbe595d81d36918e2b2a1b2b",
+    "status": "files20正文修訂；未宣稱整組結案",
+    "replaces": "DAOPUNK_B01_聚變篇_試的人_v1.2.md"
+  },
+  {
+    "file": "DAOPUNK_D01_v1.4_第一次死亡與轉生_閘門.md",
+    "original_sha256": "8f9bf50abaa5647710082fee6ba57a87b7903ef9af0dd4da3d31ff64fe51b3b0",
+    "working": "WORKING/DAOPUNK_D01_v1.4_第一次死亡與轉生_閘門.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_D01_v1.4_第一次死亡與轉生_閘門.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "b1922e6c2fb7ab9659bc87ceb82e0cde089dd9f7bf17ebbefddb753d364acf8a",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/events-characters-update-v2-review/d01/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_F01_v1.5_四師姐篇_出繭.md",
+    "original_sha256": "9baa7aea7f4e3fff4950b08789ec2a3164f3d27b20c75b900ef40f3ea026dd3b",
+    "working": "WORKING/DAOPUNK_F01_v1.5_四師姐篇_出繭.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_F01_v1.5_四師姐篇_出繭.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "def606328e150c3b41e1263167c7395ee4fc065112f994a78cbb5107087b9283",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/locations-codex-characters-update-20260928/f01/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_G01_蓋亞篇_記得太多的人_v1.4.md",
+    "working_source": "outputs/files20-followup-review-20260928/WORKING/DAOPUNK_G01_蓋亞篇_記得太多的人_v1.4.md",
+    "working_sha256": "63d2d906f3ebc23c3419faab7b6d7525657a42f66a858ed64f4b7948f18a0e09",
+    "status": "files20正文修訂；未宣稱整組結案",
+    "replaces": "DAOPUNK_G01_蓋亞篇_記得太多的人_v1.2.md"
+  },
+  {
+    "file": "DAOPUNK_K01_奎托斯篇_承擔_v1.2.md",
+    "original_sha256": "16c62798d2712376aeecf2adfc6fc4f42368d2c4f972b2e4c05c48c5bf518411",
+    "working": "WORKING/DAOPUNK_K01_奎托斯篇_承擔_v1.2.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_K01_奎托斯篇_承擔_v1.2.md",
+    "status": "本輪已全文覆核並修訂；未宣稱全項關閉",
+    "working_sha256": "8cacd32cba39a268424ced85d96e99871df8fb2574c030a611a72fd29838eaef",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_K01_奎托斯篇_承擔_v1.2.md"
+  },
+  {
+    "file": "DAOPUNK_L01_v1.4_陸吾篇_帝之下都.md",
+    "original_sha256": "d6b7aa5adccd575e655c413d0131592e69d1ae065ab071fa9c454204b741702b",
+    "working": "WORKING/DAOPUNK_L01_v1.4_陸吾篇_帝之下都.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_L01_v1.4_陸吾篇_帝之下都.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "9e36280b663fd23e135f5c1dc17a349e0308758a73142418bd1c1b04741c83e7",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/core-canon-update-v2-review/luwu/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_M01_v1.5_大師兄篇_九子的圍裙.md",
+    "original_sha256": "0e7bcbc95ad346a427fdea23658575f0df3107f694d32c626f7d67d9aed6c36b",
+    "working": "WORKING/DAOPUNK_M01_v1.5_大師兄篇_九子的圍裙.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_M01_v1.5_大師兄篇_九子的圍裙.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "e3f7f45b0d83241df0e8231fd57476a0f34c0e2669cf02c20b17e63fcefd3d7e",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/locations-codex-characters-update-20260928/m01/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_P01_玉皇Prime篇_未分類_v1.3.md",
+    "working_source": "outputs/pkg01-09-followup-review-20260928/WORKING/DAOPUNK_P01_玉皇Prime篇_未分類_v1.3.md",
+    "working_sha256": "c0428b7cf7b32f034eb0376a4d574de15341038a40c0eda972a2829d194d3ac3",
+    "status": "本輪增量 WORKING；未宣稱整組關閉",
+    "replaces": "DAOPUNK_P01_玉皇Prime篇_未分類_v1.2.md",
+    "in_this_package": true
+  },
+  {
+    "file": "DAOPUNK_R01_v1.3_紅篇_一盞燈的高度.md",
+    "original_sha256": "17afd3a09a4e6431993fdbefb398c006e01899fe2201209e57e23caa6120f737",
+    "working": "WORKING/DAOPUNK_R01_v1.3_紅篇_一盞燈的高度.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_R01_v1.3_紅篇_一盞燈的高度.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "2da1ad1ac9f525bcd06e0a89c15fd402f91fb65031470e227c8fb1527a301680",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/events-characters-update-v2-review/r01/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_S02_v2.5_紅重逢_留燈的人.md",
+    "original_sha256": "e1641fee3486e80ebe185b995bec9922ff0502091e888079c8b2ae4e573625b6",
+    "working": "WORKING/DAOPUNK_S02_v2.5_紅重逢_留燈的人.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_S02_v2.5_紅重逢_留燈的人.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "c8f4c7f81d6606c9e4695dc646fda9d4cbcd5cbc401fcaba08bf85fdf1d8d351",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/locations-codex-characters-update-20260928/s02/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_T01_涂山氏篇_九尾的影子_v1.3.md",
+    "working_source": "outputs/pkg01-09-followup-review-20260928/WORKING/DAOPUNK_T01_涂山氏篇_九尾的影子_v1.3.md",
+    "working_sha256": "f0347ed24152940247effc680900927ac2e6f06e2853f6513c1042219a4a7b15",
+    "status": "本輪增量 WORKING；未宣稱整組關閉",
+    "replaces": "DAOPUNK_T01_涂山氏篇_九尾的影子_v1.2.md",
+    "in_this_package": true
+  },
+  {
+    "file": "DAOPUNK_W01_v1.4_沃倫篇_下一世的帳.md",
+    "original_sha256": "9083943dba19e7f48b9a32180eecfb5cdfffa755019562373a5f1d34beba36ac",
+    "working": "WORKING/DAOPUNK_W01_v1.4_沃倫篇_下一世的帳.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_W01_v1.4_沃倫篇_下一世的帳.md",
+    "status": "本輪已全文覆核並修訂；未宣稱全項關閉",
+    "working_sha256": "1d394a1b5d9fb91bbb9645d9fa897f2260ed7ec8c26dafec97cc3e09b182fa98",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_W01_v1.4_沃倫篇_下一世的帳.md"
+  },
+  {
+    "file": "DAOPUNK_X01_v1.4_星塵篇_不要告訴我.md",
+    "original_sha256": "52aa07fdaee2895839d59c8e571a4938af7c8ed14945fcb9d0f1c24aab59d061",
+    "working": "WORKING/DAOPUNK_X01_v1.4_星塵篇_不要告訴我.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_X01_v1.4_星塵篇_不要告訴我.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "726a072ba92218c93c553651800ccd2dfd1e564234e774120294840072c1d049",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/locations-codex-characters-update-20260928/x01/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_Y01_v1.4_閻羅X篇_未交接.md",
+    "working_source": "outputs/files20-followup-review-20260928/WORKING/DAOPUNK_Y01_v1.4_閻羅X篇_未交接.md",
+    "working_sha256": "b993a3cd27e5c3cd510d44be35bf9143e1091b22afdc9aca0f1e93f7c21f416f",
+    "status": "files20正文修訂；未宣稱整組結案",
+    "replaces": "DAOPUNK_Y01_v1.4_閻羅X篇_未交接.md"
+  },
+  {
+    "file": "DAOPUNK_Z01_v1.4_零號篇_半邊夢.md",
+    "original_sha256": "17218141f6afe0e8cc39c1d4c6833df01ba0cd247121990cf1bde8215da12672",
+    "working": "WORKING/DAOPUNK_Z01_v1.4_零號篇_半邊夢.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_Z01_v1.4_零號篇_半邊夢.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "1fc3362dfce602028b6bda7dd98cffcbe796226abf09c8602d368d3fafad4e30",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/locations-codex-characters-update-20260928/z01/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_三十地點_傷級五處場景_v1.1_20260928.md",
+    "original_sha256": "5df899254c2fabdb970948ffb9599648cf22d261e3bacacd9dc927fc557d9df9",
+    "working": "WORKING/DAOPUNK_三十地點_傷級五處場景_v1.1_20260928.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_三十地點_傷級五處場景_v1.1_20260928.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "0a3110e5785c3150bd2ea62e5e6070da7ee9240f3c4991fabf6d532b7d8fe63b",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/harm-v1.1/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_三十地點時代版本_v1.4_20260928.md",
+    "original_sha256": "c98068abe85319aefdc325bf0fb64fb8d8de6cff52a71c8cbfe23a600ffd18c7",
+    "working": "WORKING/DAOPUNK_三十地點時代版本_v1.4_20260928.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_三十地點時代版本_v1.4_20260928.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "aa66f4c65dc31d68ecd836c9754222066b844c8d73d0ac11fec949886a12831b",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/locations-v1.4/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_主線_v2.4_肉鴿結構.md",
+    "original_sha256": "4ecd5bb3de86f36f34e94b3eea30332d0531d3a2cf6604dac5f846ace915e847",
+    "working": "WORKING/DAOPUNK_主線_v2.4_肉鴿結構.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_主線_v2.4_肉鴿結構.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "caed053128988853435288726881d0b856f55d9d5bb653384c5b4e6b639c2795",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/core-canon-update-v2-review/main/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_主線關鍵缺口補寫_v1.2_20260928.md",
+    "original_sha256": "eace722579ad282355157d4c7f6899278556cbdbc41a506415f15ab40d7b1ee6",
+    "working": "WORKING/DAOPUNK_主線關鍵缺口補寫_v1.2_20260928.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_主線關鍵缺口補寫_v1.2_20260928.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "eeeb182566ecaf0a6b1fa54ec879c11ada2eb606917a57b6db8acaee7d2fddcd",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/core-gaps-update-20260928/gaps/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_人物分支完整對白_v1.1_20260928.md",
+    "working_source": "outputs/pkg01-09-followup-review-20260928/WORKING/DAOPUNK_人物分支完整對白_v1.1_20260928.md",
+    "working_sha256": "d5c7b54f82e2c04ff40ddfdd28b2016b69261fde426d8b8909f91272ec326a69",
+    "status": "本輪增量 WORKING；未宣稱整組關閉",
+    "replaces": "DAOPUNK_人物分支完整對白_v1_20260928.md",
+    "in_this_package": true
+  },
+  {
+    "file": "DAOPUNK_人物晚年篇_v1.1.md",
+    "original_sha256": "f1dbea963aaeec15ae2098d18a5494414608f7eeba737f567819036f44c67fbb",
+    "working": "WORKING/DAOPUNK_人物晚年篇_v1.1.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_人物晚年篇_v1.1.md",
+    "status": "本輪已全文覆核並修訂；未宣稱全項關閉",
+    "working_sha256": "ea2ce546dde6688006f6269b45ab7ba9e6719abfa1969051b2bce152e30c5c29",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_人物晚年篇_v1.1.md"
+  },
+  {
+    "file": "DAOPUNK_作者裁決清單_v1.2_20260927.md",
+    "original_sha256": "4806a3564f67faa2e0fa7d9fd2793e9cd0fc3038297c161a5e01733a0c5718ad",
+    "working": null,
+    "working_source": "outputs/current-package-v3-audit-20260928/ORIGINAL/DAOPUNK_作者裁決清單_v1.2_20260927.md",
+    "status": "歷史裁決輸入；現行結論見 AUTHORITY，非另待作者選",
+    "in_this_package": false
+  },
+  {
+    "file": "DAOPUNK_加入中立組織_設計提案_v1.6.md",
+    "working_source": "outputs/pkg01-09-followup-review-20260928/WORKING/DAOPUNK_加入中立組織_設計提案_v1.6.md",
+    "working_sha256": "cc80844e9c4be5fe54809d5081738ba63a15b69bc53f54b817f01249403fe77d",
+    "status": "本輪增量 WORKING；未宣稱整組關閉",
+    "replaces": "DAOPUNK_加入中立組織_設計提案_v1.5.md",
+    "in_this_package": true
+  },
+  {
+    "file": "DAOPUNK_圖鑑來源核對報告_20260928.md",
+    "original_sha256": "bb9d19860f231415bd437652005a2da76cdd7c19f5d697dffb0c6634e0cb6541",
+    "working": "WORKING/DAOPUNK_圖鑑來源核對報告_20260928.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_圖鑑來源核對報告_20260928.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "ef6920f45421fb23e7d3b88fcb2a1670ca25a8a43412d4da12dae98eeddc0f11",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/source-report-v2/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_圖鑑補件_096替換與第4批遭遇場景_v1_20260928.md",
+    "original_sha256": "c499d2e76187cf4621a05e52105c43eab1fda8bd50b8908333d481f1b2bedaf3",
+    "working": "WORKING/DAOPUNK_圖鑑補件_096替換與第4批遭遇場景_v1_20260928.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_圖鑑補件_096替換與第4批遭遇場景_v1_20260928.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "050c30d62236a166c2013659996c45d5aaf6e284b12b088e7809dbb50689ec89",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_圖鑑遭遇場景_第5-6批_v1_20260928.md",
+    "original_sha256": "8b6e37f2e930c4c7ccd53bad24bf30c41ba3df94310e846521d3b14917ed20af",
+    "working": "WORKING/DAOPUNK_圖鑑遭遇場景_第5-6批_v1_20260928.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_圖鑑遭遇場景_第5-6批_v1_20260928.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "860bf940a481aae2ed021435bf5b45e63efc18facbb3c6250ad66aba15e56864",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/encounters05-06/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_圖鑑遭遇場景_第7-9批_v1_20260928.md",
+    "original_sha256": "3e105593ebb007997cf24529c25bbba902639eb2cbb2b2c6fe1540a45f482ed5",
+    "working": "WORKING/DAOPUNK_圖鑑遭遇場景_第7-9批_v1_20260928.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_圖鑑遭遇場景_第7-9批_v1_20260928.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "bd397fe14e75702ffeb20395d80ef04573d11f51d3ded8eb544f81bfe6a8a847",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/encounters07-09/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_完整背景_v2.0_燈還掛著.md",
+    "original_sha256": "0fb636943a0f42ebc0f4cdfb51cd2639c1af254a4a51373949b052c53185ffda",
+    "working": "WORKING/DAOPUNK_完整背景_v2.0_燈還掛著.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_完整背景_v2.0_燈還掛著.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "8f6182dbb9aaeeba29f149c676c3e190f39f0b9b506f68983795ca7341229544",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/core-gaps-update-20260928/background/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_山海圖鑑180_第1批_v1.4_001-020.md",
+    "original_sha256": "e825c2c8342d1f4c2e42db2d29ab5ee408c6de9a08050f624fd51843065e8838",
+    "working": "WORKING/DAOPUNK_山海圖鑑180_第1批_v1.4_001-020.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_山海圖鑑180_第1批_v1.4_001-020.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "2f006d24f6d871f88a4fd95a4a4af5e0e088fdaa26e22e04a1f5da4e4e963634",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/locations-codex-characters-update-20260928/codex01/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_山海圖鑑180_第2批_v1.3_021-040.md",
+    "original_sha256": "c74163387bd059a067f487cb25b7e704c28b8fe409b36bdcc9b2816b4b75c170",
+    "working": "WORKING/DAOPUNK_山海圖鑑180_第2批_v1.3_021-040.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_山海圖鑑180_第2批_v1.3_021-040.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "c74163387bd059a067f487cb25b7e704c28b8fe409b36bdcc9b2816b4b75c170",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/locations-codex-characters-update-20260928/codex02/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_山海圖鑑180_第3批_v1.5_041-060.md",
+    "original_sha256": "ff219e134744f021958b9219e8c5b39579dec3e71404827431bab6009400bf72",
+    "working": "WORKING/DAOPUNK_山海圖鑑180_第3批_v1.5_041-060.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_山海圖鑑180_第3批_v1.5_041-060.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "02025688c847970d6a8b437bfb62916a36a8102eecdf6f3f0de3f5e00bd8fa85",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/batch03-v1.5/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_山海圖鑑180_第4批_061-080.md",
+    "original_sha256": "94f32908f3179123ece0c6ac998b22b7143af6b8b5cb997461f5fefc430220e6",
+    "working": null,
+    "working_source": "outputs/current-package-v3-audit-20260928/ORIGINAL/DAOPUNK_山海圖鑑180_第4批_061-080.md",
+    "status": "歷史原稿；現行入口是同包第4批你方覆核 WORKING",
+    "in_this_package": false
+  },
+  {
+    "file": "DAOPUNK_山海圖鑑180_第4批_你方覆核WORKING_061-080.md",
+    "original_sha256": "689ceb7849ad547f08aec9a05ce363cbf41591e1fd6779a5fb988e8f7f74aea9",
+    "working": "WORKING/DAOPUNK_山海圖鑑180_第4批_你方覆核WORKING_061-080.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_山海圖鑑180_第4批_你方覆核WORKING_061-080.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "34771d232cc47092923a2adb63961ff6472550cb3ff58e9a81e4cc2d6fa17766",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/BATCH04_WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_山海圖鑑180_第5批_v1.1_081-100.md",
+    "original_sha256": "44e971d28adfbacc61438df918aeec2c5ffc85bea488570204335c4f3367b05d",
+    "working": "WORKING/DAOPUNK_山海圖鑑180_第5批_v1.1_081-100.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_山海圖鑑180_第5批_v1.1_081-100.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "de24dd3b4d95f1fef3619b723128b0e58633a7607f32a5c5d2a34d017fca2f3f",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/batch05-v1.1/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_山海圖鑑180_第6批_v1.2_101-120.md",
+    "original_sha256": "88b908481d769e69ce73933df5cbcbeed59500eef94a3f00f8da325070b89ee6",
+    "working": "WORKING/DAOPUNK_山海圖鑑180_第6批_v1.2_101-120.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_山海圖鑑180_第6批_v1.2_101-120.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "2ffd72e7cfa9de8b260bdbb61735524d2347057b92ed53e767ff666281ba1ec8",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/batch06-v1.2/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_山海圖鑑180_第7批_v1.1_121-140.md",
+    "original_sha256": "0672118049c7465546a4e6ad5e5c1f49df1134176febef155009f277c63c6130",
+    "working": "WORKING/DAOPUNK_山海圖鑑180_第7批_v1.1_121-140.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_山海圖鑑180_第7批_v1.1_121-140.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "12a24b17decae8a3edb77c2e3b1946a4b3795ebcb360107852cb792689c6d5b4",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex-batch07-09-review-20260928/batch07-v1.1/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_山海圖鑑180_第8批_v1.1_141-160.md",
+    "original_sha256": "151384f629d4a525bc4086c83ef4828c40d555d16f8d3857543a620ef12f684d",
+    "working": "WORKING/DAOPUNK_山海圖鑑180_第8批_v1.1_141-160.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_山海圖鑑180_第8批_v1.1_141-160.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "28358c66c07c2929da3fd3700bfd9bfd49a7c13e74b815928e0036fd8874b922",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/batch08-v1.1/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_山海圖鑑180_第9批_v1.1_161-180.md",
+    "original_sha256": "33204d78f4d7919a44516e5b19b287115da285efb728a5dd1758b6fe3dc35550",
+    "working": "WORKING/DAOPUNK_山海圖鑑180_第9批_v1.1_161-180.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_山海圖鑑180_第9批_v1.1_161-180.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "5a7dc29d269ca39a1bbbef046a6a7288b4d092d6a7070d712d59fbe9872724a3",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/batch09-v1.1/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_山海圖鑑180_總清單_20260928.md",
+    "original_sha256": "d7b5b9f849728d59be34ab49e68f0df2226597a45b9c6e27894e47540536956e",
+    "working": "WORKING/DAOPUNK_山海圖鑑180_總清單_20260928.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_山海圖鑑180_總清單_20260928.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "7fa2a56e60abcbb162fa29aadbacf7bc86b16d72a7496c89f995d7523535d1e9",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/codex096-and-batch04-encounters-review-20260928/FULL_LIST_WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_後期同伴篇_v1.1.md",
+    "original_sha256": "a9dca46f7dd150c5cac82868d5fe97afd5181bb5b926997b4d1ae3cdec44be24",
+    "working": "WORKING/DAOPUNK_後期同伴篇_v1.1.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_後期同伴篇_v1.1.md",
+    "status": "本輪已全文覆核並修訂；未宣稱全項關閉",
+    "working_sha256": "48be0ac8b6bb88d160cc092bc2469f3261f2b9e480a5d434208d632e947c91b1",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_後期同伴篇_v1.1.md"
+  },
+  {
+    "file": "DAOPUNK_時代與事件池規格_v1.5_20260927.md",
+    "original_sha256": "b6004a51e2fa0e5855b5b76fa00320331ab5d6720e5f98dfeaf6a894ff7e40db",
+    "working": "WORKING/DAOPUNK_時代與事件池規格_v1.5_20260927.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_時代與事件池規格_v1.5_20260927.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "a4cefd5669d1298731137b57a8363642979cc395938510fad2c3767e7cf9bd85",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/locations-codex-characters-update-20260928/eras/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_燈籍家庭_v1.6_20260928.md",
+    "working_source": "outputs/files20-followup-review-20260928/WORKING/DAOPUNK_燈籍家庭_v1.6_20260928.md",
+    "working_sha256": "9e196632f244e8a9f499d310c4ba6f732656aea55c4fb8d5d893d7eaeee14fec",
+    "status": "files20正文修訂；未宣稱整組結案",
+    "replaces": "DAOPUNK_燈籍家庭_v1.6_20260928.md"
+  },
+  {
+    "file": "DAOPUNK_示範事件_EV031-060_v1.6_20260927.md",
+    "original_sha256": "901f46f939a72e817bcb20839eb58d123963f0c750ddc9724a91c4750266708a",
+    "working": "WORKING/DAOPUNK_示範事件_EV031-060_v1.6_20260927.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_示範事件_EV031-060_v1.6_20260927.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "9138df97322bb2183cb15ce1cbaa01e4f545bc248908f09772b0bdb785d72768",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/events-characters-update-v2-review/ev031/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_示範事件_EV061-090_v1.6_20260927.md",
+    "original_sha256": "210243bd93cc6227a4ba13999ed57678a2730c52e58117a4b227b5883b93a984",
+    "working": "WORKING/DAOPUNK_示範事件_EV061-090_v1.6_20260927.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_示範事件_EV061-090_v1.6_20260927.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "fd88dd184582a2eb81aa0d2dbc318519f9f8e9b21c56ff7f2274817ea4cfe1d4",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/events-characters-update-v2-review/ev061/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_第一批_v1.3_開場修訂.md",
+    "original_sha256": "d556a9ff30afaef8805a49e2ce80f35dbfbebf1b58d2f6d9225646e70948b944",
+    "working": "WORKING/DAOPUNK_第一批_v1.3_開場修訂.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_第一批_v1.3_開場修訂.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "744229c2ceaef24a7590757de934ed831849bf9df03e2babc92aee7140caf5a9",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/events-characters-update-v2-review/opening/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_第五批上_主線缺頁_總表_階段八九_v1.3.md",
+    "original_sha256": "ea908410c2e68574fa265eb0eef032d2dff711acc0ec776305f84f38e5f90f4c",
+    "working": "WORKING/DAOPUNK_第五批上_主線缺頁_總表_階段八九_v1.3.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_第五批上_主線缺頁_總表_階段八九_v1.3.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "561e8ce9e0ce323fd2b305e4930d3f7224ac827726919540ddb9306871267109",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/main-missing-pages-batch05-v1.3-review/upper/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_第五批下_主線缺頁_階段七十十一_v1.3.md",
+    "original_sha256": "5649f7dd7afe36eb2f126b39a6ba3bea14cb0a55206bfd102ee34b1e98785108",
+    "working": "WORKING/DAOPUNK_第五批下_主線缺頁_階段七十十一_v1.3.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_第五批下_主線缺頁_階段七十十一_v1.3.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "811b9220cff31a8ab1f58ddfc73c9af5697f03b097c7021b5503111f5a6ff810",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/main-missing-pages-batch05-v1.3-review/lower/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_第四批下_主線台詞_v1.6.md",
+    "original_sha256": "0551744fa857af082f7d83242b156b10c6071ec78df35d6329979f8db5590482",
+    "working": "WORKING/DAOPUNK_第四批下_主線台詞_v1.6.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_第四批下_主線台詞_v1.6.md",
+    "status": "沿用既有覆核 WORKING；原包並非必然等同修訂稿",
+    "working_sha256": "b8b67b1960bf1dc51ade68a360b5959c2592512236577ad6bcd66a2b1040cb2a",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/core-gaps-update-20260928/dialogue/WORKING.md"
+  },
+  {
+    "file": "DAOPUNK_補件_v1.4_20260928.md",
+    "original_sha256": "5c344c4d0302f873da3ffe9e8a24558d87fcb9c055f6151923a9c8ad3223e351",
+    "working": "WORKING/DAOPUNK_補件_v1.4_20260928.md",
+    "working_source": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_補件_v1.4_20260928.md",
+    "status": "本輪已全文覆核並修訂；未宣稱全項關閉",
+    "working_sha256": "3ced19e66c1086b0b088dd4569ff5ac2ceca0de0e5f994f97adc4566b8b3ad0d",
+    "in_this_package": false,
+    "prior_source_trace": "outputs/current-package-v3-audit-20260928/WORKING/DAOPUNK_補件_v1.4_20260928.md"
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "type": "static_document_checks_only",
+  "checks": [
+    {
+      "check": "九份完整來源與2161行覆蓋",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL 未改：DAOPUNK_00_共同年表_v1.5_20260928.md",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL 未改：DAOPUNK_A01_v1.4_亞茲篇_空座.md",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL 未改：DAOPUNK_P01_玉皇Prime篇_未分類_v1.3.md",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL 未改：DAOPUNK_PKG01-09交付對照_20260928.md",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL 未改：DAOPUNK_T01_涂山氏篇_九尾的影子_v1.3.md",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL 未改：DAOPUNK_Y01_v1.4_閻羅X篇_未交接.md",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL 未改：DAOPUNK_人物分支完整對白_v1.1_20260928.md",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL 未改：DAOPUNK_加入中立組織_設計提案_v1.6.md",
+      "pass": true
+    },
+    {
+      "check": "ORIGINAL 未改：DAOPUNK_燈籍家庭_v1.6_20260928.md",
+      "pass": true
+    },
+    {
+      "check": "八份工作稿與八份差異",
+      "pass": true
+    },
+    {
+      "check": "無強迫再死",
+      "pass": true
+    },
+    {
+      "check": "無未送達聽取逾期",
+      "pass": true
+    },
+    {
+      "check": "無固定D90遷出",
+      "pass": true
+    },
+    {
+      "check": "無死亡即抹除申覆",
+      "pass": true
+    },
+    {
+      "check": "無姓氏等同新增人口",
+      "pass": true
+    },
+    {
+      "check": "未自報完整替換段存在",
+      "pass": true
+    },
+    {
+      "check": "遺失便條不強制保有記憶",
+      "pass": true
+    },
+    {
+      "check": "未登錄族屬也能進P5",
+      "pass": true
+    },
+    {
+      "check": "全部記憶選擇離苑安置",
+      "pass": true
+    },
+    {
+      "check": "人口十一ID保留待核",
+      "pass": true
+    }
+  ],
+  "engine_tested": false,
+  "all_PKG_closed": false
+}

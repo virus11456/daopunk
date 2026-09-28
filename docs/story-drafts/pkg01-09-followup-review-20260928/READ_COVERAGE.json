@@ -1,0 +1,74 @@
+[
+  {
+    "name": "DAOPUNK_00_共同年表_v1.5_20260928.md",
+    "lines": 173,
+    "sha256": "2b0eae81c9b9f1b8e86734c743d2f966e0b92343defd4719b4dc4c9edd719589",
+    "full_read": true,
+    "role": "manuscript",
+    "source": "/Users/frank/Downloads/files 19/DAOPUNK_00_共同年表_v1.5_20260928.md"
+  },
+  {
+    "name": "DAOPUNK_A01_v1.4_亞茲篇_空座.md",
+    "lines": 402,
+    "sha256": "0c8594e3855de2a41ceaed39443d6d0c6203aa914834d86632bb01dce45d0ee8",
+    "full_read": true,
+    "role": "manuscript",
+    "source": "/Users/frank/Downloads/files 19/DAOPUNK_A01_v1.4_亞茲篇_空座.md"
+  },
+  {
+    "name": "DAOPUNK_P01_玉皇Prime篇_未分類_v1.3.md",
+    "lines": 214,
+    "sha256": "2fa3fdf200ce333be512603b22ea2b642dd88b6821cfbbe9ded04b7d29f9f7da",
+    "full_read": true,
+    "role": "manuscript",
+    "source": "/Users/frank/Downloads/files 19/DAOPUNK_P01_玉皇Prime篇_未分類_v1.3.md"
+  },
+  {
+    "name": "DAOPUNK_PKG01-09交付對照_20260928.md",
+    "lines": 24,
+    "sha256": "d089027f345e8cc098cca4337a232c20758a7ebf0b63a5e3fc663dcda7e65a72",
+    "full_read": true,
+    "role": "delivery_claim_only",
+    "source": "/Users/frank/Downloads/files 19/DAOPUNK_PKG01-09交付對照_20260928.md"
+  },
+  {
+    "name": "DAOPUNK_T01_涂山氏篇_九尾的影子_v1.3.md",
+    "lines": 230,
+    "sha256": "3c7d103fa197b2d4ff61d2a9d867b8aab85778f537cc844e389f1309425df50d",
+    "full_read": true,
+    "role": "manuscript",
+    "source": "/Users/frank/Downloads/files 19/DAOPUNK_T01_涂山氏篇_九尾的影子_v1.3.md"
+  },
+  {
+    "name": "DAOPUNK_Y01_v1.4_閻羅X篇_未交接.md",
+    "lines": 405,
+    "sha256": "aa7fd0c4ffc7ee6546a0dddeb8ab6e5b757b871e9600f509135e5f2e33c32889",
+    "full_read": true,
+    "role": "manuscript",
+    "source": "/Users/frank/Downloads/files 19/DAOPUNK_Y01_v1.4_閻羅X篇_未交接.md"
+  },
+  {
+    "name": "DAOPUNK_人物分支完整對白_v1.1_20260928.md",
+    "lines": 199,
+    "sha256": "a1c7a55c894db84a276bae883de5640e17da3652945c4f5b934568feb39af555",
+    "full_read": true,
+    "role": "manuscript",
+    "source": "/Users/frank/Downloads/files 19/DAOPUNK_人物分支完整對白_v1.1_20260928.md"
+  },
+  {
+    "name": "DAOPUNK_加入中立組織_設計提案_v1.6.md",
+    "lines": 284,
+    "sha256": "5723020deb18e1cb8398e486b7056e00fa853ae0392f0f46b42a10c9530f66d7",
+    "full_read": true,
+    "role": "manuscript",
+    "source": "/Users/frank/Downloads/files 19/DAOPUNK_加入中立組織_設計提案_v1.6.md"
+  },
+  {
+    "name": "DAOPUNK_燈籍家庭_v1.6_20260928.md",
+    "lines": 230,
+    "sha256": "67c6d3a8772498857e158ee41ddb0cc69853c5891b0a16e096876525fc77f21d",
+    "full_read": true,
+    "role": "manuscript",
+    "source": "/Users/frank/Downloads/files 19/DAOPUNK_燈籍家庭_v1.6_20260928.md"
+  }
+]

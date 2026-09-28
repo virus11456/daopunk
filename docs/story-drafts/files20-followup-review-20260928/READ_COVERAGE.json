@@ -1,0 +1,32 @@
+{
+  "new_files": [
+    {
+      "file": "DAOPUNK_B01_聚變篇_試的人_v1.4.md",
+      "source": "/Users/frank/Downloads/files 20/DAOPUNK_B01_聚變篇_試的人_v1.4.md",
+      "lines": 219,
+      "sha256": "b3e38ed29a475a737d0f5e1cf18ffb1b13326be0789910f07d65f3f038e9cfe3",
+      "read": "全文已讀"
+    },
+    {
+      "file": "DAOPUNK_G01_蓋亞篇_記得太多的人_v1.4.md",
+      "source": "/Users/frank/Downloads/files 20/DAOPUNK_G01_蓋亞篇_記得太多的人_v1.4.md",
+      "lines": 248,
+      "sha256": "331f19502a5b9569ea8873ab3228c59c8ad49ac2abbbb2c64ed8122469a2a068",
+      "read": "全文已讀"
+    },
+    {
+      "file": "DAOPUNK_files19回覆補件_PKG01替代取證_PKG07基線對照_20260928.md",
+      "source": "/Users/frank/Downloads/files 20/DAOPUNK_files19回覆補件_PKG01替代取證_PKG07基線對照_20260928.md",
+      "lines": 105,
+      "sha256": "1d80b728a22ab1cc36c96d54eddc4e5f5f84bfde2a6dac507ac239ece4078110",
+      "read": "全文已讀"
+    }
+  ],
+  "total_new_lines": 572,
+  "additional_full_read": {
+    "path": "/Users/frank/Documents/Codex/2026-09-27/daopunk-story-continuation/outputs/source-intake-2026-09-27/lamp-families-v1.1/ORIGINAL.md",
+    "lines": 125,
+    "sha256": "0f9a7c592e62a223dc45395a6e95196ef6788abdb1b332c2ff1f8631fb97435b"
+  },
+  "other_basis": "Y01/燈籍承接上輪全文覆核，僅重讀相關段落；未聲稱重新全讀舊庫"
+}
